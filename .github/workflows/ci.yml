@@ -8,6 +8,9 @@ on:
 
 jobs:
   api-test:
+    # NOTE: This job currently tests against PostgreSQL.
+    # Once the backend is ported to Cloudflare Workers + D1 (BAR-12),
+    # update this job to use `wrangler dev` with a local D1 instance.
     name: API Tests
     runs-on: ubuntu-latest
     services:
