@@ -98,6 +98,19 @@ jobs:
         run: npm run build
         working-directory: apps/web
 
+      - name: Start server
+        run: npm run start &
+        working-directory: apps/web
+        env:
+          PORT: 3000
+
+      - name: Wait for server
+        run: |
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:3000 && break || sleep 2
+          done
+        working-directory: apps/web
+
       - name: Run E2E tests
         run: npm run test:e2e
         working-directory: apps/web
