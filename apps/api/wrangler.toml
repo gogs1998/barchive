@@ -1,0 +1,39 @@
+name = "bariq-api"
+main = "src/worker.py"
+compatibility_date = "2024-12-18"
+compatibility_flags = ["python_workers"]
+
+# Default / local dev — uses a local D1 simulation
+[[ d1_databases ]]
+binding = "DB"
+database_name = "bariq-dev"
+database_id = "local"
+
+[vars]
+ENVIRONMENT = "development"
+
+# ── Staging ─────────────────────────────────────────────────────────────────
+[env.staging]
+name = "bariq-api-staging"
+
+[env.staging.vars]
+ENVIRONMENT = "staging"
+
+[[env.staging.d1_databases]]
+binding = "DB"
+database_name = "bariq-staging"
+# DEVOPS: replace with real ID from: wrangler d1 create bariq-staging
+database_id = "STAGING_D1_ID_PLACEHOLDER"
+
+# ── Production ──────────────────────────────────────────────────────────────
+[env.production]
+name = "bariq-api"
+
+[env.production.vars]
+ENVIRONMENT = "production"
+
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "bariq-production"
+# DEVOPS: replace with real ID from: wrangler d1 create bariq-production
+database_id = "PRODUCTION_D1_ID_PLACEHOLDER"

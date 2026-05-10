@@ -8,25 +8,10 @@ on:
 
 jobs:
   api-test:
-    # NOTE: This job currently tests against PostgreSQL.
-    # Once the backend is ported to Cloudflare Workers + D1 (BAR-12),
-    # update this job to use `wrangler dev` with a local D1 instance.
+    # Backend has been ported to Cloudflare Workers + D1 (BAR-12).
+    # Tests run against an aiosqlite stub — no PostgreSQL service needed.
     name: API Tests
     runs-on: ubuntu-latest
-    services:
-      postgres:
-        image: postgres:16-alpine
-        env:
-          POSTGRES_USER: barchive
-          POSTGRES_PASSWORD: barchive
-          POSTGRES_DB: barchive
-        ports:
-          - 5432:5432
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
 
     steps:
       - uses: actions/checkout@v4
@@ -43,9 +28,8 @@ jobs:
 
       - name: Run tests with coverage
         env:
-          DATABASE_URL: postgresql+asyncpg://barchive:barchive@localhost:5432/barchive
           ENVIRONMENT: test
-        run: pytest --cov --cov-fail-under=80
+        run: pytest tests/test_worker.py --cov=src --cov-fail-under=80
         working-directory: apps/api
 
   web-test:
