@@ -64,8 +64,8 @@ test.describe("Browse cocktails", () => {
     await page.goto("/cocktails");
 
     // Each cocktail name should be visible
-    await expect(page.getByText("Negroni")).toBeVisible();
-    await expect(page.getByText("Margarita")).toBeVisible();
+    await expect(page.getByText("Negroni", { exact: true })).toBeVisible();
+    await expect(page.getByText("Margarita", { exact: true })).toBeVisible();
   });
 
   test("cocktail list has no accessibility violations", async ({ page }) => {
@@ -83,8 +83,8 @@ test.describe("Browse cocktails", () => {
     await page.getByRole("searchbox").fill("Negroni");
 
     // After filtering, Margarita should disappear
-    await expect(page.getByText("Negroni")).toBeVisible();
-    await expect(page.getByText("Margarita")).toBeHidden();
+    await expect(page.getByText("Negroni", { exact: true })).toBeVisible();
+    await expect(page.getByText("Margarita", { exact: true })).toBeHidden();
   });
 });
 
@@ -123,7 +123,7 @@ test.describe("Recipe detail", () => {
 
     await page.goto("/cocktails");
     // Click the first cocktail card / link for Negroni
-    await page.getByRole("link", { name: "Negroni" }).click();
+    await page.getByRole("link", { name: "Negroni", exact: true }).click();
     await page.waitForURL("**/cocktails/negroni");
 
     await expect(page.getByRole("heading", { name: "Negroni" })).toBeVisible();

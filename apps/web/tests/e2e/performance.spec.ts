@@ -35,14 +35,18 @@ test.describe("Performance", () => {
       // Collect LCP via PerformanceObserver before navigation
       await page.addInitScript(() => {
         (window as typeof window & { __lcp?: number }).__lcp = undefined;
-        new PerformanceObserver((list) => {
-          const entries = list.getEntries();
-          const last = entries[entries.length - 1];
-          if (last) {
-            (window as typeof window & { __lcp?: number }).__lcp =
-              last.startTime;
-          }
-        }).observe({ type: "largest-contentful-paint", buffered: true });
+        try {
+          new PerformanceObserver((list) => {
+            const entries = list.getEntries();
+            const last = entries[entries.length - 1];
+            if (last) {
+              (window as typeof window & { __lcp?: number }).__lcp =
+                last.startTime;
+            }
+          }).observe({ type: "largest-contentful-paint", buffered: true });
+        } catch {
+          // PerformanceObserver not supported; LCP will fall back to navigation timing
+        }
       });
 
       await page.goto("/", { waitUntil: "networkidle" });
@@ -50,9 +54,13 @@ test.describe("Performance", () => {
       // Give LCP observer a moment to fire
       await page.waitForTimeout(500);
 
-      const lcp = await page.evaluate(
-        () => (window as typeof window & { __lcp?: number }).__lcp ?? 0
-      );
+      const lcp = await page.evaluate(() => {
+        const w = window as typeof window & { __lcp?: number };
+        if (w.__lcp !== undefined && w.__lcp > 0) return w.__lcp;
+        // Fallback: use Navigation Timing domContentLoadedEventEnd
+        const nav = performance.getEntriesByType("navigation")[0] as PerformanceNavigationTiming | undefined;
+        return nav ? nav.domContentLoadedEventEnd : 0;
+      });
 
       // Disable throttle after measurement
       await cdpSession.send("Network.emulateNetworkConditions", {
