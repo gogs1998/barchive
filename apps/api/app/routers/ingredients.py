@@ -1,7 +1,8 @@
 import uuid
-from fastapi import APIRouter, Depends, HTTPException
+from typing import Optional
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
+from sqlalchemy import select, func
 from pydantic import BaseModel
 
 from app.database import get_db
@@ -14,15 +15,38 @@ class IngredientOut(BaseModel):
     id: uuid.UUID
     name: str
     category: str
-    description: str | None
+    description: Optional[str]
 
     model_config = {"from_attributes": True}
 
 
-@router.get("/ingredients", response_model=list[IngredientOut])
-async def list_ingredients(db: AsyncSession = Depends(get_db)):
-    result = await db.execute(select(Ingredient).order_by(Ingredient.name))
-    return result.scalars().all()
+class PaginatedIngredients(BaseModel):
+    total: int
+    page: int
+    per_page: int
+    items: list[IngredientOut]
+
+
+@router.get("/ingredients", response_model=PaginatedIngredients)
+async def list_ingredients(
+    category: Optional[str] = Query(None, description="Filter by category"),
+    page: int = Query(1, ge=1),
+    per_page: int = Query(50, ge=1, le=200),
+    db: AsyncSession = Depends(get_db),
+):
+    stmt = select(Ingredient).order_by(Ingredient.name)
+    count_stmt = select(func.count()).select_from(Ingredient)
+
+    if category:
+        stmt = stmt.where(Ingredient.category == category)
+        count_stmt = count_stmt.where(Ingredient.category == category)
+
+    total = (await db.execute(count_stmt)).scalar_one()
+    offset = (page - 1) * per_page
+    result = await db.execute(stmt.offset(offset).limit(per_page))
+    items = result.scalars().all()
+
+    return PaginatedIngredients(total=total, page=page, per_page=per_page, items=items)
 
 
 @router.get("/ingredients/{ingredient_id}", response_model=IngredientOut)
