@@ -1,0 +1,138 @@
+.heading {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.count {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.filters {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  /* Hide scrollbar on desktop */
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+
+.filters::-webkit-scrollbar {
+  display: none;
+}
+
+/* Chips */
+.chips {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  white-space: nowrap;
+}
+
+.chipsLabel {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 var(--space-3);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  color: var(--muted);
+  font-size: 0.8125rem;
+  cursor: pointer;
+  transition: border-color 150ms ease, color 150ms ease, background 150ms ease;
+  white-space: nowrap;
+}
+
+.chip:hover {
+  border-color: rgba(200, 155, 92, 0.3);
+  color: var(--text);
+}
+
+.chip:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.chipActive {
+  background: var(--accent-soft);
+  border-color: rgba(200, 155, 92, 0.4);
+  color: var(--accent);
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-4);
+}
+
+/* Empty state */
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-16) 0;
+  color: var(--muted);
+  text-align: center;
+}
+
+.resetBtn {
+  height: var(--touch-target);
+  padding: 0 var(--space-5);
+  background: var(--accent);
+  color: var(--bg);
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: opacity 150ms ease;
+}
+
+.resetBtn:hover {
+  opacity: 0.85;
+}
+
+.resetBtn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-3);
+  }
+}

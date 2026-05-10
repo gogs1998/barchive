@@ -31,3 +31,8 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Build/test artifacts
+apps/web/coverage/
+apps/web/playwright-report/
+apps/web/test-results/
