@@ -1,0 +1,19 @@
+name = "bariq-api"
+main = "src/worker.py"
+compatibility_date = "2024-12-18"
+compatibility_flags = ["python_workers"]
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "bariq"
+database_id = "placeholder-set-by-devops"
+
+[env.staging]
+name = "bariq-api-staging"
+
+[env.staging.d1_databases]
+  # Override database_id for staging via wrangler secret / DevOps config
+  # wrangler d1 ... --env staging
+
+[env.production]
+name = "bariq-api"
