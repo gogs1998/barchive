@@ -61,7 +61,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           if [ "${{ github.ref_name }}" = "main" ]; then
-            wrangler deploy --env production
+            wrangler deploy --env production --override-existing-dns-record
           else
             wrangler deploy --env staging
           fi
