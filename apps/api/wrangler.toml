@@ -22,8 +22,7 @@ ENVIRONMENT = "staging"
 [[env.staging.d1_databases]]
 binding = "DB"
 database_name = "bariq-staging"
-# DEVOPS: replace with real ID from: wrangler d1 create bariq-staging
-database_id = "STAGING_D1_ID_PLACEHOLDER"
+database_id = "a1965723-88c2-497c-b100-095b80df59c6"
 
 # ── Production ──────────────────────────────────────────────────────────────
 [env.production]
@@ -35,5 +34,4 @@ ENVIRONMENT = "production"
 [[env.production.d1_databases]]
 binding = "DB"
 database_name = "bariq-production"
-# DEVOPS: replace with real ID from: wrangler d1 create bariq-production
-database_id = "PRODUCTION_D1_ID_PLACEHOLDER"
+database_id = "5b0eba5c-f049-4d89-ad80-4b8b4e77f407"
