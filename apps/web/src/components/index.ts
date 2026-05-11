@@ -5,3 +5,4 @@ export { IngredientBadge } from "./IngredientBadge";
 export { CocktailCard } from "./CocktailCard";
 export { PageShell } from "./PageShell";
 export { MobileTabBar } from "./MobileTabBar";
+export { CategoryGrid } from "./CategoryGrid";

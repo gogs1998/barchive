@@ -1,5 +1,6 @@
 import { render, screen, within, fireEvent, act, waitFor } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
+import { CategoryGrid } from "@/components/CategoryGrid";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { SearchBar } from "@/components/SearchBar";
@@ -70,6 +71,68 @@ const mockCocktail: Cocktail = {
   lowAbv: false,
   slug: "test-sour",
 };
+
+// ─── CategoryGrid ─────────────────────────────────────────────────────────────
+const ALL_CATEGORIES = [
+  "Amaretto", "Aperitivo", "Brandy", "Cachaça", "Champagne",
+  "Gin", "Liqueur", "Mezcal", "Pisco", "Rum", "Tequila", "Vodka", "Whiskey",
+];
+
+describe("CategoryGrid", () => {
+  it("renders hero-tier spirits (Gin, Rum, Tequila, Vodka, Whiskey)", () => {
+    render(<CategoryGrid categories={ALL_CATEGORIES} />);
+    for (const spirit of ["Gin", "Rum", "Tequila", "Vodka", "Whiskey"]) {
+      expect(screen.getByText(spirit)).toBeInTheDocument();
+    }
+  });
+
+  it("secondary spirits are hidden by default (aria-hidden)", () => {
+    render(<CategoryGrid categories={ALL_CATEGORIES} />);
+    const overflowWrap = document.querySelector('[aria-hidden="true"]') as HTMLElement;
+    expect(overflowWrap).toBeInTheDocument();
+    // Amaretto is secondary — it exists in DOM but container is aria-hidden
+    expect(screen.getByText("Amaretto").closest('[aria-hidden="true"]')).toBeTruthy();
+  });
+
+  it("toggle button shows 'Show all spirits' by default", () => {
+    render(<CategoryGrid categories={ALL_CATEGORIES} />);
+    const btn = screen.getByRole("button", { name: /show all spirits/i });
+    expect(btn).toBeInTheDocument();
+    expect(btn).toHaveAttribute("aria-expanded", "false");
+  });
+
+  it("toggle expands secondary spirits", () => {
+    render(<CategoryGrid categories={ALL_CATEGORIES} />);
+    const btn = screen.getByRole("button", { name: /show all spirits/i });
+    fireEvent.click(btn);
+    expect(btn).toHaveAttribute("aria-expanded", "true");
+    expect(screen.getByRole("button", { name: /show fewer spirits/i })).toBeInTheDocument();
+    // overflow wrapper aria-hidden should be false (not "true") after expand
+    const overflowWrap = document.querySelector('div[aria-hidden]') as HTMLElement;
+    expect(overflowWrap?.getAttribute("aria-hidden")).not.toBe("true");
+  });
+
+  it("each category card links to correct cocktails page filter", () => {
+    render(<CategoryGrid categories={["Gin", "Rum"]} />);
+    const ginLink = screen.getByRole("link", { name: /gin/i });
+    expect(ginLink).toHaveAttribute("href", "/cocktails?category=Gin");
+  });
+
+  it("cards have min-height via CSS class (heroCard for hero spirits)", () => {
+    render(<CategoryGrid categories={["Gin", "Amaretto"]} />);
+    const ginLink = screen.getByRole("link", { name: /gin/i });
+    // heroCard class should be present on hero spirits
+    expect(ginLink.className).toMatch(/heroCard/);
+  });
+
+  it("no role=listitem on anchor elements (a11y fix)", () => {
+    render(<CategoryGrid categories={ALL_CATEGORIES} />);
+    const links = screen.getAllByRole("link");
+    for (const link of links) {
+      expect(link).not.toHaveAttribute("role", "listitem");
+    }
+  });
+});
 
 // ─── Header ───────────────────────────────────────────────────────────────────
 describe("Header", () => {
