@@ -71,6 +71,15 @@ export default async function CocktailDetailPage({ params }: Props) {
             <h1 className={styles.name} itemProp="name">
               {cocktail.name}
             </h1>
+            {/* Metadata chips */}
+            <div className={styles.metaChips} aria-label="Recipe metadata">
+              {cocktail.abv && (
+                <span className={styles.metaChip} itemProp="suitableForDiet">{cocktail.abv}</span>
+              )}
+              {cocktail.time && (
+                <span className={styles.metaChip} itemProp="totalTime">{cocktail.time}</span>
+              )}
+            </div>
           </div>
         </div>
 
@@ -129,6 +138,7 @@ export default async function CocktailDetailPage({ params }: Props) {
                 className={styles.ingredientList}
                 itemProp="recipeIngredient"
                 role="list"
+                aria-label={`${cocktail.ingredients.length} ingredient${cocktail.ingredients.length !== 1 ? "s" : ""}`}
               >
                 {cocktail.ingredients.map((ing) => (
                   <li key={ing.name} className={styles.ingredientItem}>

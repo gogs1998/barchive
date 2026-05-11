@@ -201,6 +201,26 @@
   min-width: 2ch;
 }
 
+/* Metadata chips below drink title */
+.metaChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: var(--space-3);
+}
+
+.metaChip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(200, 155, 92, 0.25);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  color: #C89B5C;
+  font-family: var(--font-mono);
+  letter-spacing: 0.05em;
+}
+
 @media (max-width: 640px) {
   .hero {
     aspect-ratio: 4 / 3;

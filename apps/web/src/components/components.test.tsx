@@ -1,8 +1,9 @@
-import { render, screen, within, fireEvent } from "@testing-library/react";
+import { render, screen, within, fireEvent, act, waitFor } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { SearchBar } from "@/components/SearchBar";
+import { HeaderSearch } from "@/components/HeaderSearch";
 import { IngredientBadge } from "@/components/IngredientBadge";
 import { CocktailCard } from "@/components/CocktailCard";
 import { PageShell } from "@/components/PageShell";
@@ -39,6 +40,11 @@ vi.mock("next/image", () => ({
     // eslint-disable-next-line @next/next/no-img-element
     <img src={src} alt={alt} {...(props as React.ImgHTMLAttributes<HTMLImageElement>)} />
   ),
+}));
+
+const mockPush = vi.fn();
+vi.mock("next/navigation", () => ({
+  useRouter: () => ({ push: mockPush }),
 }));
 
 // ─── Test data ────────────────────────────────────────────────────────────────
@@ -234,13 +240,118 @@ describe("PageShell", () => {
 
   it("passes active prop to Header", () => {
     render(<PageShell active="cocktails"><span /></PageShell>);
-    const nav = screen.getByRole("navigation");
-    expect(within(nav).getByRole("link", { name: /cocktails/i })).toHaveAttribute("aria-current", "page");
+    // There may be multiple nav elements (desktop + mobile); check at least one has the active link
+    const navs = screen.getAllByRole("navigation");
+    const hasActiveLink = navs.some((nav) => {
+      const link = within(nav).queryByRole("link", { name: /cocktails/i });
+      return link?.getAttribute("aria-current") === "page";
+    });
+    expect(hasActiveLink).toBe(true);
   });
 
   it("main has id=main-content", () => {
     render(<PageShell><span /></PageShell>);
     expect(screen.getByRole("main")).toHaveAttribute("id", "main-content");
+  });
+});
+
+// ─── HeaderSearch ────────────────────────────────────────────────────────────
+describe("HeaderSearch", () => {
+  it("renders a search input with aria-label 'Search cocktails'", () => {
+    render(<HeaderSearch />);
+    expect(
+      screen.getByRole("combobox", { name: /search cocktails/i })
+    ).toBeInTheDocument();
+  });
+
+  it("shows results when query matches a cocktail name", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Negroni" } });
+    await waitFor(() =>
+      expect(screen.getByRole("listbox")).toBeInTheDocument()
+    );
+    expect(screen.getByText("Negroni")).toBeInTheDocument();
+  });
+
+  it("shows results when query matches an ingredient", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Campari" } });
+    await waitFor(() =>
+      expect(screen.getByRole("listbox")).toBeInTheDocument()
+    );
+    // Multiple cocktails use Campari — at least one should appear
+    expect(screen.getAllByRole("option").length).toBeGreaterThan(0);
+  });
+
+  it("result rows show category pill", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Negroni" } });
+    await waitFor(() =>
+      expect(screen.getByRole("listbox")).toBeInTheDocument()
+    );
+    // Category pill present
+    expect(screen.getByText("Gin")).toBeInTheDocument();
+  });
+
+  it("shows empty state prompt when query has no matches", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "zzznomatch999" } });
+    await waitFor(() =>
+      expect(screen.getByRole("listbox")).toBeInTheDocument()
+    );
+    expect(screen.getByText(/Try/i)).toBeInTheDocument();
+  });
+
+  it("closes results and clears query on Escape", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Daiquiri" } });
+    await waitFor(() => expect(screen.getByRole("listbox")).toBeInTheDocument());
+    fireEvent.keyDown(input, { key: "Escape" });
+    expect(screen.queryByRole("listbox")).not.toBeInTheDocument();
+  });
+
+  it("navigates to cocktail on Enter when option is highlighted", async () => {
+    mockPush.mockClear();
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Daiquiri" } });
+    await waitFor(() => expect(screen.getByRole("listbox")).toBeInTheDocument());
+    fireEvent.keyDown(input, { key: "ArrowDown" });
+    fireEvent.keyDown(input, { key: "Enter" });
+    expect(mockPush).toHaveBeenCalledWith(expect.stringMatching(/\/cocktails\//));
+  });
+
+  it("has role=listbox with aria-live=polite on results", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Margarita" } });
+    await waitFor(() => expect(screen.getByRole("listbox")).toBeInTheDocument());
+    expect(screen.getByRole("listbox")).toHaveAttribute("aria-live", "polite");
+  });
+
+  it("input has aria-label='Search cocktails'", () => {
+    render(<HeaderSearch />);
+    expect(screen.getByLabelText(/search cocktails/i)).toBeInTheDocument();
+  });
+
+  it("renders mobile toggle button with correct aria-label", () => {
+    render(<HeaderSearch />);
+    expect(
+      screen.getByRole("button", { name: /open search/i })
+    ).toBeInTheDocument();
+  });
+});
+
+// ─── Header includes search ───────────────────────────────────────────────────
+describe("Header — with search", () => {
+  it("includes the HeaderSearch component", () => {
+    render(<Header />);
+    expect(screen.getByTestId("header-search")).toBeInTheDocument();
   });
 });
 
@@ -272,5 +383,80 @@ describe("BuildView", () => {
     // The outermost element should carry the CSS-module enter class
     const root = container.firstChild as HTMLElement;
     expect(root.className).toContain("enter");
+  });
+
+  it("Exit button has aria-label='Exit Bar Mode'", () => {
+    render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    expect(screen.getByRole("button", { name: "Exit Bar Mode" })).toBeInTheDocument();
+  });
+
+  it("Previous button has aria-label='Previous step'", () => {
+    render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    expect(screen.getByRole("button", { name: "Previous step" })).toBeInTheDocument();
+  });
+
+  it("Next button has aria-label='Next step'", () => {
+    render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    expect(screen.getByRole("button", { name: "Next step" })).toBeInTheDocument();
+  });
+
+  it("active step region has aria-label with step number and description", () => {
+    render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    expect(
+      screen.getByRole("region", { name: /Step 1 of 4: Dry shake\./i })
+    ).toBeInTheDocument();
+  });
+
+  it("batch multiplier buttons have aria-label and aria-pressed", () => {
+    render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    const btn = screen.getByRole("button", { name: "Batch ×1" });
+    expect(btn).toBeInTheDocument();
+    expect(btn).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByRole("button", { name: "Batch ×2" })).toHaveAttribute("aria-pressed", "false");
   });
 });

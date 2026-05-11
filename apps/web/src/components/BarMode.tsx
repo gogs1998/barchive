@@ -256,6 +256,7 @@ function BarTile({
       onClick={onClick}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
+      aria-label={`${cocktail.name}${eightySixed ? " — 86'd, missing ingredient" : ""}`}
       style={{
         position: "relative",
         overflow: "hidden",
@@ -504,6 +505,8 @@ export function BarMode({
               <button
                 key={o}
                 onClick={() => onSetOrientation(o)}
+                aria-label={`${o} orientation`}
+                aria-pressed={orientation === o}
                 style={{
                   padding: "5px 10px",
                   fontSize: 11,
@@ -524,6 +527,7 @@ export function BarMode({
           <LiveClock theme={theme} />
           <button
             onClick={() => setShowUnlock(true)}
+            aria-label="Exit Bar Mode"
             style={{
               display: "flex",
               alignItems: "center",
@@ -559,6 +563,8 @@ export function BarMode({
           <button
             key={b.id}
             onClick={() => setBoard(b.id)}
+            aria-label={`${b.name} board, ${b.cocktails.length} cocktails`}
+            aria-pressed={board === b.id}
             style={{
               padding: "7px 14px",
               fontSize: 11,

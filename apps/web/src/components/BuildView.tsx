@@ -151,6 +151,7 @@ export function BuildView({
         >
           <button
             onClick={onClose}
+            aria-label="Exit Bar Mode"
             style={{
               background: "transparent",
               border: `1px solid ${theme.border}`,
@@ -218,6 +219,8 @@ export function BuildView({
             <button
               key={n}
               onClick={() => setMultiplier(n)}
+              aria-label={`Batch ×${n}`}
+              aria-pressed={multiplier === n}
               style={{
                 width: 34,
                 height: 34,
@@ -398,6 +401,8 @@ export function BuildView({
           {/* Step text */}
           <div
             key={step}
+            aria-label={`Step ${step + 1} of ${total}: ${current}`}
+            role="region"
             style={{
               fontFamily: theme.display,
               fontSize: "clamp(36px, 4vw, 64px)",
@@ -473,6 +478,7 @@ export function BuildView({
             <button
               onClick={prev}
               disabled={step === 0}
+              aria-label="Previous step"
               style={navBtn(theme, step === 0)}
             >
               ← Previous
@@ -491,6 +497,7 @@ export function BuildView({
             <button
               onClick={next}
               disabled={step === total - 1}
+              aria-label={step === total - 1 ? "Recipe complete" : "Next step"}
               style={{
                 ...navBtn(theme, step === total - 1),
                 background:
