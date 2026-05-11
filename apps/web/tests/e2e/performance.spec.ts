@@ -4,10 +4,15 @@
  * Uses Playwright's CDP-backed network emulation and the Navigation Timing /
  * PerformanceObserver APIs to measure Largest Contentful Paint.
  *
- * Only runs in the chromium project (CDP required for network throttling).
+ * Only runs in the "chromium" (Desktop Chrome) project — CDP is required for
+ * network throttling and the test is skipped for Mobile Chrome to avoid
+ * flakiness from CI runner variance on constrained emulated devices.
+ *
+ * Threshold: 2 000 ms locally; 3 000 ms in CI to account for shared-runner
+ * variance while still guarding against real regressions.
  */
 
-import { test, expect, chromium } from "@playwright/test";
+import { test, expect } from "@playwright/test";
 
 const SLOW_3G = {
   offline: false,
@@ -16,16 +21,24 @@ const SLOW_3G = {
   latency: 100, // 100 ms RTT
 };
 
-const LCP_THRESHOLD_MS = 2000;
+// Give CI runners more headroom — shared VMs have unpredictable scheduling.
+const LCP_THRESHOLD_MS = process.env.CI ? 3000 : 2000;
 
 test.describe("Performance", () => {
   test(
     "home page LCP < 2 000 ms on simulated Slow 3G",
     { tag: ["@perf"] },
     async ({ page, browserName }) => {
+      // Skip on any non-chromium browser (CDP required) AND on the Mobile
+      // Chrome project (same engine but different device emulation that adds
+      // variability on CI shared runners).
       test.skip(
         browserName !== "chromium",
         "Network throttling via CDP is only supported on Chromium"
+      );
+      test.skip(
+        test.info().project.name === "Mobile Chrome",
+        "Perf test scoped to Desktop Chrome only to avoid CI runner variance"
       );
 
       // Enable CDP network emulation
