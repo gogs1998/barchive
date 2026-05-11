@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Cocktail } from "@/lib/cocktails";
+import { spiritGradientClass } from "@/lib/cocktails";
 import { IngredientBadge } from "./IngredientBadge";
 import styles from "./CocktailCard.module.css";
 
@@ -15,6 +16,8 @@ export function CocktailCard({
   showIngredients = false,
 }: CocktailCardProps) {
   const keyIngredients = cocktail.ingredients.slice(0, 3);
+  const gradientClass = styles[spiritGradientClass(cocktail.category)] ?? styles.gradientDefault;
+  const hasImage = Boolean(cocktail.img);
 
   return (
     <Link
@@ -23,15 +26,33 @@ export function CocktailCard({
       aria-label={`${cocktail.name} — ${cocktail.category}`}
     >
       {/* Thumbnail */}
-      <div className={styles.thumbnail} aria-hidden="true">
-        <Image
-          src={cocktail.img}
-          alt={`${cocktail.name} cocktail`}
-          fill
-          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          className={styles.thumbnailImg}
-          loading="lazy"
-        />
+      <div
+        className={`${styles.thumbnail} ${!hasImage ? gradientClass : ""}`}
+        aria-hidden="true"
+      >
+        {hasImage && (
+          <Image
+            src={cocktail.img}
+            alt={`${cocktail.name} cocktail`}
+            fill
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+            className={styles.thumbnailImg}
+            loading="lazy"
+            onLoad={(e) => {
+              const target = e.currentTarget as HTMLImageElement;
+              const skeleton = target.parentElement?.querySelector(
+                `.${styles.skeleton}`
+              ) as HTMLElement | null;
+              if (skeleton) {
+                skeleton.classList.add(styles.skeletonHidden);
+              }
+            }}
+          />
+        )}
+
+        {/* Shimmer skeleton — shown while image loads; hidden after */}
+        {hasImage && <div className={styles.skeleton} aria-hidden="true" />}
+
         {/* Gradient overlay */}
         <div className={styles.overlay} />
 

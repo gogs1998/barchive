@@ -7,6 +7,7 @@ import {
   getCocktailBySlug,
   getCocktailById,
   searchCocktails,
+  spiritGradientClass,
 } from "./cocktails";
 import {
   getCocktails,
@@ -45,6 +46,28 @@ describe("COCKTAILS dataset", () => {
     for (const c of low) {
       expect(c.lowAbv).toBe(true);
     }
+  });
+  it("each cocktail has a unique img URL", () => {
+    const urls = COCKTAILS.map((c) => c.img).filter(Boolean);
+    const unique = new Set(urls);
+    expect(unique.size).toBe(urls.length);
+  });
+});
+
+describe("spiritGradientClass", () => {
+  it("returns correct class for known categories", () => {
+    expect(spiritGradientClass("Tequila")).toBe("gradientTequila");
+    expect(spiritGradientClass("Mezcal")).toBe("gradientTequila");
+    expect(spiritGradientClass("Rum")).toBe("gradientRum");
+    expect(spiritGradientClass("Gin")).toBe("gradientGin");
+    expect(spiritGradientClass("Whiskey")).toBe("gradientWhiskey");
+    expect(spiritGradientClass("Vodka")).toBe("gradientVodka");
+  });
+
+  it("returns gradientDefault for unknown categories", () => {
+    expect(spiritGradientClass("Champagne")).toBe("gradientDefault");
+    expect(spiritGradientClass("Liqueur")).toBe("gradientDefault");
+    expect(spiritGradientClass("")).toBe("gradientDefault");
   });
 });
 
