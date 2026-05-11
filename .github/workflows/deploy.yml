@@ -54,6 +54,43 @@ jobs:
       - name: Install Wrangler
         run: npm install -g wrangler
 
+      - name: Clear conflicting DNS records for custom domain (production only)
+        if: github.ref_name == 'main'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          # Get zone ID for bariq.co.uk
+          ZONE_ID=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            "https://api.cloudflare.com/client/v4/zones?name=bariq.co.uk" \
+            | python3 -c "import sys,json; data=json.load(sys.stdin); print(data['result'][0]['id'] if data['result'] else '')" 2>/dev/null)
+          if [ -z "$ZONE_ID" ]; then
+            echo "Could not find zone for bariq.co.uk, skipping DNS cleanup"
+            exit 0
+          fi
+          echo "Zone ID: $ZONE_ID"
+          # Delete conflicting A and CNAME records for bariq.co.uk and www.bariq.co.uk
+          for HOST in "@" "www"; do
+            NAME="bariq.co.uk"
+            if [ "$HOST" = "www" ]; then NAME="www.bariq.co.uk"; fi
+            RECORD_IDS=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$NAME&type=A" \
+              | python3 -c "import sys,json; [print(r['id']) for r in json.load(sys.stdin).get('result',[])]" 2>/dev/null)
+            for RID in $RECORD_IDS; do
+              echo "Deleting A record $RID for $NAME"
+              curl -s -X DELETE -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+                "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID" | python3 -c "import sys,json; d=json.load(sys.stdin); print('deleted' if d.get('success') else d)"
+            done
+            CNAME_IDS=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$NAME&type=CNAME" \
+              | python3 -c "import sys,json; [print(r['id']) for r in json.load(sys.stdin).get('result',[])]" 2>/dev/null)
+            for RID in $CNAME_IDS; do
+              echo "Deleting CNAME record $RID for $NAME"
+              curl -s -X DELETE -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+                "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID" | python3 -c "import sys,json; d=json.load(sys.stdin); print('deleted' if d.get('success') else d)"
+            done
+          done
+
       - name: Deploy Worker
         working-directory: apps/api
         env:
@@ -61,7 +98,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           if [ "${{ github.ref_name }}" = "main" ]; then
-            wrangler deploy --env production --override-existing-dns-record
+            wrangler deploy --env production
           else
             wrangler deploy --env staging
           fi
