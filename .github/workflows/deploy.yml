@@ -60,36 +60,28 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          # Get zone ID for bariq.co.uk
-          ZONE_ID=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+          set +e  # Don't exit on error — DNS cleanup is best-effort
+          ZONE_ID=$(curl -sf -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             "https://api.cloudflare.com/client/v4/zones?name=bariq.co.uk" \
-            | python3 -c "import sys,json; data=json.load(sys.stdin); print(data['result'][0]['id'] if data['result'] else '')" 2>/dev/null)
+            | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['result'][0]['id'])" 2>/dev/null || true)
           if [ -z "$ZONE_ID" ]; then
-            echo "Could not find zone for bariq.co.uk, skipping DNS cleanup"
+            echo "No zone found for bariq.co.uk or lookup failed — skipping DNS cleanup"
             exit 0
           fi
           echo "Zone ID: $ZONE_ID"
-          # Delete conflicting A and CNAME records for bariq.co.uk and www.bariq.co.uk
-          for HOST in "@" "www"; do
-            NAME="bariq.co.uk"
-            if [ "$HOST" = "www" ]; then NAME="www.bariq.co.uk"; fi
-            RECORD_IDS=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-              "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$NAME&type=A" \
-              | python3 -c "import sys,json; [print(r['id']) for r in json.load(sys.stdin).get('result',[])]" 2>/dev/null)
-            for RID in $RECORD_IDS; do
-              echo "Deleting A record $RID for $NAME"
-              curl -s -X DELETE -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-                "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID" | python3 -c "import sys,json; d=json.load(sys.stdin); print('deleted' if d.get('success') else d)"
-            done
-            CNAME_IDS=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-              "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$NAME&type=CNAME" \
-              | python3 -c "import sys,json; [print(r['id']) for r in json.load(sys.stdin).get('result',[])]" 2>/dev/null)
-            for RID in $CNAME_IDS; do
-              echo "Deleting CNAME record $RID for $NAME"
-              curl -s -X DELETE -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-                "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID" | python3 -c "import sys,json; d=json.load(sys.stdin); print('deleted' if d.get('success') else d)"
+          for NAME in "bariq.co.uk" "www.bariq.co.uk"; do
+            for TYPE in A CNAME; do
+              IDS=$(curl -sf -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+                "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$NAME&type=$TYPE" \
+                | python3 -c "import sys,json; [print(r['id']) for r in json.load(sys.stdin).get('result',[])]" 2>/dev/null || true)
+              for RID in $IDS; do
+                echo "Deleting $TYPE record $RID for $NAME"
+                curl -sf -X DELETE -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+                  "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID" > /dev/null 2>&1 || true
+              done
             done
           done
+          echo "DNS cleanup complete"
 
       - name: Deploy Worker
         working-directory: apps/api
