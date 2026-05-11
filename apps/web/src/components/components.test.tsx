@@ -6,6 +6,7 @@ import { SearchBar } from "@/components/SearchBar";
 import { IngredientBadge } from "@/components/IngredientBadge";
 import { CocktailCard } from "@/components/CocktailCard";
 import { PageShell } from "@/components/PageShell";
+import { BuildView } from "@/components/BuildView";
 import type { Cocktail } from "@/lib/cocktails";
 
 // ─── Mock next/link and next/image ────────────────────────────────────────────
@@ -240,5 +241,36 @@ describe("PageShell", () => {
   it("main has id=main-content", () => {
     render(<PageShell><span /></PageShell>);
     expect(screen.getByRole("main")).toHaveAttribute("id", "main-content");
+  });
+});
+
+// ─── BuildView — enter animation ──────────────────────────────────────────────
+const darkTheme = {
+  bg: "#0E0D0B",
+  surface: "#17140F",
+  border: "rgba(245,238,224,0.09)",
+  text: "#F5EEE0",
+  muted: "#8B867E",
+  accent: "#C89B5C",
+  display: '"Instrument Serif", Georgia, serif',
+  ui: '"Geist", system-ui, sans-serif',
+  mono: '"JetBrains Mono", monospace',
+};
+
+describe("BuildView", () => {
+  it("applies the enter animation class to the root container", () => {
+    const { container } = render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    // The outermost element should carry the CSS-module enter class
+    const root = container.firstChild as HTMLElement;
+    expect(root.className).toContain("enter");
   });
 });

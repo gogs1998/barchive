@@ -3,6 +3,7 @@
 import { useState, useEffect, CSSProperties } from "react";
 import type { Cocktail } from "@/lib/cocktails";
 import type { Theme } from "@/lib/themes";
+import styles from "./BuildView.module.css";
 
 interface BuildViewProps {
   cocktail: Cocktail;
@@ -93,6 +94,7 @@ export function BuildView({
 
   return (
     <div
+      className={styles.enter}
       style={{
         position: "fixed",
         inset: 0,
