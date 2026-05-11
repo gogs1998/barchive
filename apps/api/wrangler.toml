@@ -27,16 +27,15 @@ database_id = "a1965723-88c2-497c-b100-095b80df59c6"
 # ── Production ──────────────────────────────────────────────────────────────
 [env.production]
 name = "bariq-api"
-# Custom domain routes (bariq.co.uk + www.bariq.co.uk) are commented out while
-# DNS transfer is in progress. Re-enable once transfer completes and CF has
-# full authority over the zone.
-# [[env.production.routes]]
-# pattern = "bariq.co.uk"
-# custom_domain = true
-#
-# [[env.production.routes]]
-# pattern = "www.bariq.co.uk"
-# custom_domain = true
+# DNS transfer to Cloudflare confirmed complete (NS: ishaan/mira.ns.cloudflare.com)
+# Custom domain routes re-enabled.
+[[env.production.routes]]
+pattern = "bariq.co.uk"
+custom_domain = true
+
+[[env.production.routes]]
+pattern = "www.bariq.co.uk"
+custom_domain = true
 
 [env.production.vars]
 ENVIRONMENT = "production"
