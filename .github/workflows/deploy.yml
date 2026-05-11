@@ -38,7 +38,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy apps/web/.next --project-name=barchive --branch=${{ github.ref_name }}
+          command: pages deploy apps/web/.next --project-name=barchive --branch=${{ github.ref_name }} --commit-dirty=true
 
   deploy-api:
     name: Deploy Backend (Cloudflare Workers)
@@ -73,9 +73,9 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           if [ "${{ github.ref_name }}" = "main" ]; then
-            wrangler d1 migrations apply barchive-production --env production
+            wrangler d1 execute bariq-production --remote --file migrations/d1/0001_initial_schema.sql
           else
-            wrangler d1 migrations apply barchive-staging --env staging
+            wrangler d1 execute bariq-staging --remote --file migrations/d1/0001_initial_schema.sql
           fi
 
       - name: Smoke test health endpoint
