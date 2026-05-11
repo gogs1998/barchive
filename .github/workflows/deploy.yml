@@ -38,7 +38,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy apps/web/.next --project-name=barchive --branch=${{ github.ref_name }} --commit-dirty=true
+          command: pages deploy apps/web/out --project-name=barchive --branch=${{ github.ref_name }} --commit-dirty=true
 
   deploy-api:
     name: Deploy Backend (Cloudflare Workers)
