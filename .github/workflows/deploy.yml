@@ -109,14 +109,18 @@ jobs:
 
       - name: Smoke test health endpoint
         run: |
-          API_URL=${{ github.ref_name == 'main' && secrets.PROD_API_URL || secrets.STAGING_API_URL }}
+          if [ "${{ github.ref_name }}" = "main" ]; then
+            API_URL="https://bariq.co.uk"
+          else
+            API_URL="${{ secrets.STAGING_API_URL }}"
+          fi
           for i in $(seq 1 10); do
             STATUS=$(curl -sf "$API_URL/health" | python3 -c "import sys,json; print(json.load(sys.stdin).get('status',''))" 2>/dev/null)
             if [ "$STATUS" = "ok" ]; then
-              echo "Health check passed"
+              echo "Health check passed: $API_URL/health"
               exit 0
             fi
             sleep 5
           done
-          echo "Health check failed after 50s"
+          echo "Health check failed after 50s: $API_URL/health"
           exit 1
