@@ -83,6 +83,19 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* Bar Mode callout card */}
+      <div className={styles.barModeCallout} role="complementary" aria-label="Bar Mode feature">
+        <div className={styles.barModeCalloutContent}>
+          <p className={styles.barModeHeadline}>Behind the bar?</p>
+          <p className={styles.barModeSub}>
+            Switch to Bar Mode for a clean 10-tile drink display — built for service.
+          </p>
+        </div>
+        <Link href="/bar" className={styles.barModeBtn}>
+          Enter Bar Mode →
+        </Link>
+      </div>
+
       {/* Featured cocktails */}
       <section
         className={styles.section}

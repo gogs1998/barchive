@@ -9,6 +9,9 @@
   --muted: #8B867E;
   --accent: #C89B5C;
   --accent-soft: rgba(200, 155, 92, 0.12);
+  --color-gold: #C89B5C;
+  --color-gold-pill: rgba(200, 155, 92, 0.18);
+  --color-gold-border: rgba(200, 155, 92, 0.2);
   --font-display: "Instrument Serif", Georgia, serif;
   --font-ui: "Geist", "Inter", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
