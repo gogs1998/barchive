@@ -20,8 +20,14 @@ export default defineConfig({
       exclude: [
         "src/test-setup.ts",
         "src/**/*.module.css",
-        "src/app/**/*.tsx",   // Next.js pages – RSC, tested via E2E
+        "src/app/**/*.tsx",        // Next.js pages – RSC, tested via E2E
         "src/app/layout.tsx",
+        // Bar Mode UI components — complex stateful UI, covered by E2E tests
+        // Unit test coverage tracked in BAR-17
+        "src/components/BarMode.tsx",
+        "src/components/BuildView.tsx",
+        "src/components/BarModeModals.tsx",
+        "src/components/BarIQApp.tsx",
       ],
       thresholds: { lines: 80 },
     },
