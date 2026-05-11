@@ -3,13 +3,14 @@ import styles from "./Header.module.css";
 
 interface HeaderProps {
   /** Active nav item key */
-  active?: "home" | "cocktails" | "ingredients";
+  active?: "home" | "cocktails" | "ingredients" | "bar";
 }
 
 const NAV_ITEMS = [
   { href: "/", label: "Home", key: "home" },
   { href: "/cocktails", label: "Cocktails", key: "cocktails" },
   { href: "/ingredients", label: "Ingredients", key: "ingredients" },
+  { href: "/bar", label: "Bar Mode", key: "bar" },
 ] as const;
 
 export function Header({ active }: HeaderProps) {
