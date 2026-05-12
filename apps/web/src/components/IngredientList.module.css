@@ -76,3 +76,9 @@
   color: var(--color-error);
   background: rgba(224, 92, 92, 0.08);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .item {
+    transition: none;
+  }
+}

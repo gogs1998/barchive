@@ -173,7 +173,16 @@ export function AddIngredientSheet({ open, onClose }: Props) {
           {filtered.length === 0 ? (
             <li className={styles.noResults}>
               <span>No ingredients found.</span>
-              <button type="button" className={styles.customLink}>Add custom ingredient</button>
+              <button
+                type="button"
+                className={styles.customLink}
+                onClick={() => {
+                  // TODO: open custom ingredient creation flow (BAR-43)
+                  console.log("[BarIQ] Add custom ingredient clicked — feature coming soon");
+                }}
+              >
+                Add custom ingredient
+              </button>
             </li>
           ) : (
             filtered.map((ing) => {

@@ -52,10 +52,10 @@ export function Header({ active }: HeaderProps) {
                       width="16" height="16" viewBox="0 0 16 16" fill="none"
                       className={styles.pillIcon}
                     >
-                      <rect x="1.5" y="1.5" width="5" height="5" rx="0.5" stroke="#C89B5C" strokeWidth="1.25"/>
-                      <rect x="9.5" y="1.5" width="5" height="5" rx="0.5" stroke="#C89B5C" strokeWidth="1.25"/>
-                      <rect x="1.5" y="9.5" width="5" height="5" rx="0.5" stroke="#C89B5C" strokeWidth="1.25"/>
-                      <rect x="9.5" y="9.5" width="5" height="5" rx="0.5" stroke="#C89B5C" strokeWidth="1.25"/>
+                      <rect x="1.5" y="1.5" width="5" height="5" rx="0.5" stroke="var(--color-accent)" strokeWidth="1.25"/>
+                      <rect x="9.5" y="1.5" width="5" height="5" rx="0.5" stroke="var(--color-accent)" strokeWidth="1.25"/>
+                      <rect x="1.5" y="9.5" width="5" height="5" rx="0.5" stroke="var(--color-accent)" strokeWidth="1.25"/>
+                      <rect x="9.5" y="9.5" width="5" height="5" rx="0.5" stroke="var(--color-accent)" strokeWidth="1.25"/>
                     </svg>
                   )}
                   {label}

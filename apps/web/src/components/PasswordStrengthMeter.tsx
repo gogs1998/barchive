@@ -17,7 +17,7 @@ export function getPasswordStrength(pw: string): 0 | 1 | 2 | 3 | 4 {
 }
 
 const LABELS = ["", "Weak", "Fair", "Good", "Strong"] as const;
-const COLORS = ["", "#E05C5C", "#E08B3C", "#C89B5C", "#4CAF82"] as const;
+const COLORS = ["", "var(--color-error)", "var(--color-warning)", "var(--color-accent)", "var(--color-success)"] as const;
 
 export function PasswordStrengthMeter({ password }: Props) {
   const strength = getPasswordStrength(password);
