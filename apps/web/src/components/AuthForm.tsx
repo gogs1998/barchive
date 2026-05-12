@@ -78,7 +78,7 @@ interface LoginFormProps {
 }
 
 export function LoginForm({ onSuccess, onForgotPassword, onRegister }: LoginFormProps) {
-  const { login } = useAuth();
+  const { login, startGoogleOAuth } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -131,7 +131,7 @@ export function LoginForm({ onSuccess, onForgotPassword, onRegister }: LoginForm
 
       <div className={styles.divider} aria-hidden="true"><span>or</span></div>
 
-      <button type="button" className={styles.socialBtn} onClick={() => {}}>
+      <button type="button" className={styles.socialBtn} onClick={() => startGoogleOAuth()}>
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
           <path d="M16.51 9.18c0-.56-.05-1.1-.14-1.61H9v3.04h4.2a3.59 3.59 0 01-1.56 2.36v1.96h2.52c1.47-1.36 2.35-3.36 2.35-5.75z" fill="#4285F4"/>
           <path d="M9 17c2.1 0 3.86-.7 5.15-1.89l-2.52-1.96c-.7.47-1.59.74-2.63.74-2.02 0-3.73-1.37-4.34-3.2H2.06v2.02A8 8 0 009 17z" fill="#34A853"/>
@@ -157,7 +157,7 @@ interface RegisterFormProps {
 }
 
 export function RegisterForm({ onSuccess, onLogin }: RegisterFormProps) {
-  const { register } = useAuth();
+  const { register, startGoogleOAuth } = useAuth();
   const [displayName, setDisplayName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -237,7 +237,7 @@ export function RegisterForm({ onSuccess, onLogin }: RegisterFormProps) {
 
       <div className={styles.divider} aria-hidden="true"><span>or</span></div>
 
-      <button type="button" className={styles.socialBtn} onClick={() => {}}>
+      <button type="button" className={styles.socialBtn} onClick={() => startGoogleOAuth()}>
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
           <path d="M16.51 9.18c0-.56-.05-1.1-.14-1.61H9v3.04h4.2a3.59 3.59 0 01-1.56 2.36v1.96h2.52c1.47-1.36 2.35-3.36 2.35-5.75z" fill="#4285F4"/>
           <path d="M9 17c2.1 0 3.86-.7 5.15-1.89l-2.52-1.96c-.7.47-1.59.74-2.63.74-2.02 0-3.73-1.37-4.34-3.2H2.06v2.02A8 8 0 009 17z" fill="#34A853"/>

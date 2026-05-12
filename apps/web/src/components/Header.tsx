@@ -70,11 +70,13 @@ export function Header({ active }: HeaderProps) {
           <HeaderSearch />
           {user ? (
             <div className={styles.userMenu}>
-              <span className={styles.userName}>{user.displayName}</span>
+              <Link href="/profile" className={styles.userName} aria-label="Your profile">
+                {user.displayName}
+              </Link>
               <button
                 type="button"
                 className={styles.signOutBtn}
-                onClick={logout}
+                onClick={() => void logout()}
               >
                 Sign out
               </button>

@@ -3,6 +3,7 @@
 import { useSearchParams, useRouter } from "next/navigation";
 import { useState, Suspense } from "react";
 import { PasswordStrengthMeter } from "@/components/PasswordStrengthMeter";
+import { confirmPasswordResetApi } from "@/lib/api";
 import styles from "./page.module.css";
 import formStyles from "@/components/AuthForm.module.css";
 
@@ -27,9 +28,12 @@ function ResetPasswordContent() {
     if (Object.keys(errs).length) { setErrors(errs); return; }
     setErrors({});
     setLoading(true);
-    // TODO: call real reset-password API endpoint
-    await new Promise((r) => setTimeout(r, 1000));
+    const result = await confirmPasswordResetApi(token!, password);
     setLoading(false);
+    if (result.error) {
+      setErrors({ password: result.error });
+      return;
+    }
     setDone(true);
     setTimeout(() => router.push("/"), 2000);
   };

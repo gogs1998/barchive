@@ -1,14 +1,24 @@
 "use client";
 
 import { useEffect, useRef, useCallback } from "react";
+import { useSearchParams } from "next/navigation";
 import { useAuth, type AuthView } from "@/lib/auth-context";
 import { LoginForm, RegisterForm, ForgotPasswordForm, ResetSentView } from "./AuthForm";
 import { EmailVerifyView } from "./EmailVerifyView";
 import styles from "./AuthModal.module.css";
 
 export function AuthModal() {
-  const { modalOpen, modalView, setModalView, closeAuthModal, pendingEmail, setPendingEmail } = useAuth();
+  const { modalOpen, modalView, setModalView, closeAuthModal, openAuthModal, pendingEmail, setPendingEmail } = useAuth();
   const dialogRef = useRef<HTMLDialogElement>(null);
+  const searchParams = useSearchParams();
+
+  // Auto-open when redirected from middleware with ?auth=login
+  useEffect(() => {
+    const authParam = searchParams.get("auth");
+    if (authParam === "login" || authParam === "register") {
+      openAuthModal(authParam as AuthView);
+    }
+  }, [searchParams, openAuthModal]);
 
   // Open/close the native dialog
   useEffect(() => {
