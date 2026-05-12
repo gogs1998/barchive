@@ -10,6 +10,33 @@ import { CocktailCard } from "@/components/CocktailCard";
 import { PageShell } from "@/components/PageShell";
 import { BuildView } from "@/components/BuildView";
 import type { Cocktail } from "@/lib/cocktails";
+import type { ReactNode } from "react";
+
+// ─── Mock auth-context so components under test don't need a real provider ───
+vi.mock("@/lib/auth-context", () => ({
+  AuthProvider: ({ children }: { children: ReactNode }) => <>{children}</>,
+  useAuth: () => ({
+    user: null,
+    loading: false,
+    modalOpen: false,
+    modalView: "login",
+    openAuthModal: vi.fn(),
+    closeAuthModal: vi.fn(),
+    setModalView: vi.fn(),
+    login: vi.fn(),
+    register: vi.fn(),
+    logout: vi.fn(),
+    sendVerificationEmail: vi.fn(),
+    sendPasswordReset: vi.fn(),
+    pendingEmail: "",
+    setPendingEmail: vi.fn(),
+    barIngredients: [],
+    addBarIngredient: vi.fn(),
+    removeBarIngredient: vi.fn(),
+    favourites: [],
+    toggleFavourite: vi.fn(),
+  }),
+}));
 
 // ─── Mock next/link and next/image ────────────────────────────────────────────
 vi.mock("next/link", () => ({

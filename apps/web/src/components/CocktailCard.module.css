@@ -120,6 +120,14 @@
   border: 1px solid rgba(200, 155, 92, 0.25);
 }
 
+/* Favourite button overlay */
+.favouriteWrap {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  z-index: 2;
+}
+
 /* Body */
 .body {
   padding: var(--space-3) var(--space-4) var(--space-4);

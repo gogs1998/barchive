@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Cocktail } from "@/lib/cocktails";
 import { spiritGradientClass } from "@/lib/cocktails";
 import { IngredientBadge } from "./IngredientBadge";
+import { FavouriteButton } from "./FavouriteButton";
 import styles from "./CocktailCard.module.css";
 
 interface CocktailCardProps {
@@ -58,6 +59,11 @@ export function CocktailCard({
 
         {/* Category pill */}
         <span className={styles.categoryPill}>{cocktail.category}</span>
+
+        {/* Favourite button — absolute top-right */}
+        <div className={styles.favouriteWrap} onClick={(e) => e.preventDefault()}>
+          <FavouriteButton slug={cocktail.slug} recipeName={cocktail.name} size="card" />
+        </div>
       </div>
 
       {/* Body */}

@@ -1,0 +1,80 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(14, 13, 11, 0.5);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: rgba(245, 240, 232, 0.7);
+  transition: color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+}
+
+.btn:hover:not(:disabled) {
+  color: var(--color-accent);
+  background: rgba(14, 13, 11, 0.75);
+}
+
+/* Card variant: overlaid on card image */
+.card {
+  width: 44px;
+  height: 44px;
+}
+
+/* Detail variant: larger, near recipe title */
+.detail {
+  width: 52px;
+  height: 52px;
+}
+
+.detail svg {
+  width: 26px;
+  height: 26px;
+}
+
+/* Faved state */
+.faved {
+  color: var(--color-accent);
+}
+
+.faved:hover {
+  color: var(--color-accent-hover);
+}
+
+/* Fave animation */
+@keyframes heartPop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
+
+.btn:not(.loading):active {
+  animation: heartPop 0.2s ease;
+}
+
+/* Nudge (unauthenticated) */
+@keyframes nudge {
+  0%, 100% { transform: translateX(0) rotate(0); }
+  25%       { transform: translateX(-3px) rotate(-5deg); }
+  75%       { transform: translateX(3px) rotate(5deg); }
+}
+
+.nudge {
+  animation: nudge 0.35s ease;
+}
+
+/* Loading spinner */
+.spinner {
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nudge,
+  .spinner {
+    animation: none;
+  }
+}

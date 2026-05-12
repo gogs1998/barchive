@@ -109,3 +109,52 @@ class CocktailTag(Base):
 
     cocktail: Mapped["Cocktail"] = relationship(back_populates="tags")
     tag: Mapped["Tag"] = relationship(back_populates="cocktail_links")
+
+
+class UserFavourite(Base):
+    """Junction table: user ↔ bookmarked cocktail recipe.
+
+    Composite PK (user_id, recipe_id) enforces uniqueness and acts as the
+    idempotency guarantee — inserting the same pair twice is a no-op via
+    INSERT OR IGNORE / ON CONFLICT DO NOTHING.
+    """
+
+    __tablename__ = "user_favourites"
+
+    user_id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True),
+        ForeignKey("users.id", ondelete="CASCADE"),
+        primary_key=True,
+    )
+    recipe_id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True),
+        ForeignKey("cocktails.id", ondelete="CASCADE"),
+        primary_key=True,
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now()
+    )
+
+
+class UserBar(Base):
+    """Junction table: user ↔ ingredient in their home bar.
+
+    Composite PK (user_id, ingredient_id) enforces uniqueness and makes the
+    POST /api/user/bar/{ingredientId} endpoint idempotent via ON CONFLICT DO NOTHING.
+    """
+
+    __tablename__ = "user_bar"
+
+    user_id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True),
+        ForeignKey("users.id", ondelete="CASCADE"),
+        primary_key=True,
+    )
+    ingredient_id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True),
+        ForeignKey("ingredients.id", ondelete="CASCADE"),
+        primary_key=True,
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now()
+    )

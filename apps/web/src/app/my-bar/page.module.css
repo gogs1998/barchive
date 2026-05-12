@@ -1,0 +1,220 @@
+.page {
+  min-height: 100dvh;
+  background: var(--color-bg, #0E0D0B);
+  padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-md) var(--space-md) var(--space-sm);
+  position: sticky;
+  top: 0;
+  background: var(--color-bg, #0E0D0B);
+  z-index: 10;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.backBtn {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.backBtn:hover {
+  color: var(--color-text-primary);
+}
+
+.title {
+  flex: 1;
+  font-family: var(--font-display);
+  font-size: 20px;
+  color: var(--color-text-primary);
+}
+
+.addBtn {
+  height: 36px;
+  padding: 0 var(--space-md);
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--radius-md);
+  color: #0E0D0B;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+.addBtn:hover {
+  background: var(--color-accent-hover);
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid var(--color-border);
+  padding: 0 var(--space-md);
+}
+
+.tab {
+  padding: var(--space-sm) var(--space-md);
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.tabActive {
+  color: var(--color-text-primary);
+  border-bottom-color: var(--color-accent);
+}
+
+.content {
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.count {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.recipesTeaser {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-md);
+  text-align: center;
+}
+
+.teaserLink {
+  color: var(--color-accent);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.teaserLink:hover {
+  text-decoration: underline;
+}
+
+/* Empty state */
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-xl) var(--space-lg);
+  gap: var(--space-md);
+  text-align: center;
+}
+
+.emptyIcon {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.emptyHeading {
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--color-text-primary);
+}
+
+.emptyText {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  max-width: 280px;
+  line-height: 1.5;
+}
+
+.emptyAddBtn {
+  height: 48px;
+  padding: 0 var(--space-lg);
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--radius-md);
+  color: #0E0D0B;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.emptyAddBtn:hover {
+  background: var(--color-accent-hover);
+}
+
+.popularSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.popularLabel {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.popularChips {
+  display: flex;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.popularChip {
+  height: 36px;
+  padding: 0 var(--space-sm);
+  background: var(--color-surface-raised, #242220);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  color: var(--color-text-primary);
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.popularChip:hover {
+  border-color: var(--color-accent);
+  background: var(--accent-soft);
+}
+
+/* Skeleton loader */
+.skeleton {
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.skeletonRow {
+  height: 48px;
+  background: var(--color-surface, #1A1916);
+  border-radius: var(--radius-md);
+  animation: shimmer 1.4s ease infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 0.5; }
+  50%       { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeletonRow { animation: none; }
+}
+
+.authPrompt {
+  text-align: center;
+  padding: var(--space-xl);
+  color: var(--color-text-secondary);
+}

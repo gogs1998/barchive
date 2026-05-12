@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
 from app.database import engine, Base
-from app.routers import cocktails, ingredients, health, auth, user
+from app.routers import cocktails, ingredients, health, auth, user, favourites
 
 if settings.sentry_dsn:
     import sentry_sdk
@@ -36,3 +36,4 @@ app.include_router(cocktails.router, prefix="/api/v1")
 app.include_router(ingredients.router, prefix="/api/v1")
 app.include_router(auth.router)   # prefix: /api/v1/auth
 app.include_router(user.router)   # prefix: /api/user  (canonical profile endpoint)
+app.include_router(favourites.router)  # prefix: /api/user  (favourites)

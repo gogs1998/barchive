@@ -1,0 +1,236 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(14, 13, 11, 0.7);
+  z-index: 200;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 80dvh;
+  background: var(--color-surface, #1A1916);
+  border-top: 1px solid var(--color-border);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  z-index: 201;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md) calc(var(--space-lg) + env(safe-area-inset-bottom, 0px));
+  animation: slideUp 0.25s ease;
+  overflow: hidden;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
+@media (min-width: 640px) {
+  .sheet {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: 480px;
+    max-height: 70dvh;
+    border-radius: var(--radius-lg);
+    bottom: var(--space-lg);
+    animation: none;
+  }
+}
+
+.handle {
+  width: 36px;
+  height: 4px;
+  background: var(--color-border);
+  border-radius: 2px;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.searchWrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.searchIcon {
+  position: absolute;
+  left: var(--space-md);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-secondary);
+  pointer-events: none;
+}
+
+.searchInput {
+  width: 100%;
+  height: 48px;
+  padding: 0 var(--space-md) 0 calc(var(--space-md) + 26px);
+  background: var(--color-surface-raised, #242220);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-primary);
+  font-size: 16px;
+  outline: none;
+}
+
+.searchInput:focus {
+  border-color: var(--color-accent);
+}
+
+.chips {
+  display: flex;
+  gap: var(--space-xs);
+  overflow-x: auto;
+  padding-bottom: var(--space-xs);
+  flex-shrink: 0;
+  scrollbar-width: none;
+}
+
+.chips::-webkit-scrollbar { display: none; }
+
+.chip {
+  height: 32px;
+  padding: 0 var(--space-sm);
+  background: var(--color-surface-raised, #242220);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.chipActive {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  background: var(--accent-soft);
+}
+
+.quickSection {
+  flex-shrink: 0;
+}
+
+.sectionLabel {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+.quickChips {
+  display: flex;
+  gap: var(--space-xs);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.quickChips::-webkit-scrollbar { display: none; }
+
+.quickChip {
+  height: 36px;
+  padding: 0 var(--space-sm);
+  background: var(--color-surface-raised, #242220);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  color: var(--color-text-primary);
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, opacity 0.15s ease;
+}
+
+.quickChip:hover:not(:disabled) {
+  border-color: var(--color-accent);
+  background: var(--accent-soft);
+}
+
+.quickChipInBar {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.results {
+  overflow-y: auto;
+  flex: 1;
+  list-style: none;
+}
+
+.noResults {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  text-align: center;
+}
+
+.customLink {
+  background: none;
+  border: none;
+  color: var(--color-accent);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.resultItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 0 var(--space-xs);
+  min-height: 48px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.resultItem:last-child {
+  border-bottom: none;
+}
+
+.resultEmoji {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.resultName {
+  flex: 1;
+  font-size: 15px;
+  color: var(--color-text-primary);
+}
+
+.addBtn {
+  height: 36px;
+  padding: 0 var(--space-sm);
+  background: var(--accent-soft);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-sm);
+  color: var(--color-accent);
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.15s ease, opacity 0.15s ease;
+  flex-shrink: 0;
+  min-width: 64px;
+}
+
+.addBtn:hover:not(:disabled) {
+  background: rgba(200, 155, 92, 0.25);
+}
+
+.addBtnInBar {
+  border-color: var(--color-text-secondary);
+  color: var(--color-text-secondary);
+  background: transparent;
+  cursor: default;
+  opacity: 0.6;
+}
