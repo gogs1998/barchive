@@ -12,8 +12,7 @@ import uuid
 
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel
-from sqlalchemy import select, delete
-from sqlalchemy.dialects.postgresql import insert as pg_insert
+from sqlalchemy import select, delete, text
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.dependencies import get_current_user
@@ -31,7 +30,6 @@ router = APIRouter(prefix="/api/user/bar", tags=["my-bar"])
 class IngredientOut(BaseModel):
     id: uuid.UUID
     name: str
-    slug: str | None = None
     category: str
     description: str | None = None
 
@@ -72,28 +70,20 @@ async def add_to_bar(
 ) -> None:
     """Add an ingredient to the user's bar. Idempotent — adding twice is a no-op."""
     # Verify ingredient exists
-    result = await db.execute(select(Ingredient).where(Ingredient.id == ingredient_id))
-    if result.scalar_one_or_none() is None:
+    ing_result = await db.execute(select(Ingredient).where(Ingredient.id == ingredient_id))
+    if ing_result.scalar_one_or_none() is None:
         raise HTTPException(status_code=404, detail="Ingredient not found")
 
-    # Upsert — ignore conflict on composite PK (idempotent)
-    try:
-        # PostgreSQL-style upsert; falls back to plain INSERT for SQLite test env
-        stmt = pg_insert(UserBar).values(
-            user_id=user.id,
-            ingredient_id=ingredient_id,
-        ).on_conflict_do_nothing(index_elements=["user_id", "ingredient_id"])
-        await db.execute(stmt)
-    except Exception:
-        # SQLite (test env) doesn't support pg_insert — use a raw INSERT OR IGNORE
-        from sqlalchemy import text
-        await db.execute(
-            text(
-                "INSERT OR IGNORE INTO user_bar (user_id, ingredient_id) VALUES (:uid, :iid)"
-            ),
-            {"uid": str(user.id), "iid": str(ingredient_id)},
+    # Idempotent insert: skip if row already exists (avoids dialect-specific upsert syntax)
+    existing = await db.execute(
+        select(UserBar).where(
+            UserBar.user_id == user.id,
+            UserBar.ingredient_id == ingredient_id,
         )
-    await db.commit()
+    )
+    if existing.scalar_one_or_none() is None:
+        db.add(UserBar(user_id=user.id, ingredient_id=ingredient_id))
+        await db.commit()
 
 
 @router.delete("/{ingredient_id}", status_code=status.HTTP_204_NO_CONTENT)
