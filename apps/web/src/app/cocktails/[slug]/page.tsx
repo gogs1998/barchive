@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 import { IngredientBadge } from "@/components/IngredientBadge";
+import { FavouriteButton } from "@/components/FavouriteButton";
 import { getCocktail } from "@/lib/api";
 import { COCKTAILS } from "@/lib/cocktails";
 import styles from "./page.module.css";
@@ -68,9 +69,12 @@ export default async function CocktailDetailPage({ params }: Props) {
             <p className={styles.category}>
               {cocktail.category} · {cocktail.glass}
             </p>
-            <h1 className={styles.name} itemProp="name">
-              {cocktail.name}
-            </h1>
+            <div className={styles.heroTitleRow}>
+              <h1 className={styles.name} itemProp="name">
+                {cocktail.name}
+              </h1>
+              <FavouriteButton slug={cocktail.slug} recipeName={cocktail.name} size="detail" />
+            </div>
             {/* Metadata chips */}
             <div className={styles.metaChips} aria-label="Recipe metadata">
               {cocktail.abv && (

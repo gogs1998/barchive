@@ -9,6 +9,7 @@ import { IngredientBadge } from "@/components/IngredientBadge";
 import { CocktailCard } from "@/components/CocktailCard";
 import { PageShell } from "@/components/PageShell";
 import { BuildView } from "@/components/BuildView";
+import { FavouriteButton } from "@/components/FavouriteButton";
 import type { Cocktail } from "@/lib/cocktails";
 import type { ReactNode } from "react";
 
@@ -548,5 +549,46 @@ describe("BuildView", () => {
     expect(btn).toBeInTheDocument();
     expect(btn).toHaveAttribute("aria-pressed", "true");
     expect(screen.getByRole("button", { name: "Batch ×2" })).toHaveAttribute("aria-pressed", "false");
+  });
+});
+
+// ─── FavouriteButton ─────────────────────────────────────────────────────────
+
+vi.mock("@/lib/api", () => ({
+  addUserFavourite: vi.fn().mockResolvedValue(undefined),
+  removeUserFavourite: vi.fn().mockResolvedValue(undefined),
+  getCocktails: vi.fn().mockResolvedValue({ cocktails: [], total: 0, page: 1, pageSize: 24 }),
+}));
+
+describe("FavouriteButton", () => {
+  it("renders save label and aria-pressed=false when not in favourites", () => {
+    // Global useAuth mock returns favourites: []
+    render(<FavouriteButton slug="margarita" recipeName="Margarita" />);
+    const btn = screen.getByRole("button", { name: "Save Margarita to favourites" });
+    expect(btn).toBeInTheDocument();
+    expect(btn).toHaveAttribute("aria-pressed", "false");
+  });
+
+  it("is not disabled when idle", () => {
+    render(<FavouriteButton slug="margarita" recipeName="Margarita" />);
+    expect(screen.getByRole("button")).not.toBeDisabled();
+  });
+
+  it("clicks heart button when unauthenticated without throwing", async () => {
+    // Global auth mock has user: null — clicking triggers openAuthModal
+    render(<FavouriteButton slug="negroni" recipeName="Negroni" />);
+    await act(async () => { fireEvent.click(screen.getByRole("button")); });
+    // Button should still be in the document (no crash)
+    expect(screen.getByRole("button")).toBeInTheDocument();
+  });
+
+  it("renders detail size variant without crashing", () => {
+    render(<FavouriteButton slug="spritz" recipeName="Spritz" size="detail" />);
+    expect(screen.getByRole("button")).toBeInTheDocument();
+  });
+
+  it("has type=button to avoid accidental form submit", () => {
+    render(<FavouriteButton slug="martini" recipeName="Martini" />);
+    expect(screen.getByRole("button")).toHaveAttribute("type", "button");
   });
 });

@@ -56,6 +56,18 @@
   right: var(--space-8);
 }
 
+.heroTitleRow {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  margin-bottom: var(--space-2);
+}
+
+.heroTitleRow .name {
+  flex: 1;
+  margin-bottom: 0;
+}
+
 .category {
   font-family: var(--font-mono);
   font-size: 0.6875rem;

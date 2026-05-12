@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from "react";
 import { useAuth } from "@/lib/auth-context";
+import { addUserFavourite, removeUserFavourite } from "@/lib/api";
 import styles from "./FavouriteButton.module.css";
 
 interface Props {
@@ -26,12 +27,22 @@ export function FavouriteButton({ slug, recipeName, size = "card" }: Props) {
       return;
     }
     setLoading(true);
-    // Optimistic — toggle immediately
+    // Optimistic — toggle immediately in local state
+    const wasAdding = !isFaved;
     toggleFavourite(slug);
-    // TODO: persist to real API
-    await new Promise((r) => setTimeout(r, 300));
-    setLoading(false);
-  }, [user, slug, toggleFavourite, openAuthModal]);
+    try {
+      if (wasAdding) {
+        await addUserFavourite(slug);
+      } else {
+        await removeUserFavourite(slug);
+      }
+    } catch {
+      // Roll back on error
+      toggleFavourite(slug);
+    } finally {
+      setLoading(false);
+    }
+  }, [user, slug, isFaved, toggleFavourite, openAuthModal]);
 
   return (
     <button
