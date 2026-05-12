@@ -8,47 +8,23 @@ import { IngredientList, type BarIngredient } from "@/components/IngredientList"
 import { AddIngredientSheet, } from "@/components/AddIngredientSheet";
 import styles from "./page.module.css";
 
-// Canonical map — stub (replace with API lookup)
-const INGREDIENT_MAP: Record<string, BarIngredient> = {
-  "gin":                { id: "gin",                name: "Gin",               category: "Spirits",   emoji: "🫙" },
-  "vodka":              { id: "vodka",              name: "Vodka",             category: "Spirits",   emoji: "🫙" },
-  "rum":                { id: "rum",                name: "Rum",               category: "Spirits",   emoji: "🫙" },
-  "dark-rum":           { id: "dark-rum",           name: "Dark rum",          category: "Spirits",   emoji: "🫙" },
-  "tequila":            { id: "tequila",            name: "Tequila",           category: "Spirits",   emoji: "🫙" },
-  "whiskey":            { id: "whiskey",            name: "Whiskey",           category: "Spirits",   emoji: "🫙" },
-  "bourbon":            { id: "bourbon",            name: "Bourbon",           category: "Spirits",   emoji: "🫙" },
-  "brandy":             { id: "brandy",             name: "Brandy",            category: "Spirits",   emoji: "🫙" },
-  "sloe-gin":           { id: "sloe-gin",           name: "Sloe gin",          category: "Spirits",   emoji: "🫙" },
-  "amaretto":           { id: "amaretto",           name: "Amaretto",          category: "Liqueurs",  emoji: "🫙" },
-  "triple-sec":         { id: "triple-sec",         name: "Triple sec",        category: "Liqueurs",  emoji: "🫙" },
-  "kahlua":             { id: "kahlua",             name: "Kahlúa",            category: "Liqueurs",  emoji: "🫙" },
-  "baileys":            { id: "baileys",            name: "Baileys",           category: "Liqueurs",  emoji: "🫙" },
-  "campari":            { id: "campari",            name: "Campari",           category: "Liqueurs",  emoji: "🫙" },
-  "aperol":             { id: "aperol",             name: "Aperol",            category: "Liqueurs",  emoji: "🫙" },
-  "sweet-vermouth":     { id: "sweet-vermouth",     name: "Sweet vermouth",    category: "Liqueurs",  emoji: "🫙" },
-  "dry-vermouth":       { id: "dry-vermouth",       name: "Dry vermouth",      category: "Liqueurs",  emoji: "🫙" },
-  "lime-juice":         { id: "lime-juice",         name: "Lime juice",        category: "Mixers",    emoji: "🍋" },
-  "lemon-juice":        { id: "lemon-juice",        name: "Lemon juice",       category: "Mixers",    emoji: "🍋" },
-  "simple-syrup":       { id: "simple-syrup",       name: "Simple syrup",      category: "Syrups",    emoji: "🍯" },
-  "grenadine":          { id: "grenadine",          name: "Grenadine",         category: "Syrups",    emoji: "🍯" },
-  "ginger-syrup":       { id: "ginger-syrup",       name: "Ginger syrup",      category: "Syrups",    emoji: "🍯" },
-  "angostura-bitters":  { id: "angostura-bitters",  name: "Angostura bitters", category: "Bitters",   emoji: "💧" },
-  "orange-bitters":     { id: "orange-bitters",     name: "Orange bitters",    category: "Bitters",   emoji: "💧" },
-  "peychauds-bitters":  { id: "peychauds-bitters",  name: "Peychaud's bitters",category: "Bitters",   emoji: "💧" },
-  "soda-water":         { id: "soda-water",         name: "Soda water",        category: "Mixers",    emoji: "💧" },
-  "tonic-water":        { id: "tonic-water",        name: "Tonic water",       category: "Mixers",    emoji: "💧" },
-  "ginger-beer":        { id: "ginger-beer",        name: "Ginger beer",       category: "Mixers",    emoji: "🍺" },
-  "cola":               { id: "cola",               name: "Cola",              category: "Mixers",    emoji: "🥤" },
-  "egg-white":          { id: "egg-white",           name: "Egg white",         category: "Other",     emoji: "🥚" },
-  "cream":              { id: "cream",              name: "Heavy cream",        category: "Other",     emoji: "🥛" },
-  "mint":               { id: "mint",               name: "Mint",              category: "Garnishes", emoji: "🌿" },
-  "lime-wedge":         { id: "lime-wedge",         name: "Lime wedge",        category: "Garnishes", emoji: "🍋" },
-  "salt":               { id: "salt",               name: "Salt",              category: "Garnishes", emoji: "🧂" },
-  "maraschino-cherry":  { id: "maraschino-cherry",  name: "Maraschino cherry", category: "Garnishes", emoji: "🍒" },
-};
+// Emoji map by category (fallback for ingredients without one)
+function categoryEmoji(category: string): string {
+  switch (category.toLowerCase()) {
+    case "spirits": return "🫙";
+    case "liqueurs": return "🫙";
+    case "mixers": return "💧";
+    case "syrups": return "🍯";
+    case "bitters": return "💧";
+    case "garnishes": return "🌿";
+    default: return "🫙";
+  }
+}
+
+const QUICK_ADD_IDS = ["gin", "vodka", "rum", "tequila"];
 
 export default function MyBarPage() {
-  const { user, loading, barIngredients, openAuthModal, addBarIngredient } = useAuth();
+  const { user, loading, barIngredientData, barLoading, openAuthModal, addBarIngredient } = useAuth();
   const router = useRouter();
   const [sheetOpen, setSheetOpen] = useState(false);
 
@@ -59,11 +35,13 @@ export default function MyBarPage() {
     }
   }, [loading, user, openAuthModal]);
 
-  const ingredients: BarIngredient[] = barIngredients
-    .map((id) => INGREDIENT_MAP[id])
-    .filter(Boolean);
-
-  const QUICK_ADD_IDS = ["gin", "vodka", "rum", "tequila"];
+  // Map API data to BarIngredient shape for IngredientList
+  const ingredients: BarIngredient[] = barIngredientData.map((ing) => ({
+    id: ing.id,
+    name: ing.name,
+    category: ing.category,
+    emoji: categoryEmoji(ing.category),
+  }));
 
   if (loading) {
     return (
@@ -106,8 +84,14 @@ export default function MyBarPage() {
         <Link href="/my-bar/favourites" className={styles.tab}>Favourites</Link>
       </nav>
 
-      {/* Content */}
-      {ingredients.length === 0 ? (
+      {/* Bar loading skeleton */}
+      {barLoading ? (
+        <div className={styles.skeleton}>
+          <div className={styles.skeletonRow} />
+          <div className={styles.skeletonRow} />
+          <div className={styles.skeletonRow} />
+        </div>
+      ) : ingredients.length === 0 ? (
         <div className={styles.empty}>
           <span className={styles.emptyIcon} aria-hidden="true">🍸</span>
           <h2 className={styles.emptyHeading}>Your bar is empty</h2>
@@ -118,20 +102,16 @@ export default function MyBarPage() {
           <div className={styles.popularSection}>
             <p className={styles.popularLabel}>Popular starts:</p>
             <div className={styles.popularChips}>
-              {QUICK_ADD_IDS.map((id) => {
-                const ing = INGREDIENT_MAP[id];
-                if (!ing) return null;
-                return (
-                  <button
-                    key={id}
-                    type="button"
-                    className={styles.popularChip}
-                    onClick={() => addBarIngredient(id)}
-                  >
-                    {ing.name}
-                  </button>
-                );
-              })}
+              {QUICK_ADD_IDS.map((id) => (
+                <button
+                  key={id}
+                  type="button"
+                  className={styles.popularChip}
+                  onClick={() => addBarIngredient(id)}
+                >
+                  {id.charAt(0).toUpperCase() + id.slice(1)}
+                </button>
+              ))}
             </div>
           </div>
         </div>
@@ -151,3 +131,4 @@ export default function MyBarPage() {
     </main>
   );
 }
+

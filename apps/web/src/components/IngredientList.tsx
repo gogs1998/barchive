@@ -29,7 +29,9 @@ export function IngredientList({ ingredients }: Props) {
     // Animate out
     setRemovingIds((prev) => new Set([...prev, ingredient.id]));
     setTimeout(() => {
-      removeBarIngredient(ingredient.id);
+      removeBarIngredient(ingredient.id).catch(() => {
+        // Revert on failure — auth-context handles state revert
+      });
       setRemovingIds((prev) => {
         const next = new Set(prev);
         next.delete(ingredient.id);
@@ -41,7 +43,7 @@ export function IngredientList({ ingredients }: Props) {
 
   const handleUndo = useCallback(() => {
     if (pendingRemoval) {
-      addBarIngredient(pendingRemoval.ingredient.id);
+      addBarIngredient(pendingRemoval.ingredient.id).catch(() => {});
     }
     setPendingRemoval(null);
   }, [pendingRemoval, addBarIngredient]);

@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import { SearchBar } from "@/components/SearchBar";
 import { CocktailCard } from "@/components/CocktailCard";
+import { useAuth } from "@/lib/auth-context";
 import type { Cocktail } from "@/lib/api";
 import styles from "./CocktailsClient.module.css";
 
@@ -20,6 +21,23 @@ export function CocktailsClient({
   const [query, setQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState("All");
   const [activeGlass, setActiveGlass] = useState("All");
+  const [canMakeFilter, setCanMakeFilter] = useState(false);
+
+  const { user, barIngredientData } = useAuth();
+
+  // Build a lowercase name set from bar for matching against cocktail ingredients
+  const barIngredientNames = useMemo(
+    () => new Set(barIngredientData.map((i) => i.name.toLowerCase())),
+    [barIngredientData]
+  );
+
+  const isMakeable = useMemo(
+    () => (cocktail: Cocktail) =>
+      cocktail.ingredients.every((i) =>
+        barIngredientNames.has(i.name.toLowerCase())
+      ),
+    [barIngredientNames]
+  );
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase();
@@ -36,9 +54,10 @@ export function CocktailsClient({
       if (activeCategory !== "All" && c.category !== activeCategory)
         return false;
       if (activeGlass !== "All" && c.glass !== activeGlass) return false;
+      if (canMakeFilter && !isMakeable(c)) return false;
       return true;
     });
-  }, [query, activeCategory, activeGlass, initialCocktails]);
+  }, [query, activeCategory, activeGlass, canMakeFilter, isMakeable, initialCocktails]);
 
   return (
     <div>
@@ -53,6 +72,36 @@ export function CocktailsClient({
       {/* Search + filters */}
       <div className={styles.controls}>
         <SearchBar value={query} onChange={setQuery} />
+
+        {/* What Can I Make? toggle — only shown when user is logged in */}
+        {user && (
+          <button
+            type="button"
+            className={`${styles.canMakeBtn} ${canMakeFilter ? styles.canMakeBtnActive : ""}`}
+            onClick={() => setCanMakeFilter((v) => !v)}
+            aria-pressed={canMakeFilter}
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              aria-hidden="true"
+            >
+              <path d="M5 4h14l-2 9a4 4 0 0 1-4 3h-2a4 4 0 0 1-4-3L5 4z" />
+              <path d="M12 16v4M9 20h6" />
+            </svg>
+            What Can I Make?
+            {canMakeFilter && barIngredientData.length > 0 && (
+              <span className={styles.canMakeBadge}>
+                {filtered.length}
+              </span>
+            )}
+          </button>
+        )}
 
         <div className={styles.filters} role="group" aria-label="Filter by spirit">
           <FilterChips
@@ -76,13 +125,18 @@ export function CocktailsClient({
       {/* Results */}
       {filtered.length === 0 ? (
         <div className={styles.empty} role="status">
-          <p>No cocktails match your search. Try a different query or filter.</p>
+          <p>
+            {canMakeFilter && barIngredientData.length === 0
+              ? "Add ingredients to My Bar to see what you can make."
+              : "No cocktails match your search. Try a different query or filter."}
+          </p>
           <button
             className={styles.resetBtn}
             onClick={() => {
               setQuery("");
               setActiveCategory("All");
               setActiveGlass("All");
+              setCanMakeFilter(false);
             }}
           >
             Reset filters
@@ -96,7 +150,11 @@ export function CocktailsClient({
         >
           {filtered.map((cocktail) => (
             <div key={cocktail.id} role="listitem">
-              <CocktailCard cocktail={cocktail} showIngredients />
+              <CocktailCard
+                cocktail={cocktail}
+                showIngredients
+                makeable={barIngredientData.length > 0 && isMakeable(cocktail)}
+              />
             </div>
           ))}
         </div>
@@ -132,3 +190,4 @@ function FilterChips({
     </div>
   );
 }
+

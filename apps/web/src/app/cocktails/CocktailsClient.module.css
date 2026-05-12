@@ -136,3 +136,57 @@
     gap: var(--space-3);
   }
 }
+
+/* What Can I Make? toggle */
+.canMakeBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  height: var(--touch-target);
+  padding: 0 var(--space-4);
+  background: var(--surface-raised);
+  color: var(--text);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 150ms ease, border-color 150ms ease, color 150ms ease;
+  white-space: nowrap;
+  align-self: flex-start;
+}
+
+.canMakeBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.canMakeBtn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.canMakeBtnActive {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+}
+
+.canMakeBtnActive:hover {
+  opacity: 0.9;
+  color: var(--bg);
+}
+
+.canMakeBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1;
+}

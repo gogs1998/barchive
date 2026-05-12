@@ -10,11 +10,14 @@ interface CocktailCardProps {
   cocktail: Cocktail;
   /** Show ingredient badges below the card title */
   showIngredients?: boolean;
+  /** True when all required ingredients are in the user's bar */
+  makeable?: boolean;
 }
 
 export function CocktailCard({
   cocktail,
   showIngredients = false,
+  makeable = false,
 }: CocktailCardProps) {
   const keyIngredients = cocktail.ingredients.slice(0, 3);
   const gradientClass = styles[spiritGradientClass(cocktail.category)] ?? styles.gradientDefault;
@@ -64,6 +67,13 @@ export function CocktailCard({
         <div className={styles.favouriteWrap} onClick={(e) => e.preventDefault()}>
           <FavouriteButton slug={cocktail.slug} recipeName={cocktail.name} size="card" />
         </div>
+
+        {/* Makeable badge — bottom-left, shown when all ingredients available */}
+        {makeable && (
+          <span className={styles.makeableBadge} aria-label="You can make this">
+            ✓ Can make
+          </span>
+        )}
       </div>
 
       {/* Body */}

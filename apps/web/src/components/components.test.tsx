@@ -32,6 +32,8 @@ vi.mock("@/lib/auth-context", () => ({
     pendingEmail: "",
     setPendingEmail: vi.fn(),
     barIngredients: [],
+    barIngredientData: [],
+    barLoading: false,
     addBarIngredient: vi.fn(),
     removeBarIngredient: vi.fn(),
     favourites: [],
@@ -316,6 +318,15 @@ describe("CocktailCard", () => {
     expect(
       screen.getByRole("link", { name: /Test Sour — Whiskey/i })
     ).toBeInTheDocument();
+  });
+  it("does not show makeable badge by default", () => {
+    render(<CocktailCard cocktail={mockCocktail} />);
+    expect(screen.queryByText(/can make/i)).not.toBeInTheDocument();
+  });
+
+  it("shows makeable badge when makeable=true", () => {
+    render(<CocktailCard cocktail={mockCocktail} makeable />);
+    expect(screen.getByText(/can make/i)).toBeInTheDocument();
   });
 });
 

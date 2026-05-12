@@ -178,3 +178,23 @@
   font-family: var(--font-mono);
   align-self: center;
 }
+
+/* Makeable badge — bottom-left of thumbnail */
+.makeableBadge {
+  position: absolute;
+  bottom: var(--space-2);
+  left: var(--space-2);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  background: rgba(76, 175, 130, 0.92); /* --color-success at 92% opacity */
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  letter-spacing: 0.04em;
+  border-radius: var(--radius-sm);
+  pointer-events: none;
+  user-select: none;
+}
