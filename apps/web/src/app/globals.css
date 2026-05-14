@@ -9,6 +9,30 @@
   --muted: #8B867E;
   --accent: #C89B5C;
   --accent-soft: rgba(200, 155, 92, 0.12);
+
+  /* Auth / My Bar design tokens (BAR-34 spec) */
+  --color-bg: #0E0D0B;
+  --color-surface: #1A1916;
+  --color-surface-raised: #242220;
+  --color-accent: #C89B5C;
+  --color-accent-hover: #D4AB6A;
+  --color-text-primary: #F5F0E8;
+  --color-text-secondary: #9E9A93;
+  --color-error: #E05C5C;
+  --color-warning: #E08B3C;
+  --color-success: #4CAF82;
+  --color-border: #2E2C29;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --color-gold: #C89B5C;
+  --color-gold-pill: rgba(200, 155, 92, 0.18);
+  --color-gold-border: rgba(200, 155, 92, 0.2);
   --font-display: "Instrument Serif", Georgia, serif;
   --font-ui: "Geist", "Inter", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;

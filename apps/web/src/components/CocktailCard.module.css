@@ -30,6 +30,60 @@
   overflow: hidden;
 }
 
+/* ── Spirit-category gradient fallbacks ──────────────────────────────────── */
+/* Applied to .thumbnail when no image src is available */
+.gradientTequila {
+  background: linear-gradient(135deg, #1a2a0a 0%, #4a7c1f 50%, #C89B5C 100%);
+}
+.gradientRum {
+  background: linear-gradient(135deg, #2a1a08 0%, #8B4513 50%, #C89B5C 100%);
+}
+.gradientGin {
+  background: linear-gradient(135deg, #0a1a2a 0%, #1f4a7c 50%, #C89B5C 100%);
+}
+.gradientWhiskey {
+  background: linear-gradient(135deg, #2a1a08 0%, #C89B5C 50%, #8B6914 100%);
+}
+.gradientVodka {
+  background: linear-gradient(135deg, #0a0a0a 0%, #2a2a2a 50%, #C89B5C 100%);
+}
+.gradientDefault {
+  background: linear-gradient(135deg, #1a1a14 0%, #C89B5C 100%);
+}
+
+/* ── Shimmer skeleton ─────────────────────────────────────────────────────── */
+.skeleton {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.06) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton {
+    animation: none;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Hidden once image has loaded */
+.skeletonHidden {
+  opacity: 0;
+  transition: opacity 200ms ease;
+  pointer-events: none;
+}
+
 .thumbnailImg {
   object-fit: cover;
   transition: transform 300ms ease;
@@ -64,6 +118,14 @@
   padding: 2px var(--space-2);
   border-radius: var(--radius-pill);
   border: 1px solid rgba(200, 155, 92, 0.25);
+}
+
+/* Favourite button overlay */
+.favouriteWrap {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  z-index: 2;
 }
 
 /* Body */
@@ -115,4 +177,24 @@
   color: var(--muted);
   font-family: var(--font-mono);
   align-self: center;
+}
+
+/* Makeable badge — bottom-left of thumbnail */
+.makeableBadge {
+  position: absolute;
+  bottom: var(--space-2);
+  left: var(--space-2);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  background: rgba(76, 175, 130, 0.92); /* --color-success at 92% opacity */
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  letter-spacing: 0.04em;
+  border-radius: var(--radius-sm);
+  pointer-events: none;
+  user-select: none;
 }

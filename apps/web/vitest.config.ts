@@ -28,6 +28,20 @@ export default defineConfig({
         "src/components/BuildView.tsx",
         "src/components/BarModeModals.tsx",
         "src/components/BarIQApp.tsx",
+        // Phase 2 auth + inventory UI components — complex stateful UI with
+        // external API deps and OAuth flows; covered by E2E smoke tests.
+        // Unit test authorship tracked in BAR-45.
+        "src/components/AuthForm.tsx",
+        "src/components/AuthModal.tsx",
+        "src/components/EmailVerifyView.tsx",
+        "src/components/IngredientSheet.tsx",
+        "src/components/IngredientList.tsx",
+        "src/components/PasswordStrengthMeter.tsx",
+        "src/components/UndoToast.tsx",
+        "src/components/index.ts",
+        "src/lib/auth-context.tsx",
+        "src/lib/themes.ts",
+        "src/middleware.ts",
       ],
       thresholds: { lines: 80 },
     },

@@ -1,12 +1,45 @@
-import { render, screen, within, fireEvent } from "@testing-library/react";
+import { render, screen, within, fireEvent, act, waitFor } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
+import { CategoryGrid } from "@/components/CategoryGrid";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { SearchBar } from "@/components/SearchBar";
+import { HeaderSearch } from "@/components/HeaderSearch";
 import { IngredientBadge } from "@/components/IngredientBadge";
 import { CocktailCard } from "@/components/CocktailCard";
 import { PageShell } from "@/components/PageShell";
+import { BuildView } from "@/components/BuildView";
+import { FavouriteButton } from "@/components/FavouriteButton";
 import type { Cocktail } from "@/lib/cocktails";
+import type { ReactNode } from "react";
+
+// ─── Mock auth-context so components under test don't need a real provider ───
+vi.mock("@/lib/auth-context", () => ({
+  AuthProvider: ({ children }: { children: ReactNode }) => <>{children}</>,
+  useAuth: () => ({
+    user: null,
+    loading: false,
+    modalOpen: false,
+    modalView: "login",
+    openAuthModal: vi.fn(),
+    closeAuthModal: vi.fn(),
+    setModalView: vi.fn(),
+    login: vi.fn(),
+    register: vi.fn(),
+    logout: vi.fn(),
+    sendVerificationEmail: vi.fn(),
+    sendPasswordReset: vi.fn(),
+    pendingEmail: "",
+    setPendingEmail: vi.fn(),
+    barIngredients: [],
+    barIngredientData: [],
+    barLoading: false,
+    addBarIngredient: vi.fn(),
+    removeBarIngredient: vi.fn(),
+    favourites: [],
+    toggleFavourite: vi.fn(),
+  }),
+}));
 
 // ─── Mock next/link and next/image ────────────────────────────────────────────
 vi.mock("next/link", () => ({
@@ -40,6 +73,11 @@ vi.mock("next/image", () => ({
   ),
 }));
 
+const mockPush = vi.fn();
+vi.mock("next/navigation", () => ({
+  useRouter: () => ({ push: mockPush }),
+}));
+
 // ─── Test data ────────────────────────────────────────────────────────────────
 const mockCocktail: Cocktail = {
   id: "test-1",
@@ -63,6 +101,68 @@ const mockCocktail: Cocktail = {
   lowAbv: false,
   slug: "test-sour",
 };
+
+// ─── CategoryGrid ─────────────────────────────────────────────────────────────
+const ALL_CATEGORIES = [
+  "Amaretto", "Aperitivo", "Brandy", "Cachaça", "Champagne",
+  "Gin", "Liqueur", "Mezcal", "Pisco", "Rum", "Tequila", "Vodka", "Whiskey",
+];
+
+describe("CategoryGrid", () => {
+  it("renders hero-tier spirits (Gin, Rum, Tequila, Vodka, Whiskey)", () => {
+    render(<CategoryGrid categories={ALL_CATEGORIES} />);
+    for (const spirit of ["Gin", "Rum", "Tequila", "Vodka", "Whiskey"]) {
+      expect(screen.getByText(spirit)).toBeInTheDocument();
+    }
+  });
+
+  it("secondary spirits are hidden by default (inert)", () => {
+    render(<CategoryGrid categories={ALL_CATEGORIES} />);
+    const overflowWrap = document.querySelector('[inert]') as HTMLElement;
+    expect(overflowWrap).toBeInTheDocument();
+    // Amaretto is secondary — it exists in DOM but container is inert
+    expect(screen.getByText("Amaretto").closest('[inert]')).toBeTruthy();
+  });
+
+  it("toggle button shows 'Show all spirits' by default", () => {
+    render(<CategoryGrid categories={ALL_CATEGORIES} />);
+    const btn = screen.getByRole("button", { name: /show all spirits/i });
+    expect(btn).toBeInTheDocument();
+    expect(btn).toHaveAttribute("aria-expanded", "false");
+  });
+
+  it("toggle expands secondary spirits", () => {
+    render(<CategoryGrid categories={ALL_CATEGORIES} />);
+    const btn = screen.getByRole("button", { name: /show all spirits/i });
+    fireEvent.click(btn);
+    expect(btn).toHaveAttribute("aria-expanded", "true");
+    expect(screen.getByRole("button", { name: /show fewer spirits/i })).toBeInTheDocument();
+    // overflow wrapper should not be inert after expand
+    const overflowWrap = document.querySelector('div[inert]') as HTMLElement;
+    expect(overflowWrap).toBeNull();
+  });
+
+  it("each category card links to correct cocktails page filter", () => {
+    render(<CategoryGrid categories={["Gin", "Rum"]} />);
+    const ginLink = screen.getByRole("link", { name: /gin/i });
+    expect(ginLink).toHaveAttribute("href", "/cocktails?category=Gin");
+  });
+
+  it("cards have min-height via CSS class (heroCard for hero spirits)", () => {
+    render(<CategoryGrid categories={["Gin", "Amaretto"]} />);
+    const ginLink = screen.getByRole("link", { name: /gin/i });
+    // heroCard class should be present on hero spirits
+    expect(ginLink.className).toMatch(/heroCard/);
+  });
+
+  it("no role=listitem on anchor elements (a11y fix)", () => {
+    render(<CategoryGrid categories={ALL_CATEGORIES} />);
+    const links = screen.getAllByRole("link");
+    for (const link of links) {
+      expect(link).not.toHaveAttribute("role", "listitem");
+    }
+  });
+});
 
 // ─── Header ───────────────────────────────────────────────────────────────────
 describe("Header", () => {
@@ -219,6 +319,15 @@ describe("CocktailCard", () => {
       screen.getByRole("link", { name: /Test Sour — Whiskey/i })
     ).toBeInTheDocument();
   });
+  it("does not show makeable badge by default", () => {
+    render(<CocktailCard cocktail={mockCocktail} />);
+    expect(screen.queryByText(/can make/i)).not.toBeInTheDocument();
+  });
+
+  it("shows makeable badge when makeable=true", () => {
+    render(<CocktailCard cocktail={mockCocktail} makeable />);
+    expect(screen.getByText(/can make/i)).toBeInTheDocument();
+  });
 });
 
 // ─── PageShell ────────────────────────────────────────────────────────────────
@@ -233,8 +342,13 @@ describe("PageShell", () => {
 
   it("passes active prop to Header", () => {
     render(<PageShell active="cocktails"><span /></PageShell>);
-    const nav = screen.getByRole("navigation");
-    expect(within(nav).getByRole("link", { name: /cocktails/i })).toHaveAttribute("aria-current", "page");
+    // There may be multiple nav elements (desktop + mobile); check at least one has the active link
+    const navs = screen.getAllByRole("navigation");
+    const hasActiveLink = navs.some((nav) => {
+      const link = within(nav).queryByRole("link", { name: /cocktails/i });
+      return link?.getAttribute("aria-current") === "page";
+    });
+    expect(hasActiveLink).toBe(true);
   });
 
   it("main has id=main-content", () => {
@@ -242,3 +356,251 @@ describe("PageShell", () => {
     expect(screen.getByRole("main")).toHaveAttribute("id", "main-content");
   });
 });
+
+// ─── HeaderSearch ────────────────────────────────────────────────────────────
+describe("HeaderSearch", () => {
+  it("renders a search input with aria-label 'Search cocktails'", () => {
+    render(<HeaderSearch />);
+    expect(
+      screen.getByRole("combobox", { name: /search cocktails/i })
+    ).toBeInTheDocument();
+  });
+
+  it("shows results when query matches a cocktail name", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Negroni" } });
+    await waitFor(() =>
+      expect(screen.getByRole("listbox")).toBeInTheDocument()
+    );
+    expect(screen.getByText("Negroni")).toBeInTheDocument();
+  });
+
+  it("shows results when query matches an ingredient", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Campari" } });
+    await waitFor(() =>
+      expect(screen.getByRole("listbox")).toBeInTheDocument()
+    );
+    // Multiple cocktails use Campari — at least one should appear
+    expect(screen.getAllByRole("option").length).toBeGreaterThan(0);
+  });
+
+  it("result rows show category pill", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Negroni" } });
+    await waitFor(() =>
+      expect(screen.getByRole("listbox")).toBeInTheDocument()
+    );
+    // Category pill present
+    expect(screen.getByText("Gin")).toBeInTheDocument();
+  });
+
+  it("shows empty state prompt when query has no matches", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "zzznomatch999" } });
+    await waitFor(() =>
+      expect(screen.getByRole("listbox")).toBeInTheDocument()
+    );
+    expect(screen.getByText(/Try/i)).toBeInTheDocument();
+  });
+
+  it("closes results and clears query on Escape", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Daiquiri" } });
+    await waitFor(() => expect(screen.getByRole("listbox")).toBeInTheDocument());
+    fireEvent.keyDown(input, { key: "Escape" });
+    expect(screen.queryByRole("listbox")).not.toBeInTheDocument();
+  });
+
+  it("navigates to cocktail on Enter when option is highlighted", async () => {
+    mockPush.mockClear();
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Daiquiri" } });
+    await waitFor(() => expect(screen.getByRole("listbox")).toBeInTheDocument());
+    fireEvent.keyDown(input, { key: "ArrowDown" });
+    fireEvent.keyDown(input, { key: "Enter" });
+    expect(mockPush).toHaveBeenCalledWith(expect.stringMatching(/\/cocktails\//));
+  });
+
+  it("has role=listbox with aria-live=polite on results", async () => {
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "Margarita" } });
+    await waitFor(() => expect(screen.getByRole("listbox")).toBeInTheDocument());
+    expect(screen.getByRole("listbox")).toHaveAttribute("aria-live", "polite");
+  });
+
+  it("input has aria-label='Search cocktails'", () => {
+    render(<HeaderSearch />);
+    expect(screen.getByLabelText(/search cocktails/i)).toBeInTheDocument();
+  });
+
+  it("renders mobile toggle button with correct aria-label", () => {
+    render(<HeaderSearch />);
+    expect(
+      screen.getByRole("button", { name: /open search/i })
+    ).toBeInTheDocument();
+  });
+});
+
+// ─── Header includes search ───────────────────────────────────────────────────
+describe("Header — with search", () => {
+  it("includes the HeaderSearch component", () => {
+    render(<Header />);
+    expect(screen.getByTestId("header-search")).toBeInTheDocument();
+  });
+});
+
+// ─── BuildView — enter animation ──────────────────────────────────────────────
+const darkTheme = {
+  bg: "#0E0D0B",
+  surface: "#17140F",
+  border: "rgba(245,238,224,0.09)",
+  text: "#F5EEE0",
+  muted: "#8B867E",
+  accent: "#C89B5C",
+  display: '"Instrument Serif", Georgia, serif',
+  ui: '"Geist", system-ui, sans-serif',
+  mono: '"JetBrains Mono", monospace',
+};
+
+describe("BuildView", () => {
+  it("applies the enter animation class to the root container", () => {
+    const { container } = render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    // The outermost element should carry the CSS-module enter class
+    const root = container.firstChild as HTMLElement;
+    expect(root.className).toContain("enter");
+  });
+
+  it("Exit button has aria-label='Exit Bar Mode'", () => {
+    render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    expect(screen.getByRole("button", { name: "Exit Bar Mode" })).toBeInTheDocument();
+  });
+
+  it("Previous button has aria-label='Previous step'", () => {
+    render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    expect(screen.getByRole("button", { name: "Previous step" })).toBeInTheDocument();
+  });
+
+  it("Next button has aria-label='Next step'", () => {
+    render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    expect(screen.getByRole("button", { name: "Next step" })).toBeInTheDocument();
+  });
+
+  it("active step region has aria-label with step number and description", () => {
+    render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    expect(
+      screen.getByRole("region", { name: /Step 1 of 4: Dry shake\./i })
+    ).toBeInTheDocument();
+  });
+
+  it("batch multiplier buttons have aria-label and aria-pressed", () => {
+    render(
+      <BuildView
+        cocktail={mockCocktail}
+        theme={darkTheme as never}
+        multiplier={1}
+        setMultiplier={vi.fn()}
+        onClose={vi.fn()}
+        eightySix={[]}
+      />
+    );
+    const btn = screen.getByRole("button", { name: "Batch ×1" });
+    expect(btn).toBeInTheDocument();
+    expect(btn).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByRole("button", { name: "Batch ×2" })).toHaveAttribute("aria-pressed", "false");
+  });
+});
+
+// ─── FavouriteButton ─────────────────────────────────────────────────────────
+
+vi.mock("@/lib/api", () => ({
+  addUserFavourite: vi.fn().mockResolvedValue(undefined),
+  removeUserFavourite: vi.fn().mockResolvedValue(undefined),
+  getCocktails: vi.fn().mockResolvedValue({ cocktails: [], total: 0, page: 1, pageSize: 24 }),
+}));
+
+describe("FavouriteButton", () => {
+  it("renders save label and aria-pressed=false when not in favourites", () => {
+    // Global useAuth mock returns favourites: []
+    render(<FavouriteButton slug="margarita" recipeName="Margarita" />);
+    const btn = screen.getByRole("button", { name: "Save Margarita to favourites" });
+    expect(btn).toBeInTheDocument();
+    expect(btn).toHaveAttribute("aria-pressed", "false");
+  });
+
+  it("is not disabled when idle", () => {
+    render(<FavouriteButton slug="margarita" recipeName="Margarita" />);
+    expect(screen.getByRole("button")).not.toBeDisabled();
+  });
+
+  it("clicks heart button when unauthenticated without throwing", async () => {
+    // Global auth mock has user: null — clicking triggers openAuthModal
+    render(<FavouriteButton slug="negroni" recipeName="Negroni" />);
+    await act(async () => { fireEvent.click(screen.getByRole("button")); });
+    // Button should still be in the document (no crash)
+    expect(screen.getByRole("button")).toBeInTheDocument();
+  });
+
+  it("renders detail size variant without crashing", () => {
+    render(<FavouriteButton slug="spritz" recipeName="Spritz" size="detail" />);
+    expect(screen.getByRole("button")).toBeInTheDocument();
+  });
+
+  it("has type=button to avoid accidental form submit", () => {
+    render(<FavouriteButton slug="martini" recipeName="Martini" />);
+    expect(screen.getByRole("button")).toHaveAttribute("type", "button");
+  });
+});
+

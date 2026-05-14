@@ -86,10 +86,9 @@ jobs:
         working-directory: apps/web
 
       - name: Start server
-        run: npm run start &
+        # next start does not work with output: export; use serve to host the static out/ dir
+        run: npx serve@latest out --listen 3000 &
         working-directory: apps/web
-        env:
-          PORT: 3000
 
       - name: Wait for server
         run: |

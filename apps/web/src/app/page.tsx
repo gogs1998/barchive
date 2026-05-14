@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
 import { PageShell } from "@/components/PageShell";
 import { CocktailCard } from "@/components/CocktailCard";
+import { CategoryGrid } from "@/components/CategoryGrid";
 import { getCocktails, getCategories } from "@/lib/api";
 import styles from "./page.module.css";
 
@@ -69,19 +69,21 @@ export default async function HomePage() {
             {categories.length} categories
           </span>
         </div>
-        <div className={styles.categoryGrid} role="list">
-          {categories.map((cat) => (
-            <Link
-              key={cat}
-              href={`/cocktails?category=${encodeURIComponent(cat)}`}
-              className={styles.categoryCard}
-              role="listitem"
-            >
-              <span className={styles.categoryName}>{cat}</span>
-            </Link>
-          ))}
-        </div>
+        <CategoryGrid categories={categories} />
       </section>
+
+      {/* Bar Mode callout card */}
+      <div className={styles.barModeCallout} role="complementary" aria-label="Bar Mode feature">
+        <div className={styles.barModeCalloutContent}>
+          <p className={styles.barModeHeadline}>Behind the bar?</p>
+          <p className={styles.barModeSub}>
+            Switch to Bar Mode for a clean 10-tile drink display — built for service.
+          </p>
+        </div>
+        <Link href="/bar" className={styles.barModeBtn}>
+          Enter Bar Mode →
+        </Link>
+      </div>
 
       {/* Featured cocktails */}
       <section

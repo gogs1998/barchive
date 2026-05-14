@@ -15,5 +15,7 @@
 @media (max-width: 640px) {
   .main {
     padding: var(--space-6) var(--space-4);
+    /* Prevent content from hiding under fixed bottom tab bar */
+    padding-bottom: calc(var(--space-6) + 56px);
   }
 }

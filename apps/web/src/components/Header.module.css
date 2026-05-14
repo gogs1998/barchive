@@ -17,6 +17,9 @@
   max-width: 1280px;
   margin: 0 auto;
   gap: var(--space-4);
+  /* Prevent header height from growing when search results dropdown opens
+     (dropdown is position:absolute, so contain:layout handles this) */
+  contain: layout;
 }
 
 .wordmark {
@@ -78,6 +81,24 @@
   color: var(--text);
 }
 
+.navLinkPill {
+  background: var(--color-gold-pill);
+  border: 1px solid rgba(200, 155, 92, 0.35);
+  border-radius: 4px;
+  padding: 2px 8px;
+  color: var(--color-gold);
+  gap: 6px;
+}
+
+.navLinkPill:hover {
+  background: rgba(200, 155, 92, 0.25);
+  color: var(--color-gold);
+}
+
+.pillIcon {
+  flex-shrink: 0;
+}
+
 @media (max-width: 480px) {
   .inner {
     padding: 0 var(--space-4);
@@ -87,4 +108,61 @@
     padding: 0 var(--space-2);
     font-size: 0.8125rem;
   }
+}
+
+/* Auth controls */
+.rightControls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.signInBtn {
+  height: 36px;
+  padding: 0 var(--space-md);
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--radius-md);
+  color: #0E0D0B;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+.signInBtn:hover {
+  background: var(--color-accent-hover);
+}
+
+.userMenu {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.userName {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.signOutBtn {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  height: 32px;
+  padding: 0 var(--space-sm);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.signOutBtn:hover {
+  color: var(--color-text-primary);
+  border-color: var(--color-text-secondary);
 }

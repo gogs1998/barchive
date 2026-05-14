@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { AuthProvider } from "@/lib/auth-context";
+import { AuthModal } from "@/components/AuthModal";
 
 export const metadata: Metadata = {
   title: "BarIQ — Cocktail App for Bars",
@@ -33,7 +35,12 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <AuthProvider>
+          {children}
+          <AuthModal />
+        </AuthProvider>
+      </body>
     </html>
   );
 }

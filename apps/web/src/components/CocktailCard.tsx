@@ -1,20 +1,29 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import type { Cocktail } from "@/lib/cocktails";
+import { spiritGradientClass } from "@/lib/cocktails";
 import { IngredientBadge } from "./IngredientBadge";
+import { FavouriteButton } from "./FavouriteButton";
 import styles from "./CocktailCard.module.css";
 
 interface CocktailCardProps {
   cocktail: Cocktail;
   /** Show ingredient badges below the card title */
   showIngredients?: boolean;
+  /** True when all required ingredients are in the user's bar */
+  makeable?: boolean;
 }
 
 export function CocktailCard({
   cocktail,
   showIngredients = false,
+  makeable = false,
 }: CocktailCardProps) {
   const keyIngredients = cocktail.ingredients.slice(0, 3);
+  const gradientClass = styles[spiritGradientClass(cocktail.category)] ?? styles.gradientDefault;
+  const hasImage = Boolean(cocktail.img);
 
   return (
     <Link
@@ -22,21 +31,48 @@ export function CocktailCard({
       className={styles.card}
       aria-label={`${cocktail.name} — ${cocktail.category}`}
     >
-      {/* Thumbnail */}
-      <div className={styles.thumbnail} aria-hidden="true">
-        <Image
-          src={cocktail.img}
-          alt={`${cocktail.name} cocktail`}
-          fill
-          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          className={styles.thumbnailImg}
-          loading="lazy"
-        />
-        {/* Gradient overlay */}
-        <div className={styles.overlay} />
+      {/* Thumbnail — no aria-hidden on this container; it holds interactive children */}
+      <div className={`${styles.thumbnail} ${!hasImage ? gradientClass : ""}`}>
+        {hasImage && (
+          <Image
+            src={cocktail.img}
+            alt={`${cocktail.name} cocktail`}
+            fill
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+            className={styles.thumbnailImg}
+            loading="lazy"
+            onLoad={(e) => {
+              const target = e.currentTarget as HTMLImageElement;
+              const skeleton = target.parentElement?.querySelector(
+                `.${styles.skeleton}`
+              ) as HTMLElement | null;
+              if (skeleton) {
+                skeleton.classList.add(styles.skeletonHidden);
+              }
+            }}
+          />
+        )}
 
-        {/* Category pill */}
-        <span className={styles.categoryPill}>{cocktail.category}</span>
+        {/* Shimmer skeleton — purely decorative */}
+        {hasImage && <div className={styles.skeleton} aria-hidden="true" />}
+
+        {/* Gradient overlay — decorative */}
+        <div className={styles.overlay} aria-hidden="true" />
+
+        {/* Category pill — decorative (card already has aria-label) */}
+        <span className={styles.categoryPill} aria-hidden="true">{cocktail.category}</span>
+
+        {/* Favourite button — interactive, must NOT be inside aria-hidden */}
+        <div className={styles.favouriteWrap} onClick={(e) => e.preventDefault()}>
+          <FavouriteButton slug={cocktail.slug} recipeName={cocktail.name} size="card" />
+        </div>
+
+        {/* Makeable badge */}
+        {makeable && (
+          <span className={styles.makeableBadge} aria-label="You can make this">
+            ✓ Can make
+          </span>
+        )}
       </div>
 
       {/* Body */}
