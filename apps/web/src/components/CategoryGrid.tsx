@@ -144,7 +144,8 @@ export function CategoryGrid({ categories }: CategoryGridProps) {
             "--overflow-max-height": expanded ? "500px" : "0px",
           } as React.CSSProperties
         }
-        {...(!expanded ? { inert: "" } : {})}
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        {...(!expanded ? ({ inert: "" } as any) : {})}
       >
         <div className={styles.secondaryGrid} role="list">
           {secondaryCategories.map((cat) => (
