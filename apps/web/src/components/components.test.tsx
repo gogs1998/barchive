@@ -116,12 +116,12 @@ describe("CategoryGrid", () => {
     }
   });
 
-  it("secondary spirits are hidden by default (aria-hidden)", () => {
+  it("secondary spirits are hidden by default (inert)", () => {
     render(<CategoryGrid categories={ALL_CATEGORIES} />);
-    const overflowWrap = document.querySelector('[aria-hidden="true"]') as HTMLElement;
+    const overflowWrap = document.querySelector('[inert]') as HTMLElement;
     expect(overflowWrap).toBeInTheDocument();
-    // Amaretto is secondary — it exists in DOM but container is aria-hidden
-    expect(screen.getByText("Amaretto").closest('[aria-hidden="true"]')).toBeTruthy();
+    // Amaretto is secondary — it exists in DOM but container is inert
+    expect(screen.getByText("Amaretto").closest('[inert]')).toBeTruthy();
   });
 
   it("toggle button shows 'Show all spirits' by default", () => {
@@ -137,9 +137,9 @@ describe("CategoryGrid", () => {
     fireEvent.click(btn);
     expect(btn).toHaveAttribute("aria-expanded", "true");
     expect(screen.getByRole("button", { name: /show fewer spirits/i })).toBeInTheDocument();
-    // overflow wrapper aria-hidden should be false (not "true") after expand
-    const overflowWrap = document.querySelector('div[aria-hidden]') as HTMLElement;
-    expect(overflowWrap?.getAttribute("aria-hidden")).not.toBe("true");
+    // overflow wrapper should not be inert after expand
+    const overflowWrap = document.querySelector('div[inert]') as HTMLElement;
+    expect(overflowWrap).toBeNull();
   });
 
   it("each category card links to correct cocktails page filter", () => {
@@ -603,3 +603,4 @@ describe("FavouriteButton", () => {
     expect(screen.getByRole("button")).toHaveAttribute("type", "button");
   });
 });
+
