@@ -3,6 +3,13 @@ name: Deploy
 on:
   push:
     branches: [main, staging]
+  workflow_dispatch:
+    inputs:
+      fix_dns:
+        description: 'Run DNS fix for bariq.co.uk (requires Zone:DNS:Edit on token)'
+        required: false
+        default: 'false'
+        type: boolean
 
 concurrency:
   group: deploy-${{ github.ref_name }}
@@ -39,46 +46,61 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy apps/web/out --project-name=barchive --branch=${{ github.ref_name }} --commit-dirty=true
 
-      - name: Wire custom domain to Pages (production only)
+      - name: Wire custom domain to Pages + fix DNS (production only)
         if: github.ref_name == 'main'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
+          set +e
           ZONE_ID="8c7d3457d3b5b5f1c1be246798f9df11"
 
-          # Verify token permissions — list DNS records for zone
-          echo "=== Token permission check ==="
-          curl -s -w "\nHTTP_STATUS:%{http_code}" \
-            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?per_page=5" | tail -20
-
           for DOMAIN in "bariq.co.uk" "www.bariq.co.uk"; do
-            echo ""
-            echo "=== Wiring $DOMAIN ==="
+            echo "=== $DOMAIN ==="
 
-            # List ALL records for this domain (no type filter)
-            echo "All DNS records for $DOMAIN:"
-            curl -s \
+            # Register custom domain on Pages (idempotent)
+            curl -s -X POST \
               -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-              "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$DOMAIN&per_page=100"
+              -H "Content-Type: application/json" \
+              -d "{\"name\": \"$DOMAIN\"}" \
+              "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/barchive/domains" \
+              | python3 -c "
+          import sys,json
+          d=json.loads(sys.stdin.read())
+          errs=d.get('errors',[])
+          if d.get('success'): print('  Pages domain: added')
+          elif any(e.get('code') in (8000018,8000026) for e in errs): print('  Pages domain: already registered')
+          else: print('  Pages domain error:', errs)
+          " 2>/dev/null || true
 
-            # Delete A, AAAA, CNAME records
-            for RTYPE in A AAAA CNAME; do
-              RESP=$(curl -s \
-                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-                "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$DOMAIN&type=$RTYPE")
-              RECORDS=$(echo "$RESP" | python3 -c "import sys,json; [print(r['id']) for r in json.load(sys.stdin).get('result',[])]" 2>/dev/null || true)
-              for RID in $RECORDS; do
-                echo "Deleting $RTYPE $RID..."
+            # Delete conflicting A/AAAA/CNAME records (requires Zone:DNS:Edit permission)
+            DNS_CHECK=$(curl -s -w "HTTP_%{http_code}" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$DOMAIN&per_page=100")
+            HTTP_CODE=$(echo "$DNS_CHECK" | grep -o "HTTP_[0-9]*" | cut -d_ -f2)
+
+            if [ "$HTTP_CODE" = "200" ]; then
+              echo "$DNS_CHECK" | python3 -c "
+          import sys,json
+          raw=sys.stdin.read()
+          body=raw[:raw.rfind('HTTP_')]
+          d=json.loads(body)
+          for r in d.get('result',[]):
+              if r['type'] in ('A','AAAA','CNAME'):
+                  print(r['id']+' '+r['type']+' '+str(r.get('content','')))
+          " 2>/dev/null | while read RID RTYPE RCONTENT; do
+                echo "  Deleting $RTYPE $RID ($RCONTENT)"
                 curl -s -X DELETE \
                   -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-                  "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID"
+                  "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID" > /dev/null
               done
-            done
+            else
+              echo "  DNS API: HTTP $HTTP_CODE — token lacks Zone:DNS:Edit permission (see BAR-44)"
+            fi
 
-            sleep 5
-            STATUS=$(curl -s \
+            # Report final domain status
+            sleep 3
+            curl -s \
               -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
               "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/barchive/domains" \
               | python3 -c "
@@ -86,9 +108,8 @@ jobs:
           d=json.loads(sys.stdin.read())
           for dom in d.get('result',[]):
               if dom['name']=='$DOMAIN':
-                  print(dom.get('status','unknown'))
-          " 2>/dev/null || echo "unknown")
-            echo "$DOMAIN final status: $STATUS"
+                  print('  Status:', dom.get('status','unknown'))
+          " 2>/dev/null || true
           done
 
   deploy-api:
