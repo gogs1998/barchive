@@ -46,46 +46,50 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          set +e
+          set -e
           ZONE_ID="8c7d3457d3b5b5f1c1be246798f9df11"
 
           for DOMAIN in "bariq.co.uk" "www.bariq.co.uk"; do
             echo "=== Wiring $DOMAIN ==="
 
-            # 1. Add custom domain to Pages project (idempotent)
-            RESULT=$(curl -sf -X POST \
+            # Step 1: Add custom domain to Pages project
+            echo "Adding $DOMAIN to Pages project..."
+            RESULT=$(curl -s -w "\nHTTP_STATUS:%{http_code}" -X POST \
               -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
               -H "Content-Type: application/json" \
               -d "{\"name\": \"$DOMAIN\"}" \
-              "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/barchive/domains" 2>&1 || true)
-            echo "Pages domain add: $(echo "$RESULT" | python3 -c "
-          import sys,json
-          try:
-              d=json.loads(sys.stdin.read())
-              errs=d.get('errors',[])
-              if d.get('success'): print('added')
-              elif any(e.get('code')==8000026 for e in errs): print('already exists')
-              else: print('warn:', errs)
-          except: print('non-json response')
-          " 2>/dev/null || echo "parse error")"
+              "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/barchive/domains")
+            HTTP_STATUS=$(echo "$RESULT" | grep "HTTP_STATUS:" | cut -d: -f2)
+            BODY=$(echo "$RESULT" | grep -v "HTTP_STATUS:")
+            echo "HTTP $HTTP_STATUS: $BODY" | head -c 300
 
-            # 2. Delete any A/CNAME records that would override Pages routing
-            for TYPE in A CNAME; do
-              IDS=$(curl -sf \
+            # Step 2: Delete conflicting A/CNAME DNS records
+            echo ""
+            echo "Deleting conflicting DNS records for $DOMAIN..."
+            DNS_RECORDS=$(curl -s \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$DOMAIN&per_page=100")
+            echo "DNS records response:" $(echo "$DNS_RECORDS" | python3 -c "import sys,json; d=json.load(sys.stdin); print('count:', len(d.get('result',[])), 'success:', d.get('success'))" 2>/dev/null)
+
+            echo "$DNS_RECORDS" | python3 -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          records = data.get('result', [])
+          for r in records:
+              rtype = r.get('type','')
+              if rtype in ('A', 'AAAA', 'CNAME'):
+                  print(rtype + ':' + r['id'] + ':' + str(r.get('content','')))
+          " 2>/dev/null | while IFS=: read RTYPE RID RCONTENT; do
+              echo "Deleting $RTYPE record $RID ($RCONTENT) for $DOMAIN..."
+              DEL=$(curl -s -w "\nHTTP_STATUS:%{http_code}" -X DELETE \
                 -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-                "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$DOMAIN&type=$TYPE" \
-                | python3 -c "import sys,json; [print(r['id']) for r in json.load(sys.stdin).get('result',[])]" 2>/dev/null || true)
-              for RID in $IDS; do
-                echo "Deleting $TYPE $RID for $DOMAIN"
-                curl -sf -X DELETE \
-                  -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-                  "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID" > /dev/null 2>&1 || true
-              done
+                "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID")
+              echo "Delete result: $(echo "$DEL" | grep "HTTP_STATUS:")"
             done
 
-            # 3. Cloudflare Pages manages its own CNAME — verify domain status
-            sleep 3
-            STATUS=$(curl -sf \
+            # Step 3: Check domain status
+            sleep 5
+            STATUS=$(curl -s \
               -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
               "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/barchive/domains" \
               | python3 -c "
@@ -95,8 +99,9 @@ jobs:
               if dom['name']=='$DOMAIN':
                   print(dom.get('status','unknown'))
           " 2>/dev/null || echo "unknown")
-            echo "$DOMAIN status: $STATUS"
+            echo "$DOMAIN final status: $STATUS"
           done
+          set +e
 
   deploy-api:
     name: Deploy Backend (Cloudflare Workers)
