@@ -144,7 +144,7 @@ export function CategoryGrid({ categories }: CategoryGridProps) {
             "--overflow-max-height": expanded ? "500px" : "0px",
           } as React.CSSProperties
         }
-        aria-hidden={!expanded}
+        {...(!expanded ? { inert: "" } : {})}
       >
         <div className={styles.secondaryGrid} role="list">
           {secondaryCategories.map((cat) => (
