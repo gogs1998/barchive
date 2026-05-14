@@ -54,6 +54,7 @@ jobs:
         run: |
           set +e
           ZONE_ID="8c7d3457d3b5b5f1c1be246798f9df11"
+          PAGES_CNAME="barchive.pages.dev"
 
           for DOMAIN in "bariq.co.uk" "www.bariq.co.uk"; do
             echo "=== $DOMAIN ==="
@@ -73,33 +74,39 @@ jobs:
           else: print('  Pages domain error:', errs)
           " 2>/dev/null || true
 
-            # Delete conflicting A/AAAA/CNAME records (requires Zone:DNS:Edit permission)
-            DNS_CHECK=$(curl -s -w "HTTP_%{http_code}" \
+            # Delete ALL existing A/AAAA/CNAME records for this domain
+            DNS_LIST=$(curl -s \
               -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
               "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$DOMAIN&per_page=100")
-            HTTP_CODE=$(echo "$DNS_CHECK" | grep -o "HTTP_[0-9]*" | cut -d_ -f2)
 
-            if [ "$HTTP_CODE" = "200" ]; then
-              echo "$DNS_CHECK" | python3 -c "
+            echo "$DNS_LIST" | python3 -c "
           import sys,json
-          raw=sys.stdin.read()
-          body=raw[:raw.rfind('HTTP_')]
-          d=json.loads(body)
+          d=json.loads(sys.stdin.read())
           for r in d.get('result',[]):
               if r['type'] in ('A','AAAA','CNAME'):
                   print(r['id']+' '+r['type']+' '+str(r.get('content','')))
           " 2>/dev/null | while read RID RTYPE RCONTENT; do
-                echo "  Deleting $RTYPE $RID ($RCONTENT)"
-                curl -s -X DELETE \
-                  -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-                  "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID" > /dev/null
-              done
-            else
-              echo "  DNS API: HTTP $HTTP_CODE — token lacks Zone:DNS:Edit permission (see BAR-44)"
-            fi
+              echo "  Deleting $RTYPE $RID ($RCONTENT)"
+              curl -s -X DELETE \
+                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+                "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID" > /dev/null
+            done
+
+            # Create CNAME pointing to Pages (Cloudflare flattens apex CNAME automatically)
+            CREATE_RESULT=$(curl -s -X POST \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d "{\"type\":\"CNAME\",\"name\":\"$DOMAIN\",\"content\":\"$PAGES_CNAME\",\"proxied\":true,\"ttl\":1}" \
+              "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records")
+            echo "$CREATE_RESULT" | python3 -c "
+          import sys,json
+          d=json.loads(sys.stdin.read())
+          if d.get('success'): print('  CNAME created:', d['result']['id'])
+          else: print('  CNAME create error:', d.get('errors'))
+          " 2>/dev/null || true
 
             # Report final domain status
-            sleep 3
+            sleep 5
             curl -s \
               -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
               "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/barchive/domains" \
@@ -108,7 +115,7 @@ jobs:
           d=json.loads(sys.stdin.read())
           for dom in d.get('result',[]):
               if dom['name']=='$DOMAIN':
-                  print('  Status:', dom.get('status','unknown'))
+                  print('  Pages status:', dom.get('status','unknown'))
           " 2>/dev/null || true
           done
 
@@ -168,13 +175,16 @@ jobs:
           else
             API_URL="${{ secrets.STAGING_API_URL }}"
           fi
-          for i in $(seq 1 10); do
+          echo "Waiting 15s for DNS propagation..."
+          sleep 15
+          for i in $(seq 1 12); do
             STATUS=$(curl -sf "$API_URL/health" | python3 -c "import sys,json; print(json.load(sys.stdin).get('status',''))" 2>/dev/null)
             if [ "$STATUS" = "ok" ]; then
               echo "Health check passed: $API_URL/health"
               exit 0
             fi
-            sleep 5
+            echo "Attempt $i: not ready yet, retrying in 10s..."
+            sleep 10
           done
-          echo "Health check failed after 50s: $API_URL/health"
+          echo "Health check failed after 135s: $API_URL/health"
           exit 1
