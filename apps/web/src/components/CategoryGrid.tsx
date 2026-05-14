@@ -24,7 +24,6 @@ function SpiritIcon({ category }: { category: string }) {
 
   switch (category) {
     case "Whiskey":
-      // Barrel / cask shape
       return (
         <svg {...props}>
           <ellipse cx="10" cy="5" rx="5" ry="2" />
@@ -36,7 +35,6 @@ function SpiritIcon({ category }: { category: string }) {
         </svg>
       );
     case "Gin":
-      // Botanicals / juniper berry cluster
       return (
         <svg {...props}>
           <circle cx="10" cy="7" r="2.5" />
@@ -48,7 +46,6 @@ function SpiritIcon({ category }: { category: string }) {
         </svg>
       );
     case "Rum":
-      // Sugar cane stalk
       return (
         <svg {...props}>
           <line x1="10" y1="2" x2="10" y2="18" />
@@ -59,7 +56,6 @@ function SpiritIcon({ category }: { category: string }) {
         </svg>
       );
     case "Tequila":
-      // Agave plant
       return (
         <svg {...props}>
           <line x1="10" y1="18" x2="10" y2="8" />
@@ -71,7 +67,6 @@ function SpiritIcon({ category }: { category: string }) {
         </svg>
       );
     case "Vodka":
-      // Ice crystal / snowflake
       return (
         <svg {...props}>
           <line x1="10" y1="2" x2="10" y2="18" />
@@ -82,7 +77,6 @@ function SpiritIcon({ category }: { category: string }) {
         </svg>
       );
     case "Champagne":
-      // Champagne flute
       return (
         <svg {...props}>
           <path d="M7 2 L13 2 L11 11 L11 16 M9 16 L13 16" />
@@ -90,7 +84,6 @@ function SpiritIcon({ category }: { category: string }) {
         </svg>
       );
     case "Brandy":
-      // Brandy snifter
       return (
         <svg {...props}>
           <path d="M6 3 Q4 9 10 12 Q16 9 14 3 Z" />
@@ -99,7 +92,6 @@ function SpiritIcon({ category }: { category: string }) {
         </svg>
       );
     case "Mezcal":
-      // Smoking glass / mezcal worm
       return (
         <svg {...props}>
           <path d="M7 18 L8 8 L12 8 L13 18 Z" />
@@ -108,7 +100,6 @@ function SpiritIcon({ category }: { category: string }) {
         </svg>
       );
     default:
-      // Generic cocktail glass
       return (
         <svg {...props}>
           <path d="M5 3 L15 3 L11 11 L11 16 M8 16 L13 16" />
@@ -133,14 +124,15 @@ export function CategoryGrid({ categories }: CategoryGridProps) {
       {/* Hero tier — always visible */}
       <div className={styles.heroGrid} role="list">
         {heroCategories.map((cat) => (
-          <Link
-            key={cat}
-            href={`/cocktails?category=${encodeURIComponent(cat)}`}
-            className={`${styles.categoryCard} ${styles.heroCard}`}
-          >
-            <SpiritIcon category={cat} />
-            <span className={styles.categoryName}>{cat}</span>
-          </Link>
+          <div key={cat} role="listitem">
+            <Link
+              href={`/cocktails?category=${encodeURIComponent(cat)}`}
+              className={`${styles.categoryCard} ${styles.heroCard}`}
+            >
+              <SpiritIcon category={cat} />
+              <span className={styles.categoryName}>{cat}</span>
+            </Link>
+          </div>
         ))}
       </div>
 
@@ -156,14 +148,15 @@ export function CategoryGrid({ categories }: CategoryGridProps) {
       >
         <div className={styles.secondaryGrid} role="list">
           {secondaryCategories.map((cat) => (
-            <Link
-              key={cat}
-              href={`/cocktails?category=${encodeURIComponent(cat)}`}
-              className={styles.categoryCard}
-            >
-              <SpiritIcon category={cat} />
-              <span className={styles.categoryName}>{cat}</span>
-            </Link>
+            <div key={cat} role="listitem">
+              <Link
+                href={`/cocktails?category=${encodeURIComponent(cat)}`}
+                className={styles.categoryCard}
+              >
+                <SpiritIcon category={cat} />
+                <span className={styles.categoryName}>{cat}</span>
+              </Link>
+            </div>
           ))}
         </div>
       </div>
