@@ -172,19 +172,27 @@ jobs:
         run: |
           if [ "${{ github.ref_name }}" = "main" ]; then
             API_URL="https://bariq.co.uk"
+            # Resolve via Cloudflare's authoritative DNS (1.1.1.1) to bypass runner resolver caching
+            CF_IP=$(dig @1.1.1.1 bariq.co.uk +short | grep -v CNAME | head -1)
+            echo "Resolved bariq.co.uk -> $CF_IP (via 1.1.1.1)"
           else
             API_URL="${{ secrets.STAGING_API_URL }}"
+            CF_IP=""
           fi
-          echo "Waiting 15s for DNS propagation..."
-          sleep 15
+          echo "Waiting 10s for deployment to propagate..."
+          sleep 10
           for i in $(seq 1 12); do
-            STATUS=$(curl -sf "$API_URL/health" | python3 -c "import sys,json; print(json.load(sys.stdin).get('status',''))" 2>/dev/null)
+            if [ -n "$CF_IP" ]; then
+              STATUS=$(curl -sf --resolve "bariq.co.uk:443:$CF_IP" "$API_URL/health" | python3 -c "import sys,json; print(json.load(sys.stdin).get('status',''))" 2>/dev/null)
+            else
+              STATUS=$(curl -sf "$API_URL/health" | python3 -c "import sys,json; print(json.load(sys.stdin).get('status',''))" 2>/dev/null)
+            fi
             if [ "$STATUS" = "ok" ]; then
               echo "Health check passed: $API_URL/health"
               exit 0
             fi
-            echo "Attempt $i: not ready yet, retrying in 10s..."
+            echo "Attempt $i/12: not ready (status='$STATUS'), retrying in 10s..."
             sleep 10
           done
-          echo "Health check failed after 135s: $API_URL/health"
+          echo "Health check failed after 130s: $API_URL/health"
           exit 1
