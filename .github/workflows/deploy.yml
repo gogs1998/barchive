@@ -40,36 +40,62 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy apps/web/out --project-name=barchive --branch=${{ github.ref_name }} --commit-dirty=true
 
-      - name: Add custom domain to Pages project (production only)
+      - name: Wire custom domain to Pages (production only)
         if: github.ref_name == 'main'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           set +e
+          ZONE_ID="8c7d3457d3b5b5f1c1be246798f9df11"
+
           for DOMAIN in "bariq.co.uk" "www.bariq.co.uk"; do
-            echo "Ensuring $DOMAIN is a custom domain on the barchive Pages project..."
+            echo "=== Wiring $DOMAIN ==="
+
+            # 1. Add custom domain to Pages project (idempotent)
             RESULT=$(curl -sf -X POST \
               -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
               -H "Content-Type: application/json" \
               -d "{\"name\": \"$DOMAIN\"}" \
-              "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/barchive/domains" 2>&1)
-            echo "$RESULT" | python3 -c "
-          import sys, json
+              "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/barchive/domains" 2>&1 || true)
+            echo "Pages domain add: $(echo "$RESULT" | python3 -c "
+          import sys,json
           try:
-              d = json.loads(sys.stdin.read())
-              if d.get('success'):
-                  print('  Added successfully')
-              else:
-                  errs = d.get('errors', [])
-                  # Code 8000026 = domain already exists — that's fine
-                  if any(e.get('code') == 8000026 for e in errs):
-                      print('  Already configured (skipping)')
-                  else:
-                      print('  Warning:', errs)
-          except Exception as e:
-              print('  Could not parse response:', e)
-          " || true
+              d=json.loads(sys.stdin.read())
+              errs=d.get('errors',[])
+              if d.get('success'): print('added')
+              elif any(e.get('code')==8000026 for e in errs): print('already exists')
+              else: print('warn:', errs)
+          except: print('non-json response')
+          " 2>/dev/null || echo "parse error")"
+
+            # 2. Delete any A/CNAME records that would override Pages routing
+            for TYPE in A CNAME; do
+              IDS=$(curl -sf \
+                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+                "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$DOMAIN&type=$TYPE" \
+                | python3 -c "import sys,json; [print(r['id']) for r in json.load(sys.stdin).get('result',[])]" 2>/dev/null || true)
+              for RID in $IDS; do
+                echo "Deleting $TYPE $RID for $DOMAIN"
+                curl -sf -X DELETE \
+                  -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+                  "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$RID" > /dev/null 2>&1 || true
+              done
+            done
+
+            # 3. Cloudflare Pages manages its own CNAME — verify domain status
+            sleep 3
+            STATUS=$(curl -sf \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/barchive/domains" \
+              | python3 -c "
+          import sys,json
+          d=json.loads(sys.stdin.read())
+          for dom in d.get('result',[]):
+              if dom['name']=='$DOMAIN':
+                  print(dom.get('status','unknown'))
+          " 2>/dev/null || echo "unknown")
+            echo "$DOMAIN status: $STATUS"
           done
 
   deploy-api:
@@ -109,7 +135,6 @@ jobs:
           else
             DB="bariq-staging"
           fi
-          # Run all migrations in order; all use IF NOT EXISTS so they are idempotent
           for migration in migrations/d1/0001_initial_schema.sql \
                            migrations/d1/0002_auth_schema.sql \
                            migrations/d1/0003_favourites.sql \
