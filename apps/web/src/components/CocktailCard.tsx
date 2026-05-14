@@ -31,11 +31,8 @@ export function CocktailCard({
       className={styles.card}
       aria-label={`${cocktail.name} — ${cocktail.category}`}
     >
-      {/* Thumbnail */}
-      <div
-        className={`${styles.thumbnail} ${!hasImage ? gradientClass : ""}`}
-        aria-hidden="true"
-      >
+      {/* Thumbnail — no aria-hidden on this container; it holds interactive children */}
+      <div className={`${styles.thumbnail} ${!hasImage ? gradientClass : ""}`}>
         {hasImage && (
           <Image
             src={cocktail.img}
@@ -56,21 +53,21 @@ export function CocktailCard({
           />
         )}
 
-        {/* Shimmer skeleton — shown while image loads; hidden after */}
+        {/* Shimmer skeleton — purely decorative */}
         {hasImage && <div className={styles.skeleton} aria-hidden="true" />}
 
-        {/* Gradient overlay */}
-        <div className={styles.overlay} />
+        {/* Gradient overlay — decorative */}
+        <div className={styles.overlay} aria-hidden="true" />
 
-        {/* Category pill */}
-        <span className={styles.categoryPill}>{cocktail.category}</span>
+        {/* Category pill — decorative (card already has aria-label) */}
+        <span className={styles.categoryPill} aria-hidden="true">{cocktail.category}</span>
 
-        {/* Favourite button — absolute top-right */}
+        {/* Favourite button — interactive, must NOT be inside aria-hidden */}
         <div className={styles.favouriteWrap} onClick={(e) => e.preventDefault()}>
           <FavouriteButton slug={cocktail.slug} recipeName={cocktail.name} size="card" />
         </div>
 
-        {/* Makeable badge — bottom-left, shown when all ingredients available */}
+        {/* Makeable badge */}
         {makeable && (
           <span className={styles.makeableBadge} aria-label="You can make this">
             ✓ Can make
