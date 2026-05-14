@@ -27,15 +27,22 @@ database_id = "a1965723-88c2-497c-b100-095b80df59c6"
 # ── Production ──────────────────────────────────────────────────────────────
 [env.production]
 name = "bariq-api"
-# DNS transfer to Cloudflare confirmed complete (NS: ishaan/mira.ns.cloudflare.com)
-# Using zone_id to avoid "externally managed DNS records" error (wrangler code 100117).
+# Worker only handles /api/* and /health — all other paths served by Cloudflare Pages
 # zone_id for bariq.co.uk: 8c7d3457d3b5b5f1c1be246798f9df11
 [[env.production.routes]]
-pattern = "bariq.co.uk/*"
+pattern = "bariq.co.uk/api/*"
 zone_id = "8c7d3457d3b5b5f1c1be246798f9df11"
 
 [[env.production.routes]]
-pattern = "www.bariq.co.uk/*"
+pattern = "bariq.co.uk/health"
+zone_id = "8c7d3457d3b5b5f1c1be246798f9df11"
+
+[[env.production.routes]]
+pattern = "www.bariq.co.uk/api/*"
+zone_id = "8c7d3457d3b5b5f1c1be246798f9df11"
+
+[[env.production.routes]]
+pattern = "www.bariq.co.uk/health"
 zone_id = "8c7d3457d3b5b5f1c1be246798f9df11"
 
 [env.production.vars]
