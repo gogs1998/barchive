@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback } from "react";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { SearchBar } from "@/components/SearchBar";
 import { CocktailCard } from "@/components/CocktailCard";
 import { useAuth } from "@/lib/auth-context";
@@ -18,10 +19,34 @@ export function CocktailsClient({
   categories,
   glasses,
 }: CocktailsClientProps) {
-  const [query, setQuery] = useState("");
-  const [activeCategory, setActiveCategory] = useState("All");
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  // Initialise filters from URL params so deep-links like ?category=Gin work
+  const [query, setQuery] = useState(() => searchParams.get("q") ?? "");
+  const [activeCategory, setActiveCategoryState] = useState(() => {
+    const cat = searchParams.get("category") ?? "All";
+    return categories.includes(cat) ? cat : "All";
+  });
   const [activeGlass, setActiveGlass] = useState("All");
   const [canMakeFilter, setCanMakeFilter] = useState(false);
+
+  // Keep URL in sync when category changes
+  const setActiveCategory = useCallback(
+    (cat: string) => {
+      setActiveCategoryState(cat);
+      const params = new URLSearchParams(searchParams.toString());
+      if (cat === "All") {
+        params.delete("category");
+      } else {
+        params.set("category", cat);
+      }
+      const qs = params.toString();
+      router.replace(`${pathname}${qs ? `?${qs}` : ""}`, { scroll: false });
+    },
+    [router, pathname, searchParams]
+  );
 
   const { user, barIngredientData } = useAuth();
 

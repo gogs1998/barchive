@@ -52,7 +52,12 @@ export default async function IngredientsPage() {
             <ul className={styles.ingredientList} role="list">
               {groups[letter].map((ing) => (
                 <li key={ing.name} className={styles.ingredientItem}>
-                  <div className={styles.ingredientName}>{ing.name}</div>
+                  <Link
+                    href={`/ingredients/${ing.slug}`}
+                    className={styles.ingredientName}
+                  >
+                    {ing.name}
+                  </Link>
                   <div className={styles.cocktailLinks} aria-label={`Cocktails using ${ing.name}`}>
                     {ing.cocktails.map((c) => (
                       <Link

@@ -13,6 +13,7 @@ import {
   searchCocktails,
   getCocktailBySlug,
   getCocktailById,
+  slugify,
   type Cocktail,
 } from "./cocktails";
 
@@ -87,6 +88,7 @@ export async function getCocktailById_api(id: string): Promise<Cocktail | null> 
 
 export interface IngredientSummary {
   name: string;
+  slug: string;
   /** Number of cocktails that use this ingredient */
   cocktailCount: number;
   /** Cocktail slugs that use this ingredient */
@@ -103,8 +105,18 @@ export async function getIngredients(): Promise<IngredientSummary[]> {
     const cocktails = COCKTAILS.filter((c) =>
       c.ingredients.some((i) => i.name === name)
     ).map((c) => ({ name: c.name, slug: c.slug }));
-    return { name, cocktailCount: cocktails.length, cocktails };
+    return { name, slug: slugify(name), cocktailCount: cocktails.length, cocktails };
   });
+}
+
+/**
+ * Fetch a single ingredient by its URL slug.
+ * Returns null if not found.
+ */
+export async function getIngredient(slug: string): Promise<IngredientSummary | null> {
+  await delay(STUB_DELAY);
+  const all = await getIngredients();
+  return all.find((i) => i.slug === slug) ?? null;
 }
 
 /** Fetch all unique categories */
