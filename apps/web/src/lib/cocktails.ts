@@ -139,8 +139,10 @@ export function spiritGradientClass(category: string): string {
   return map[category] ?? "gradientDefault";
 }
 
-function slugify(name: string): string {
+export function slugify(name: string): string {
   return name
+    .normalize("NFD")           // decompose accented chars (é → e + combining accent)
+    .replace(/[\u0300-\u036f]/g, "") // strip combining diacritical marks
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");

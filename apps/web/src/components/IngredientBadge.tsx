@@ -15,7 +15,7 @@ export function IngredientBadge({
 }: IngredientBadgeProps) {
   return (
     <span className={`${styles.badge} ${className ?? ""}`}>
-      {amount && <span className={styles.amount}>{amount}</span>}
+      {amount && <><span className={styles.amount}>{amount}</span>{" "}</>}
       <span className={styles.name}>{name}</span>
     </span>
   );

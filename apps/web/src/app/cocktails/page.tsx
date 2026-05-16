@@ -5,7 +5,7 @@ import { getCocktails, getCategories, getGlasses } from "@/lib/api";
 
 export const metadata = {
   title: "Cocktails — BarIQ",
-  description: "Browse 80+ classic cocktail recipes filtered by spirit and glass.",
+  description: "Browse classic cocktail recipes filtered by spirit and glass.",
 };
 
 export default async function CocktailsPage() {
@@ -17,11 +17,13 @@ export default async function CocktailsPage() {
 
   return (
     <PageShell active="cocktails">
-      <CocktailsClient
-        initialCocktails={cocktails}
-        categories={categories}
-        glasses={glasses}
-      />
+      <Suspense fallback={null}>
+        <CocktailsClient
+          initialCocktails={cocktails}
+          categories={categories}
+          glasses={glasses}
+        />
+      </Suspense>
     </PageShell>
   );
 }

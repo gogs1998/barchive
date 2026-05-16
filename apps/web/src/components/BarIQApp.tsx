@@ -8,6 +8,7 @@
  */
 
 import { useState, useEffect, useCallback } from "react";
+import Link from "next/link";
 import { COCKTAILS, type Cocktail } from "@/lib/cocktails";
 import { THEMES, DEFAULT_THEME, type Theme, type ThemeKey } from "@/lib/themes";
 import { BarMode } from "@/components/BarMode";
@@ -160,15 +161,34 @@ export function BarIQApp() {
           flexWrap: "wrap",
         }}
       >
-        <div
-          style={{
-            fontFamily: theme.display,
-            fontSize: 26,
-            fontStyle: "italic",
-            color: theme.accent,
-          }}
-        >
-          BarIQ
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+          <Link
+            href="/"
+            style={{
+              fontSize: 11,
+              color: theme.muted,
+              textDecoration: "none",
+              fontFamily: theme.mono,
+              letterSpacing: 1,
+              textTransform: "uppercase",
+              opacity: 0.7,
+            }}
+            aria-label="Exit Bar Mode, return to home"
+          >
+            ← Home
+          </Link>
+          <h1
+            style={{
+              fontFamily: theme.display,
+              fontSize: 26,
+              fontStyle: "italic",
+              color: theme.accent,
+              margin: 0,
+              lineHeight: 1,
+            }}
+          >
+            BarIQ
+          </h1>
         </div>
 
         {/* Search */}

@@ -42,7 +42,7 @@ export default async function HomePage() {
             BarIQ
           </h1>
           <p className={styles.heroSub}>
-            80+ classic cocktail recipes. Search, browse, and mix with
+            79 classic cocktail recipes. Search, browse, and mix with
             confidence.
           </p>
           <div className={styles.heroActions}>
