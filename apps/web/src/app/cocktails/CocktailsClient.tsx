@@ -23,11 +23,16 @@ export function CocktailsClient({
   const router = useRouter();
   const pathname = usePathname();
 
-  // Initialise filters from URL params so deep-links like ?category=Gin work
+  // Initialise filters from URL params so deep-links like ?category=gin work.
+  // Match case-insensitively so ?category=gin matches stored "Gin".
   const [query, setQuery] = useState(() => searchParams.get("q") ?? "");
   const [activeCategory, setActiveCategoryState] = useState(() => {
-    const cat = searchParams.get("category") ?? "All";
-    return categories.includes(cat) ? cat : "All";
+    const cat = searchParams.get("category") ?? "";
+    if (!cat) return "All";
+    const matched = categories.find(
+      (c) => c.toLowerCase() === cat.toLowerCase()
+    );
+    return matched ?? "All";
   });
   const [activeGlass, setActiveGlass] = useState("All");
   const [canMakeFilter, setCanMakeFilter] = useState(false);
