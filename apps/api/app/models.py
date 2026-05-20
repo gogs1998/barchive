@@ -1,7 +1,7 @@
 import uuid
 from datetime import datetime
 
-from sqlalchemy import String, Text, ForeignKey, DateTime, Boolean, func
+from sqlalchemy import String, Text, ForeignKey, DateTime, Boolean, Float, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy.dialects.postgresql import UUID
 
@@ -96,6 +96,9 @@ class CocktailIngredient(Base):
     quantity: Mapped[str | None] = mapped_column(String(50))
     unit: Mapped[str | None] = mapped_column(String(50))
     notes: Mapped[str | None] = mapped_column(Text)
+    # BAR-55: structured numeric quantity and normalised unit enum
+    quantity_num: Mapped[float | None] = mapped_column(Float, nullable=True)
+    unit_norm: Mapped[str | None] = mapped_column(String(20), nullable=True)
 
     cocktail: Mapped["Cocktail"] = relationship(back_populates="ingredients")
     ingredient: Mapped["Ingredient"] = relationship(back_populates="cocktail_links")

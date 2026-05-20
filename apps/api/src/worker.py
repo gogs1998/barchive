@@ -121,7 +121,9 @@ async def handle_get_cocktail(request, env, slug):
     ingredients = await d1_all(
         env.DB,
         """
-        SELECT i.id AS ingredient_id, i.name, i.category, ci.quantity, ci.unit, ci.notes
+        SELECT i.id AS ingredient_id, i.name, i.category,
+               ci.quantity, ci.unit, ci.notes,
+               ci.quantity_num, ci.unit_norm
         FROM cocktail_ingredients ci
         JOIN ingredients i ON i.id = ci.ingredient_id
         WHERE ci.cocktail_id = ?

@@ -87,6 +87,7 @@ CREATE TABLE cocktail_ingredients (
     cocktail_id TEXT NOT NULL REFERENCES cocktails(id) ON DELETE CASCADE,
     ingredient_id TEXT NOT NULL REFERENCES ingredients(id) ON DELETE CASCADE,
     quantity TEXT, unit TEXT, notes TEXT,
+    quantity_num REAL, unit_norm TEXT,
     PRIMARY KEY (cocktail_id, ingredient_id)
 );
 CREATE TABLE cocktail_tags (
@@ -199,16 +200,16 @@ async def seed(conn: aiosqlite.Connection):
         (martini_id, "Martini", "martini", "Gin and vermouth.", "Stir.", "Olive", "Martini glass"),
     )
     await conn.execute(
-        "INSERT INTO cocktail_ingredients (cocktail_id, ingredient_id, quantity, unit) VALUES (?,?,?,?)",
-        (negroni_id, gin_id, "30", "ml"),
+        "INSERT INTO cocktail_ingredients (cocktail_id, ingredient_id, quantity, unit, quantity_num, unit_norm) VALUES (?,?,?,?,?,?)",
+        (negroni_id, gin_id, "30", "ml", 30.0, "ml"),
     )
     await conn.execute(
-        "INSERT INTO cocktail_ingredients (cocktail_id, ingredient_id, quantity, unit) VALUES (?,?,?,?)",
-        (negroni_id, campari_id, "30", "ml"),
+        "INSERT INTO cocktail_ingredients (cocktail_id, ingredient_id, quantity, unit, quantity_num, unit_norm) VALUES (?,?,?,?,?,?)",
+        (negroni_id, campari_id, "30", "ml", 30.0, "ml"),
     )
     await conn.execute(
-        "INSERT INTO cocktail_ingredients (cocktail_id, ingredient_id, quantity, unit) VALUES (?,?,?,?)",
-        (negroni_id, vermouth_id, "30", "ml"),
+        "INSERT INTO cocktail_ingredients (cocktail_id, ingredient_id, quantity, unit, quantity_num, unit_norm) VALUES (?,?,?,?,?,?)",
+        (negroni_id, vermouth_id, "30", "ml", 30.0, "ml"),
     )
     await conn.execute(
         "INSERT INTO cocktail_tags (cocktail_id, tag_id) VALUES (?,?)", (negroni_id, tag_stirred_id)
@@ -346,6 +347,24 @@ async def test_get_cocktail_ingredients_detail(env):
     assert "Gin" in names
     assert "Campari" in names
     assert "Sweet Vermouth" in names
+
+
+@pytest.mark.asyncio
+async def test_get_cocktail_ingredients_structured_quantity(env):
+    """BAR-55: quantity_num and unit_norm are present in each ingredient."""
+    fake_env, conn = env
+    await seed(conn)
+    resp = await worker.on_fetch(req("/api/v1/cocktails/negroni"), fake_env)
+    assert resp.status == 200
+    data = resp.json()
+    for ing in data["ingredients"]:
+        assert "quantity_num" in ing, f"quantity_num missing from ingredient {ing['name']}"
+        assert "unit_norm" in ing, f"unit_norm missing from ingredient {ing['name']}"
+        assert ing["quantity_num"] == 30.0, f"Expected 30.0, got {ing['quantity_num']}"
+        assert ing["unit_norm"] == "ml", f"Expected ml, got {ing['unit_norm']}"
+        # Legacy fields still present
+        assert ing["quantity"] == "30"
+        assert ing["unit"] == "ml"
 
 
 @pytest.mark.asyncio
