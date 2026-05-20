@@ -11,6 +11,7 @@ import { PageShell } from "@/components/PageShell";
 import { BuildView } from "@/components/BuildView";
 import { FavouriteButton } from "@/components/FavouriteButton";
 import RecipeScaler from "@/components/RecipeScaler";
+import IngredientSubstitutes from "@/components/IngredientSubstitutes";
 import type { Cocktail, Ingredient } from "@/lib/cocktails";
 import type { ReactNode } from "react";
 
@@ -699,6 +700,67 @@ describe("RecipeScaler", () => {
   it("renders correct aria label for ingredient list", () => {
     render(<RecipeScaler ingredients={ingredients} />);
     expect(screen.getByRole("list", { name: /3 ingredients/i })).toBeInTheDocument();
+  });
+});
+
+// ─── IngredientSubstitutes ────────────────────────────────────────────────────
+describe("IngredientSubstitutes", () => {
+  it("renders nothing for an ingredient with no substitutes", () => {
+    const { container } = render(<IngredientSubstitutes ingredientName="Soda Water" />);
+    expect(container.firstChild).toBeNull();
+  });
+
+  it("renders a disclosure for an ingredient with substitutes (Campari)", () => {
+    render(<IngredientSubstitutes ingredientName="Campari" />);
+    const details = document.querySelector("details");
+    expect(details).toBeInTheDocument();
+    expect(screen.getByText(/Substitutes for Campari/i)).toBeInTheDocument();
+  });
+
+  it("is collapsed by default", () => {
+    render(<IngredientSubstitutes ingredientName="Campari" />);
+    const details = document.querySelector("details");
+    expect(details).not.toHaveAttribute("open");
+  });
+
+  it("expanding reveals substitute entries for Campari", () => {
+    render(<IngredientSubstitutes ingredientName="Campari" />);
+    const summary = screen.getByText(/Substitutes for/i).closest("summary")!;
+    fireEvent.click(summary);
+    expect(screen.getByText("Aperol")).toBeInTheDocument();
+    expect(screen.getByText("Gran Classico")).toBeInTheDocument();
+  });
+
+  it("shows parity badge for each substitute", () => {
+    render(<IngredientSubstitutes ingredientName="Campari" />);
+    const summary = screen.getByText(/Substitutes for/i).closest("summary")!;
+    fireEvent.click(summary);
+    // Aperol is 'close', Gran Classico is 'equal'
+    const badges = screen.getAllByText(/equal|close|different/);
+    expect(badges.length).toBeGreaterThanOrEqual(2);
+  });
+
+  it("renders substitutes for Sweet Vermouth", () => {
+    render(<IngredientSubstitutes ingredientName="Sweet Vermouth" />);
+    expect(document.querySelector("details")).toBeInTheDocument();
+  });
+
+  it("case-insensitive match — 'campari' matches 'Campari' entry", () => {
+    render(<IngredientSubstitutes ingredientName="campari" />);
+    expect(document.querySelector("details")).toBeInTheDocument();
+  });
+
+  it("RecipeScaler shows substitutes inline after Campari row", () => {
+    const ings: Ingredient[] = [
+      { name: "Campari", amount: "1 oz", qty: 1, unit: "oz" },
+      { name: "Soda Water", amount: "2 oz", qty: 2, unit: "oz" },
+    ];
+    render(<RecipeScaler ingredients={ings} />);
+    // Campari row should have a substitutes disclosure
+    expect(screen.getByText(/Substitutes for/i)).toBeInTheDocument();
+    // Soda Water row should not (no substitutes)
+    const allDetails = document.querySelectorAll("details");
+    expect(allDetails).toHaveLength(1);
   });
 });
 

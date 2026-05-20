@@ -3,6 +3,7 @@
 import { useState, useId } from "react";
 import type { Ingredient } from "@/lib/cocktails";
 import { scaleAmount, MULTIPLIER_PRESETS, type DisplayUnit } from "@/lib/scaler";
+import IngredientSubstitutes from "./IngredientSubstitutes";
 import styles from "./RecipeScaler.module.css";
 
 interface Props {
@@ -123,6 +124,7 @@ export default function RecipeScaler({ ingredients }: Props) {
             <li key={ing.name} className={styles.item}>
               <span className={styles.amount}>{scaled}</span>
               <span className={styles.name}>{ing.name}</span>
+              <IngredientSubstitutes ingredientName={ing.name} />
             </li>
           );
         })}

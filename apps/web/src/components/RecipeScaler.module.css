@@ -161,10 +161,18 @@
 
 .item {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--space-3);
   align-items: baseline;
   padding: var(--space-2) 0;
   border-bottom: 1px solid var(--border);
+}
+
+/* IngredientSubstitutes sits below the amount+name row */
+.item > details {
+  flex: 0 0 100%;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .item:last-child {
