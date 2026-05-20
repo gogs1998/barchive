@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
-import { IngredientBadge } from "@/components/IngredientBadge";
+import RecipeScaler from "@/components/RecipeScaler";
 import { FavouriteButton } from "@/components/FavouriteButton";
 import { getCocktail } from "@/lib/api";
 import { COCKTAILS } from "@/lib/cocktails";
@@ -130,27 +130,10 @@ export default async function CocktailDetailPage({ params }: Props) {
 
           {/* Two-column layout: ingredients + steps */}
           <div className={styles.recipe}>
-            {/* Ingredients */}
-            <section
-              className={styles.ingredientsSection}
-              aria-labelledby="ingredients-heading"
-            >
-              <h2 id="ingredients-heading" className={styles.sectionTitle}>
-                Ingredients
-              </h2>
-              <ul
-                className={styles.ingredientList}
-                itemProp="recipeIngredient"
-                role="list"
-                aria-label={`${cocktail.ingredients.length} ingredient${cocktail.ingredients.length !== 1 ? "s" : ""}`}
-              >
-                {cocktail.ingredients.map((ing) => (
-                  <li key={ing.name} className={styles.ingredientItem}>
-                    <IngredientBadge name={ing.name} amount={ing.amount} />
-                  </li>
-                ))}
-              </ul>
-            </section>
+            {/* Ingredients with batch scaler */}
+            <div className={styles.ingredientsSection}>
+              <RecipeScaler ingredients={cocktail.ingredients} />
+            </div>
 
             {/* Method */}
             <section

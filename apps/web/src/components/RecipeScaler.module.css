@@ -1,0 +1,209 @@
+/* RecipeScaler.module.css */
+
+.root {
+  /* inherits sectionTitle from detail page via className passthrough */
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--text);
+  margin-bottom: var(--space-4);
+}
+
+/* Controls wrapper */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+/* Pill row (multiplier) */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 var(--space-3);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  font-size: 0.8125rem;
+  font-family: var(--font-mono);
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 150ms ease, border-color 150ms ease, color 150ms ease;
+}
+
+.pill:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.pill:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.pillActive {
+  background: rgba(200, 155, 92, 0.12);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Custom multiplier input */
+.customInput {
+  display: inline-flex;
+  align-items: center;
+  width: 64px;
+  min-height: 44px;
+  padding: 0 var(--space-3);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  font-size: 0.8125rem;
+  font-family: var(--font-mono);
+  color: var(--text);
+  text-align: center;
+  /* Remove spinner arrows */
+  -moz-appearance: textfield;
+}
+
+.customInput::-webkit-outer-spin-button,
+.customInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.customInput::placeholder {
+  color: var(--muted);
+}
+
+.customInput:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-color: var(--accent);
+}
+
+/* Unit toggle row (segmented control style) */
+.unitRow {
+  display: flex;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+  width: fit-content;
+}
+
+.unitBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 36px;
+  padding: 0 var(--space-4);
+  background: var(--surface);
+  border: none;
+  border-right: 1px solid var(--border);
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 150ms ease, color 150ms ease;
+}
+
+.unitBtn:last-child {
+  border-right: none;
+}
+
+.unitBtn:hover {
+  color: var(--accent);
+}
+
+.unitBtn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.unitBtnActive {
+  background: rgba(200, 155, 92, 0.12);
+  color: var(--accent);
+}
+
+/* Ingredient list */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  gap: var(--space-3);
+  align-items: baseline;
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.amount {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: var(--accent);
+  min-width: 5ch;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+  transition: color 120ms ease;
+}
+
+.name {
+  font-size: 0.9375rem;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+/* Screen-reader only */
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+  .sectionTitle {
+    font-size: 1.25rem;
+  }
+
+  .pill,
+  .customInput {
+    min-height: 48px;
+  }
+
+  .unitBtn {
+    min-height: 40px;
+    min-width: 48px;
+  }
+}
