@@ -24,9 +24,18 @@
 /* Pill row (multiplier) */
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   gap: var(--space-2);
   align-items: center;
+  /* Hide scrollbar visually but keep it functional */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
 }
 
 .pill {
