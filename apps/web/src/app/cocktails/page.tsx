@@ -8,17 +8,11 @@ export const metadata = {
   description: "Browse classic cocktail recipes filtered by spirit and glass.",
 };
 
-// searchParams is a Promise in Next.js 15 App Router
-interface CocktailsPageProps {
-  searchParams: Promise<{ category?: string; q?: string }>;
-}
-
-export default async function CocktailsPage({ searchParams }: CocktailsPageProps) {
-  // Await searchParams so the page is correctly parameterised server-side.
-  // We still fetch all cocktails so client-side filter switching works without
-  // a network round-trip (dataset is small: ~79 cocktails).
-  await searchParams;
-
+export default async function CocktailsPage() {
+  // Fetch all cocktails so client-side filter switching works without a
+  // network round-trip (dataset is small: ~79 cocktails).
+  // The ?category= URL param is read client-side by CocktailsClient via
+  // useSearchParams(), which handles deep-links and chip clicks correctly.
   const [{ cocktails }, categories, glasses] = await Promise.all([
     getCocktails({ pageSize: 500 }),
     getCategories(),
