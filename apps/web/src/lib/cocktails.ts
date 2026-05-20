@@ -5,7 +5,12 @@
 
 export interface Ingredient {
   name: string;
+  /** Raw display amount string, e.g. "2 oz", "0.75 oz", "top", "rim" */
   amount: string;
+  /** Parsed numeric quantity in the base unit (oz). null for non-numeric amounts. */
+  qty: number | null;
+  /** Normalised base unit (oz, tsp, tbsp, dash, ml, cl) or null if not numeric. */
+  unit: string | null;
 }
 
 export interface Cocktail {
@@ -148,6 +153,35 @@ export function slugify(name: string): string {
     .replace(/^-|-$/g, "");
 }
 
+/**
+ * Parse a raw amount string into a numeric quantity and normalised unit.
+ * Returns { qty: null, unit: null } for non-numeric amounts (garnish, "top", "rim", etc.)
+ *
+ * Supported unit tokens (case-insensitive): oz, ml, cl, tsp, tbsp, dash, dashes
+ * Numeric prefixes: integers, decimals, and simple fractions (1/2, 3/4, etc.)
+ */
+export function parseAmount(amount: string): { qty: number | null; unit: string | null } {
+  const s = amount.trim().toLowerCase();
+
+  // Match optional fraction or decimal, then a unit
+  // e.g. "2 oz", "0.75 oz", "1/2 oz", "2 dashes", "15 ml"
+  const match = s.match(/^(\d+(?:\.\d+)?|\d+\/\d+)\s*(oz|ml|cl|tsp|tbsp|dashes?|dash)$/);
+  if (!match) return { qty: null, unit: null };
+
+  const [, numStr, rawUnit] = match;
+  let qty: number;
+  if (numStr.includes("/")) {
+    const [num, den] = numStr.split("/").map(Number);
+    qty = num / den;
+  } else {
+    qty = parseFloat(numStr);
+  }
+
+  // Normalise unit token
+  const unit = rawUnit === "dashes" ? "dash" : rawUnit;
+  return { qty, unit };
+}
+
 function C(
   id: string,
   name: string,
@@ -169,7 +203,10 @@ function C(
     glass,
     img: img(imgKey),
     color,
-    ingredients: rawIngredients.map(([n, a]) => ({ name: n, amount: a })),
+    ingredients: rawIngredients.map(([n, a]) => {
+      const { qty, unit } = parseAmount(a);
+      return { name: n, amount: a, qty, unit };
+    }),
     steps,
     tags,
     abv,

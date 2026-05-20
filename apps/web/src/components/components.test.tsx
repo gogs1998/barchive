@@ -1,4 +1,4 @@
-import { render, screen, within, fireEvent, act, waitFor } from "@testing-library/react";
+import { render, screen, within, fireEvent, act, waitFor, cleanup } from "@testing-library/react";
 import { describe, it, expect, vi } from "vitest";
 import { CategoryGrid } from "@/components/CategoryGrid";
 import { Header } from "@/components/Header";
@@ -10,7 +10,8 @@ import { CocktailCard } from "@/components/CocktailCard";
 import { PageShell } from "@/components/PageShell";
 import { BuildView } from "@/components/BuildView";
 import { FavouriteButton } from "@/components/FavouriteButton";
-import type { Cocktail } from "@/lib/cocktails";
+import RecipeScaler from "@/components/RecipeScaler";
+import type { Cocktail, Ingredient } from "@/lib/cocktails";
 import type { ReactNode } from "react";
 
 // ─── Mock auth-context so components under test don't need a real provider ───
@@ -87,10 +88,10 @@ const mockCocktail: Cocktail = {
   img: "https://example.com/img.jpg",
   color: "#D4A56A",
   ingredients: [
-    { name: "Bourbon", amount: "2 oz" },
-    { name: "Lemon Juice", amount: "0.75 oz" },
-    { name: "Simple Syrup", amount: "0.75 oz" },
-    { name: "Egg White", amount: "1" },
+    { name: "Bourbon", amount: "2 oz", qty: 2, unit: "oz" },
+    { name: "Lemon Juice", amount: "0.75 oz", qty: 0.75, unit: "oz" },
+    { name: "Simple Syrup", amount: "0.75 oz", qty: 0.75, unit: "oz" },
+    { name: "Egg White", amount: "1", qty: null, unit: null },
   ],
   steps: ["Dry shake.", "Add ice.", "Shake hard.", "Strain."],
   tags: ["classic", "citrus"],
@@ -428,6 +429,35 @@ describe("HeaderSearch", () => {
     expect(mockPush).toHaveBeenCalledWith(expect.stringMatching(/\/cocktails\//));
   });
 
+  it("navigates to /cocktails?q= on Enter with no highlighted option", async () => {
+    mockPush.mockClear();
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "mojito" } });
+    await waitFor(() => expect(screen.getByRole("listbox")).toBeInTheDocument());
+    // Press Enter without arrowing down (activeIndex = -1)
+    fireEvent.keyDown(input, { key: "Enter" });
+    expect(mockPush).toHaveBeenCalledWith("/cocktails?q=mojito");
+  });
+
+  it("navigates to /cocktails?q= on Enter even when dropdown is not open", async () => {
+    mockPush.mockClear();
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    // Type a query that yields no results so dropdown closes
+    fireEvent.change(input, { target: { value: "xyzzy" } });
+    fireEvent.keyDown(input, { key: "Enter" });
+    expect(mockPush).toHaveBeenCalledWith("/cocktails?q=xyzzy");
+  });
+
+  it("does not navigate on Enter when query is empty", () => {
+    mockPush.mockClear();
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.keyDown(input, { key: "Enter" });
+    expect(mockPush).not.toHaveBeenCalled();
+  });
+
   it("has role=listbox with aria-live=polite on results", async () => {
     render(<HeaderSearch />);
     const input = screen.getByRole("combobox");
@@ -601,6 +631,74 @@ describe("FavouriteButton", () => {
   it("has type=button to avoid accidental form submit", () => {
     render(<FavouriteButton slug="martini" recipeName="Martini" />);
     expect(screen.getByRole("button")).toHaveAttribute("type", "button");
+  });
+});
+
+// ─── RecipeScaler ─────────────────────────────────────────────────────────────
+describe("RecipeScaler", () => {
+  const ingredients: Ingredient[] = [
+    { name: "Gin", amount: "1.5 oz", qty: 1.5, unit: "oz" },
+    { name: "Vermouth", amount: "0.75 oz", qty: 0.75, unit: "oz" },
+    { name: "Ice", amount: "a handful", qty: null, unit: null },
+  ];
+
+  it("renders Ingredients heading", () => {
+    render(<RecipeScaler ingredients={ingredients} />);
+    expect(screen.getByRole("heading", { name: /ingredients/i })).toBeInTheDocument();
+  });
+
+  it("renders all ingredient names", () => {
+    render(<RecipeScaler ingredients={ingredients} />);
+    expect(screen.getByText("Gin")).toBeInTheDocument();
+    expect(screen.getByText("Vermouth")).toBeInTheDocument();
+    expect(screen.getByText("Ice")).toBeInTheDocument();
+  });
+
+  it("renders multiplier preset buttons", () => {
+    render(<RecipeScaler ingredients={ingredients} />);
+    expect(screen.getByRole("button", { name: "1×" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "2×" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "4×" })).toBeInTheDocument();
+  });
+
+  it("renders unit toggle buttons (oz, ml, cl)", () => {
+    render(<RecipeScaler ingredients={ingredients} />);
+    expect(screen.getByRole("button", { name: "oz" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "ml" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "cl" })).toBeInTheDocument();
+  });
+
+  it("clicking 2× preset marks it as active", () => {
+    render(<RecipeScaler ingredients={ingredients} />);
+    const btn2x = screen.getByRole("button", { name: "2×" });
+    fireEvent.click(btn2x);
+    expect(btn2x).toHaveAttribute("aria-pressed", "true");
+  });
+
+  it("switching unit to ml updates aria-pressed on ml button", () => {
+    render(<RecipeScaler ingredients={ingredients} />);
+    const mlBtn = screen.getByRole("button", { name: "ml" });
+    fireEvent.click(mlBtn);
+    expect(mlBtn).toHaveAttribute("aria-pressed", "true");
+  });
+
+  it("custom multiplier input overrides preset when valid", () => {
+    render(<RecipeScaler ingredients={ingredients} />);
+    const customInput = screen.getByRole("spinbutton", { name: /custom batch multiplier/i });
+    fireEvent.change(customInput, { target: { value: "3" } });
+    // 3× is not a preset so no preset should be active
+    const btn1x = screen.getByRole("button", { name: "1×" });
+    expect(btn1x).toHaveAttribute("aria-pressed", "false");
+  });
+
+  it("non-numeric amounts (no qty) render unchanged", () => {
+    render(<RecipeScaler ingredients={ingredients} />);
+    expect(screen.getByText("a handful")).toBeInTheDocument();
+  });
+
+  it("renders correct aria label for ingredient list", () => {
+    render(<RecipeScaler ingredients={ingredients} />);
+    expect(screen.getByRole("list", { name: /3 ingredients/i })).toBeInTheDocument();
   });
 });
 

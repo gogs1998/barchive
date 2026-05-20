@@ -88,6 +88,44 @@ test.describe("Browse cocktails", () => {
     await expect(page.getByText("Negroni", { exact: true })).toBeVisible();
     await expect(page.getByText("Margarita", { exact: true })).toBeHidden();
   });
+
+  // BAR-51: ?category= URL param must initialise the category filter correctly,
+  // including case-insensitive matching (e.g. ?category=gin should match "Gin").
+  test("?category= URL param filters cocktails on page load (case-insensitive)", async ({ page }) => {
+    // Navigate directly with a lowercase category param
+    await page.goto("/cocktails?category=gin");
+
+    // The "Gin" chip should be active (aria-pressed="true")
+    const ginChip = page.getByRole("button", { name: "Gin" });
+    await expect(ginChip).toBeVisible();
+    await expect(ginChip).toHaveAttribute("aria-pressed", "true");
+
+    // At least one gin cocktail (Negroni is Gin category) should appear
+    await expect(page.getByText("Negroni", { exact: true })).toBeVisible();
+  });
+
+  test("clicking a category chip updates the URL ?category= param", async ({ page }) => {
+    await page.goto("/cocktails");
+
+    // Click the Gin chip
+    const ginChip = page.getByRole("button", { name: "Gin" });
+    await ginChip.click();
+
+    // URL should now include ?category=Gin
+    await expect(page).toHaveURL(/[?&]category=Gin/);
+    await expect(ginChip).toHaveAttribute("aria-pressed", "true");
+  });
+
+  test("refreshing with ?category= param preserves the filter", async ({ page }) => {
+    await page.goto("/cocktails?category=Gin");
+
+    const ginChip = page.getByRole("button", { name: "Gin" });
+    await expect(ginChip).toHaveAttribute("aria-pressed", "true");
+
+    // Reload and check filter is still active
+    await page.reload();
+    await expect(ginChip).toHaveAttribute("aria-pressed", "true");
+  });
 });
 
 // ---------------------------------------------------------------------------

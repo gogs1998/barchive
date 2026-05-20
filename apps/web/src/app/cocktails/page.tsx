@@ -9,8 +9,11 @@ export const metadata = {
 };
 
 export default async function CocktailsPage() {
+  // Fetch all data at build time; CocktailsClient reads ?category= and ?q=
+  // from the URL client-side (useSearchParams). Dataset is small (~79 cocktails)
+  // so full prefetch is fine.
   const [{ cocktails }, categories, glasses] = await Promise.all([
-    getCocktails({ pageSize: 100 }),
+    getCocktails({ pageSize: 500 }),
     getCategories(),
     getGlasses(),
   ]);
