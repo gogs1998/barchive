@@ -428,6 +428,35 @@ describe("HeaderSearch", () => {
     expect(mockPush).toHaveBeenCalledWith(expect.stringMatching(/\/cocktails\//));
   });
 
+  it("navigates to /cocktails?q= on Enter with no highlighted option", async () => {
+    mockPush.mockClear();
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.change(input, { target: { value: "mojito" } });
+    await waitFor(() => expect(screen.getByRole("listbox")).toBeInTheDocument());
+    // Press Enter without arrowing down (activeIndex = -1)
+    fireEvent.keyDown(input, { key: "Enter" });
+    expect(mockPush).toHaveBeenCalledWith("/cocktails?q=mojito");
+  });
+
+  it("navigates to /cocktails?q= on Enter even when dropdown is not open", async () => {
+    mockPush.mockClear();
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    // Type a query that yields no results so dropdown closes
+    fireEvent.change(input, { target: { value: "xyzzy" } });
+    fireEvent.keyDown(input, { key: "Enter" });
+    expect(mockPush).toHaveBeenCalledWith("/cocktails?q=xyzzy");
+  });
+
+  it("does not navigate on Enter when query is empty", () => {
+    mockPush.mockClear();
+    render(<HeaderSearch />);
+    const input = screen.getByRole("combobox");
+    fireEvent.keyDown(input, { key: "Enter" });
+    expect(mockPush).not.toHaveBeenCalled();
+  });
+
   it("has role=listbox with aria-live=polite on results", async () => {
     render(<HeaderSearch />);
     const input = screen.getByRole("combobox");
