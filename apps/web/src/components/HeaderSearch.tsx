@@ -59,6 +59,21 @@ export function HeaderSearch() {
   );
 
   function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      if (showResults && activeIndex >= 0 && results[activeIndex]) {
+        // A dropdown item is highlighted — navigate directly to it
+        navigate(results[activeIndex]);
+      } else if (query.trim().length >= 1) {
+        // No highlighted item — go to the cocktails search results page
+        const qs = new URLSearchParams({ q: query.trim() }).toString();
+        router.push(`/cocktails?${qs}`);
+        setOpen(false);
+        setExpanded(false);
+        setQuery("");
+      }
+      return;
+    }
     if (!showResults) return;
     if (e.key === "ArrowDown") {
       e.preventDefault();
@@ -66,11 +81,6 @@ export function HeaderSearch() {
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
       setActiveIndex((i) => Math.max(i - 1, -1));
-    } else if (e.key === "Enter") {
-      if (activeIndex >= 0 && results[activeIndex]) {
-        e.preventDefault();
-        navigate(results[activeIndex]);
-      }
     } else if (e.key === "Escape") {
       setOpen(false);
       setActiveIndex(-1);
