@@ -6,7 +6,7 @@ A bartender assistant website built on Cloudflare. Browse 79+ cocktails, use Bar
 
 **Live site:** https://bariq.co.uk  
 **GitHub:** https://github.com/gogs1998/barchive  
-**Paperclip company:** BAR prefix (this company)
+**Date:** 2026-06-21
 
 ---
 
@@ -21,21 +21,11 @@ A bartender assistant website built on Cloudflare. Browse 79+ cocktails, use Bar
 | Email | Resend (transactional: verification, password reset) |
 | CI/CD | GitHub Actions → Cloudflare deploy |
 
----
-
-## Team
-
-All agents are currently **paused (manual)**. To resume work, unpause them from the Paperclip UI.
-
-| Agent | Role | Reports to |
-|-------|------|------------|
-| CEO | Strategy, delegation, board comms | — |
-| CTO | Full technical stack, architecture | CEO |
-| UXDesigner | UX, design system, accessibility | CEO |
-| FrontendEngineer | Next.js components, UI, mobile | CTO |
-| BackendEngineer | Cloudflare Worker API, D1 schema | CTO |
-| DevOpsEngineer | CI/CD, Cloudflare infra, deploys | CTO |
-| QAEngineer | E2E tests, browser QA, sign-off | CTO |
+**Key files:**
+- `wrangler.toml` — Cloudflare Workers config (backend + D1 bindings)
+- Frontend deploys via Cloudflare Pages from the GitHub repo
+- D1 migrations at `backend/migrations/`
+- No Docker; no containers — full serverless on Cloudflare
 
 ---
 
@@ -60,15 +50,32 @@ All agents are currently **paused (manual)**. To resume work, unpause them from 
 ### Post-Phase 2 — Additional features
 - **Batch scaling + unit conversion** — scale recipes from 1–10 servings; oz/ml/cl toggle on recipe detail page
 - **Ingredient substitutions** — `IngredientSubstitutes` component on cocktail detail page; static curated data for 17 key ingredients
+- CORS fix on `/api/user/me`
+- Search Enter-key navigation fix
+- Mobile tap-target size fixes
 
 ---
 
-## Current open issues
+## Known bugs
+
+| Severity | Bug | Status |
+|----------|-----|--------|
+| **High** | Category URL param `?category=gin` does NOT filter server-side — chip buttons work, deep links/SEO broken | PR #12 ready, needs human merge approval |
+| Medium | `/bar-mode` route returns 404 — correct URL is `/bar` | Not started |
+| Medium | Ingredient links on cocktail detail go to `/ingredients` listing, not specific ingredient | Not started |
+| Medium | No "Add to Bar" action on cocktail detail page (product intent unclear) | Not started |
+| Low | Ingredient detail page title says "BarIQ Ingredients" (should be "Absinthe — BarIQ") | Not started |
+| Low | 404 page shows only "404" with no helpful copy or navigation | Not started |
+| Low/Med | Duplicate nav links (8 vs expected 4); icon-only links missing `aria-label` | Not started |
+
+---
+
+## Open issues
 
 ### BAR-51 — Category filter broken `?category=` (BLOCKED, CTO)
-Server-side category filtering is broken. The fix is **code-complete and CI is green**. Blocked because GitHub branch protection requires a human reviewer to approve and merge [PR #12](https://github.com/gogs1998/barchive/pull/12).
+Server-side category filtering is broken. The fix is **code-complete and CI is green**. Blocked because GitHub branch protection requires a human reviewer to approve and merge PR #12.
 
-**To unblock:** Approve and merge PR #12 on GitHub.
+**To unblock:** Approve and merge PR #12 on GitHub: https://github.com/gogs1998/barchive/pull/12
 
 ### BAR-46 — Phase 2 board review (IN_REVIEW, CEO)
 Board confirmed site is working as an alpha but flagged "lots of problems." Board wants a fresh browser QA pass with findings and a feedback loop before next sprint.
@@ -77,9 +84,26 @@ Board confirmed site is working as an alpha but flagged "lots of problems." Boar
 
 ---
 
+## Team
+
+All agents are currently **paused (manual)**. To resume work, unpause them from the Paperclip UI.
+
+| Agent | Role | Reports to |
+|-------|------|------------|
+| CEO | Strategy, delegation, board comms | — |
+| CTO | Full technical stack, architecture | CEO |
+| UXDesigner | UX, design system, accessibility | CEO |
+| FrontendEngineer | Next.js components, UI, mobile | CTO |
+| BackendEngineer | Cloudflare Worker API, D1 schema | CTO |
+| DevOpsEngineer | CI/CD, Cloudflare infra, deploys | CTO |
+| QAEngineer | E2E tests, browser QA, sign-off | CTO |
+
+---
+
 ## How to resume
 
-1. **Approve PR #12** — https://github.com/gogs1998/barchive/pull/12 (fixes BAR-51 category filter)
+1. **Approve PR #12** — https://github.com/gogs1998/barchive/pull/12  
+   Fixes BAR-51 (category URL filter). Branch protection requires a human approving review before merge.
 2. **Unpause agents** from Paperclip UI — start with CTO; QAEngineer and FrontendEngineer will follow
 3. **Comment on BAR-46** to give direction on next priorities (the board asked for more QA; the QAEngineer will do a browser pass and report back)
 4. Optional: run `wrangler dev` locally from `apps/api/` or browse live at https://bariq.co.uk
@@ -88,11 +112,11 @@ Board confirmed site is working as an alpha but flagged "lots of problems." Boar
 
 ## Costs
 
-$3.64 spent this month, no hard budget limit set. All agents are on `github-copilot/claude-sonnet-4.6` via the opencode_local adapter.
+~$3.64 spent this month, no hard budget limit set. All agents are on `github-copilot/claude-sonnet-4.6` via the opencode_local adapter.
 
 ---
 
-## Key issue history (for context)
+## Key issue history
 
 | Issue | What | Status |
 |-------|------|--------|
