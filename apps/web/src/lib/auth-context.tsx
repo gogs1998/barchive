@@ -81,6 +81,10 @@ interface AuthContextValue {
   barLoading: boolean;
   addBarIngredient: (id: string) => Promise<void>;
   removeBarIngredient: (id: string) => Promise<void>;
+  /** Replace the whole bar at once (guest-only; writes localStorage + state). */
+  setGuestBar: (items: BarIngredientAPI[]) => void;
+  /** Best-effort migration of the guest bar into the account (used after sign-up). */
+  migrateGuestBar: () => Promise<void>;
   /** Favourite cocktail slugs (localStorage until backend endpoint ships) */
   favourites: string[];
   toggleFavourite: (slug: string) => void;
@@ -91,6 +95,7 @@ const AuthContext = createContext<AuthContextValue | null>(null);
 // ─── localStorage helpers (favourites only) ──────────────────────────────────
 
 const STUB_FAV_KEY = "bariq_stub_favs";
+const GUEST_BAR_KEY = "bariq_guest_bar";
 
 function loadStringSet(key: string): string[] {
   if (typeof window === "undefined") return [];
@@ -104,6 +109,21 @@ function loadStringSet(key: string): string[] {
 function saveStringSet(key: string, values: string[]) {
   if (typeof window === "undefined") return;
   localStorage.setItem(key, JSON.stringify(values));
+}
+
+function loadJSON<T>(key: string, fallback: T): T {
+  if (typeof window === "undefined") return fallback;
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? (JSON.parse(raw) as T) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function saveJSON<T>(key: string, value: T) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(key, JSON.stringify(value));
 }
 
 // ─── Map AuthUser → User ──────────────────────────────────────────────────────
@@ -147,7 +167,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // Fetch bar ingredients from API when user changes
   useEffect(() => {
     if (!user) {
-      setBarIngredientData([]);
+      // Guest: hydrate the bar from localStorage so it persists across visits.
+      setBarIngredientData(loadJSON<BarIngredientAPI[]>(GUEST_BAR_KEY, []));
       return;
     }
     setBarLoading(true);
@@ -168,6 +189,28 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setModalOpen(false);
   }, []);
 
+  // Best-effort migration of a guest bar into the account on sign-in.
+  const migrateGuestBar = useCallback(async () => {
+    const guestItems = loadJSON<BarIngredientAPI[]>(GUEST_BAR_KEY, []);
+    if (guestItems.length === 0) return;
+    for (const item of guestItems) {
+      try {
+        await addUserBarIngredient(item.id);
+      } catch {
+        // best-effort: swallow per-item failures, keep going
+      }
+    }
+    if (typeof window !== "undefined") {
+      localStorage.removeItem(GUEST_BAR_KEY);
+    }
+    try {
+      const res = await getUserBar();
+      setBarIngredientData(res.items);
+    } catch {
+      // silently ignore — the user-change effect will retry the fetch
+    }
+  }, []);
+
   const login = useCallback(
     async (email: string, password: string): Promise<{ error?: string }> => {
       const result = await loginApi(email, password);
@@ -175,9 +218,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       // Backend sets cookies; fetch current user to get full profile
       const apiUser = await getMe();
       setUser(apiUser ? mapApiUser(apiUser) : null);
+      // Best-effort: migrate any guest bar into the account.
+      await migrateGuestBar();
       return {};
     },
-    []
+    [migrateGuestBar]
   );
 
   const register = useCallback(
@@ -221,6 +266,16 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const addBarIngredient = useCallback(async (id: string) => {
+    // Guest: persist to localStorage only — no API call.
+    if (!user) {
+      setBarIngredientData((prev) => {
+        if (prev.some((i) => i.id === id)) return prev;
+        const next = [...prev, { id, name: id, category: "Other" }];
+        saveJSON(GUEST_BAR_KEY, next);
+        return next;
+      });
+      return;
+    }
     // Optimistic update
     setBarIngredientData((prev) => {
       if (prev.some((i) => i.id === id)) return prev;
@@ -235,9 +290,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       // Revert on failure
       setBarIngredientData((prev) => prev.filter((i) => i.id !== id));
     }
-  }, []);
+  }, [user]);
 
   const removeBarIngredient = useCallback(async (id: string) => {
+    // Guest: persist to localStorage only — no API call.
+    if (!user) {
+      setBarIngredientData((prev) => {
+        const next = prev.filter((i) => i.id !== id);
+        saveJSON(GUEST_BAR_KEY, next);
+        return next;
+      });
+      return;
+    }
     // Optimistic removal
     setBarIngredientData((prev) => prev.filter((i) => i.id !== id));
     try {
@@ -251,6 +315,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         // silently ignore secondary failure
       }
     }
+  }, [user]);
+
+  const setGuestBar = useCallback((items: BarIngredientAPI[]) => {
+    saveJSON(GUEST_BAR_KEY, items);
+    setBarIngredientData(items);
   }, []);
 
   const toggleFavourite = useCallback((slug: string) => {
@@ -289,6 +358,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         barLoading,
         addBarIngredient,
         removeBarIngredient,
+        setGuestBar,
+        migrateGuestBar,
         favourites,
         toggleFavourite,
       }}
