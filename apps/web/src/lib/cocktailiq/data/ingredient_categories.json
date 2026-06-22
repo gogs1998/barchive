@@ -1,0 +1,1485 @@
+{
+  "ingredients": {
+    "gin": {
+      "primary_category": "spirit_gin",
+      "all_categories": [
+        "spirit_gin",
+        "liqueur_fruit",
+        "syrup_flavored",
+        "carbonated_ginger",
+        "garnish_spice"
+      ],
+      "category_group": "spirit"
+    },
+    "triple sec": {
+      "primary_category": "liqueur_orange",
+      "all_categories": [
+        "liqueur_orange"
+      ],
+      "category_group": "liqueur"
+    },
+    "lemon juice": {
+      "primary_category": "juice_citrus_lemon",
+      "all_categories": [
+        "juice_citrus_lemon",
+        "garnish_citrus",
+        "ice"
+      ],
+      "category_group": "juice"
+    },
+    "grenadine": {
+      "primary_category": "syrup_flavored",
+      "all_categories": [
+        "syrup_flavored"
+      ],
+      "category_group": "sweetener"
+    },
+    "amaretto": {
+      "primary_category": "liqueur_nut",
+      "all_categories": [
+        "liqueur_nut"
+      ],
+      "category_group": "liqueur"
+    },
+    "irish cream": {
+      "primary_category": "liqueur_cream",
+      "all_categories": [
+        "liqueur_cream",
+        "dairy_cream"
+      ],
+      "category_group": "liqueur"
+    },
+    "brandy": {
+      "primary_category": "spirit_brandy",
+      "all_categories": [
+        "spirit_brandy",
+        "liqueur_fruit"
+      ],
+      "category_group": "spirit"
+    },
+    "cream": {
+      "primary_category": "liqueur_cream",
+      "all_categories": [
+        "liqueur_cream",
+        "dairy_cream"
+      ],
+      "category_group": "liqueur"
+    },
+    "milk": {
+      "primary_category": "dairy_cream",
+      "all_categories": [
+        "dairy_cream"
+      ],
+      "category_group": "dairy"
+    },
+    "egg": {
+      "primary_category": "dairy_egg",
+      "all_categories": [
+        "dairy_egg"
+      ],
+      "category_group": "dairy"
+    },
+    "rum": {
+      "primary_category": "spirit_rum",
+      "all_categories": [
+        "spirit_rum"
+      ],
+      "category_group": "spirit"
+    },
+    "wild turkey": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "vodka": {
+      "primary_category": "spirit_vodka",
+      "all_categories": [
+        "spirit_vodka"
+      ],
+      "category_group": "spirit"
+    },
+    "tonic water": {
+      "primary_category": "carbonated_tonic",
+      "all_categories": [
+        "carbonated_tonic",
+        "ice"
+      ],
+      "category_group": "carbonated"
+    },
+    "apple": {
+      "primary_category": "spirit_brandy",
+      "all_categories": [
+        "spirit_brandy",
+        "juice_fruit"
+      ],
+      "category_group": "spirit"
+    },
+    "fruit": {
+      "primary_category": "juice_citrus_grapefruit",
+      "all_categories": [
+        "juice_citrus_grapefruit",
+        "juice_fruit",
+        "bitters_flavored",
+        "garnish_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "strawberry schnapps": {
+      "primary_category": "garnish_fruit",
+      "all_categories": [
+        "garnish_fruit",
+        "misc"
+      ],
+      "category_group": "garnish"
+    },
+    "orange juice": {
+      "primary_category": "juice_citrus_orange",
+      "all_categories": [
+        "juice_citrus_orange",
+        "garnish_citrus",
+        "ice"
+      ],
+      "category_group": "juice"
+    },
+    "ice": {
+      "primary_category": "juice_citrus_lemon",
+      "all_categories": [
+        "juice_citrus_lemon",
+        "juice_citrus_lime",
+        "juice_citrus_orange",
+        "juice_citrus_grapefruit",
+        "juice_fruit",
+        "juice_vegetable",
+        "garnish_spice",
+        "ice",
+        "misc"
+      ],
+      "category_group": "juice"
+    },
+    "club soda": {
+      "primary_category": "carbonated_neutral",
+      "all_categories": [
+        "carbonated_neutral"
+      ],
+      "category_group": "carbonated"
+    },
+    "pisang ambon": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "lemonade": {
+      "primary_category": "carbonated_lemon",
+      "all_categories": [
+        "carbonated_lemon",
+        "garnish_citrus"
+      ],
+      "category_group": "carbonated"
+    },
+    "cherry": {
+      "primary_category": "liqueur_fruit",
+      "all_categories": [
+        "liqueur_fruit",
+        "garnish_fruit"
+      ],
+      "category_group": "liqueur"
+    },
+    "kahlua": {
+      "primary_category": "liqueur_coffee",
+      "all_categories": [
+        "liqueur_coffee"
+      ],
+      "category_group": "liqueur"
+    },
+    "peach nectar": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "vermouth": {
+      "primary_category": "fortified_vermouth",
+      "all_categories": [
+        "fortified_vermouth"
+      ],
+      "category_group": "fortified_wine"
+    },
+    "maraschino liqueur": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "whiskey": {
+      "primary_category": "spirit_whiskey",
+      "all_categories": [
+        "spirit_whiskey"
+      ],
+      "category_group": "spirit"
+    },
+    "bitters": {
+      "primary_category": "bitters_aromatic",
+      "all_categories": [
+        "bitters_aromatic",
+        "bitters_flavored"
+      ],
+      "category_group": "bitters"
+    },
+    "lime juice": {
+      "primary_category": "juice_citrus_lime",
+      "all_categories": [
+        "juice_citrus_lime",
+        "garnish_citrus",
+        "ice"
+      ],
+      "category_group": "juice"
+    },
+    "sugar": {
+      "primary_category": "syrup_simple",
+      "all_categories": [
+        "syrup_simple",
+        "sweetener_sugar",
+        "garnish_other"
+      ],
+      "category_group": "sweetener"
+    },
+    "mint": {
+      "primary_category": "garnish_herb",
+      "all_categories": [
+        "garnish_herb",
+        "misc"
+      ],
+      "category_group": "garnish"
+    },
+    "creme de cacao": {
+      "primary_category": "liqueur_chocolate",
+      "all_categories": [
+        "liqueur_chocolate"
+      ],
+      "category_group": "liqueur"
+    },
+    "crown royal": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "lemon peel": {
+      "primary_category": "garnish_citrus",
+      "all_categories": [
+        "garnish_citrus"
+      ],
+      "category_group": "garnish"
+    },
+    "campari": {
+      "primary_category": "liqueur_herbal",
+      "all_categories": [
+        "liqueur_herbal"
+      ],
+      "category_group": "liqueur"
+    },
+    "sambuca": {
+      "primary_category": "liqueur_anise",
+      "all_categories": [
+        "liqueur_anise",
+        "misc"
+      ],
+      "category_group": "liqueur"
+    },
+    "green chartreuse": {
+      "primary_category": "liqueur_herbal",
+      "all_categories": [
+        "liqueur_herbal"
+      ],
+      "category_group": "liqueur"
+    },
+    "goldschlager": {
+      "primary_category": "misc",
+      "all_categories": [
+        "beer",
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "champagne": {
+      "primary_category": "carbonated_wine",
+      "all_categories": [
+        "carbonated_wine"
+      ],
+      "category_group": "carbonated"
+    },
+    "peach schnapps": {
+      "primary_category": "liqueur_fruit",
+      "all_categories": [
+        "liqueur_fruit",
+        "misc"
+      ],
+      "category_group": "liqueur"
+    },
+    "simple syrup": {
+      "primary_category": "syrup_simple",
+      "all_categories": [
+        "syrup_simple"
+      ],
+      "category_group": "sweetener"
+    },
+    "creme de mure": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "blue curacao": {
+      "primary_category": "liqueur_orange",
+      "all_categories": [
+        "liqueur_orange"
+      ],
+      "category_group": "liqueur"
+    },
+    "galliano": {
+      "primary_category": "liqueur_herbal",
+      "all_categories": [
+        "liqueur_herbal"
+      ],
+      "category_group": "liqueur"
+    },
+    "chocolate": {
+      "primary_category": "liqueur_chocolate",
+      "all_categories": [
+        "liqueur_chocolate",
+        "bitters_flavored",
+        "carbonated_cola",
+        "condiment_sweet",
+        "garnish_other"
+      ],
+      "category_group": "liqueur"
+    },
+    "wormwood": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "corona": {
+      "primary_category": "beer",
+      "all_categories": [
+        "beer"
+      ],
+      "category_group": "wine_beer"
+    },
+    "bacardi limon": {
+      "primary_category": "spirit_rum",
+      "all_categories": [
+        "spirit_rum"
+      ],
+      "category_group": "spirit"
+    },
+    "everclear": {
+      "primary_category": "spirit_other",
+      "all_categories": [
+        "spirit_other"
+      ],
+      "category_group": "spirit"
+    },
+    "mountain dew": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "surge": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "melon liqueur": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "j\u00e4germeister": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "southern comfort": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "sour mix": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "banana": {
+      "primary_category": "liqueur_fruit",
+      "all_categories": [
+        "liqueur_fruit",
+        "juice_fruit"
+      ],
+      "category_group": "liqueur"
+    },
+    "powdered sugar": {
+      "primary_category": "sweetener_sugar",
+      "all_categories": [
+        "sweetener_sugar"
+      ],
+      "category_group": "sweetener"
+    },
+    "sweet and sour": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "coffee": {
+      "primary_category": "liqueur_coffee",
+      "all_categories": [
+        "liqueur_coffee",
+        "garnish_other",
+        "misc"
+      ],
+      "category_group": "liqueur"
+    },
+    "cachaca": {
+      "primary_category": "spirit_rum",
+      "all_categories": [
+        "spirit_rum"
+      ],
+      "category_group": "spirit"
+    },
+    "ginger ale": {
+      "primary_category": "spirit_gin",
+      "all_categories": [
+        "spirit_gin",
+        "carbonated_ginger",
+        "beer",
+        "garnish_spice"
+      ],
+      "category_group": "spirit"
+    },
+    "coca-cola": {
+      "primary_category": "carbonated_cola",
+      "all_categories": [
+        "carbonated_cola"
+      ],
+      "category_group": "carbonated"
+    },
+    "falernum": {
+      "primary_category": "syrup_flavored",
+      "all_categories": [
+        "syrup_flavored",
+        "beer"
+      ],
+      "category_group": "sweetener"
+    },
+    "lager": {
+      "primary_category": "misc",
+      "all_categories": [
+        "beer",
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "port": {
+      "primary_category": "fortified_port",
+      "all_categories": [
+        "fortified_port"
+      ],
+      "category_group": "fortified_wine"
+    },
+    "water": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit",
+        "carbonated_neutral",
+        "carbonated_tonic",
+        "ice"
+      ],
+      "category_group": "juice"
+    },
+    "vanilla": {
+      "primary_category": "syrup_flavored",
+      "all_categories": [
+        "syrup_flavored",
+        "garnish_spice"
+      ],
+      "category_group": "sweetener"
+    },
+    "caramel coloring": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "lillet": {
+      "primary_category": "fortified_other",
+      "all_categories": [
+        "fortified_other"
+      ],
+      "category_group": "fortified_wine"
+    },
+    "absinthe": {
+      "primary_category": "spirit_other",
+      "all_categories": [
+        "spirit_other",
+        "liqueur_anise"
+      ],
+      "category_group": "spirit"
+    },
+    "red wine": {
+      "primary_category": "wine_red",
+      "all_categories": [
+        "wine_red"
+      ],
+      "category_group": "wine_beer"
+    },
+    "almond flavoring": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "cider": {
+      "primary_category": "beer",
+      "all_categories": [
+        "beer"
+      ],
+      "category_group": "wine_beer"
+    },
+    "blackcurrant cordial": {
+      "primary_category": "liqueur_fruit",
+      "all_categories": [
+        "liqueur_fruit",
+        "misc"
+      ],
+      "category_group": "liqueur"
+    },
+    "sprite": {
+      "primary_category": "carbonated_lemon",
+      "all_categories": [
+        "carbonated_lemon"
+      ],
+      "category_group": "carbonated"
+    },
+    "tequila": {
+      "primary_category": "spirit_tequila",
+      "all_categories": [
+        "spirit_tequila"
+      ],
+      "category_group": "spirit"
+    },
+    "olive": {
+      "primary_category": "condiment_savory",
+      "all_categories": [
+        "condiment_savory",
+        "garnish_fruit"
+      ],
+      "category_group": "other"
+    },
+    "demerara sugar": {
+      "primary_category": "sweetener_sugar",
+      "all_categories": [
+        "sweetener_sugar"
+      ],
+      "category_group": "sweetener"
+    },
+    "pisco": {
+      "primary_category": "spirit_brandy",
+      "all_categories": [
+        "spirit_brandy"
+      ],
+      "category_group": "spirit"
+    },
+    "st. germain": {
+      "primary_category": "liqueur_herbal",
+      "all_categories": [
+        "liqueur_herbal"
+      ],
+      "category_group": "liqueur"
+    },
+    "pepper": {
+      "primary_category": "garnish_other",
+      "all_categories": [
+        "garnish_other",
+        "misc"
+      ],
+      "category_group": "garnish"
+    },
+    "lavender": {
+      "primary_category": "garnish_herb",
+      "all_categories": [
+        "garnish_herb"
+      ],
+      "category_group": "garnish"
+    },
+    "hot damn": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "dubonnet rouge": {
+      "primary_category": "fortified_other",
+      "all_categories": [
+        "fortified_other"
+      ],
+      "category_group": "fortified_wine"
+    },
+    "cinnamon": {
+      "primary_category": "syrup_flavored",
+      "all_categories": [
+        "syrup_flavored",
+        "garnish_spice"
+      ],
+      "category_group": "sweetener"
+    },
+    "salt": {
+      "primary_category": "garnish_other",
+      "all_categories": [
+        "garnish_other"
+      ],
+      "category_group": "garnish"
+    },
+    "espresso": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "condensed milk": {
+      "primary_category": "dairy_cream",
+      "all_categories": [
+        "dairy_cream"
+      ],
+      "category_group": "dairy"
+    },
+    "elderflower cordial": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "mezcal": {
+      "primary_category": "spirit_tequila",
+      "all_categories": [
+        "spirit_tequila"
+      ],
+      "category_group": "spirit"
+    },
+    "rose": {
+      "primary_category": "carbonated_wine",
+      "all_categories": [
+        "carbonated_wine",
+        "garnish_herb",
+        "misc"
+      ],
+      "category_group": "carbonated"
+    },
+    "strawberries": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "honey": {
+      "primary_category": "syrup_natural",
+      "all_categories": [
+        "syrup_natural"
+      ],
+      "category_group": "sweetener"
+    },
+    "figs": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "thyme": {
+      "primary_category": "garnish_herb",
+      "all_categories": [
+        "garnish_herb"
+      ],
+      "category_group": "garnish"
+    },
+    "benedictine": {
+      "primary_category": "liqueur_herbal",
+      "all_categories": [
+        "liqueur_herbal"
+      ],
+      "category_group": "liqueur"
+    },
+    "yoghurt": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "apricot nectar": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "raspberry liqueur": {
+      "primary_category": "garnish_fruit",
+      "all_categories": [
+        "garnish_fruit"
+      ],
+      "category_group": "garnish"
+    },
+    "orange peel": {
+      "primary_category": "garnish_citrus",
+      "all_categories": [
+        "garnish_citrus"
+      ],
+      "category_group": "garnish"
+    },
+    "firewater": {
+      "primary_category": "ice",
+      "all_categories": [
+        "ice"
+      ],
+      "category_group": "ice"
+    },
+    "absolut peppar": {
+      "primary_category": "spirit_vodka",
+      "all_categories": [
+        "spirit_vodka"
+      ],
+      "category_group": "spirit"
+    },
+    "tabasco sauce": {
+      "primary_category": "condiment_savory",
+      "all_categories": [
+        "condiment_savory"
+      ],
+      "category_group": "other"
+    },
+    "dr. pepper": {
+      "primary_category": "garnish_other",
+      "all_categories": [
+        "garnish_other"
+      ],
+      "category_group": "garnish"
+    },
+    "beer": {
+      "primary_category": "carbonated_ginger",
+      "all_categories": [
+        "carbonated_ginger",
+        "beer",
+        "misc"
+      ],
+      "category_group": "carbonated"
+    },
+    "sarsaparilla": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "cloves": {
+      "primary_category": "garnish_spice",
+      "all_categories": [
+        "garnish_spice"
+      ],
+      "category_group": "garnish"
+    },
+    "orange spiral": {
+      "primary_category": "garnish_citrus",
+      "all_categories": [
+        "garnish_citrus"
+      ],
+      "category_group": "garnish"
+    },
+    "green creme de menthe": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "whisky": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "tea": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "blackberries": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "red chili flakes": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "carbonated soft drink": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "sherbet": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "corn syrup": {
+      "primary_category": "syrup_simple",
+      "all_categories": [
+        "syrup_simple"
+      ],
+      "category_group": "sweetener"
+    },
+    "butter": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "half-and-half": {
+      "primary_category": "dairy_cream",
+      "all_categories": [
+        "dairy_cream"
+      ],
+      "category_group": "dairy"
+    },
+    "marshmallows": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "brown sugar": {
+      "primary_category": "sweetener_sugar",
+      "all_categories": [
+        "sweetener_sugar"
+      ],
+      "category_group": "sweetener"
+    },
+    "coconut syrup": {
+      "primary_category": "syrup_simple",
+      "all_categories": [
+        "syrup_simple"
+      ],
+      "category_group": "sweetener"
+    },
+    "aperol": {
+      "primary_category": "liqueur_herbal",
+      "all_categories": [
+        "liqueur_herbal"
+      ],
+      "category_group": "liqueur"
+    },
+    "chambord raspberry liqueur": {
+      "primary_category": "liqueur_fruit",
+      "all_categories": [
+        "liqueur_fruit",
+        "garnish_fruit"
+      ],
+      "category_group": "liqueur"
+    },
+    "jack daniels": {
+      "primary_category": "spirit_whiskey",
+      "all_categories": [
+        "spirit_whiskey"
+      ],
+      "category_group": "spirit"
+    },
+    "anis": {
+      "primary_category": "liqueur_anise",
+      "all_categories": [
+        "liqueur_anise"
+      ],
+      "category_group": "liqueur"
+    },
+    "jello": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "yellow chartreuse": {
+      "primary_category": "liqueur_herbal",
+      "all_categories": [
+        "liqueur_herbal"
+      ],
+      "category_group": "liqueur"
+    },
+    "creme de cassis": {
+      "primary_category": "liqueur_fruit",
+      "all_categories": [
+        "liqueur_fruit"
+      ],
+      "category_group": "liqueur"
+    },
+    "grain alcohol": {
+      "primary_category": "spirit_other",
+      "all_categories": [
+        "spirit_other",
+        "misc"
+      ],
+      "category_group": "spirit"
+    },
+    "kiwi": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "bitter lemon": {
+      "primary_category": "garnish_citrus",
+      "all_categories": [
+        "garnish_citrus"
+      ],
+      "category_group": "garnish"
+    },
+    "absolut kurant": {
+      "primary_category": "spirit_vodka",
+      "all_categories": [
+        "spirit_vodka"
+      ],
+      "category_group": "spirit"
+    },
+    "apfelkorn": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "schweppes russchian": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "kool-aid": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "papaya": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "absolut citron": {
+      "primary_category": "spirit_vodka",
+      "all_categories": [
+        "spirit_vodka"
+      ],
+      "category_group": "spirit"
+    },
+    "asafoetida": {
+      "primary_category": "garnish_spice",
+      "all_categories": [
+        "garnish_spice"
+      ],
+      "category_group": "garnish"
+    },
+    "cayenne pepper": {
+      "primary_category": "garnish_other",
+      "all_categories": [
+        "garnish_other"
+      ],
+      "category_group": "garnish"
+    },
+    "drambuie": {
+      "primary_category": "liqueur_herbal",
+      "all_categories": [
+        "liqueur_herbal"
+      ],
+      "category_group": "liqueur"
+    },
+    "mango": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "tia maria": {
+      "primary_category": "liqueur_coffee",
+      "all_categories": [
+        "liqueur_coffee"
+      ],
+      "category_group": "liqueur"
+    },
+    "coconut liqueur": {
+      "primary_category": "liqueur_fruit",
+      "all_categories": [
+        "liqueur_fruit"
+      ],
+      "category_group": "liqueur"
+    },
+    "cumin seed": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "cocoa powder": {
+      "primary_category": "garnish_other",
+      "all_categories": [
+        "garnish_other"
+      ],
+      "category_group": "garnish"
+    },
+    "orgeat syrup": {
+      "primary_category": "syrup_simple",
+      "all_categories": [
+        "syrup_simple",
+        "syrup_flavored"
+      ],
+      "category_group": "sweetener"
+    },
+    "hot sauce": {
+      "primary_category": "condiment_savory",
+      "all_categories": [
+        "condiment_savory"
+      ],
+      "category_group": "other"
+    },
+    "worcestershire sauce": {
+      "primary_category": "condiment_savory",
+      "all_categories": [
+        "condiment_savory"
+      ],
+      "category_group": "other"
+    },
+    "soy sauce": {
+      "primary_category": "condiment_savory",
+      "all_categories": [
+        "condiment_savory"
+      ],
+      "category_group": "other"
+    },
+    "ricard": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "pepsi cola": {
+      "primary_category": "carbonated_cola",
+      "all_categories": [
+        "carbonated_cola"
+      ],
+      "category_group": "carbonated"
+    },
+    "pina colada mix": {
+      "primary_category": "carbonated_cola",
+      "all_categories": [
+        "carbonated_cola"
+      ],
+      "category_group": "carbonated"
+    },
+    "daiquiri mix": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "cardamom": {
+      "primary_category": "garnish_spice",
+      "all_categories": [
+        "garnish_spice"
+      ],
+      "category_group": "garnish"
+    },
+    "black pepper": {
+      "primary_category": "garnish_other",
+      "all_categories": [
+        "garnish_other"
+      ],
+      "category_group": "garnish"
+    },
+    "cucumber": {
+      "primary_category": "juice_vegetable",
+      "all_categories": [
+        "juice_vegetable",
+        "garnish_vegetable"
+      ],
+      "category_group": "juice"
+    },
+    "white creme de menthe": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "frangelico": {
+      "primary_category": "liqueur_nut",
+      "all_categories": [
+        "liqueur_nut"
+      ],
+      "category_group": "liqueur"
+    },
+    "lemon-lime soda": {
+      "primary_category": "garnish_citrus",
+      "all_categories": [
+        "garnish_citrus"
+      ],
+      "category_group": "garnish"
+    },
+    "prosecco": {
+      "primary_category": "carbonated_wine",
+      "all_categories": [
+        "carbonated_wine",
+        "misc"
+      ],
+      "category_group": "carbonated"
+    },
+    "oreo cookie": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "jagermeister": {
+      "primary_category": "liqueur_herbal",
+      "all_categories": [
+        "liqueur_herbal"
+      ],
+      "category_group": "liqueur"
+    },
+    "nutmeg": {
+      "primary_category": "garnish_spice",
+      "all_categories": [
+        "garnish_spice"
+      ],
+      "category_group": "garnish"
+    },
+    "grape soda": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "orange curacao": {
+      "primary_category": "liqueur_orange",
+      "all_categories": [
+        "liqueur_orange",
+        "garnish_citrus"
+      ],
+      "category_group": "liqueur"
+    },
+    "blended scotch": {
+      "primary_category": "spirit_whiskey",
+      "all_categories": [
+        "spirit_whiskey"
+      ],
+      "category_group": "spirit"
+    },
+    "islay single malt scotch": {
+      "primary_category": "spirit_whiskey",
+      "all_categories": [
+        "spirit_whiskey"
+      ],
+      "category_group": "spirit"
+    },
+    "coconut milk": {
+      "primary_category": "dairy_cream",
+      "all_categories": [
+        "dairy_cream"
+      ],
+      "category_group": "dairy"
+    },
+    "passoa": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "sherry": {
+      "primary_category": "fortified_sherry",
+      "all_categories": [
+        "fortified_sherry"
+      ],
+      "category_group": "fortified_wine"
+    },
+    "black sambuca": {
+      "primary_category": "liqueur_anise",
+      "all_categories": [
+        "liqueur_anise",
+        "misc"
+      ],
+      "category_group": "liqueur"
+    },
+    "raspberry syrup": {
+      "primary_category": "syrup_simple",
+      "all_categories": [
+        "syrup_simple",
+        "garnish_fruit"
+      ],
+      "category_group": "sweetener"
+    },
+    "7-up": {
+      "primary_category": "carbonated_lemon",
+      "all_categories": [
+        "carbonated_lemon"
+      ],
+      "category_group": "carbonated"
+    },
+    "amaro montenegro": {
+      "primary_category": "liqueur_herbal",
+      "all_categories": [
+        "liqueur_herbal"
+      ],
+      "category_group": "liqueur"
+    },
+    "blood orange": {
+      "primary_category": "juice_citrus_other",
+      "all_categories": [
+        "juice_citrus_other",
+        "garnish_citrus"
+      ],
+      "category_group": "juice"
+    },
+    "advocaat": {
+      "primary_category": "liqueur_cream",
+      "all_categories": [
+        "liqueur_cream"
+      ],
+      "category_group": "liqueur"
+    },
+    "jim beam": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "godiva liqueur": {
+      "primary_category": "liqueur_chocolate",
+      "all_categories": [
+        "liqueur_chocolate"
+      ],
+      "category_group": "liqueur"
+    },
+    "creme de banane": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "fresca": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "coriander": {
+      "primary_category": "garnish_herb",
+      "all_categories": [
+        "garnish_herb"
+      ],
+      "category_group": "garnish"
+    },
+    "celery salt": {
+      "primary_category": "juice_vegetable",
+      "all_categories": [
+        "juice_vegetable",
+        "garnish_vegetable",
+        "garnish_other"
+      ],
+      "category_group": "juice"
+    },
+    "yukon jack": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    },
+    "maple syrup": {
+      "primary_category": "syrup_simple",
+      "all_categories": [
+        "syrup_simple",
+        "syrup_natural"
+      ],
+      "category_group": "sweetener"
+    },
+    "limeade": {
+      "primary_category": "garnish_citrus",
+      "all_categories": [
+        "garnish_citrus"
+      ],
+      "category_group": "garnish"
+    },
+    "agave syrup": {
+      "primary_category": "syrup_simple",
+      "all_categories": [
+        "syrup_simple",
+        "syrup_natural"
+      ],
+      "category_group": "sweetener"
+    },
+    "peachtree schnapps": {
+      "primary_category": "misc",
+      "all_categories": [
+        "misc"
+      ],
+      "category_group": "other"
+    },
+    "pernod": {
+      "primary_category": "liqueur_anise",
+      "all_categories": [
+        "liqueur_anise"
+      ],
+      "category_group": "liqueur"
+    },
+    "ouzo": {
+      "primary_category": "liqueur_anise",
+      "all_categories": [
+        "liqueur_anise"
+      ],
+      "category_group": "liqueur"
+    },
+    "zima": {
+      "primary_category": "unknown",
+      "all_categories": [
+        "unknown"
+      ],
+      "category_group": "other"
+    }
+  },
+  "stats": {
+    "total": 191,
+    "by_category": {
+      "spirit_gin": 2,
+      "liqueur_orange": 3,
+      "juice_citrus_lemon": 2,
+      "syrup_flavored": 4,
+      "liqueur_nut": 2,
+      "liqueur_cream": 3,
+      "spirit_brandy": 3,
+      "dairy_cream": 4,
+      "dairy_egg": 1,
+      "spirit_rum": 3,
+      "unknown": 36,
+      "spirit_vodka": 4,
+      "carbonated_tonic": 1,
+      "juice_citrus_grapefruit": 1,
+      "garnish_fruit": 2,
+      "juice_citrus_orange": 1,
+      "carbonated_neutral": 1,
+      "carbonated_lemon": 3,
+      "liqueur_fruit": 7,
+      "liqueur_coffee": 3,
+      "juice_fruit": 6,
+      "fortified_vermouth": 1,
+      "spirit_whiskey": 4,
+      "bitters_aromatic": 1,
+      "juice_citrus_lime": 1,
+      "syrup_simple": 8,
+      "garnish_herb": 4,
+      "liqueur_chocolate": 3,
+      "garnish_citrus": 6,
+      "liqueur_herbal": 10,
+      "liqueur_anise": 5,
+      "misc": 14,
+      "carbonated_wine": 3,
+      "beer": 2,
+      "spirit_other": 3,
+      "sweetener_sugar": 3,
+      "carbonated_cola": 3,
+      "fortified_port": 1,
+      "fortified_other": 2,
+      "wine_red": 1,
+      "spirit_tequila": 2,
+      "condiment_savory": 5,
+      "garnish_other": 6,
+      "syrup_natural": 1,
+      "ice": 1,
+      "carbonated_ginger": 1,
+      "garnish_spice": 4,
+      "juice_vegetable": 2,
+      "fortified_sherry": 1,
+      "juice_citrus_other": 1
+    },
+    "by_group": {
+      "spirit": 21,
+      "liqueur": 36,
+      "juice": 14,
+      "sweetener": 16,
+      "dairy": 5,
+      "other": 55,
+      "carbonated": 12,
+      "garnish": 22,
+      "fortified_wine": 5,
+      "bitters": 1,
+      "wine_beer": 3,
+      "ice": 1
+    },
+    "unknown": 36
+  }
+}
