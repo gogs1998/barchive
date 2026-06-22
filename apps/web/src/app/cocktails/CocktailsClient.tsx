@@ -36,7 +36,10 @@ export function CocktailsClient({
     return matched ?? "All";
   });
   const [activeGlass, setActiveGlass] = useState("All");
-  const [canMakeFilter, setCanMakeFilter] = useState(false);
+  // Initialise from ?make=1 so deep-links from onboarding pre-enable the filter.
+  const [canMakeFilter, setCanMakeFilter] = useState(
+    () => searchParams.get("make") === "1"
+  );
 
   // Keep URL in sync when category changes
   const setActiveCategory = useCallback(
@@ -54,7 +57,7 @@ export function CocktailsClient({
     [router, pathname, searchParams]
   );
 
-  const { user, barIngredientData } = useAuth();
+  const { barIngredientData } = useAuth();
 
   // Build a lowercase name set from bar for matching against cocktail ingredients
   const barIngredientNames = useMemo(
@@ -113,8 +116,9 @@ export function CocktailsClient({
       <div className={styles.controls}>
         <SearchBar value={query} onChange={setQuery} />
 
-        {/* What Can I Make? toggle — only shown when user is logged in */}
-        {user && (
+        {/* What Can I Make? toggle — shown whenever the bar has ingredients
+            (works for guests with a localStorage bar, not just logged-in users) */}
+        {barIngredientData.length > 0 && (
           <button
             type="button"
             className={`${styles.canMakeBtn} ${canMakeFilter ? styles.canMakeBtnActive : ""}`}
