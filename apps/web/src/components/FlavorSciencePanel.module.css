@@ -1,0 +1,46 @@
+/* src/components/FlavorSciencePanel.module.css */
+.root {
+  margin-top: var(--space-lg, 24px);
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm, 8px);
+  width: 100%;
+  min-height: var(--touch-target, 44px);
+  padding: 0 var(--space-md, 16px);
+  background: var(--color-surface, #1a1916);
+  border: 1px solid var(--color-border, #2e2c29);
+  border-radius: var(--radius-md, 8px);
+  color: var(--color-text-primary, #f5f0e8);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.toggle:hover {
+  border-color: var(--color-accent, #c89b5c);
+}
+
+.label {
+  flex: 1;
+  text-align: left;
+}
+
+.badge {
+  font-size: 0.8rem;
+  color: var(--color-accent, #c89b5c);
+}
+
+.chevron {
+  transition: transform 0.2s ease;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.body {
+  margin-top: var(--space-sm, 8px);
+}
