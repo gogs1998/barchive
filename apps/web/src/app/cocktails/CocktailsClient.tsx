@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { SearchBar } from "@/components/SearchBar";
 import { CocktailCard } from "@/components/CocktailCard";
@@ -69,6 +69,10 @@ export function CocktailsClient({
     [barIngredientNames]
   );
 
+  // Render the grid in pages so a multi-thousand-cocktail result stays fast.
+  const PAGE_SIZE = 60;
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
   const filtered = useMemo(() => {
     const q = query.toLowerCase();
     return initialCocktails.filter((c) => {
@@ -88,6 +92,14 @@ export function CocktailsClient({
       return true;
     });
   }, [query, activeCategory, activeGlass, canMakeFilter, isMakeable, initialCocktails]);
+
+  // Reset paging whenever the result set changes
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [query, activeCategory, activeGlass, canMakeFilter]);
+
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = filtered.length > visibleCount;
 
   return (
     <div>
@@ -173,21 +185,34 @@ export function CocktailsClient({
           </button>
         </div>
       ) : (
-        <div
-          className={styles.grid}
-          role="list"
-          aria-label={`${filtered.length} cocktail results`}
-        >
-          {filtered.map((cocktail) => (
-            <div key={cocktail.id} role="listitem">
-              <CocktailCard
-                cocktail={cocktail}
-                showIngredients
-                makeable={barIngredientData.length > 0 && isMakeable(cocktail)}
-              />
+        <>
+          <div
+            className={styles.grid}
+            role="list"
+            aria-label={`${filtered.length} cocktail results`}
+          >
+            {visible.map((cocktail) => (
+              <div key={cocktail.id} role="listitem">
+                <CocktailCard
+                  cocktail={cocktail}
+                  showIngredients
+                  makeable={barIngredientData.length > 0 && isMakeable(cocktail)}
+                />
+              </div>
+            ))}
+          </div>
+          {hasMore && (
+            <div className={styles.loadMoreRow}>
+              <button
+                type="button"
+                className={styles.loadMoreBtn}
+                onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
+              >
+                Load more ({filtered.length - visibleCount} more)
+              </button>
             </div>
-          ))}
-        </div>
+          )}
+        </>
       )}
     </div>
   );

@@ -4,6 +4,7 @@
  */
 
 import { IMPORTED_COCKTAILS } from "./cocktails.imported";
+import { DIFFORDS_COCKTAILS } from "./cocktails.diffords";
 
 export interface Ingredient {
   name: string;
@@ -636,24 +637,33 @@ const CURATED_COCKTAILS: Cocktail[] = [
 ];
 
 /**
- * Full cocktail library: the hand-curated set first (richest data, takes
- * precedence), then the imported TheCocktailDB set with any duplicate of a
- * curated drink removed. Drinks can share a slug, a TheCocktailDB id, or an
- * image URL when the same recipe was named slightly differently, so all three
- * are used as dedupe keys — curated recipes always win.
+ * Full cocktail library, in priority order: hand-curated first (richest data),
+ * then TheCocktailDB, then the Difford's Guide quality subset. A drink already
+ * present in a higher-priority source is dropped from lower ones — matched by
+ * slug, id, or (non-empty) image URL, since the same recipe can be named
+ * slightly differently across sources.
  */
-const curatedSlugs = new Set(CURATED_COCKTAILS.map((c) => c.slug));
-const curatedIds = new Set(CURATED_COCKTAILS.map((c) => c.id));
-const curatedImgs = new Set(CURATED_COCKTAILS.map((c) => c.img));
-export const COCKTAILS: Cocktail[] = [
-  ...CURATED_COCKTAILS,
-  ...IMPORTED_COCKTAILS.filter(
-    (c) =>
-      !curatedSlugs.has(c.slug) &&
-      !curatedIds.has(c.id) &&
-      !curatedImgs.has(c.img)
-  ),
-];
+function mergeUnique(...sources: Cocktail[][]): Cocktail[] {
+  const out: Cocktail[] = [];
+  const slugs = new Set<string>();
+  const ids = new Set<string>();
+  const imgs = new Set<string>();
+  for (const src of sources) {
+    for (const c of src) {
+      if (slugs.has(c.slug) || ids.has(c.id) || (c.img && imgs.has(c.img))) continue;
+      out.push(c);
+      slugs.add(c.slug);
+      ids.add(c.id);
+      if (c.img) imgs.add(c.img);
+    }
+  }
+  return out;
+}
+export const COCKTAILS: Cocktail[] = mergeUnique(
+  CURATED_COCKTAILS,
+  IMPORTED_COCKTAILS,
+  DIFFORDS_COCKTAILS
+);
 
 // Derived helpers
 

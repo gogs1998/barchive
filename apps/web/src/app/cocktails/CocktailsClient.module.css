@@ -130,6 +130,35 @@
   outline-offset: 3px;
 }
 
+.loadMoreRow {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-6, 24px);
+}
+
+.loadMoreBtn {
+  height: var(--touch-target);
+  padding: 0 var(--space-5);
+  background: transparent;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill, 9999px);
+  cursor: pointer;
+  transition: border-color 150ms ease, color 150ms ease;
+}
+
+.loadMoreBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.loadMoreBtn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
 @media (max-width: 480px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);

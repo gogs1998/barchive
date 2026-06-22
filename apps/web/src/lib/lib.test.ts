@@ -126,7 +126,9 @@ describe("searchCocktails", () => {
   it("finds cocktails by name", () => {
     const results = searchCocktails("margarita");
     expect(results.length).toBeGreaterThan(0);
-    expect(results.every((c) => c.name.toLowerCase().includes("margarita"))).toBe(true);
+    // searchCocktails also matches category/tags/ingredients, so not every result
+    // is a name match — but searching a drink's name must surface that drink.
+    expect(results.some((c) => c.name.toLowerCase().includes("margarita"))).toBe(true);
   });
 
   it("finds cocktails by category", () => {
