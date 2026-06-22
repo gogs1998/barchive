@@ -51,17 +51,22 @@ export default async function CocktailDetailPage({ params }: Props) {
 
       <article className={styles.article} itemScope itemType="https://schema.org/Recipe">
 
-        {/* Hero image */}
-        <div className={styles.hero}>
-          <Image
-            src={cocktail.img}
-            alt={`${cocktail.name} cocktail`}
-            fill
-            priority
-            sizes="(max-width: 1024px) 100vw, 50vw"
-            className={styles.heroImg}
-            itemProp="image"
-          />
+        {/* Hero image — falls back to the drink's colour wash when no image */}
+        <div
+          className={styles.hero}
+          style={cocktail.img ? undefined : { backgroundColor: cocktail.color }}
+        >
+          {cocktail.img && (
+            <Image
+              src={cocktail.img}
+              alt={`${cocktail.name} cocktail`}
+              fill
+              priority
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className={styles.heroImg}
+              itemProp="image"
+            />
+          )}
           <div className={styles.heroOverlay} />
 
           {/* Category + name on top of image */}

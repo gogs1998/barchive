@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props) {
   const ingredient = await getIngredient(params.slug);
   if (!ingredient) return {};
   return {
-    title: `${ingredient.name} — BarIQ Ingredients`,
+    title: `${ingredient.name} — BarIQ`,
     description: `${ingredient.name} is used in ${ingredient.cocktailCount} cocktail recipe${ingredient.cocktailCount !== 1 ? "s" : ""} on BarIQ.`,
   };
 }

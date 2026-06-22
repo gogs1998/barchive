@@ -3,6 +3,8 @@
  * Shape mirrors TheCocktailDB with BarIQ-specific extensions.
  */
 
+import { IMPORTED_COCKTAILS } from "./cocktails.imported";
+
 export interface Ingredient {
   name: string;
   /** Raw display amount string, e.g. "2 oz", "0.75 oz", "top", "rim" */
@@ -218,7 +220,7 @@ function C(
   };
 }
 
-export const COCKTAILS: Cocktail[] = [
+const CURATED_COCKTAILS: Cocktail[] = [
   // ── Tequila ──────────────────────────────────────────────────────────────
   C("11007", "Margarita", "Tequila", "Coupe", "margarita", "#D4E8A8",
     [["Tequila Blanco", "2 oz"], ["Fresh Lime Juice", "1 oz"], ["Cointreau", "0.75 oz"], ["Agave Syrup", "0.25 oz"], ["Kosher Salt", "rim"]],
@@ -631,6 +633,26 @@ export const COCKTAILS: Cocktail[] = [
     [["Gin", "1.5 oz"], ["Dry Sherry", "1.5 oz"], ["Maraschino Liqueur", "0.25 oz"], ["Orange Bitters", "2 dashes"], ["Absinthe", "2 dashes"]],
     ["Combine all in mixing glass with ice.", "Stir 30 seconds.", "Strain into chilled coupe.", "Garnish with a lemon twist and cherry."],
     ["classic", "stirred", "sherry"], "22%", "3 min"),
+];
+
+/**
+ * Full cocktail library: the hand-curated set first (richest data, takes
+ * precedence), then the imported TheCocktailDB set with any duplicate of a
+ * curated drink removed. Drinks can share a slug, a TheCocktailDB id, or an
+ * image URL when the same recipe was named slightly differently, so all three
+ * are used as dedupe keys — curated recipes always win.
+ */
+const curatedSlugs = new Set(CURATED_COCKTAILS.map((c) => c.slug));
+const curatedIds = new Set(CURATED_COCKTAILS.map((c) => c.id));
+const curatedImgs = new Set(CURATED_COCKTAILS.map((c) => c.img));
+export const COCKTAILS: Cocktail[] = [
+  ...CURATED_COCKTAILS,
+  ...IMPORTED_COCKTAILS.filter(
+    (c) =>
+      !curatedSlugs.has(c.slug) &&
+      !curatedIds.has(c.id) &&
+      !curatedImgs.has(c.img)
+  ),
 ];
 
 // Derived helpers

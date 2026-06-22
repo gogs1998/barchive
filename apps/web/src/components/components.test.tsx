@@ -396,8 +396,8 @@ describe("HeaderSearch", () => {
     await waitFor(() =>
       expect(screen.getByRole("listbox")).toBeInTheDocument()
     );
-    // Category pill present
-    expect(screen.getByText("Gin")).toBeInTheDocument();
+    // Category pill present (multiple Negroni variants may match — at least one Gin pill)
+    expect(screen.getAllByText("Gin").length).toBeGreaterThan(0);
   });
 
   it("shows empty state prompt when query has no matches", async () => {

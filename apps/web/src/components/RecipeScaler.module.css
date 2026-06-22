@@ -193,6 +193,15 @@
   font-size: 0.9375rem;
   color: var(--text);
   line-height: 1.4;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a.name:hover,
+a.name:focus-visible {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* Screen-reader only */

@@ -36,3 +36,6 @@ Thumbs.db
 apps/web/coverage/
 apps/web/playwright-report/
 apps/web/test-results/
+
+# Local scrape outputs (large; regenerable)
+tools/diffords/raw/
