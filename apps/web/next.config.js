@@ -6,8 +6,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Disable output file tracing (not needed for static export)
-  outputFileTracing: false,
 };
 
 module.exports = nextConfig;

@@ -7,9 +7,7 @@ function titleCase(s: string): string {
 }
 
 function parityForScore(score: number): SubstituteEntry["parity"] {
-  if (score >= 4) return "close";
-  if (score >= 3) return "close";
-  return "different";
+  return score >= 3 ? "close" : "different";
 }
 
 /** Look up a curated entry (exact, then case-insensitive). */

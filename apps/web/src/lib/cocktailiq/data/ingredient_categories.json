@@ -411,7 +411,7 @@
       ],
       "category_group": "other"
     },
-    "j\u00e4germeister": {
+    "jägermeister": {
       "primary_category": "unknown",
       "all_categories": [
         "unknown"
@@ -471,14 +471,14 @@
       "category_group": "spirit"
     },
     "ginger ale": {
-      "primary_category": "spirit_gin",
+      "primary_category": "carbonated_ginger",
       "all_categories": [
         "spirit_gin",
         "carbonated_ginger",
         "beer",
         "garnish_spice"
       ],
-      "category_group": "spirit"
+      "category_group": "carbonated"
     },
     "coca-cola": {
       "primary_category": "carbonated_cola",

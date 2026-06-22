@@ -28,7 +28,7 @@
     "tequila": "tequila",
     "silver tequila": "tequila",
     "gold tequila": "tequila",
-    "a\u00f1ejo tequila": "tequila",
+    "añejo tequila": "tequila",
     "whiskey": "whiskey",
     "bourbon": "whiskey",
     "rye whiskey": "whiskey",
@@ -100,7 +100,7 @@
     "apricot brandy": "brandy",
     "apricot nectar": "apricot nectar",
     "asafoetida": "asafoetida",
-    "a\u00f1ejo rum": "rum",
+    "añejo rum": "rum",
     "bacardi limon": "bacardi limon",
     "banana": "banana",
     "banana liqueur": "banana",
@@ -153,7 +153,6 @@
     "coriander": "coriander",
     "corn syrup": "corn syrup",
     "corona": "corona",
-    "cranberry juice": "ice",
     "cranberry vodka": "vodka",
     "cream": "cream",
     "cream of coconut": "cream",
@@ -209,7 +208,7 @@
     "jagermeister": "jagermeister",
     "jello": "jello",
     "jim beam": "jim beam",
-    "j\u00e4germeister": "j\u00e4germeister",
+    "jägermeister": "jägermeister",
     "kahlua": "kahlua",
     "kiwi": "kiwi",
     "kiwi liqueur": "kiwi",
@@ -359,7 +358,7 @@
     ],
     "rum": [
       "151 proof rum",
-      "a\u00f1ejo rum",
+      "añejo rum",
       "blackstrap rum",
       "dark rum",
       "gold rum",
@@ -369,7 +368,7 @@
       "white rum"
     ],
     "tequila": [
-      "a\u00f1ejo tequila",
+      "añejo tequila",
       "gold tequila",
       "silver tequila"
     ],
