@@ -1,8 +1,11 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Link from "next/link";
 import { useAuth } from "@/lib/auth-context";
 import styles from "./AuthForm.module.css";
+
+const ONBOARDED_KEY = "biq_onboarded";
 
 interface Props {
   email: string;
@@ -13,6 +16,17 @@ interface Props {
 export function EmailVerifyView({ email, onDismiss, onChangeEmail }: Props) {
   const { sendVerificationEmail } = useAuth();
   const [cooldown, setCooldown] = useState(60);
+  // Offer onboarding to brand-new sign-ups who haven't been through it yet.
+  const [showOnboardCta, setShowOnboardCta] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      if (!localStorage.getItem(ONBOARDED_KEY)) setShowOnboardCta(true);
+    } catch {
+      // ignore storage failures
+    }
+  }, []);
 
   const startCooldown = useCallback(() => {
     setCooldown(60);
@@ -53,9 +67,25 @@ export function EmailVerifyView({ email, onDismiss, onChangeEmail }: Props) {
         {cooldown > 0 ? `Resend in ${cooldown}s` : "Resend email"}
       </button>
 
-      <button type="button" className={styles.primaryBtn} onClick={onDismiss}>
-        Continue browsing →
-      </button>
+      {showOnboardCta ? (
+        <Link
+          href="/welcome"
+          className={styles.primaryBtn}
+          onClick={onDismiss}
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            justifyContent: "center",
+            textDecoration: "none",
+          }}
+        >
+          Set up your bar →
+        </Link>
+      ) : (
+        <button type="button" className={styles.primaryBtn} onClick={onDismiss}>
+          Continue browsing →
+        </button>
+      )}
 
       <p className={styles.switchPrompt}>
         Wrong email?{" "}
