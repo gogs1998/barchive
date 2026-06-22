@@ -53,6 +53,84 @@ async def d1_first(db, sql, *params):
 
 
 # ---------------------------------------------------------------------------
+# Shape helpers
+# ---------------------------------------------------------------------------
+
+def _abv_is_low(abv: str) -> bool:
+    """Return True if ABV is below 15%."""
+    try:
+        return int(abv.rstrip("%")) < 15
+    except (ValueError, AttributeError):
+        return False
+
+
+def _cocktail_list_shape(row: dict) -> dict:
+    """
+    Map a DB cocktail row (list query) to the shape the frontend Cocktail type
+    expects.  Ingredients and tags are lightweight for list pages.
+    """
+    abv = row.get("abv") or ""
+    return {
+        "id":          row.get("id", ""),
+        "name":        row.get("name", ""),
+        "slug":        row.get("slug", ""),
+        "category":    row.get("category") or "",
+        "glass":       row.get("glassware") or "",
+        "img":         row.get("img") or "",
+        "color":       row.get("color") or "",
+        "abv":         abv,
+        "time":        row.get("time_to_make") or "",
+        "vegan":       bool(row.get("vegan", 1)),
+        "glutenFree":  bool(row.get("gluten_free", 1)),
+        "lowAbv":      _abv_is_low(abv),
+        "tags":        [],          # populated by detail route only
+        "ingredients": [],          # populated by detail route only
+        "steps":       [],          # populated by detail route only
+    }
+
+
+def _cocktail_detail_shape(row: dict, ingredients: list, tags: list) -> dict:
+    """Full Cocktail shape for the detail page."""
+    abv = row.get("abv") or ""
+    # steps stored as JSON array; fall back to legacy method text
+    raw_steps = row.get("steps_json")
+    if raw_steps:
+        try:
+            steps = json.loads(raw_steps)
+        except (json.JSONDecodeError, TypeError):
+            steps = [raw_steps] if raw_steps else []
+    else:
+        method = row.get("method") or ""
+        steps = [method] if method else []
+
+    return {
+        "id":          row.get("id", ""),
+        "name":        row.get("name", ""),
+        "slug":        row.get("slug", ""),
+        "category":    row.get("category") or "",
+        "glass":       row.get("glassware") or "",
+        "img":         row.get("img") or "",
+        "color":       row.get("color") or "",
+        "abv":         abv,
+        "time":        row.get("time_to_make") or "",
+        "vegan":       bool(row.get("vegan", 1)),
+        "glutenFree":  bool(row.get("gluten_free", 1)),
+        "lowAbv":      _abv_is_low(abv),
+        "tags":        [t["name"] for t in tags],
+        "ingredients": [
+            {
+                "name":   i.get("name", ""),
+                "amount": i.get("amount") or (
+                    f"{i.get('quantity', '')} {i.get('unit', '')}".strip()
+                ),
+            }
+            for i in ingredients
+        ],
+        "steps": steps,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Route handlers
 # ---------------------------------------------------------------------------
 
@@ -68,50 +146,131 @@ async def handle_health(request, env):
 
 
 async def handle_list_cocktails(request, env):
-    """GET /api/v1/cocktails[?q=&page=&per_page=]"""
+    """GET /api/v1/cocktails[?q=&category=&glass=&page=&per_page=]"""
     url = request.url
     params = _parse_query(url)
 
-    q = params.get("q", "")
+    q        = params.get("q", "")
+    category = params.get("category", "")
+    glass    = params.get("glass", "")
     try:
-        page = max(1, int(params.get("page", "1")))
-        per_page = min(100, max(1, int(params.get("per_page", "20"))))
+        page     = max(1, int(params.get("page", "1")))
+        per_page = min(500, max(1, int(params.get("per_page", "20"))))
     except ValueError:
         return error_response("Invalid pagination parameters", 422)
 
     offset = (page - 1) * per_page
 
+    # Build WHERE clauses dynamically
+    conditions = []
+    bind_vals  = []
+
     if q:
-        pattern = f"%{q}%"
-        count_row = await d1_first(
-            env.DB,
-            "SELECT COUNT(*) AS cnt FROM cocktails WHERE name LIKE ? COLLATE NOCASE",
-            pattern,
-        )
-        rows = await d1_all(
-            env.DB,
-            "SELECT id, name, slug, description, method, garnish, glassware FROM cocktails "
-            "WHERE name LIKE ? COLLATE NOCASE ORDER BY name LIMIT ? OFFSET ?",
-            pattern, per_page, offset,
-        )
-    else:
-        count_row = await d1_first(env.DB, "SELECT COUNT(*) AS cnt FROM cocktails")
-        rows = await d1_all(
-            env.DB,
-            "SELECT id, name, slug, description, method, garnish, glassware FROM cocktails "
-            "ORDER BY name LIMIT ? OFFSET ?",
-            per_page, offset,
-        )
+        conditions.append("(c.name LIKE ? COLLATE NOCASE OR c.category LIKE ? COLLATE NOCASE)")
+        bind_vals += [f"%{q}%", f"%{q}%"]
+    if category:
+        conditions.append("c.category = ? COLLATE NOCASE")
+        bind_vals.append(category)
+    if glass:
+        conditions.append("c.glassware = ? COLLATE NOCASE")
+        bind_vals.append(glass)
+
+    where = ("WHERE " + " AND ".join(conditions)) if conditions else ""
+
+    count_sql = f"SELECT COUNT(*) AS cnt FROM cocktails c {where}"
+    count_row = await d1_first(env.DB, count_sql, *bind_vals)
+
+    rows_sql = (
+        f"SELECT c.id, c.name, c.slug, c.category, c.glassware, c.img, c.color, "
+        f"       c.abv, c.time_to_make, c.vegan, c.gluten_free, c.steps_json "
+        f"FROM cocktails c {where} "
+        f"ORDER BY c.name LIMIT ? OFFSET ?"
+    )
+    rows = await d1_all(env.DB, rows_sql, *bind_vals, per_page, offset)
 
     total = count_row["cnt"] if count_row else 0
-    return json_response({"total": total, "page": page, "per_page": per_page, "items": rows})
+
+    if rows:
+        # Batch-load ingredients and tags for all returned cocktails in two queries.
+        # This avoids N+1 queries for the ingredient/tag search client needs.
+        ids        = [r["id"] for r in rows]
+        placeholders = ",".join("?" * len(ids))
+
+        ing_rows = await d1_all(
+            env.DB,
+            f"SELECT ci.cocktail_id, i.name, ci.amount, ci.quantity, ci.unit "
+            f"FROM cocktail_ingredients ci "
+            f"JOIN ingredients i ON i.id = ci.ingredient_id "
+            f"WHERE ci.cocktail_id IN ({placeholders})",
+            *ids,
+        )
+        tag_rows = await d1_all(
+            env.DB,
+            f"SELECT ct.cocktail_id, t.name "
+            f"FROM cocktail_tags ct "
+            f"JOIN tags t ON t.id = ct.tag_id "
+            f"WHERE ct.cocktail_id IN ({placeholders})",
+            *ids,
+        )
+
+        # Build lookup maps
+        ing_map: dict = {}
+        for ir in ing_rows:
+            cid = ir["cocktail_id"]
+            ing_map.setdefault(cid, []).append({
+                "name":   ir["name"],
+                "amount": ir.get("amount") or f"{ir.get('quantity','') or ''} {ir.get('unit','') or ''}".strip(),
+            })
+
+        tag_map: dict = {}
+        for tr in tag_rows:
+            cid = tr["cocktail_id"]
+            tag_map.setdefault(cid, []).append(tr["name"])
+    else:
+        ing_map = {}
+        tag_map = {}
+
+    items = []
+    for r in rows:
+        abv = r.get("abv") or ""
+        raw_steps = r.get("steps_json")
+        if raw_steps:
+            try:
+                steps = json.loads(raw_steps)
+            except (json.JSONDecodeError, TypeError):
+                steps = []
+        else:
+            steps = []
+
+        cid = r["id"]
+        items.append({
+            "id":          cid,
+            "name":        r.get("name", ""),
+            "slug":        r.get("slug", ""),
+            "category":    r.get("category") or "",
+            "glass":       r.get("glassware") or "",
+            "img":         r.get("img") or "",
+            "color":       r.get("color") or "",
+            "abv":         abv,
+            "time":        r.get("time_to_make") or "",
+            "vegan":       bool(r.get("vegan", 1)),
+            "glutenFree":  bool(r.get("gluten_free", 1)),
+            "lowAbv":      _abv_is_low(abv),
+            "tags":        tag_map.get(cid, []),
+            "ingredients": ing_map.get(cid, []),
+            "steps":       steps,
+        })
+
+    return json_response({"total": total, "page": page, "per_page": per_page, "items": items})
 
 
 async def handle_get_cocktail(request, env, slug):
     """GET /api/v1/cocktails/{slug}"""
     cocktail = await d1_first(
         env.DB,
-        "SELECT id, name, slug, description, method, garnish, glassware FROM cocktails WHERE slug = ?",
+        "SELECT id, name, slug, category, glassware, img, color, abv, time_to_make, "
+        "       vegan, gluten_free, steps_json, method, description "
+        "FROM cocktails WHERE slug = ?",
         slug,
     )
     if not cocktail:
@@ -121,29 +280,27 @@ async def handle_get_cocktail(request, env, slug):
     ingredients = await d1_all(
         env.DB,
         """
-        SELECT i.id AS ingredient_id, i.name, i.category,
-               ci.quantity, ci.unit, ci.notes,
-               ci.quantity_num, ci.unit_norm
+        SELECT i.name, ci.amount, ci.quantity, ci.unit
         FROM cocktail_ingredients ci
         JOIN ingredients i ON i.id = ci.ingredient_id
         WHERE ci.cocktail_id = ?
+        ORDER BY rowid
         """,
         cocktail_id,
     )
     tags = await d1_all(
         env.DB,
         """
-        SELECT t.id, t.name
+        SELECT t.name
         FROM cocktail_tags ct
         JOIN tags t ON t.id = ct.tag_id
         WHERE ct.cocktail_id = ?
+        ORDER BY t.name
         """,
         cocktail_id,
     )
 
-    cocktail["ingredients"] = ingredients
-    cocktail["tags"] = tags
-    return json_response(cocktail)
+    return json_response(_cocktail_detail_shape(cocktail, ingredients, tags))
 
 
 async def handle_list_ingredients(request, env):
