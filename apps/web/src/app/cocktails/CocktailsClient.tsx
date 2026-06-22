@@ -70,6 +70,14 @@ export function CocktailsClient({
     [barIngredientNames]
   );
 
+  // Guard against trapping the user with an empty bar: the "What Can I Make?"
+  // toggle is hidden when the bar is empty, so if ?make=1 (or a stale toggle)
+  // left it on with no ingredients it would hide every cocktail with no way to
+  // turn it back off. Force it off whenever the bar is empty.
+  useEffect(() => {
+    if (barIngredientData.length === 0) setCanMakeFilter(false);
+  }, [barIngredientData.length]);
+
   // Render the grid in pages so a multi-thousand-cocktail result stays fast.
   const PAGE_SIZE = 60;
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);

@@ -7,10 +7,8 @@ import { getCocktails, getCategories } from "@/lib/api";
 import styles from "./page.module.css";
 
 export default async function HomePage() {
-  const [{ cocktails: featured }, categories] = await Promise.all([
-    getCocktails({ pageSize: 6 }),
-    getCategories(),
-  ]);
+  const [{ cocktails: featured, total: cocktailCount }, categories] =
+    await Promise.all([getCocktails({ pageSize: 6 }), getCategories()]);
 
   return (
     <PageShell active="home">
@@ -46,8 +44,8 @@ export default async function HomePage() {
             BarIQ
           </h1>
           <p className={styles.heroSub}>
-            79 classic cocktail recipes. Search, browse, and mix with
-            confidence.
+            {cocktailCount.toLocaleString()} cocktail recipes. Search, browse,
+            and mix with confidence.
           </p>
           <div className={styles.heroActions}>
             <Link href="/cocktails" className={styles.btnPrimary}>

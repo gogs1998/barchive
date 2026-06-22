@@ -61,12 +61,44 @@ describe("OnboardingWizard", () => {
     expect(screen.getByRole("button", { name: /^Gin$/i })).toBeInTheDocument();
   });
 
-  it("selecting an ingredient and continuing reaches the payoff count", () => {
+  it("selecting high-value starters renders a positive makeable count on the payoff", () => {
+    render(<OnboardingWizard />);
+    fireEvent.click(screen.getByRole("button", { name: /get started/i }));
+    // A combination that maps to many cocktails in the real dataset.
+    fireEvent.click(screen.getByRole("button", { name: /^Gin$/i }));
+    fireEvent.click(screen.getByRole("button", { name: /^Dry Vermouth$/i }));
+    fireEvent.click(screen.getByRole("button", { name: /^Orange Bitters$/i }));
+    fireEvent.click(screen.getByRole("button", { name: /continue/i }));
+
+    const heading = screen.getByRole("heading", { name: /cocktails? right now/i });
+    expect(heading).toBeInTheDocument();
+    // The heading shows the real computed number — assert it's a positive integer.
+    const match = heading.textContent?.match(/[\d,]+/);
+    expect(match).not.toBeNull();
+    const count = Number(match![0].replace(/,/g, ""));
+    expect(count).toBeGreaterThan(0);
+  });
+
+  it("Browse what I can make saves the guest bar and routes to ?make=1", () => {
     render(<OnboardingWizard />);
     fireEvent.click(screen.getByRole("button", { name: /get started/i }));
     fireEvent.click(screen.getByRole("button", { name: /^Gin$/i }));
+    fireEvent.click(screen.getByRole("button", { name: /^Dry Vermouth$/i }));
     fireEvent.click(screen.getByRole("button", { name: /continue/i }));
-    expect(screen.getByText(/you can make/i)).toBeInTheDocument();
+    fireEvent.click(
+      screen.getByRole("button", { name: /browse what i can make/i })
+    );
+
+    // Guest bar is set with the mapped items (id + name + category).
+    expect(mockSetGuestBar).toHaveBeenCalledTimes(1);
+    const items = mockSetGuestBar.mock.calls[0][0];
+    expect(items).toEqual([
+      { id: "Gin", name: "Gin", category: "Other" },
+      { id: "Dry Vermouth", name: "Dry Vermouth", category: "Other" },
+    ]);
+    // Onboarded flag persisted and router pushed to the make deep-link.
+    expect(localStorage.getItem(ONBOARDED_KEY)).toBeTruthy();
+    expect(mockPush).toHaveBeenCalledWith("/cocktails?make=1");
   });
 
   it("Skip sets the onboarded flag", () => {
