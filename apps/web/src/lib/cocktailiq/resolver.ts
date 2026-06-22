@@ -15,7 +15,7 @@ const aliasMap = (aliasesJson as { alias_to_canonical: Record<string, string> })
 const catMap = (categoriesJson as { ingredients: Record<string, CategoryInfo> })
   .ingredients;
 const chemMap = chemistryJson as Record<string, { compounds?: string[] }>;
-const subMap = substitutionScores as Record<string, [string, number][]>;
+const subMap = substitutionScores as unknown as Record<string, [string, number][]>;
 
 /** Qualifier words stripped when an exact match fails (e.g. "Tequila Blanco" -> "tequila"). */
 const QUALIFIERS = new Set([
