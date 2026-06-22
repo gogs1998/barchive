@@ -2,6 +2,7 @@ import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 import { CocktailCard } from "@/components/CocktailCard";
 import { CategoryGrid } from "@/components/CategoryGrid";
+import { OnboardingBanner } from "@/components/OnboardingBanner";
 import { getCocktails, getCategories } from "@/lib/api";
 import styles from "./page.module.css";
 
@@ -13,6 +14,9 @@ export default async function HomePage() {
 
   return (
     <PageShell active="home">
+      {/* First-visit onboarding prompt (client; hidden once onboarded/dismissed) */}
+      <OnboardingBanner />
+
       {/* Hero */}
       <section className={styles.hero} aria-labelledby="hero-heading">
         {/* Background SVG logo */}
