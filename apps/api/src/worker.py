@@ -284,7 +284,7 @@ async def handle_get_cocktail(request, env, slug):
         FROM cocktail_ingredients ci
         JOIN ingredients i ON i.id = ci.ingredient_id
         WHERE ci.cocktail_id = ?
-        ORDER BY rowid
+        ORDER BY ci.ingredient_id
         """,
         cocktail_id,
     )
