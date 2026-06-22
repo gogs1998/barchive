@@ -5,6 +5,7 @@ import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { SearchBar } from "@/components/SearchBar";
 import { CocktailCard } from "@/components/CocktailCard";
 import { useAuth } from "@/lib/auth-context";
+import { isMakeable as isMakeableHelper } from "@/lib/makeable";
 import type { Cocktail } from "@/lib/api";
 import styles from "./CocktailsClient.module.css";
 
@@ -61,11 +62,8 @@ export function CocktailsClient({
     [barIngredientData]
   );
 
-  const isMakeable = useMemo(
-    () => (cocktail: Cocktail) =>
-      cocktail.ingredients.every((i) =>
-        barIngredientNames.has(i.name.toLowerCase())
-      ),
+  const isMakeable = useCallback(
+    (cocktail: Cocktail) => isMakeableHelper(cocktail, barIngredientNames),
     [barIngredientNames]
   );
 
