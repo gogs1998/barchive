@@ -6,9 +6,12 @@ import { type Ingredient, slugify } from "@/lib/cocktails";
 import { scaleAmount, MULTIPLIER_PRESETS, type DisplayUnit } from "@/lib/scaler";
 import IngredientSubstitutes from "./IngredientSubstitutes";
 import styles from "./RecipeScaler.module.css";
+import type { SubstituteEntry } from "@/lib/substitutions";
 
 interface Props {
   ingredients: Ingredient[];
+  /** Build-time substitutes keyed by ingredient name. */
+  substitutesByIngredient?: Record<string, SubstituteEntry[]>;
 }
 
 /**
@@ -21,7 +24,7 @@ interface Props {
  *
  * Non-numeric amounts ("rim", "top", "pinch", etc.) are always shown unchanged.
  */
-export default function RecipeScaler({ ingredients }: Props) {
+export default function RecipeScaler({ ingredients, substitutesByIngredient }: Props) {
   const [multiplier, setMultiplier] = useState<number>(1);
   const [customInput, setCustomInput] = useState<string>("");
   const [displayUnit, setDisplayUnit] = useState<DisplayUnit>("oz");
@@ -127,7 +130,10 @@ export default function RecipeScaler({ ingredients }: Props) {
               <Link href={`/ingredients/${slugify(ing.name)}`} className={styles.name}>
                 {ing.name}
               </Link>
-              <IngredientSubstitutes ingredientName={ing.name} />
+              <IngredientSubstitutes
+                ingredientName={ing.name}
+                substitutes={substitutesByIngredient?.[ing.name]}
+              />
             </li>
           );
         })}

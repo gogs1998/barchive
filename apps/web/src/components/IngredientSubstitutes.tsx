@@ -4,18 +4,13 @@ import styles from "./IngredientSubstitutes.module.css";
 
 interface Props {
   ingredientName: string;
+  /** Precomputed substitutes (build-time). Falls back to the curated map if omitted. */
+  substitutes?: SubstituteEntry[];
 }
 
-/**
- * IngredientSubstitutes renders a native <details>/<summary> disclosure
- * showing substitute options for a given ingredient.
- *
- * Renders nothing if no substitutes exist for the ingredient.
- * Works without JavaScript — native HTML disclosure element.
- */
-export default function IngredientSubstitutes({ ingredientName }: Props) {
-  // Try exact match first, then case-insensitive match
-  const substitutes: SubstituteEntry[] | undefined =
+export default function IngredientSubstitutes({ ingredientName, substitutes }: Props) {
+  const resolved: SubstituteEntry[] | undefined =
+    substitutes ??
     SUBSTITUTIONS[ingredientName] ??
     SUBSTITUTIONS[
       Object.keys(SUBSTITUTIONS).find(
@@ -23,7 +18,7 @@ export default function IngredientSubstitutes({ ingredientName }: Props) {
       ) ?? ""
     ];
 
-  if (!substitutes || substitutes.length === 0) return null;
+  if (!resolved || resolved.length === 0) return null;
 
   return (
     <details className={styles.details}>
@@ -31,7 +26,7 @@ export default function IngredientSubstitutes({ ingredientName }: Props) {
         Substitutes for {ingredientName}
       </summary>
       <ul className={styles.list} role="list">
-        {substitutes.map((sub) => (
+        {resolved.map((sub) => (
           <li key={sub.name} className={styles.item}>
             <span className={styles.subName}>{sub.name}</span>
             <span className={styles.note}>{sub.note}</span>

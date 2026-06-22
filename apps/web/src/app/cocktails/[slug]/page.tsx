@@ -7,6 +7,12 @@ import { FavouriteButton } from "@/components/FavouriteButton";
 import { getCocktail } from "@/lib/api";
 import { COCKTAILS } from "@/lib/cocktails";
 import styles from "./page.module.css";
+import { BalanceMeter } from "@/components/BalanceMeter";
+import { FlavorSciencePanel } from "@/components/FlavorSciencePanel";
+import { cocktailToBuild, isBalanceEligible } from "@/lib/cocktailiq/adapter";
+import { calculateBalance } from "@/lib/cocktailiq/balance";
+import { getSubstitutesFor } from "@/lib/cocktailiq/substitutes";
+import type { SubstituteEntry } from "@/lib/substitutions";
 
 interface Props {
   params: { slug: string };
@@ -29,6 +35,16 @@ export async function generateMetadata({ params }: Props) {
 export default async function CocktailDetailPage({ params }: Props) {
   const cocktail = await getCocktail(params.slug);
   if (!cocktail) notFound();
+
+  const substitutesByIngredient: Record<string, SubstituteEntry[]> = {};
+  for (const ing of cocktail.ingredients) {
+    const subs = getSubstitutesFor(ing.name);
+    if (subs.length) substitutesByIngredient[ing.name] = subs;
+  }
+
+  const balanceScores = isBalanceEligible(cocktail)
+    ? calculateBalance(cocktailToBuild(cocktail))
+    : null;
 
   return (
     <PageShell active="cocktails">
@@ -137,7 +153,10 @@ export default async function CocktailDetailPage({ params }: Props) {
           <div className={styles.recipe}>
             {/* Ingredients with batch scaler */}
             <div className={styles.ingredientsSection}>
-              <RecipeScaler ingredients={cocktail.ingredients} />
+              <RecipeScaler
+                ingredients={cocktail.ingredients}
+                substitutesByIngredient={substitutesByIngredient}
+              />
             </div>
 
             {/* Method */}
@@ -163,6 +182,15 @@ export default async function CocktailDetailPage({ params }: Props) {
               </ol>
             </section>
           </div>
+
+          {balanceScores && (
+            <FlavorSciencePanel
+              rating={balanceScores.rating}
+              overall={balanceScores.overall}
+            >
+              <BalanceMeter scores={balanceScores} />
+            </FlavorSciencePanel>
+          )}
         </div>
       </article>
     </PageShell>
