@@ -1,30 +1,23 @@
 /**
  * API client — typed fetch functions for the BarIQ backend.
  *
- * Currently backed by static in-memory data; swap BASE_URL
- * when the BackendEngineer ships the REST API.
+ * Cocktail and ingredient data comes from the Cloudflare Worker at
+ * NEXT_PUBLIC_API_URL (https://bariq.co.uk in production).
+ *
+ * Auth + user-data endpoints also live on the same origin.
  */
 
-import {
-  COCKTAILS,
-  CATEGORIES,
-  GLASSES,
-  ALL_INGREDIENTS,
-  searchCocktails,
-  getCocktailBySlug,
-  getCocktailById,
-  slugify,
-  type Cocktail,
-} from "./cocktails";
-
 // Re-export types so consumers only import from api.ts
-export type { Cocktail };
+export type { Cocktail } from "./cocktails";
 
-const STUB_DELAY = 0; // Set > 0 to simulate network latency in development
+// The Worker API base URL.  Defaults to localhost:8787 (wrangler dev) for
+// local development. Set NEXT_PUBLIC_API_URL=https://bariq.co.uk in CI.
+const API_BASE =
+  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8787";
 
-function delay(ms: number) {
-  return ms > 0 ? new Promise((r) => setTimeout(r, ms)) : Promise.resolve();
-}
+// ─── Types ────────────────────────────────────────────────────────────────
+
+import type { Cocktail } from "./cocktails";
 
 /** Fetch params for cocktail list queries */
 export interface GetCocktailsParams {
@@ -42,50 +35,6 @@ export interface PaginatedCocktails {
   pageSize: number;
 }
 
-/**
- * Fetch a paginated, filterable list of cocktails.
- * When a real API is available, replace stub with:
- *   const res = await fetch(`${BASE_URL}/cocktails?${params}`);
- */
-export async function getCocktails(
-  params: GetCocktailsParams = {}
-): Promise<PaginatedCocktails> {
-  await delay(STUB_DELAY);
-
-  let results = params.query ? searchCocktails(params.query) : [...COCKTAILS];
-
-  if (params.category) {
-    results = results.filter((c) => c.category === params.category);
-  }
-  if (params.glass) {
-    results = results.filter((c) => c.glass === params.glass);
-  }
-
-  const pageSize = params.pageSize ?? 24;
-  const page = params.page ?? 1;
-  const start = (page - 1) * pageSize;
-  const cocktails = results.slice(start, start + pageSize);
-
-  return { cocktails, total: results.length, page, pageSize };
-}
-
-/**
- * Fetch a single cocktail by URL slug.
- * Returns null if not found.
- */
-export async function getCocktail(slug: string): Promise<Cocktail | null> {
-  await delay(STUB_DELAY);
-  return getCocktailBySlug(slug) ?? null;
-}
-
-/**
- * Fetch a single cocktail by its numeric id.
- */
-export async function getCocktailById_api(id: string): Promise<Cocktail | null> {
-  await delay(STUB_DELAY);
-  return getCocktailById(id) ?? null;
-}
-
 export interface IngredientSummary {
   name: string;
   slug: string;
@@ -95,17 +44,113 @@ export interface IngredientSummary {
   cocktails: { name: string; slug: string }[];
 }
 
+// ─── Worker API response shapes ───────────────────────────────────────────
+
+interface ApiCocktailListResponse {
+  total: number;
+  page: number;
+  per_page: number;
+  items: Cocktail[];
+}
+
+interface ApiIngredientItem {
+  id: string;
+  name: string;
+  category: string;
+  description?: string;
+}
+
+interface ApiIngredientListResponse {
+  total: number;
+  page: number;
+  per_page: number;
+  items: ApiIngredientItem[];
+}
+
+// ─── Cocktail endpoints ───────────────────────────────────────────────────
+
 /**
- * Fetch the full ingredient index.
+ * Fetch a paginated, filterable list of cocktails from the Worker API.
+ */
+export async function getCocktails(
+  params: GetCocktailsParams = {}
+): Promise<PaginatedCocktails> {
+  const qs = new URLSearchParams();
+  if (params.query)    qs.set("q",        params.query);
+  if (params.category) qs.set("category", params.category);
+  if (params.glass)    qs.set("glass",    params.glass);
+  if (params.page)     qs.set("page",     String(params.page));
+  const perPage = params.pageSize ?? 500;        // fetch all for client-side filter
+  qs.set("per_page", String(perPage));
+
+  const url = `${API_BASE}/api/v1/cocktails?${qs.toString()}`;
+  const res = await fetch(url, { next: { revalidate: 3600 } } as RequestInit);
+  if (!res.ok) throw new Error(`getCocktails failed: ${res.status}`);
+
+  const data: ApiCocktailListResponse = await res.json();
+  return {
+    cocktails: data.items,
+    total:     data.total,
+    page:      data.page,
+    pageSize:  data.per_page,
+  };
+}
+
+/**
+ * Fetch a single cocktail by URL slug.
+ * Returns null if not found.
+ */
+export async function getCocktail(slug: string): Promise<Cocktail | null> {
+  const res = await fetch(`${API_BASE}/api/v1/cocktails/${encodeURIComponent(slug)}`, {
+    next: { revalidate: 3600 },
+  } as RequestInit);
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`getCocktail failed: ${res.status}`);
+  return res.json();
+}
+
+/**
+ * Fetch a single cocktail by its numeric/string id.
+ * The Worker doesn't have a by-id route; fall back to a filtered list.
+ */
+export async function getCocktailById_api(id: string): Promise<Cocktail | null> {
+  // Slug lookup: id is typically the same as the cocktail id stored in DB.
+  // We must scan the full list since the Worker only exposes slug-based detail.
+  const { cocktails } = await getCocktails({ pageSize: 500 });
+  return cocktails.find((c) => c.id === id) ?? null;
+}
+
+// ─── Ingredient endpoints ─────────────────────────────────────────────────
+
+/**
+ * Fetch the full ingredient index from the Worker.
+ * The Worker returns a flat list; we augment with cocktail back-references
+ * by fetching all cocktails and cross-referencing.
  */
 export async function getIngredients(): Promise<IngredientSummary[]> {
-  await delay(STUB_DELAY);
+  // Fetch ingredients and cocktails in parallel
+  const [ingRes, { cocktails }] = await Promise.all([
+    fetch(`${API_BASE}/api/v1/ingredients?per_page=200`, {
+      next: { revalidate: 3600 },
+    } as RequestInit).then((r) => {
+      if (!r.ok) throw new Error(`getIngredients failed: ${r.status}`);
+      return r.json() as Promise<ApiIngredientListResponse>;
+    }),
+    getCocktails({ pageSize: 500 }),
+  ]);
 
-  return ALL_INGREDIENTS.map((name) => {
-    const cocktails = COCKTAILS.filter((c) =>
-      c.ingredients.some((i) => i.name === name)
-    ).map((c) => ({ name: c.name, slug: c.slug }));
-    return { name, slug: slugify(name), cocktailCount: cocktails.length, cocktails };
+  const { slugify } = await import("./cocktails");
+
+  return ingRes.items.map((ing) => {
+    const related = cocktails.filter((c) =>
+      c.ingredients.some((i) => i.name === ing.name)
+    );
+    return {
+      name:         ing.name,
+      slug:         slugify(ing.name),
+      cocktailCount: related.length,
+      cocktails:    related.map((c) => ({ name: c.name, slug: c.slug })),
+    };
   });
 }
 
@@ -114,21 +159,20 @@ export async function getIngredients(): Promise<IngredientSummary[]> {
  * Returns null if not found.
  */
 export async function getIngredient(slug: string): Promise<IngredientSummary | null> {
-  await delay(STUB_DELAY);
   const all = await getIngredients();
   return all.find((i) => i.slug === slug) ?? null;
 }
 
 /** Fetch all unique categories */
 export async function getCategories(): Promise<string[]> {
-  await delay(STUB_DELAY);
-  return CATEGORIES;
+  const { cocktails } = await getCocktails({ pageSize: 500 });
+  return [...new Set(cocktails.map((c) => c.category))].sort();
 }
 
 /** Fetch all unique glass types */
 export async function getGlasses(): Promise<string[]> {
-  await delay(STUB_DELAY);
-  return GLASSES;
+  const { cocktails } = await getCocktails({ pageSize: 500 });
+  return [...new Set(cocktails.map((c) => c.glass))].sort();
 }
 
 // ─── Auth API ────────────────────────────────────────────────────────────────
@@ -265,9 +309,6 @@ export interface GetBarResponse {
   items: BarIngredientAPI[];
   total: number;
 }
-
-const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
 /**
  * Fetch the current user's bar ingredient inventory.
