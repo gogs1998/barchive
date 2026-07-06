@@ -12,7 +12,7 @@ import { getCookie } from "hono/cookie";
 import type { AppEnv } from "../env";
 import { first } from "../db";
 import { hashPassword, verifyPassword } from "../auth/password";
-import { signAccess } from "../auth/jwt";
+import { signAccess, signReset, verifyOfType } from "../auth/jwt";
 import { createSession, rotateSession, revokeSession } from "../auth/session";
 import { setAuthCookies, clearAuthCookies } from "../auth/cookies";
 import { requireUser, requireSecret } from "../auth/middleware";
@@ -119,9 +119,64 @@ auth.post("/api/v1/auth/logout", async (c) => {
   return c.json({ message: "Logged out" }, 200);
 });
 
+// POST /password-reset/request — always 200 (anti-enumeration).
+auth.post("/api/v1/auth/password-reset/request", async (c) => {
+  let secret: string;
+  try {
+    secret = requireSecret(c);
+  } catch {
+    return c.json({ error: "server_misconfigured" }, 500);
+  }
+
+  const body = await readJson(c);
+  const email = typeof body.email === "string" ? body.email.trim() : "";
+  const generic = { message: "If that email is registered, a reset link has been sent" };
+  if (!email) return c.json(generic, 200);
+
+  const found = await findUserByEmail(c.env.DB, email);
+  if (found && found.password_hash) {
+    const token = await signReset(found.id, secret);
+    if (!c.env.RESEND_API_KEY) {
+      // No email provider configured — log the token in dev instead of sending.
+      const origin = c.env.FRONTEND_ORIGIN || "";
+      console.log(
+        `[password-reset] no RESEND_API_KEY; reset link for ${email}: ` +
+          `${origin}/auth/reset-password?token=${token}`,
+      );
+    }
+    // (Real Resend delivery is deferred; endpoints are stubbed until keys exist.)
+  }
+  return c.json(generic, 200);
+});
+
+// POST /password-reset/confirm — set a new password with a valid reset token.
+auth.post("/api/v1/auth/password-reset/confirm", async (c) => {
+  let secret: string;
+  try {
+    secret = requireSecret(c);
+  } catch {
+    return c.json({ error: "server_misconfigured" }, 500);
+  }
+
+  const body = await readJson(c);
+  const token = typeof body.token === "string" ? body.token : "";
+  const newPassword = typeof body.new_password === "string" ? body.new_password : "";
+
+  if (newPassword.length < MIN_PASSWORD_LEN) {
+    return c.json({ error: "Password must be at least 8 characters" }, 400);
+  }
+
+  const payload = await verifyOfType(token, secret, "password_reset");
+  if (!payload) return c.json({ error: "Invalid or expired reset token" }, 400);
+
+  const found = await findUserById(c.env.DB, payload.sub);
+  if (!found) return c.json({ error: "Invalid or expired reset token" }, 400);
+
+  await updatePassword(c.env.DB, found.id, await hashPassword(newPassword));
+  return c.json({ message: "Password updated successfully" }, 200);
+});
+
 // GET /api/v1/auth/me — alias of /api/user/me.
 auth.get("/api/v1/auth/me", requireUser, (c) => {
   return c.json(userOut(c.get("user")));
 });
-
-export { findUserById, updatePassword };

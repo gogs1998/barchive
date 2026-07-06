@@ -5,6 +5,8 @@ export interface Env {
   JWT_SECRET: string;
   ENVIRONMENT: string;
   FRONTEND_ORIGIN: string;
+  /** Optional — when unset, password-reset emails are logged, not sent. */
+  RESEND_API_KEY?: string;
 }
 
 /** The authenticated user attached to the request context by `requireUser`. */
