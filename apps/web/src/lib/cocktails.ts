@@ -647,14 +647,15 @@ function mergeUnique(...sources: Cocktail[][]): Cocktail[] {
   const out: Cocktail[] = [];
   const slugs = new Set<string>();
   const ids = new Set<string>();
-  const imgs = new Set<string>();
   for (const src of sources) {
     for (const c of src) {
-      if (slugs.has(c.slug) || ids.has(c.id) || (c.img && imgs.has(c.img))) continue;
+      // Dedup on slug or id only. Image URL must NOT be a dedup key: dozens of
+      // Difford's records share a placeholder image, which previously collided
+      // and silently dropped ~67 distinct cocktails.
+      if (slugs.has(c.slug) || ids.has(c.id)) continue;
       out.push(c);
       slugs.add(c.slug);
       ids.add(c.id);
-      if (c.img) imgs.add(c.img);
     }
   }
   return out;

@@ -1868,7 +1868,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Apple Pie Cocktail",
     "category": "Vodka",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -2392,7 +2392,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Asian Mary",
     "category": "Vodka",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -3471,7 +3471,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Bananas and Cream",
     "category": "Liqueur",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E6C7E0",
     "ingredients": [
       {
@@ -4410,7 +4410,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Beetle Jeuse",
     "category": "Vodka",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -5868,7 +5868,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Blue Lady",
     "category": "Gin",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -5917,7 +5917,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Blue Lagoon",
     "category": "Vodka",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -7153,7 +7153,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Brighton Punch",
     "category": "Whiskey",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#D4A56A",
     "ingredients": [
       {
@@ -7547,7 +7547,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Butterscotch Cocktail",
     "category": "Rum",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -8073,7 +8073,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Captain Collins",
     "category": "Whiskey",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#D4A56A",
     "ingredients": [
       {
@@ -9306,7 +9306,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "China Blue Cocktail",
     "category": "Liqueur",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E6C7E0",
     "ingredients": [
       {
@@ -9459,7 +9459,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Choc and Nut Martini",
     "category": "Vodka",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -9789,7 +9789,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Citrus Martini",
     "category": "Vodka",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -10082,7 +10082,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Coconut Daiquiri",
     "category": "Rum",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -10541,7 +10541,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Cox's Daiquiri",
     "category": "Rum",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -11158,7 +11158,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Cumbersome",
     "category": "Gin",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -15099,7 +15099,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Devil's Manhattan",
     "category": "Whiskey",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#D4A56A",
     "ingredients": [
       {
@@ -19728,7 +19728,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Fruit and Nut Chocolate Martini",
     "category": "Vodka",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -19789,7 +19789,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Fruit and Nut Cocktail",
     "category": "Vodka",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -19997,7 +19997,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Fu Manchu Daiquiri",
     "category": "Rum",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -21198,7 +21198,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Give me a Dime",
     "category": "Liqueur",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E6C7E0",
     "ingredients": [
       {
@@ -22621,7 +22621,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Gulf Coast Sex on the Beach",
     "category": "Rum",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -23880,7 +23880,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Honey Wall",
     "category": "Rum",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -31381,7 +31381,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Melon Daiquiri #1 (served 'up')",
     "category": "Rum",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -41589,7 +41589,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Red Neck",
     "category": "Whiskey",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#D4A56A",
     "ingredients": [
       {
@@ -53089,7 +53089,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Addington",
     "category": "Wine",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8B3C0",
     "ingredients": [
       {
@@ -96132,7 +96132,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Grand Duchess Cocktail",
     "category": "Rum",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -97831,7 +97831,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Melon Caipirinha",
     "category": "Rum",
     "glass": "Rocks",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -100422,7 +100422,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Raisin' Cane",
     "category": "Rum",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -102411,7 +102411,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "GDPR Cocktail",
     "category": "Brandy",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8C39E",
     "ingredients": [
       {
@@ -102460,7 +102460,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Royal Balkan",
     "category": "Gin",
     "glass": "Highball",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -102655,7 +102655,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Ernst Happel",
     "category": "Gin",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -102716,7 +102716,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Enchanted Field Cocktail",
     "category": "Whiskey",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#D4A56A",
     "ingredients": [
       {
@@ -102765,7 +102765,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Golden Tang",
     "category": "Vodka",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -102814,7 +102814,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Corpse Reviver No.0824",
     "category": "Liqueur",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E6C7E0",
     "ingredients": [
       {
@@ -102869,7 +102869,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Lightness Cocktail",
     "category": "Vodka",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -102930,7 +102930,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Witches' Smile",
     "category": "Vodka",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -102985,7 +102985,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Witches' Yellow Flip",
     "category": "Brandy",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8C39E",
     "ingredients": [
       {
@@ -103101,7 +103101,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Orange Witch",
     "category": "Gin",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -103144,7 +103144,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Witches' Grappa",
     "category": "Liqueur",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E6C7E0",
     "ingredients": [
       {
@@ -103193,7 +103193,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Polish Pear Martini",
     "category": "Vodka",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -103242,7 +103242,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Egg Sour",
     "category": "Brandy",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8C39E",
     "ingredients": [
       {
@@ -103297,7 +103297,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Iron and Sand Cocktail",
     "category": "Whiskey",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#D4A56A",
     "ingredients": [
       {
@@ -103346,7 +103346,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Rusty Peach Cocktail",
     "category": "Gin",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -103682,7 +103682,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Mariposa",
     "category": "Rum",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -103743,7 +103743,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Zima Sour",
     "category": "Vodka",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -104261,7 +104261,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Caipirinha (no added sugar and low-calorie)",
     "category": "Rum",
     "glass": "Rocks",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -104310,7 +104310,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Daiquiri (no added sugar and low-calorie)",
     "category": "Rum",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -104359,7 +104359,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Espresso Martini (no sugar and low-calorie)",
     "category": "Vodka",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -104451,7 +104451,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Tom Collins (no added sugar and low-calorie)",
     "category": "Gin",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -104500,7 +104500,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Vodka Collins (no added sugar and low-calorie)",
     "category": "Vodka",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -104549,7 +104549,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "White Lady (no added sugar* and low-calorie)",
     "category": "Gin",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -104714,7 +104714,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "First Post",
     "category": "Gin",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -104775,7 +104775,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "The Bee Bodice",
     "category": "Vodka",
     "glass": "Flute",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -104889,7 +104889,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "La Petite Bouche",
     "category": "Rum",
     "glass": "Highball",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -104938,7 +104938,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Blushing Monk",
     "category": "Liqueur",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E6C7E0",
     "ingredients": [
       {
@@ -105054,7 +105054,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Eye-opener",
     "category": "Rum",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -105115,7 +105115,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Old Etonian",
     "category": "Gin",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -105164,7 +105164,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Lily",
     "category": "Gin",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -105213,7 +105213,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Le Frog",
     "category": "Whiskey",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#D4A56A",
     "ingredients": [
       {
@@ -105708,7 +105708,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Crystal Clear",
     "category": "Vodka",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -105757,7 +105757,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Vodka Silver Bullet",
     "category": "Vodka",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8EEF2",
     "ingredients": [
       {
@@ -105800,7 +105800,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Martiki",
     "category": "Rum",
     "glass": "Martini",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -105892,7 +105892,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "After Hours",
     "category": "Gin",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -106240,7 +106240,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Isla de Piño",
     "category": "Rum",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -106338,7 +106338,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Parasol",
     "category": "Rum",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {
@@ -106744,7 +106744,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Call me Ish",
     "category": "Whiskey",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#D4A56A",
     "ingredients": [
       {
@@ -109217,7 +109217,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Landing Gear",
     "category": "Brandy",
     "glass": "Coupe",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#E8C39E",
     "ingredients": [
       {
@@ -116223,7 +116223,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Pink Witch",
     "category": "Gin",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#BFD8C2",
     "ingredients": [
       {
@@ -120622,7 +120622,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "name": "Around The World",
     "category": "Rum",
     "glass": "Collins",
-    "img": "/assets/images/themes/default_v5/cocktails/pixelated.jpg",
+    "img": "",
     "color": "#F5E6CA",
     "ingredients": [
       {

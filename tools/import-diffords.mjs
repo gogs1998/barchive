@@ -120,7 +120,10 @@ for (const r of recipes) {
     name: decodeEntities(r.name).trim(),
     category,
     glass: GLASS_MAP[r.glass] || titleCase(r.glass || "Coupe"),
-    img: images[r.source_url] || "",
+    // The scrape maps un-photographed drinks to a shared placeholder
+    // (pixelated.jpg). Blank it so surviving records don't render a broken
+    // relative path (and so it can never be used as a dedup key upstream).
+    img: (images[r.source_url] && !images[r.source_url].includes("pixelated")) ? images[r.source_url] : "",
     color: COLOR[category] || COLOR.Other,
     ingredients,
     steps: steps.length ? steps : ["Combine ingredients and serve."],
