@@ -7,17 +7,11 @@
 
 import { Hono } from "hono";
 import { cors } from "hono/cors";
+import type { AppEnv } from "./env";
 
-export interface Env {
-  DB: D1Database;
-  JWT_SECRET: string;
-  ENVIRONMENT: string;
-  FRONTEND_ORIGIN: string;
-}
+export type { Env } from "./env";
 
-export type AppContext = { Bindings: Env };
-
-const app = new Hono<AppContext>();
+const app = new Hono<AppEnv>();
 
 // Credentialed CORS — reflect the specific frontend origin (never `*` with
 // credentials). Falls back to the configured FRONTEND_ORIGIN.
