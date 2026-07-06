@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuth, type BarIngredientAPI } from "@/lib/auth-context";
@@ -31,9 +31,35 @@ type Step = 1 | 2 | 3;
 
 export function OnboardingWizard() {
   const router = useRouter();
-  const { setGuestBar, openAuthModal } = useAuth();
+  const {
+    user,
+    setGuestBar,
+    openAuthModal,
+    barIngredientData = [],
+    barHydrated = true,
+  } = useAuth();
   const [step, setStep] = useState<Step>(1);
   const [selected, setSelected] = useState<string[]>([]);
+  const seededRef = useRef(false);
+
+  const isAuthed = Boolean(user);
+
+  // P1-5: the wizard only manages the *guest* bar. A signed-in user landing on
+  // /welcome must not have their account bar overwritten — redirect them out
+  // before any setGuestBar/register-modal side effect can fire.
+  useEffect(() => {
+    if (isAuthed) router.replace("/my-bar");
+  }, [isAuthed, router]);
+
+  // P1-6: seed the selection from the existing guest bar so a returning guest
+  // merges (adds to) their bar instead of replacing it wholesale.
+  useEffect(() => {
+    if (seededRef.current || isAuthed || !barHydrated) return;
+    seededRef.current = true;
+    if (barIngredientData.length > 0) {
+      setSelected(barIngredientData.map((i) => i.name));
+    }
+  }, [barHydrated, isAuthed, barIngredientData]);
 
   const barNames = useMemo(
     () => new Set(selected.map((s) => s.toLowerCase())),
@@ -59,16 +85,28 @@ export function OnboardingWizard() {
   };
 
   const finishAndBrowse = () => {
-    setGuestBar(toGuestItems(selected));
+    // Guest-only write; signed-in users are redirected before reaching here (P1-5).
+    if (!isAuthed) setGuestBar(toGuestItems(selected));
     markOnboarded();
     router.push("/cocktails?make=1");
   };
 
   const finishAndSave = () => {
+    // A signed-in user already has an account bar — never clobber it or reopen
+    // the register modal; just send them to My Bar (P1-5).
+    if (isAuthed) {
+      markOnboarded();
+      router.push("/my-bar");
+      return;
+    }
     setGuestBar(toGuestItems(selected));
     markOnboarded();
     openAuthModal("register");
   };
+
+  // While redirecting a signed-in user, render nothing to avoid flashing the
+  // guest wizard (which could momentarily invite a clobbering action).
+  if (isAuthed) return null;
 
   return (
     <div className={styles.wizard}>
