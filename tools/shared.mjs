@@ -78,77 +78,76 @@ export function deriveCategory(ingredients, { nonAlcoholic = false } = {}) {
 }
 
 // ── Glass taxonomy ──────────────────────────────────────────────────────────
-// One canonical vocabulary applied across all three sources. Keys are compared
-// case-insensitively after stripping a trailing "glass" and surrounding junk.
+// One canonical vocabulary applied across all three sources. Keys are matched
+// case-insensitively after stripping a trailing "glass"/"cup" and whitespace.
+// Canonical targets: Martini, Coupe, Flute, Rocks, Highball, Collins, Hurricane,
+// Margarita, Wine, Shot, Mug, Snifter, Copa, Punch, Julep, Tiki, Goblet.
 const GLASS_CANON = {
-  // Stemmed / up
+  // Stemmed "up" — TheCocktailDB "Cocktail" == Martini (single vocabulary).
   cocktail: "Martini",
   martini: "Martini",
-  "martini / cocktail": "Martini",
   coupe: "Coupe",
   coupette: "Coupe",
-  "cocktail / martini": "Martini",
-  nick_and_nora: "Coupe",
-  "nick & nora": "Coupe",
+  "nick and nora": "Coupe",
+  cordial: "Coupe",
   // Flutes
   flute: "Flute",
   "champagne flute": "Flute",
-  "champagne coupe": "Coupe",
   champagne: "Flute",
-  "champagne tulip": "Flute",
-  // Rocks / old fashioned
+  // Rocks / old-fashioned merge together
   rocks: "Rocks",
   "old-fashioned": "Rocks",
   "old fashioned": "Rocks",
-  "double old-fashioned": "Rocks",
-  "double rocks": "Rocks",
   "whiskey sour": "Rocks",
-  "sour glass": "Rocks",
+  whiskey: "Rocks",
   lowball: "Rocks",
   tumbler: "Rocks",
   // Tall
   highball: "Highball",
   collins: "Collins",
-  "tall glass": "Highball",
+  tall: "Highball",
   chimney: "Highball",
   // Specialty
   hurricane: "Hurricane",
   margarita: "Margarita",
-  "margarita / coupette": "Margarita",
-  "coupette / margarita": "Margarita",
-  "irish coffee": "Irish Coffee",
-  "coffee mug": "Irish Coffee",
-  mug: "Mug",
-  "copper mug": "Mug",
-  "moscow mule": "Mug",
-  "julep tin": "Julep",
-  julep: "Julep",
+  "margarita/coupette": "Margarita",
+  "coupette/margarita": "Margarita",
+  wine: "Wine",
+  "white wine": "Wine",
+  "red wine": "Wine",
+  goblet: "Goblet",
   tiki: "Tiki",
   "tiki mug": "Tiki",
-  goblet: "Goblet",
-  "wine glass": "Wine",
-  "white wine glass": "Wine",
-  "red wine glass": "Wine",
-  wine: "Wine",
-  "shot glass": "Shot",
-  shot: "Shot",
-  "shooter": "Shot",
-  balloon: "Copa",
-  "copa": "Copa",
-  "copa de balon": "Copa",
+  "julep tin": "Julep",
+  julep: "Julep",
   snifter: "Snifter",
   "brandy snifter": "Snifter",
+  balloon: "Copa",
+  copa: "Copa",
+  shot: "Shot",
+  shooter: "Shot",
+  "pousse cafe": "Shot",
+  // Mugs consolidate
+  mug: "Mug",
+  "coffee mug": "Mug",
+  "irish coffee cup": "Mug",
+  "irish coffee": "Mug",
+  "heatproof mug": "Mug",
+  "copper mug": "Mug",
+  "moscow mule": "Mug",
+  "beer mug": "Mug",
+  // Punch / batch
   "punch bowl": "Punch",
   punch: "Punch",
-  // Junk / non-glasses collapse to the closest sensible default.
+  pitcher: "Punch",
+  // Junk / non-cocktail vessels collapse to the closest sensible default.
   beer: "Highball",
-  "beer mug": "Mug",
   "beer pilsner": "Highball",
   pilsner: "Highball",
-  pitcher: "Punch",
+  pint: "Highball",
   jar: "Highball",
   "mason jar": "Highball",
-  pint: "Highball",
+  unknown: "Coupe",
 };
 
 /** Normalize any source glass value to the canonical BarIQ vocabulary. */
@@ -156,14 +155,16 @@ export function normalizeGlass(raw) {
   if (!raw) return "Coupe";
   const key = String(raw)
     .toLowerCase()
-    .replace(/\s*glass\s*$/i, "")
     .replace(/[‘’]/g, "'")
+    .replace(/\s*(glass|cup)\s*$/i, "")
     .replace(/\s+/g, " ")
     .trim();
   if (GLASS_CANON[key]) return GLASS_CANON[key];
   // Title-case unknown-but-plausible values so they at least merge on case.
-  return key
-    .split(" ")
-    .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w))
-    .join(" ") || "Coupe";
+  return (
+    key
+      .split(" ")
+      .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w))
+      .join(" ") || "Coupe"
+  );
 }

@@ -7,7 +7,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17222",
     "name": "A1",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -209,7 +209,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17837",
     "name": "Adam",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -252,7 +252,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17833",
     "name": "A. J.",
     "category": "Other",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/l74qo91582480316.jpg",
     "color": "#D9D4CA",
     "ingredients": [
@@ -428,7 +428,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11023",
     "name": "Almeria",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/rwsyyu1483388181.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -539,7 +539,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17180",
     "name": "Aviation",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/trbplb1606855233.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -582,7 +582,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11046",
     "name": "Applecar",
     "category": "Liqueur",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/sbffau1504389764.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -620,7 +620,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17840",
     "name": "Affinity",
     "category": "Wine",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/wzdtnn1582477684.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -666,7 +666,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17836",
     "name": "Acapulco",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/il9e0r1582478841.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -723,7 +723,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11014",
     "name": "Alexander",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/0clus51606772388.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -810,7 +810,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11021",
     "name": "Allegheny",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/uwvyts1483387934.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -908,7 +908,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11020",
     "name": "Algonquin",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/uwryxx1483387873.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -946,7 +946,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11055",
     "name": "Artillery",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/g1vnbe1493067747.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -1023,7 +1023,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17227",
     "name": "Addington",
     "category": "Wine",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/ib0b7g1504818925.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -1143,7 +1143,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17254",
     "name": "Bijou",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/rysb3r1513706985.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -1187,7 +1187,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11149",
     "name": "Boxcar",
     "category": "Gin",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/pwgtpa1504366376.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -1271,7 +1271,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17195",
     "name": "Bellini",
     "category": "Wine",
-    "glass": "Champagne Flute",
+    "glass": "Flute",
     "img": "https://www.thecocktaildb.com/images/media/drink/eaag491504367543.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -1307,7 +1307,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17210",
     "name": "Bramble",
     "category": "Gin",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/twtbh51630406392.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -1357,7 +1357,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11060",
     "name": "Balmoral",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/vysuyq1441206297.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -1403,7 +1403,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11120",
     "name": "Bluebird",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/5jhyd01582579843.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -1461,7 +1461,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178310",
     "name": "Brooklyn",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/ojsezf1582477277.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -1562,7 +1562,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11124",
     "name": "Boomerang",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/3m6yz81504389551.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -1758,7 +1758,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17035",
     "name": "Buccaneer",
     "category": "Other",
-    "glass": "Beer Pilsner",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/upvtyt1441249023.jpg",
     "color": "#D9D4CA",
     "ingredients": [
@@ -1790,7 +1790,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17120",
     "name": "Brain Fart",
     "category": "Rum",
-    "glass": "Punch Bowl",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/rz5aun1504389701.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -1848,7 +1848,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11106",
     "name": "Blackthorn",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/dgj92f1616098672.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -2098,7 +2098,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11129",
     "name": "Boston Sour",
     "category": "Whiskey",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/kxlgbi1504366100.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -2218,7 +2218,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17185",
     "name": "Casino",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/1mvjxg1504348579.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -2274,7 +2274,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14181",
     "name": "Cafe Savoy",
     "category": "Liqueur",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/vqwptt1441247711.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -2319,7 +2319,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11202",
     "name": "Caipirinha",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/jgvn7p1582484435.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -2443,7 +2443,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11239",
     "name": "Cherry Rum",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/twsuvr1441554424.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -2523,7 +2523,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17830",
     "name": "Corn n Oil",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/pk6dwi1592767243.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -2613,7 +2613,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11222",
     "name": "Casa Blanca",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/usspxq1441553762.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -2657,7 +2657,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17186",
     "name": "Clover Club",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -2749,7 +2749,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11251",
     "name": "City Slicker",
     "category": "Brandy",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/dazdlg1504366949.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -2789,7 +2789,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16047",
     "name": "Campari Beer",
     "category": "Liqueur",
-    "glass": "Beer Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/xsqrup1441249130.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -2880,7 +2880,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17196",
     "name": "Cosmopolitan",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -2992,7 +2992,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11224",
     "name": "Casino Royale",
     "category": "Gin",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/3qpv121504366699.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -3044,7 +3044,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17250",
     "name": "Corpse Reviver",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/gifgao1513704334.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -3134,7 +3134,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11255",
     "name": "Clove Cocktail",
     "category": "Wine",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/qxvtst1461867579.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -3225,7 +3225,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17108",
     "name": "Coke and Drops",
     "category": "Mocktail",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/yrtxxp1472719367.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -3258,7 +3258,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12734",
     "name": "Chocolate Drink",
     "category": "Mocktail",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/q7w4xu1487603180.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -3300,7 +3300,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12890",
     "name": "Cranberry Punch",
     "category": "Mocktail",
-    "glass": "Punch Bowl",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/mzgaqu1504389248.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -3353,7 +3353,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17187",
     "name": "Derby",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/52weey1606772672.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -3397,7 +3397,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "13128",
     "name": "Diesel",
     "category": "Beer",
-    "glass": "Pint",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/sxrrqq1454512852.jpg",
     "color": "#F2D98D",
     "ingredients": [
@@ -3437,7 +3437,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11006",
     "name": "Daiquiri",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -3481,7 +3481,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15409",
     "name": "Danbooka",
     "category": "Other",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/vurrxr1441246074.jpg",
     "color": "#D9D4CA",
     "ingredients": [
@@ -3600,7 +3600,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11005",
     "name": "Dry Martini",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -3646,7 +3646,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11324",
     "name": "Dry Rob Roy",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/typuyq1439456976.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -3725,7 +3725,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17181",
     "name": "Dirty Martini",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/vcyvpq1485083300.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -3781,7 +3781,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14482",
     "name": "Darkwood Sling",
     "category": "Other",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/sxxsyq1472719303.jpg",
     "color": "#D9D4CA",
     "ingredients": [
@@ -3906,7 +3906,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17182",
     "name": "Duchamp's Punch",
     "category": "Brandy",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/g51naw1485084685.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -4004,7 +4004,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11326",
     "name": "Dubonnet Cocktail",
     "category": "Wine",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/pfz3hz1582483111.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -4049,7 +4049,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12736",
     "name": "Drinking Chocolate",
     "category": "Mocktail",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/u6jrdf1487603173.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -4147,7 +4147,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12668",
     "name": "Egg Cream",
     "category": "Mocktail",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/mvis731484430445.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -4186,7 +4186,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12910",
     "name": "Egg Nog #4",
     "category": "Rum",
-    "glass": "Punch Bowl",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/wpspsy1468875747.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -4336,7 +4336,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17212",
     "name": "Espresso Martini",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -4377,7 +4377,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178309",
     "name": "Espresso Rumtini",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/acvf171561574403.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -4491,7 +4491,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11339",
     "name": "English Rose Cocktail",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/yxwrpp1441208697.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -4592,7 +4592,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12914",
     "name": "Egg-Nog - Classic Cooked",
     "category": "Other",
-    "glass": "Pitcher",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/quxsvt1468875505.jpg",
     "color": "#D9D4CA",
     "ingredients": [
@@ -4651,7 +4651,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17246",
     "name": "Empellón Cocina's Fat-Washed Mezcal",
     "category": "Mezcal",
-    "glass": "Beer",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/osgvxt1513595509.jpg",
     "color": "#C9B79C",
     "ingredients": [
@@ -4703,7 +4703,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178352",
     "name": "Frosé",
     "category": "Other",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/b4cadp1619695347.jpg",
     "color": "#D9D4CA",
     "ingredients": [
@@ -4804,7 +4804,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11375",
     "name": "Foxy Lady",
     "category": "Liqueur",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/r9cz3q1504519844.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -4969,7 +4969,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11382",
     "name": "Frisco Sour",
     "category": "Whiskey",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/acuvjz1582482022.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -5233,7 +5233,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15743",
     "name": "Fuzzy Asshole",
     "category": "Liqueur",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/wrvpuu1472667898.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -5267,7 +5267,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17213",
     "name": "French Martini",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -5394,7 +5394,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11368",
     "name": "Flying Dutchman",
     "category": "Gin",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/mwko4q1582482903.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -5427,7 +5427,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11387",
     "name": "Frozen Daiquiri",
     "category": "Rum",
-    "glass": "Champagne Flute",
+    "glass": "Flute",
     "img": "https://www.thecocktaildb.com/images/media/drink/7oyrj91504884412.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -5517,7 +5517,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11369",
     "name": "Flying Scotchman",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/q53l911582482518.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -5561,7 +5561,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17198",
     "name": "French Connection",
     "category": "Brandy",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/zaqa381504368758.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -5649,7 +5649,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16485",
     "name": "Flaming Lamborghini",
     "category": "Liqueur",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/yywpss1461866587.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -5727,7 +5727,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11390",
     "name": "Frozen Mint Daiquiri",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/jrhn1q1504884469.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -5773,7 +5773,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11391",
     "name": "Frozen Pineapple Daiquiri",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/k3aecd1582481679.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -5905,7 +5905,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11422",
     "name": "Godchild",
     "category": "Vodka",
-    "glass": "Champagne Flute",
+    "glass": "Flute",
     "img": "https://www.thecocktaildb.com/images/media/drink/m5nhtr1504820829.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -5992,7 +5992,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11417",
     "name": "Gin Sour",
     "category": "Gin",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/noxp7e1606769224.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -6046,7 +6046,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12758",
     "name": "Gagliardo",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/lyloe91487602877.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -6091,7 +6091,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11424",
     "name": "Godmother",
     "category": "Vodka",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/quksqg1582582597.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -6126,7 +6126,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11423",
     "name": "Godfather",
     "category": "Whiskey",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/e5zgao1582582378.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -6162,7 +6162,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12944",
     "name": "Gluehwein",
     "category": "Wine",
-    "glass": "Irish Coffee Cup",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/vuxwvt1468875418.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -6265,7 +6265,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11420",
     "name": "Gin Toddy",
     "category": "Gin",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/jxstwf1582582101.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -6311,7 +6311,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11416",
     "name": "Gin Smash",
     "category": "Gin",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/iprva61606768774.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -6372,7 +6372,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11408",
     "name": "Gin Daisy",
     "category": "Gin",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/z6e22f1582581155.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -6482,7 +6482,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11415",
     "name": "Gin Sling",
     "category": "Gin",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/8cl9sm1582581761.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -6679,7 +6679,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15427",
     "name": "Grand Blue",
     "category": "Liqueur",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/vsrsqu1472761749.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -6830,7 +6830,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11433",
     "name": "Grass Skirt",
     "category": "Gin",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/qyvprp1473891585.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -6882,7 +6882,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17200",
     "name": "Grasshopper",
     "category": "Liqueur",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/aqm9el1504369613.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -6925,7 +6925,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14642",
     "name": "Grim Reaper",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/kztu161504883192.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -7007,7 +7007,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16262",
     "name": "H.D.",
     "category": "Liqueur",
-    "glass": "Beer Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -7086,7 +7086,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178345",
     "name": "Hot Toddy",
     "category": "Whiskey",
-    "glass": "Irish Coffee Cup",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/ggx0lv1613942306.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -7141,7 +7141,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15813",
     "name": "Herbal flame",
     "category": "Other",
-    "glass": "Mason Jar",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/rrstxv1441246184.jpg",
     "color": "#D9D4CA",
     "ingredients": [
@@ -7272,7 +7272,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17239",
     "name": "Hunter's Moon",
     "category": "Wine",
-    "glass": "Balloon",
+    "glass": "Copa",
     "img": "https://www.thecocktaildb.com/images/media/drink/t0iugg1509556712.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -7322,7 +7322,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178313",
     "name": "Halloween Punch",
     "category": "Vodka",
-    "glass": "Punch Bowl",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/7hcgyj1571687671.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -7381,7 +7381,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11470",
     "name": "Havana Cocktail",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/59splc1504882899.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -7421,7 +7421,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12954",
     "name": "Holloween Punch",
     "category": "Mocktail",
-    "glass": "Punch Bowl",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/lfeoe41504888925.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -7530,7 +7530,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14782",
     "name": "Hot Creamy Bush",
     "category": "Whiskey",
-    "glass": "Irish Coffee Cup",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/spvrtp1472668037.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -7610,7 +7610,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11472",
     "name": "Hawaiian Cocktail",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/ujoh9x1504882987.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -7648,7 +7648,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17201",
     "name": "Hemingway Special",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/jfcvps1504369888.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -7696,7 +7696,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11476",
     "name": "Highland Fling Cocktail",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/0bkwca1492975553.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -7741,7 +7741,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12738",
     "name": "Hot Chocolate to Die for",
     "category": "Mocktail",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/0lrmjp1487603166.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -7884,7 +7884,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12770",
     "name": "Iced Coffee",
     "category": "Mocktail",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/ytprxy1454513855.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -7932,7 +7932,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12820",
     "name": "Irish Cream",
     "category": "Whiskey",
-    "glass": "Irish Coffee Cup",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/90etyl1504884699.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -7984,7 +7984,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "13971",
     "name": "Irish Coffee",
     "category": "Whiskey",
-    "glass": "Irish Coffee Cup",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/sywsqw1439906999.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -8186,7 +8186,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12706",
     "name": "Imperial Cocktail",
     "category": "Liqueur",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/bcsj2e1487603625.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -8224,7 +8224,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12772",
     "name": "Iced Coffee Fillip",
     "category": "Liqueur",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/sxtxrp1454514223.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -8347,7 +8347,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16178",
     "name": "Jitterbug",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/wwqvrq1441245318.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -8444,7 +8444,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "13775",
     "name": "Jelly Bean",
     "category": "Brandy",
-    "glass": "Cordial",
+    "glass": "Coupe",
     "img": "https://www.thecocktaildb.com/images/media/drink/bglc6y1504388797.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -8683,7 +8683,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15825",
     "name": "Jamaican Coffee",
     "category": "Rum",
-    "glass": "Champagne Flute",
+    "glass": "Flute",
     "img": "https://www.thecocktaildb.com/images/media/drink/xqptps1441247257.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -8768,7 +8768,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11566",
     "name": "Jewel Of The Nile",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/hx4nrb1504884947.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -8808,7 +8808,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11542",
     "name": "Jack Rose Cocktail",
     "category": "Brandy",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/uuqqrv1439907068.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -8848,7 +8848,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16275",
     "name": "Jack's Vanilla Coke",
     "category": "Whiskey",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/kjnt7z1504793319.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -8961,7 +8961,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11600",
     "name": "Kamikaze",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/d7ff7u1606855412.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -9003,7 +9003,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "13837",
     "name": "Kir Royale",
     "category": "Liqueur",
-    "glass": "Champagne Flute",
+    "glass": "Flute",
     "img": "https://www.thecocktaildb.com/images/media/drink/yt9i7n1504370388.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -9075,7 +9075,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14456",
     "name": "Kurant Tea",
     "category": "Other",
-    "glass": "Champagne Flute",
+    "glass": "Flute",
     "img": "https://www.thecocktaildb.com/images/media/drink/xrsrpr1441247464.jpg",
     "color": "#D9D4CA",
     "ingredients": [
@@ -9115,7 +9115,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16951",
     "name": "Kioki Coffee",
     "category": "Liqueur",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/uppqty1441247374.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -9154,7 +9154,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178359",
     "name": "Kiwi Martini",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/bmxmyq1630407098.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -9252,7 +9252,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "13190",
     "name": "Kool-Aid Shot",
     "category": "Liqueur",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/fegm621503564966.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -9336,7 +9336,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11602",
     "name": "Kentucky B And B",
     "category": "Whiskey",
-    "glass": "Brandy Snifter",
+    "glass": "Snifter",
     "img": "https://www.thecocktaildb.com/images/media/drink/sqxsxp1478820236.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -9368,7 +9368,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11604",
     "name": "Kentucky Colonel",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/utqwpu1478820348.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -9563,7 +9563,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14378",
     "name": "Lunch Box",
     "category": "Liqueur",
-    "glass": "Pint",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/qywpvt1454512546.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -9603,7 +9603,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14366",
     "name": "Lemon Drop",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/mtpxgk1504373297.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -9902,7 +9902,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11658",
     "name": "Loch Lomond",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/rpvtpr1468923881.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -9949,7 +9949,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11662",
     "name": "London Town",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/rpsrqv1468923507.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -10085,7 +10085,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15086",
     "name": "Limona Corona",
     "category": "Other",
-    "glass": "Beer",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/wwqrsw1441248662.jpg",
     "color": "#D9D4CA",
     "ingredients": [
@@ -10122,7 +10122,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11670",
     "name": "Lord And Lady",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/quwrys1468923219.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -10155,7 +10155,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11634",
     "name": "Lady Love Fizz",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/20d63k1504885263.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -10336,7 +10336,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11664",
     "name": "Lone Tree Cocktail",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/tsxpty1468923417.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -10571,7 +10571,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12776",
     "name": "Melya",
     "category": "Mocktail",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/xwtptq1441247579.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -10680,7 +10680,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17205",
     "name": "Mimosa",
     "category": "Wine",
-    "glass": "Champagne Flute",
+    "glass": "Flute",
     "img": "https://www.thecocktaildb.com/images/media/drink/juhcuu1504370685.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -10771,7 +10771,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11728",
     "name": "Martini",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -10812,7 +10812,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178343",
     "name": "Michelada",
     "category": "Beer",
-    "glass": "Pint",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/u736bd1605907086.jpg",
     "color": "#F2D98D",
     "ingredients": [
@@ -10873,7 +10873,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11008",
     "name": "Manhattan",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/yk70e31606771240.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -10933,7 +10933,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11007",
     "name": "Margarita",
     "category": "Tequila",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
     "color": "#D4E8A8",
     "ingredients": [
@@ -11073,7 +11073,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16041",
     "name": "Mudslinger",
     "category": "Liqueur",
-    "glass": "Punch Bowl",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/hepk6h1504885554.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -11112,7 +11112,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17256",
     "name": "Martinez 2",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/fs6kiq1513708455.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -11195,7 +11195,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "13936",
     "name": "Miami Vice",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/qvuyqw1441208955.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -11237,7 +11237,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11009",
     "name": "Moscow Mule",
     "category": "Vodka",
-    "glass": "Copper Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -11346,7 +11346,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12774",
     "name": "Masala Chai",
     "category": "Mocktail",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/uyrpww1441246384.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -11481,7 +11481,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14209",
     "name": "Mocha-Berry",
     "category": "Liqueur",
-    "glass": "Irish Coffee Cup",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/vtwyyx1441246448.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -11525,7 +11525,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178358",
     "name": "Mango Mojito",
     "category": "Rum",
-    "glass": "Jar",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/wfqmgm1630406820.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -11642,7 +11642,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17189",
     "name": "Monkey Gland",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/94psp81504350690.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -11689,7 +11689,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14842",
     "name": "Midnight Mint",
     "category": "Liqueur",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/svuvrq1441208310.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -11729,7 +11729,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17188",
     "name": "Mary Pickford",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/f9erqb1504350557.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -11782,7 +11782,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11798",
     "name": "Monkey Wrench",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/bw2noj1582473243.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -11821,7 +11821,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11003",
     "name": "Negroni",
     "category": "Gin",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -11862,7 +11862,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11844",
     "name": "New York Sour",
     "category": "Whiskey",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/61wgch1504882795.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -12016,7 +12016,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "13204",
     "name": "New York Lemonade",
     "category": "Liqueur",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/b3n0ge1503565473.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -12062,7 +12062,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12746",
     "name": "Nuked Hot Chocolate",
     "category": "Mocktail",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/xcu6nb1487603142.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -12110,7 +12110,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11872",
     "name": "Orgasm",
     "category": "Liqueur",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/vr6kle1504886114.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -12160,7 +12160,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17827",
     "name": "Old Pal",
     "category": "Whiskey",
-    "glass": "Nick And Nora",
+    "glass": "Coupe",
     "img": "https://www.thecocktaildb.com/images/media/drink/x03td31521761009.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -12202,7 +12202,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178371",
     "name": "Old Cuban",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/eo8gfx1699022995.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -12431,7 +12431,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11001",
     "name": "Old Fashioned",
     "category": "Whiskey",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -12535,7 +12535,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17266",
     "name": "Oatmeal Cookie",
     "category": "Liqueur",
-    "glass": "Mason Jar",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/bsvmlg1515792693.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -12699,7 +12699,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12748",
     "name": "Orange Scented Hot Chocolate",
     "category": "Mocktail",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/hdzwrh1487603131.jpg",
     "color": "#BFE3E0",
     "ingredients": [
@@ -12835,7 +12835,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17190",
     "name": "Paradise",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/ejozd71504351060.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -12876,7 +12876,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11936",
     "name": "Pink Gin",
     "category": "Gin",
-    "glass": "White Wine",
+    "glass": "Wine",
     "img": "https://www.thecocktaildb.com/images/media/drink/qyr51e1504888618.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -12911,7 +12911,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17249",
     "name": "Pegu Club",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/jfkemm1513703902.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -12961,7 +12961,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11938",
     "name": "Pink Lady",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/5ia6j21504887829.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -13005,7 +13005,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178354",
     "name": "Pink Moon",
     "category": "Gin",
-    "glass": "Whiskey",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/lnjoc81619696191.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -13063,7 +13063,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17829",
     "name": "Penicillin",
     "category": "Whiskey",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/hc9b1a1521853096.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -13116,7 +13116,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "13214",
     "name": "Pisco Sour",
     "category": "Brandy",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/tsssur1439907622.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -13169,7 +13169,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17192",
     "name": "Porto flip",
     "category": "Brandy",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/64x5j41504351518.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -13253,7 +13253,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16992",
     "name": "Pink Penocha",
     "category": "Vodka",
-    "glass": "Punch Bowl",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/6vigjx1503564007.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -13303,7 +13303,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178338",
     "name": "Pure Passion",
     "category": "Rum",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/4tymma1604179273.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -13405,7 +13405,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11959",
     "name": "Poppy Cocktail",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/cslw1w1504389915.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -13437,7 +13437,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11965",
     "name": "Port Wine Flip",
     "category": "Wine",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/vrprxu1441553844.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -13598,7 +13598,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178357",
     "name": "Pornstar Martini",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/xjhjdf1630406071.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -13656,7 +13656,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11961",
     "name": "Port And Starboard",
     "category": "Liqueur",
-    "glass": "Pousse Cafe",
+    "glass": "Shot",
     "img": "https://www.thecocktaildb.com/images/media/drink/wxvupx1441553911.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -13689,7 +13689,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11963",
     "name": "Port Wine Cocktail",
     "category": "Wine",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/qruprq1441553976.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -13803,7 +13803,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178323",
     "name": "Passion Fruit Martini",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/6trfve1582473527.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -13874,7 +13874,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11993",
     "name": "Quentin",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/spxtqp1478963398.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -13920,7 +13920,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11987",
     "name": "Queen Bee",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/rvvpxu1478963194.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -14069,7 +14069,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11991",
     "name": "Queen Elizabeth",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/vpqspv1478963339.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -14107,7 +14107,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11983",
     "name": "Quaker's Cocktail",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/yrqppx1478962314.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -14151,7 +14151,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11985",
     "name": "Quarter Deck Cocktail",
     "category": "Wine",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/qrwvps1478963017.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -14189,7 +14189,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17208",
     "name": "Rose",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/8kxbvq1504371462.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -14281,7 +14281,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12093",
     "name": "Rum Sour",
     "category": "Rum",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/bylfi21504886323.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -14333,7 +14333,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14978",
     "name": "Rum Punch",
     "category": "Rum",
-    "glass": "Punch Bowl",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/wyrsxu1441554538.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -14383,7 +14383,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12097",
     "name": "Rum Toddy",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/athdk71504886286.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -14513,7 +14513,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16250",
     "name": "Rum Runner",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/vqws6t1504888857.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -14563,7 +14563,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12101",
     "name": "Rusty Nail",
     "category": "Whiskey",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -14606,7 +14606,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14087",
     "name": "Red Snapper",
     "category": "Liqueur",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/7p607y1504735343.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -14676,7 +14676,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15082",
     "name": "Royal Flush",
     "category": "Liqueur",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/7rnm8u1504888527.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -14721,7 +14721,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12067",
     "name": "Rum Cobbler",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/5vh9ld1504390683.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -14859,7 +14859,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17245",
     "name": "Rosemary Blue",
     "category": "Gin",
-    "glass": "Balloon",
+    "glass": "Copa",
     "img": "https://www.thecocktaildb.com/images/media/drink/qwc5f91512406543.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -15068,7 +15068,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178333",
     "name": "Raspberry Julep",
     "category": "Whiskey",
-    "glass": "Cordial",
+    "glass": "Coupe",
     "img": "https://www.thecocktaildb.com/images/media/drink/hyztmx1598719265.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -15180,7 +15180,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12089",
     "name": "Rum Old-fashioned",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/otn2011504820649.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -15354,7 +15354,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17141",
     "name": "Smut",
     "category": "Liqueur",
-    "glass": "Beer Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/rx8k8e1504365812.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -15398,7 +15398,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17215",
     "name": "Spritz",
     "category": "Wine",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/j9evx11504373665.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -15436,7 +15436,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12130",
     "name": "Scooter",
     "category": "Brandy",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/twuptu1483388307.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -15474,7 +15474,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "13020",
     "name": "Sangria",
     "category": "Wine",
-    "glass": "Pitcher",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/xrvxpp1441249280.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -15532,7 +15532,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17193",
     "name": "Stinger",
     "category": "Brandy",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/2ahv791504352433.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -15568,7 +15568,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12127",
     "name": "Sazerac",
     "category": "Whiskey",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -15630,7 +15630,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12196",
     "name": "Sidecar",
     "category": "Brandy",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/x72sik1606854964.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -15916,7 +15916,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12308",
     "name": "Stone Sour",
     "category": "Brandy",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/vruvtp1472719895.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -15996,7 +15996,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12158",
     "name": "Scotch Sour",
     "category": "Whiskey",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/0dnb6k1504890436.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -16114,7 +16114,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12190",
     "name": "Sherry Flip",
     "category": "Wine",
-    "glass": "Nick And Nora",
+    "glass": "Coupe",
     "img": "https://www.thecocktaildb.com/images/media/drink/qrryvq1478820428.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -16165,7 +16165,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12256",
     "name": "Sol Y Sombra",
     "category": "Brandy",
-    "glass": "Brandy Snifter",
+    "glass": "Snifter",
     "img": "https://www.thecocktaildb.com/images/media/drink/3gz2vw1503425983.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -16198,7 +16198,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16273",
     "name": "Shark Attack",
     "category": "Vodka",
-    "glass": "Pitcher",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/uv96zr1504793256.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -16435,7 +16435,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "13024",
     "name": "Sweet Sangria",
     "category": "Wine",
-    "glass": "Pitcher",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/uqqvsp1468924228.jpg",
     "color": "#E8B3C0",
     "ingredients": [
@@ -16506,7 +16506,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12388",
     "name": "Thriller",
     "category": "Whiskey",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/rvuswq1461867714.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -16650,7 +16650,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17828",
     "name": "Tipperary",
     "category": "Whiskey",
-    "glass": "Nick And Nora",
+    "glass": "Coupe",
     "img": "https://www.thecocktaildb.com/images/media/drink/b522ek1521761610.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -16940,7 +16940,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14860",
     "name": "Talos Coffee",
     "category": "Liqueur",
-    "glass": "Brandy Snifter",
+    "glass": "Snifter",
     "img": "https://www.thecocktaildb.com/images/media/drink/rswqpy1441246518.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -16972,7 +16972,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15515",
     "name": "Tennesee Mud",
     "category": "Liqueur",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/txruqv1441245770.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -17068,7 +17068,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12370",
     "name": "Tequila Sour",
     "category": "Tequila",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/ek0mlq1504820601.jpg",
     "color": "#D4E8A8",
     "ingredients": [
@@ -17172,7 +17172,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17247",
     "name": "The Last Word",
     "category": "Liqueur",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/91oule1513702624.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -17216,7 +17216,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12418",
     "name": "Turf Cocktail",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/utypqq1441554367.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -17267,7 +17267,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17824",
     "name": "The Laverstoke",
     "category": "Gin",
-    "glass": "Balloon",
+    "glass": "Copa",
     "img": "https://www.thecocktaildb.com/images/media/drink/6xfj5t1517748412.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -17461,7 +17461,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12420",
     "name": "Tuxedo Cocktail",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/4u0nbl1504352551.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -17602,7 +17602,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17826",
     "name": "The Jimmy Conway",
     "category": "Whiskey",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/wbcvyo1535794478.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -17688,7 +17688,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17218",
     "name": "Vesper",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/mtdxpa1504374514.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -17729,7 +17729,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12450",
     "name": "Victor",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/voapgc1492976416.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -17767,7 +17767,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17217",
     "name": "Vampiro",
     "category": "Tequila",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/yfhn371504374246.jpg",
     "color": "#D4E8A8",
     "ingredients": [
@@ -17831,7 +17831,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12444",
     "name": "Vesuvio",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/26cq601492976203.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -17881,7 +17881,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12446",
     "name": "Veteran",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/iwml9t1492976255.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -17914,7 +17914,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12436",
     "name": "Van Vleet",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/fgq2bl1492975771.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -17952,7 +17952,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16967",
     "name": "Vodka Fizz",
     "category": "Vodka",
-    "glass": "White Wine",
+    "glass": "Wine",
     "img": "https://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -18130,7 +18130,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14167",
     "name": "Vodka Martini",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -18323,7 +18323,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12434",
     "name": "Valencia Cocktail",
     "category": "Brandy",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/9myuc11492975640.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -18393,7 +18393,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17194",
     "name": "White Lady",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/jofsaz1504352991.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -18584,7 +18584,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "11004",
     "name": "Whiskey Sour",
     "category": "Whiskey",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
     "color": "#D4A56A",
     "ingredients": [
@@ -18641,7 +18641,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12528",
     "name": "White Russian",
     "category": "Vodka",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -18736,7 +18736,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "178326",
     "name": "White Wine Sangria",
     "category": "Brandy",
-    "glass": "Pitcher",
+    "glass": "Punch",
     "img": "https://www.thecocktaildb.com/images/media/drink/hnuod91587851576.jpg",
     "color": "#E8C39E",
     "ingredients": [
@@ -18802,7 +18802,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16158",
     "name": "Whitecap Margarita",
     "category": "Tequila",
-    "glass": "Margarita/Coupette",
+    "glass": "Margarita",
     "img": "https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg",
     "color": "#D4E8A8",
     "ingredients": [
@@ -18847,7 +18847,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "12474",
     "name": "Waikiki Beachcomber",
     "category": "Gin",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/ysuqus1441208583.jpg",
     "color": "#BFD8C2",
     "ingredients": [
@@ -18885,7 +18885,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "17219",
     "name": "Yellow Bird",
     "category": "Rum",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/2t9r6w1504374811.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -18973,7 +18973,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15328",
     "name": "Zorro",
     "category": "Liqueur",
-    "glass": "Coffee Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/kvvd4z1485621283.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -19045,7 +19045,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15691",
     "name": "Zoksel",
     "category": "Liqueur",
-    "glass": "Beer Pilsner",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/ft8ed01485620930.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -19213,7 +19213,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16963",
     "name": "Zorbatini",
     "category": "Vodka",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/wtkqgb1485621155.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -19278,7 +19278,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16942",
     "name": "Zipperhead",
     "category": "Vodka",
-    "glass": "Whiskey Sour",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/r2qzhu1485620235.jpg",
     "color": "#E8EEF2",
     "ingredients": [
@@ -19352,7 +19352,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14594",
     "name": "Zizi Coin-coin",
     "category": "Liqueur",
-    "glass": "Margarita/Coupette",
+    "glass": "Margarita",
     "img": "https://www.thecocktaildb.com/images/media/drink/0fbo2t1485620752.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -19430,7 +19430,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14065",
     "name": "Zippy's Revenge",
     "category": "Rum",
-    "glass": "Old-Fashioned",
+    "glass": "Rocks",
     "img": "https://www.thecocktaildb.com/images/media/drink/1sqm7n1485620312.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -19501,7 +19501,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15346",
     "name": "155 Belmont",
     "category": "Rum",
-    "glass": "White Wine",
+    "glass": "Wine",
     "img": "https://www.thecocktaildb.com/images/media/drink/yqvvqs1475667388.jpg",
     "color": "#F5E6CA",
     "ingredients": [
@@ -19547,7 +19547,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "15423",
     "name": "110 in the shade",
     "category": "Tequila",
-    "glass": "Beer",
+    "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/xxyywq1454511117.jpg",
     "color": "#D4E8A8",
     "ingredients": [
@@ -19580,7 +19580,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "14588",
     "name": "151 Florida Bushwacker",
     "category": "Liqueur",
-    "glass": "Beer Mug",
+    "glass": "Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/rvwrvv1468877323.jpg",
     "color": "#E6C7E0",
     "ingredients": [
@@ -20123,7 +20123,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "id": "16108",
     "name": "9 1/2 Weeks",
     "category": "Liqueur",
-    "glass": "Cocktail",
+    "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/xvwusr1472669302.jpg",
     "color": "#E6C7E0",
     "ingredients": [

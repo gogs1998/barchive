@@ -683,6 +683,49 @@ const CURATED_COCKTAILS: Cocktail[] = [
 ];
 
 /**
+ * Canonical glass vocabulary shared across all three sources (P2-2). Mirrors
+ * tools/shared.mjs `normalizeGlass` (which normalizes the two generated sources
+ * at derive time); applied again here so the hand-curated glasses are folded
+ * into the same taxonomy and GLASSES stays a clean set. Keep the two in sync.
+ */
+const GLASS_CANON: Record<string, string> = {
+  cocktail: "Martini", martini: "Martini", coupe: "Coupe", coupette: "Coupe",
+  "nick and nora": "Coupe", cordial: "Coupe",
+  flute: "Flute", "champagne flute": "Flute", champagne: "Flute",
+  rocks: "Rocks", "old-fashioned": "Rocks", "old fashioned": "Rocks",
+  "whiskey sour": "Rocks", whiskey: "Rocks", lowball: "Rocks", tumbler: "Rocks",
+  highball: "Highball", collins: "Collins", tall: "Highball", chimney: "Highball",
+  hurricane: "Hurricane", margarita: "Margarita", "margarita/coupette": "Margarita",
+  "coupette/margarita": "Margarita", wine: "Wine", "white wine": "Wine",
+  "red wine": "Wine", goblet: "Goblet", tiki: "Tiki", "tiki mug": "Tiki",
+  "julep tin": "Julep", julep: "Julep", snifter: "Snifter", "brandy snifter": "Snifter",
+  balloon: "Copa", copa: "Copa", shot: "Shot", shooter: "Shot", "pousse cafe": "Shot",
+  mug: "Mug", "coffee mug": "Mug", "irish coffee cup": "Mug", "irish coffee": "Mug",
+  "heatproof mug": "Mug",
+  "copper mug": "Mug", "moscow mule": "Mug", "beer mug": "Mug",
+  "punch bowl": "Punch", punch: "Punch", pitcher: "Punch",
+  beer: "Highball", "beer pilsner": "Highball", pilsner: "Highball", pint: "Highball",
+  jar: "Highball", "mason jar": "Highball", unknown: "Coupe",
+};
+
+function normalizeGlass(raw: string | undefined): string {
+  if (!raw) return "Coupe";
+  const key = raw
+    .toLowerCase()
+    .replace(/[‘’]/g, "'")
+    .replace(/\s*(glass|cup)\s*$/i, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (GLASS_CANON[key]) return GLASS_CANON[key];
+  return (
+    key
+      .split(" ")
+      .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w))
+      .join(" ") || "Coupe"
+  );
+}
+
+/**
  * Full cocktail library, in priority order: hand-curated first (richest data),
  * then TheCocktailDB, then the Difford's Guide quality subset. A drink already
  * present in a higher-priority source is dropped from lower ones — matched by
@@ -716,7 +759,12 @@ export const COCKTAILS: Cocktail[] = mergeUnique(
   // instead so egg/dairy/cream/honey drinks are correctly non-vegan and beers
   // non-GF, while everything else is accurate.
   const derived = deriveDietary(c.ingredients.map((i) => i.name));
-  return { ...c, vegan: derived.vegan, glutenFree: derived.glutenFree };
+  return {
+    ...c,
+    glass: normalizeGlass(c.glass),
+    vegan: derived.vegan,
+    glutenFree: derived.glutenFree,
+  };
 });
 
 // Derived helpers

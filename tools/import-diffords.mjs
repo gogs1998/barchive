@@ -6,7 +6,7 @@
 //   apps/web/src/lib/cocktails.diffords.ts  (DIFFORDS_COCKTAILS: Cocktail[])
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
-import { deriveCategory } from "./shared.mjs";
+import { deriveCategory, normalizeGlass } from "./shared.mjs";
 
 const RECIPES = "D:/VM/BarIQ PC/barchive/tools/diffords/raw/diffords_recipes.json";
 const IMAGES = "D:/VM/BarIQ PC/barchive/tools/diffords/raw/images.json";
@@ -78,7 +78,6 @@ const COLOR = {
   Tequila: "#D4E8A8", Mezcal: "#C9B79C", Rum: "#F5E6CA", Gin: "#BFD8C2", Vodka: "#E8EEF2",
   Whiskey: "#D4A56A", Brandy: "#E8C39E", Liqueur: "#E6C7E0", Wine: "#E8B3C0", Beer: "#F2D98D", Other: "#D9D4CA",
 };
-const GLASS_MAP = { unknown: "Coupe", martini: "Martini", coupe: "Coupe", rocks: "Rocks", highball: "Highball", collins: "Collins", flute: "Flute", hurricane: "Hurricane" };
 
 const allRecipes = JSON.parse(readFileSync(RECIPES, "utf8"));
 const images = existsSync(IMAGES) ? JSON.parse(readFileSync(IMAGES, "utf8")) : {};
@@ -118,7 +117,7 @@ for (const r of recipes) {
     id: "diffords-" + (idm ? idm[1] : slug),
     name: decodeEntities(r.name).trim(),
     category,
-    glass: GLASS_MAP[r.glass] || titleCase(r.glass || "Coupe"),
+    glass: normalizeGlass(r.glass),
     // The scrape maps un-photographed drinks to a shared placeholder
     // (pixelated.jpg). Blank it so surviving records don't render a broken
     // relative path (and so it can never be used as a dedup key upstream).

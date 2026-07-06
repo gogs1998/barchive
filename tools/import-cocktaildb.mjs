@@ -7,7 +7,7 @@
 // splits instructions into steps, and keeps the strDrinkThumb image URL.
 
 import { readFileSync, writeFileSync } from "node:fs";
-import { deriveCategory } from "./shared.mjs";
+import { deriveCategory, normalizeGlass } from "./shared.mjs";
 
 const SRC = "D:/Cursor/CocktailIQ/claude_work/data/raw/all_cocktails_expanded.json";
 const OUT = "D:/VM/BarIQ PC/barchive/apps/web/src/lib/cocktails.imported.ts";
@@ -100,14 +100,6 @@ const COLOR = {
   Vodka: "#E8EEF2", Whiskey: "#D4A56A", Brandy: "#E8C39E", Liqueur: "#E6C7E0",
   Wine: "#E8B3C0", Beer: "#F2D98D", Mocktail: "#BFE3E0", Other: "#D9D4CA",
 };
-
-function normalizeGlass(g) {
-  if (!g) return "Coupe";
-  return g
-    .replace(/\s*glass\s*$/i, "")
-    .trim()
-    .replace(/\b\w/g, (c) => c.toUpperCase()) || "Coupe";
-}
 
 function splitSteps(instr) {
   if (!instr) return ["Combine ingredients and serve."];
