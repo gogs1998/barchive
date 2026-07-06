@@ -24,6 +24,8 @@ export function setAuthCookies(
   refreshToken: string,
 ): void {
   const secure = isSecure(c);
+  // L4: if the API and web app ever live on different registrable domains in
+  // prod, these cookies must become SameSite=None; Secure to be sent cross-site.
   setCookie(c, "access_token", accessJwt, {
     httpOnly: true,
     secure,

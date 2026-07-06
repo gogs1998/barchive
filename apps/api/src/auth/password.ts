@@ -6,7 +6,10 @@
  * a native, constant-time-verifiable PBKDF2 with no external dependency.
  */
 
-const ITERATIONS = 100_000;
+// OWASP (2023) recommends >= 600k iterations for PBKDF2-HMAC-SHA256. The
+// iteration count is stored per-hash in the encoded form, so raising this stays
+// backward-compatible: older hashes verify at their own stored count (L3).
+const ITERATIONS = 600_000;
 const SALT_BYTES = 16;
 const KEY_BITS = 256; // 32-byte derived key
 const HASH = "SHA-256";
