@@ -83,6 +83,65 @@ describe("auth routes", () => {
     expect(bad.status).toBe(401);
   });
 
+  it("login for an unknown email still returns 401 (M1: no timing enumeration)", async () => {
+    const fake = createFakeD1();
+    const env = testEnv(fake);
+    const res = await app.request(
+      "/api/v1/auth/login",
+      jsonPost({ email: "ghost@b.com", password: "password1" }),
+      env,
+    );
+    expect(res.status).toBe(401);
+    // A verify against the dummy hash runs (handler never short-circuits on a
+    // missing user), so response timing matches an existing-but-wrong-password
+    // login. We can't assert wall-clock timing reliably; the 401 with an empty
+    // users table proves the missing-user path is exercised.
+    const count = fake.raw.prepare("SELECT COUNT(*) AS c FROM users").get() as { c: number };
+    expect(count.c).toBe(0);
+  });
+
+  it("email is normalized to lowercase: register Foo@x.com, login foo@x.com (M2)", async () => {
+    const fake = createFakeD1();
+    const env = testEnv(fake);
+    const reg = await app.request(
+      "/api/v1/auth/register",
+      jsonPost({ email: "Foo@x.com", password: "password1" }),
+      env,
+    );
+    expect(reg.status).toBe(201);
+    expect((await reg.json() as { email: string }).email).toBe("foo@x.com");
+
+    const login = await app.request(
+      "/api/v1/auth/login",
+      jsonPost({ email: "foo@x.com", password: "password1" }),
+      env,
+    );
+    expect(login.status).toBe(200);
+
+    // Case-variant re-registration is treated as a duplicate.
+    const dup = await app.request(
+      "/api/v1/auth/register",
+      jsonPost({ email: "FOO@X.COM", password: "password1" }),
+      env,
+    );
+    expect(dup.status).toBe(409);
+  });
+
+  it("concurrent duplicate register maps to 409, never 500 (L6)", async () => {
+    const fake = createFakeD1();
+    const env = testEnv(fake);
+    // Fire two identical registrations concurrently. Their async hashing lets
+    // both pass the pre-INSERT existence check, so one INSERT trips the UNIQUE
+    // constraint — which must surface as 409, not a 500.
+    const [a, b] = await Promise.all([
+      app.request("/api/v1/auth/register", jsonPost({ email: "race@b.com", password: "password1" }), env),
+      app.request("/api/v1/auth/register", jsonPost({ email: "race@b.com", password: "password1" }), env),
+    ]);
+    const statuses = [a.status, b.status].sort();
+    expect(statuses).toEqual([201, 409]);
+    expect(statuses).not.toContain(500);
+  });
+
   it("me requires a valid access cookie", async () => {
     const fake = createFakeD1();
     const env = testEnv(fake);
