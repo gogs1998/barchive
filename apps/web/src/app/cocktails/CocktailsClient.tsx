@@ -57,7 +57,7 @@ export function CocktailsClient({
     [router, pathname, searchParams]
   );
 
-  const { barIngredientData } = useAuth();
+  const { barIngredientData, barHydrated } = useAuth();
 
   // Build a lowercase name set from bar for matching against cocktail ingredients
   const barIngredientNames = useMemo(
@@ -73,10 +73,13 @@ export function CocktailsClient({
   // Guard against trapping the user with an empty bar: the "What Can I Make?"
   // toggle is hidden when the bar is empty, so if ?make=1 (or a stale toggle)
   // left it on with no ingredients it would hide every cocktail with no way to
-  // turn it back off. Force it off whenever the bar is empty.
+  // turn it back off. Force it off only once the bar has *hydrated* and is
+  // genuinely empty — otherwise a hard load / shared ?make=1 link would race
+  // the guard against async bar hydration and silently disable the filter
+  // before the bar populated (P0-3).
   useEffect(() => {
-    if (barIngredientData.length === 0) setCanMakeFilter(false);
-  }, [barIngredientData.length]);
+    if (barHydrated && barIngredientData.length === 0) setCanMakeFilter(false);
+  }, [barHydrated, barIngredientData.length]);
 
   // Render the grid in pages so a multi-thousand-cocktail result stays fast.
   const PAGE_SIZE = 60;

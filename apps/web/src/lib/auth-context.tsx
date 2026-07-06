@@ -79,6 +79,13 @@ interface AuthContextValue {
   /** My Bar full ingredient objects from API */
   barIngredientData: BarIngredientAPI[];
   barLoading: boolean;
+  /**
+   * True once the bar has been hydrated for the current session — i.e. the
+   * guest localStorage bar has loaded, or the signed-in user's bar fetch has
+   * settled. Consumers must distinguish "bar not yet hydrated" from "bar
+   * genuinely empty" (e.g. the ?make=1 deep-link guard).
+   */
+  barHydrated: boolean;
   addBarIngredient: (id: string) => Promise<void>;
   removeBarIngredient: (id: string) => Promise<void>;
   /** Replace the whole bar at once (guest-only; writes localStorage + state). */
@@ -147,6 +154,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [pendingEmail, setPendingEmail] = useState("");
   const [barIngredientData, setBarIngredientData] = useState<BarIngredientAPI[]>([]);
   const [barLoading, setBarLoading] = useState(false);
+  const [barHydrated, setBarHydrated] = useState(false);
   const [favourites, setFavourites] = useState<string[]>([]);
 
   // Rehydrate session from backend on mount
@@ -164,21 +172,30 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       });
   }, []);
 
-  // Fetch bar ingredients from API when user changes
+  // Fetch bar ingredients once the session is known. Waiting for `loading` to
+  // settle first is what lets consumers trust `barHydrated`: for a signed-in
+  // user we must not mark the bar hydrated with the (empty) guest bar before
+  // the API fetch runs — otherwise the ?make=1 guard would fire prematurely.
   useEffect(() => {
+    if (loading) return; // session not yet resolved — bar state is not final
     if (!user) {
       // Guest: hydrate the bar from localStorage so it persists across visits.
       setBarIngredientData(loadJSON<BarIngredientAPI[]>(GUEST_BAR_KEY, []));
+      setBarHydrated(true);
       return;
     }
     setBarLoading(true);
+    setBarHydrated(false);
     getUserBar()
       .then((res) => setBarIngredientData(res.items))
       .catch(() => {
         setBarIngredientData([]);
       })
-      .finally(() => setBarLoading(false));
-  }, [user]);
+      .finally(() => {
+        setBarLoading(false);
+        setBarHydrated(true);
+      });
+  }, [user, loading]);
 
   const openAuthModal = useCallback((view: AuthView = "login") => {
     setModalView(view);
@@ -356,6 +373,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         barIngredients,
         barIngredientData,
         barLoading,
+        barHydrated,
         addBarIngredient,
         removeBarIngredient,
         setGuestBar,
