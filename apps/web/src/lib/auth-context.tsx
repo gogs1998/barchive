@@ -210,14 +210,24 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const migrateGuestBar = useCallback(async () => {
     const guestItems = loadJSON<BarIngredientAPI[]>(GUEST_BAR_KEY, []);
     if (guestItems.length === 0) return;
+    // TODO(DECISION-1): guest items are stored with `id = display name`, but the
+    // backend expects an ingredient UUID, so these writes currently 422. Wiring
+    // the name -> UUID resolution (and calling migration from register()/OAuth)
+    // is blocked on which auth backend is real. Until then we only attempt the
+    // writes and, critically, never destroy the guest bar unless every write
+    // succeeded — so no data is lost when the writes fail.
+    let allSucceeded = true;
     for (const item of guestItems) {
       try {
         await addUserBarIngredient(item.id);
       } catch {
-        // best-effort: swallow per-item failures, keep going
+        // Record the failure but keep going so partial progress can persist.
+        allSucceeded = false;
       }
     }
-    if (typeof window !== "undefined") {
+    // Only clear the guest bar once EVERY write is confirmed. On any failure we
+    // keep bariq_guest_bar so the user's bar is never silently wiped.
+    if (allSucceeded && typeof window !== "undefined") {
       localStorage.removeItem(GUEST_BAR_KEY);
     }
     try {
