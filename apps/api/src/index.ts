@@ -9,6 +9,8 @@ import { Hono } from "hono";
 import { cors } from "hono/cors";
 import type { AppEnv } from "./env";
 import { catalog } from "./routes/catalog";
+import { auth } from "./routes/auth";
+import { user } from "./routes/user";
 
 export type { Env } from "./env";
 
@@ -40,5 +42,7 @@ app.get("/health", async (c) => {
 
 // Mount routers
 app.route("/", catalog);
+app.route("/", auth);
+app.route("/", user);
 
 export default app;
