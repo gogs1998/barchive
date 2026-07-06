@@ -1,7 +1,7 @@
 // src/lib/cocktailiq/adapter.ts
 import type { Cocktail } from "../cocktails";
 import type { BuildIngredient } from "./types";
-import { resolveCanonical, getCategoryInfo, getCompounds, getSubstituteScores, mapToBalanceGroup } from "./resolver";
+import { resolveCanonical, getCategoryInfo, getCompounds, mapToBalanceGroup } from "./resolver";
 
 /** ml per 1 unit — mirrors the scaler's conversion table. */
 const TO_ML: Record<string, number> = { oz: 29.5735, ml: 1, cl: 10, tsp: 5, tbsp: 15, dash: 0.6 };
@@ -10,21 +10,6 @@ function toMl(qty: number | null, unit: string | null): number {
   if (qty == null || unit == null) return 0;
   const factor = TO_ML[unit];
   return factor ? qty * factor : 0;
-}
-
-/**
- * Get compounds for a canonical ingredient, falling back to the best-scored
- * substitute's compounds when the ingredient itself has none in FlavorDB.
- */
-function getCompoundsWithFallback(canonical: string): string[] {
-  const direct = getCompounds(canonical);
-  if (direct.length > 0) return direct;
-  // Fall back: walk substitutes in score order and return the first with compounds
-  for (const [subName] of getSubstituteScores(canonical)) {
-    const subCompounds = getCompounds(subName);
-    if (subCompounds.length > 0) return subCompounds;
-  }
-  return [];
 }
 
 /** Convert a barchive Cocktail's ingredients to scorer input. */
@@ -36,7 +21,10 @@ export function cocktailToBuild(cocktail: Cocktail): BuildIngredient[] {
       name: canonical ?? ing.name.toLowerCase(),
       balanceGroup: mapToBalanceGroup(info),
       volumeMl: toMl(ing.qty, ing.unit),
-      compounds: canonical ? getCompoundsWithFallback(canonical) : [],
+      // Only real FlavorDB compounds — never borrow another ingredient's
+      // chemistry (P1-2). Ingredients with no data stay empty/unknown and
+      // simply don't contribute pairwise overlap in the chemistry dimension.
+      compounds: canonical ? getCompounds(canonical) : [],
     };
   });
 }

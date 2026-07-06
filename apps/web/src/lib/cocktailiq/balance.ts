@@ -78,10 +78,14 @@ function calcChemistry(ings: BuildIngredient[]): number {
   let pairs = 0;
   for (let i = 0; i < ings.length; i++) {
     for (let j = i + 1; j < ings.length; j++) {
+      // Ingredients with no FlavorDB compounds are unknown, not incompatible:
+      // skip pairs we can't score rather than counting them as zero overlap (P1-2).
+      if (ings[i].compounds.length === 0 || ings[j].compounds.length === 0) continue;
       total += jaccard(ings[i].compounds, ings[j].compounds);
       pairs++;
     }
   }
+  // No scorable pair (chemistry unknown) → neutral, don't invent a low score.
   if (pairs === 0) return 50;
   return Math.min(100, (total / pairs) * 300);
 }

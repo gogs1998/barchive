@@ -31,4 +31,25 @@ describe("calculateBalance", () => {
     const s = calculateBalance([margarita[0]]);
     expect(s.harmony).toBeLessThan(60);
   });
+
+  // P1-2: ingredients with no compound data are unknown, not incompatible.
+  it("treats unknown chemistry as neutral, not zero", () => {
+    const noChem: BuildIngredient[] = [
+      { name: "tequila", balanceGroup: "base_spirit", volumeMl: 60, compounds: [] },
+      { name: "triple sec", balanceGroup: "modifier", volumeMl: 22, compounds: [] },
+      { name: "agave", balanceGroup: "sweetener", volumeMl: 10, compounds: [] },
+    ];
+    expect(calculateBalance(noChem).chemistry).toBe(50);
+  });
+
+  // A single unknown-chemistry ingredient must not drag down a real pair's score.
+  it("skips unscorable pairs instead of counting them as zero overlap", () => {
+    const withUnknown: BuildIngredient[] = [
+      { name: "lime juice", balanceGroup: "citrus", volumeMl: 30, compounds: ["a", "b", "c"] },
+      { name: "lemon juice", balanceGroup: "citrus", volumeMl: 30, compounds: ["b", "c", "d"] },
+      { name: "tequila", balanceGroup: "base_spirit", volumeMl: 60, compounds: [] },
+    ];
+    // Only the lime/lemon pair is scorable; the tequila pairs are skipped.
+    expect(calculateBalance(withUnknown).chemistry).toBeGreaterThan(0);
+  });
 });

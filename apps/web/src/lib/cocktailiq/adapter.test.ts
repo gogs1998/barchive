@@ -26,7 +26,16 @@ describe("cocktailToBuild", () => {
     expect(build[0].balanceGroup).toBe("base_spirit");
     expect(Math.round(build[0].volumeMl)).toBe(59); // 2 oz * 29.5735
     expect(build[1].balanceGroup).toBe("citrus");
-    expect(build[0].compounds.length).toBeGreaterThan(0);
+    // Lime juice has real FlavorDB compounds.
+    expect(build[1].compounds.length).toBeGreaterThan(0);
+  });
+
+  // P1-2: ingredients with no FlavorDB entry must NOT borrow another's chemistry.
+  it("leaves missing-chemistry ingredients with empty compounds (P1-2)", () => {
+    const build = cocktailToBuild(margarita);
+    // Tequila and triple sec have no FlavorDB compounds — must stay empty, not borrowed.
+    expect(build[0].compounds).toEqual([]); // tequila
+    expect(build[2].compounds).toEqual([]); // cointreau -> triple sec
   });
   it("gives non-numeric amounts zero volume", () => {
     const c = cocktail({ ingredients: [{ name: "Salt", amount: "rim", qty: null, unit: null }] });
