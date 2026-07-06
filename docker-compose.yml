@@ -19,6 +19,8 @@ services:
     environment:
       DATABASE_URL: postgresql+asyncpg://barchive:barchive@postgres:5432/barchive
       ENVIRONMENT: development
+      # Required — no default. Compose fails fast if JWT_SECRET is unset in the host env.
+      JWT_SECRET: ${JWT_SECRET:?JWT_SECRET must be set (no default)}
     ports:
       - "8000:8000"
     depends_on:
