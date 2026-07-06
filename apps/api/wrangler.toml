@@ -1,7 +1,6 @@
 name = "bariq-api"
-main = "src/worker.py"
+main = "src/index.ts"
 compatibility_date = "2024-12-18"
-compatibility_flags = ["python_workers"]
 
 # Default / local dev — uses a local D1 simulation
 [[ d1_databases ]]
@@ -11,6 +10,7 @@ database_id = "local"
 
 [vars]
 ENVIRONMENT = "development"
+FRONTEND_ORIGIN = "http://localhost:3000"
 
 # ── Staging ─────────────────────────────────────────────────────────────────
 [env.staging]
