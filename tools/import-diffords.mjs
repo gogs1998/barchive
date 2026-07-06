@@ -14,8 +14,20 @@ const OUT = "D:/VM/BarIQ PC/barchive/apps/web/src/lib/cocktails.diffords.ts";
 function slugify(name) {
   return name.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
+// Unicode-aware title-case: uppercase only the first code point of each
+// whitespace-separated token and lowercase the remainder. The old /\b\w/g
+// treated accents and apostrophes as word boundaries, producing "CuraçAo",
+// "CrèMe", "CachaçA", "BéNéDictine", "Boker'S". Splitting on whitespace and
+// operating on code points (Array.from) avoids that entirely.
 function titleCase(s) {
-  return s.replace(/\b\w/g, (c) => c.toUpperCase());
+  return String(s == null ? "" : s)
+    .split(/(\s+)/)
+    .map((tok) => {
+      if (tok === "" || /^\s+$/.test(tok)) return tok;
+      const chars = Array.from(tok);
+      return chars[0].toLocaleUpperCase() + chars.slice(1).join("").toLocaleLowerCase();
+    })
+    .join("");
 }
 function fmtMl(n) {
   const r = Math.round(n * 100) / 100;

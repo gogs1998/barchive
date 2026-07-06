@@ -226,7 +226,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -275,7 +275,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -312,7 +312,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -422,7 +422,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -465,7 +465,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Coc.)",
+        "name": "Vermouth Amaro (coc.)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -667,7 +667,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -691,7 +691,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -728,7 +728,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -740,7 +740,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -783,7 +783,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -795,7 +795,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -826,13 +826,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -850,7 +850,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -893,7 +893,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -1040,7 +1040,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -1095,7 +1095,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -1144,7 +1144,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -1156,7 +1156,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -1217,7 +1217,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Myrtle/Mirto Liqueur",
+        "name": "Myrtle/mirto Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -1272,13 +1272,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -1333,7 +1333,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -1670,7 +1670,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -1762,7 +1762,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -2084,7 +2084,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Apricot Jam/Preserve",
+        "name": "Apricot Jam/preserve",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -2151,7 +2151,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Mango PuréE",
+        "name": "Mango Purée",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -2261,13 +2261,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -2316,7 +2316,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -2591,7 +2591,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -2713,7 +2713,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -2756,7 +2756,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -2817,13 +2817,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -2854,7 +2854,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -3444,7 +3444,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -3499,7 +3499,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -3560,7 +3560,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -3603,13 +3603,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -3713,7 +3713,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -3823,7 +3823,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -3921,7 +3921,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "4 fresh",
         "qty": null,
         "unit": null
@@ -4475,7 +4475,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -4487,7 +4487,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -4505,7 +4505,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -4542,7 +4542,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -4591,7 +4591,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -4646,7 +4646,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White Peach PuréE",
+        "name": "White Peach Purée",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -4701,7 +4701,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White Peach PuréE",
+        "name": "White Peach Purée",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -4744,7 +4744,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -4781,13 +4781,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -4805,19 +4805,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Blueberries (Fresh)",
+        "name": "Blueberries (fresh)",
         "amount": "3 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -4860,7 +4860,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -4897,7 +4897,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -5007,7 +5007,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -5062,7 +5062,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -5166,7 +5166,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -5178,7 +5178,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -5215,7 +5215,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Red Grapes (Seedless)",
+        "name": "Red Grapes (seedless)",
         "amount": "12 fresh",
         "qty": null,
         "unit": null
@@ -5264,13 +5264,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -5347,7 +5347,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -5414,7 +5414,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "2 ml",
         "qty": 2,
         "unit": "ml"
@@ -5512,7 +5512,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -5573,7 +5573,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -5872,7 +5872,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -5890,7 +5890,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -5927,7 +5927,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -5939,7 +5939,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lemon-Lime Soda",
+        "name": "Lemon-lime Soda",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -5976,7 +5976,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -5994,7 +5994,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -6037,7 +6037,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -6074,7 +6074,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Blueberries (Fresh)",
+        "name": "Blueberries (fresh)",
         "amount": "8 fresh",
         "qty": null,
         "unit": null
@@ -6129,7 +6129,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Blueberries (Fresh)",
+        "name": "Blueberries (fresh)",
         "amount": "24 fresh",
         "qty": null,
         "unit": null
@@ -6288,13 +6288,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -6325,7 +6325,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -6337,13 +6337,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -6435,7 +6435,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -6551,7 +6551,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "3 fresh",
         "qty": null,
         "unit": null
@@ -6612,7 +6612,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -6759,19 +6759,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -6808,7 +6808,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -6857,13 +6857,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -6924,7 +6924,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -6936,7 +6936,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -6967,13 +6967,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "55 ml",
         "qty": 55,
         "unit": "ml"
@@ -7163,13 +7163,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -7218,7 +7218,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -7273,7 +7273,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -7334,7 +7334,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -7395,7 +7395,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -7508,7 +7508,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -7563,7 +7563,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -7655,7 +7655,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -7673,7 +7673,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -7704,7 +7704,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -7814,7 +7814,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
@@ -7832,7 +7832,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -7936,7 +7936,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -8095,7 +8095,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -8138,7 +8138,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -8376,7 +8376,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -8492,7 +8492,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -8645,7 +8645,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -8680,7 +8680,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -8729,7 +8729,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -8802,7 +8802,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -8918,7 +8918,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -8930,7 +8930,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -9132,7 +9132,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -9273,7 +9273,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -9316,7 +9316,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -9475,7 +9475,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -9524,19 +9524,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -9585,7 +9585,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -9640,13 +9640,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -9683,13 +9683,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -9848,7 +9848,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -9860,7 +9860,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -9939,7 +9939,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -9976,7 +9976,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -10153,7 +10153,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -10263,7 +10263,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -10343,7 +10343,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -10355,7 +10355,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -10508,7 +10508,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -10753,7 +10753,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "2 wedge",
         "qty": null,
         "unit": null
@@ -10808,7 +10808,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -10924,7 +10924,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -11052,7 +11052,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Inch Cucumber (Fresh)",
+        "name": "Inch Cucumber (fresh)",
         "amount": "2",
         "qty": null,
         "unit": null
@@ -11070,7 +11070,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -11113,7 +11113,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Inch Cucumber (Fresh)",
+        "name": "Inch Cucumber (fresh)",
         "amount": "1 1/2",
         "qty": null,
         "unit": null
@@ -11162,7 +11162,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Inch Cucumber (Fresh)",
+        "name": "Inch Cucumber (fresh)",
         "amount": "4",
         "qty": null,
         "unit": null
@@ -11223,7 +11223,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -11266,7 +11266,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -11406,7 +11406,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -11528,7 +11528,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -11675,7 +11675,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -11724,7 +11724,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -11779,7 +11779,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -11877,7 +11877,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "1.25 ml",
         "qty": 1.25,
         "unit": "ml"
@@ -12140,7 +12140,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -12275,7 +12275,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -12346,13 +12346,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -12395,7 +12395,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -12450,7 +12450,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -12505,7 +12505,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -12627,7 +12627,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -12835,7 +12835,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -12853,7 +12853,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -12890,7 +12890,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -13043,7 +13043,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -13141,13 +13141,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -13190,7 +13190,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -13227,7 +13227,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -13263,7 +13263,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -13312,7 +13312,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -13349,7 +13349,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -13361,7 +13361,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -13404,7 +13404,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -13502,7 +13502,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -13630,7 +13630,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -13667,7 +13667,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -13832,13 +13832,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CréOle Shrubb Liqueur",
+        "name": "Créole Shrubb Liqueur",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -13893,7 +13893,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -13985,7 +13985,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -13997,7 +13997,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -14040,7 +14040,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -14425,13 +14425,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -14529,13 +14529,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -14578,7 +14578,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -14627,7 +14627,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -14676,7 +14676,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -14743,7 +14743,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -14907,7 +14907,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -14950,13 +14950,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -14999,7 +14999,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -15011,7 +15011,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -15072,7 +15072,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -15115,7 +15115,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -15256,7 +15256,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -15360,7 +15360,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -15397,7 +15397,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -15568,7 +15568,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -15654,7 +15654,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "10 fresh",
         "qty": null,
         "unit": null
@@ -15899,7 +15899,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "2 slice",
         "qty": null,
         "unit": null
@@ -15929,7 +15929,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -16349,7 +16349,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -16380,13 +16380,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Red CuraçAo Liqueur",
+        "name": "Red Curaçao Liqueur",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -16496,7 +16496,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -16508,7 +16508,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -16545,7 +16545,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Plum (Mirabelle) Liqueur",
+        "name": "Plum (mirabelle) Liqueur",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -16747,7 +16747,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -16802,13 +16802,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -16924,7 +16924,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -17077,7 +17077,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -17175,7 +17175,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -17224,7 +17224,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -17469,7 +17469,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -17573,7 +17573,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -17628,7 +17628,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -17677,7 +17677,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -17897,7 +17897,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -17977,7 +17977,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -18038,7 +18038,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -18123,7 +18123,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -18227,7 +18227,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -18594,7 +18594,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -18680,13 +18680,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -18729,13 +18729,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -18851,7 +18851,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -18912,7 +18912,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Blueberries (Fresh)",
+        "name": "Blueberries (fresh)",
         "amount": "4 fresh",
         "qty": null,
         "unit": null
@@ -18930,7 +18930,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "4 fresh",
         "qty": null,
         "unit": null
@@ -19524,7 +19524,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -19542,7 +19542,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -19683,7 +19683,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -19738,7 +19738,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -19799,7 +19799,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -20025,7 +20025,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -20074,7 +20074,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -20092,7 +20092,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -20257,7 +20257,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -20386,13 +20386,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "90 ml",
         "qty": 90,
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -20476,7 +20476,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -20725,7 +20725,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "120 ml",
         "qty": 120,
         "unit": "ml"
@@ -20756,7 +20756,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Inch Cucumber (Fresh)",
+        "name": "Inch Cucumber (fresh)",
         "amount": "1",
         "qty": null,
         "unit": null
@@ -21012,7 +21012,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -21202,7 +21202,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -21300,7 +21300,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -21324,7 +21324,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -21361,7 +21361,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -21471,7 +21471,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -21556,7 +21556,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Lemon-Lime Soda",
+        "name": "Top Up With Lemon-lime Soda",
         "amount": "",
         "qty": null,
         "unit": null
@@ -21611,7 +21611,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -21832,7 +21832,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -21856,7 +21856,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -21936,7 +21936,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Red Grapes (Seedless)",
+        "name": "Red Grapes (seedless)",
         "amount": "12 fresh",
         "qty": null,
         "unit": null
@@ -22003,7 +22003,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "12 fresh",
         "qty": null,
         "unit": null
@@ -22046,7 +22046,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "12 fresh",
         "qty": null,
         "unit": null
@@ -22162,7 +22162,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -22193,7 +22193,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "7 fresh",
         "qty": null,
         "unit": null
@@ -22297,7 +22297,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Inch Cucumber (Fresh)",
+        "name": "Inch Cucumber (fresh)",
         "amount": "1",
         "qty": null,
         "unit": null
@@ -22382,7 +22382,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -22437,7 +22437,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -22484,7 +22484,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -22746,7 +22746,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -22887,7 +22887,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -22979,13 +22979,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -23003,7 +23003,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -23052,7 +23052,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -23388,7 +23388,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -23431,7 +23431,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -23468,13 +23468,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -23535,7 +23535,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -23896,7 +23896,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -23933,7 +23933,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -23945,7 +23945,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -24025,7 +24025,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -24049,7 +24049,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -24233,7 +24233,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -24404,7 +24404,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Jasmine Tea (Cold)",
+        "name": "Jasmine Tea (cold)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -24545,7 +24545,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -24692,7 +24692,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -24802,7 +24802,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -24857,7 +24857,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -25004,7 +25004,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -25047,7 +25047,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -25102,7 +25102,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -25206,7 +25206,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -25475,7 +25475,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -25542,7 +25542,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Jasmine Tea (Cold)",
+        "name": "Jasmine Tea (cold)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -25585,7 +25585,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "12 fresh",
         "qty": null,
         "unit": null
@@ -25640,7 +25640,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -25787,7 +25787,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -25977,7 +25977,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "4 fresh",
         "qty": null,
         "unit": null
@@ -26093,7 +26093,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Noyau",
+        "name": "Crème De Noyau",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -26166,7 +26166,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -26209,7 +26209,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -26264,7 +26264,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -26307,13 +26307,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -26374,7 +26374,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -26392,7 +26392,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -26472,7 +26472,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "3 fresh",
         "qty": null,
         "unit": null
@@ -26649,7 +26649,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -26765,7 +26765,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Kiwi Fruit (Fresh)",
+        "name": "Kiwi Fruit (fresh)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -27028,7 +27028,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -27065,7 +27065,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -27153,7 +27153,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -27190,7 +27190,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -27269,7 +27269,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -27349,7 +27349,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "3/4 fresh",
         "qty": null,
         "unit": null
@@ -27714,7 +27714,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -27726,7 +27726,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -27775,7 +27775,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -27818,7 +27818,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -28166,7 +28166,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -28258,7 +28258,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -28918,7 +28918,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -28955,7 +28955,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -29236,7 +29236,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lychee/Litchi Syrup",
+        "name": "Lychee/litchi Syrup",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -29285,7 +29285,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lemon-Lime Soda",
+        "name": "Lemon-lime Soda",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -29381,19 +29381,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -29479,7 +29479,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -29742,7 +29742,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -29968,7 +29968,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -30023,7 +30023,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Mango PuréE",
+        "name": "Mango Purée",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -30072,7 +30072,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -30109,7 +30109,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Mango PuréE",
+        "name": "Mango Purée",
         "amount": "90 ml",
         "qty": 90,
         "unit": "ml"
@@ -30250,7 +30250,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -30299,7 +30299,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -30354,7 +30354,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -30397,7 +30397,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -30440,7 +30440,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -30538,7 +30538,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#C9B79C",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -30596,13 +30596,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -30779,7 +30779,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -31024,7 +31024,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -31036,7 +31036,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -31079,7 +31079,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -31299,7 +31299,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -31348,7 +31348,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -31385,7 +31385,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Melon (Cantaloupe)",
+        "name": "Melon (cantaloupe)",
         "amount": "1/8 fresh",
         "qty": null,
         "unit": null
@@ -31440,7 +31440,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "Melon (Cantaloupe)",
+        "name": "Melon (cantaloupe)",
         "amount": "1/6 fresh",
         "qty": null,
         "unit": null
@@ -31568,7 +31568,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -31782,7 +31782,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -31856,13 +31856,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -31899,7 +31899,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -32144,7 +32144,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -32223,7 +32223,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dunkel/Black Lager",
+        "name": "Dunkel/black Lager",
         "amount": "150 ml",
         "qty": 150,
         "unit": "ml"
@@ -32275,7 +32275,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -32355,13 +32355,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -32373,7 +32373,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -32410,7 +32410,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -32428,7 +32428,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -32666,7 +32666,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Lemon-Lime Soda",
+        "name": "Top Up With Lemon-lime Soda",
         "amount": "",
         "qty": null,
         "unit": null
@@ -32709,7 +32709,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -32825,7 +32825,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -32929,7 +32929,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -32941,7 +32941,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -33008,7 +33008,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -33190,7 +33190,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -33281,7 +33281,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -33477,7 +33477,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Chinato (Barolo/Barbera/Grignolino)",
+        "name": "Chinato (barolo/barbera/grignolino)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -33673,13 +33673,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -33795,7 +33795,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -33874,7 +33874,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -34027,7 +34027,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -34229,7 +34229,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -34333,7 +34333,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -34394,13 +34394,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -34412,7 +34412,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -34534,7 +34534,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -34724,7 +34724,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -34816,7 +34816,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -34859,13 +34859,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -34975,7 +34975,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -35018,13 +35018,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Heavy/Double Cream",
+        "name": "Heavy/double Cream",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -35061,7 +35061,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -35159,7 +35159,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "CréOle Shrubb Liqueur",
+        "name": "Créole Shrubb Liqueur",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -35220,7 +35220,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -35330,7 +35330,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "7 fresh",
         "qty": null,
         "unit": null
@@ -35391,7 +35391,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -35477,7 +35477,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Pineapple (Fresh)",
+        "name": "Pineapple (fresh)",
         "amount": "3 wedge",
         "qty": null,
         "unit": null
@@ -35495,7 +35495,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -35538,7 +35538,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -35703,13 +35703,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -35917,7 +35917,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -36009,7 +36009,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -36021,7 +36021,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -36082,7 +36082,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -36174,13 +36174,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -36192,7 +36192,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -36247,7 +36247,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -36394,7 +36394,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -36547,7 +36547,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -36645,7 +36645,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -36761,7 +36761,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lemon-Lime Soda",
+        "name": "Lemon-lime Soda",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -36804,7 +36804,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -37145,7 +37145,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Jasmine Tea (Cold)",
+        "name": "Jasmine Tea (cold)",
         "amount": "90 ml",
         "qty": 90,
         "unit": "ml"
@@ -37237,7 +37237,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -37280,7 +37280,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -37524,25 +37524,25 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange (Fresh)",
+        "name": "Orange (fresh)",
         "amount": "1 slice",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Lemon (Fresh)",
+        "name": "Lemon (fresh)",
         "amount": "1 slice",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "1 slice",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "2 slice",
         "qty": null,
         "unit": null
@@ -37823,7 +37823,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -37974,13 +37974,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -38298,7 +38298,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -38347,7 +38347,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -38433,7 +38433,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -38579,7 +38579,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -38610,7 +38610,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "12 fresh",
         "qty": null,
         "unit": null
@@ -38665,7 +38665,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -38702,13 +38702,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -38745,7 +38745,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -38800,7 +38800,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -38849,7 +38849,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -38867,7 +38867,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -38928,7 +38928,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -39130,7 +39130,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -39154,7 +39154,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -39191,7 +39191,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Plum (Stoned And Peeled)",
+        "name": "Plum (stoned And Peeled)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -39246,7 +39246,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -39509,7 +39509,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -39595,7 +39595,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -39699,7 +39699,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -39791,7 +39791,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -39864,7 +39864,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -39917,7 +39917,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -39972,7 +39972,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -40125,7 +40125,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -40223,7 +40223,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -40241,7 +40241,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lemon-Lime Soda",
+        "name": "Lemon-lime Soda",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -40333,7 +40333,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -40437,7 +40437,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -40498,7 +40498,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -40535,7 +40535,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -40578,7 +40578,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -40669,7 +40669,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -40755,13 +40755,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -40779,7 +40779,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -40810,13 +40810,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -40828,7 +40828,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -40895,7 +40895,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -41097,7 +41097,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -41109,7 +41109,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -41207,7 +41207,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -41274,7 +41274,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -41335,7 +41335,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -41421,7 +41421,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "105 ml",
         "qty": 105,
         "unit": "ml"
@@ -41544,7 +41544,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -41599,7 +41599,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -41764,7 +41764,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -41996,7 +41996,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -42027,7 +42027,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -42106,7 +42106,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -42143,13 +42143,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.4 ml",
         "qty": 0.4,
         "unit": "ml"
@@ -42321,13 +42321,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -42382,7 +42382,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Hibiscus Tea (Cold)",
+        "name": "Hibiscus Tea (cold)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -42541,7 +42541,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lychee/Litchi Syrup",
+        "name": "Lychee/litchi Syrup",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -42621,7 +42621,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "4 fresh",
         "qty": null,
         "unit": null
@@ -42682,7 +42682,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -42774,7 +42774,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -43336,7 +43336,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -43348,7 +43348,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -43391,7 +43391,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -43415,7 +43415,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -43605,7 +43605,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -43886,7 +43886,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -43941,7 +43941,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -44100,7 +44100,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -44149,7 +44149,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "7 fresh",
         "qty": null,
         "unit": null
@@ -44210,13 +44210,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -44320,7 +44320,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -44430,7 +44430,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -44632,7 +44632,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "90 ml",
         "qty": 90,
         "unit": "ml"
@@ -44765,7 +44765,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -44802,7 +44802,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -44918,13 +44918,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -44961,7 +44961,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -45114,7 +45114,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -45279,7 +45279,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -45340,7 +45340,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -45395,7 +45395,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -45426,7 +45426,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "7 fresh",
         "qty": null,
         "unit": null
@@ -45634,7 +45634,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lychee/Litchi Syrup",
+        "name": "Lychee/litchi Syrup",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -45689,7 +45689,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -45701,7 +45701,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -45909,7 +45909,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -45995,7 +45995,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -46080,7 +46080,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -46282,7 +46282,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -46380,7 +46380,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -46539,7 +46539,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -46686,7 +46686,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "7 fresh",
         "qty": null,
         "unit": null
@@ -46857,7 +46857,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -47010,7 +47010,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "7 fresh",
         "qty": null,
         "unit": null
@@ -47089,13 +47089,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "5 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -47126,7 +47126,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "5 fresh",
         "qty": null,
         "unit": null
@@ -47181,7 +47181,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "5 fresh",
         "qty": null,
         "unit": null
@@ -47242,13 +47242,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -47444,7 +47444,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -47560,7 +47560,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -47878,7 +47878,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -47896,7 +47896,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -47970,7 +47970,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -48061,7 +48061,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -48239,7 +48239,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -48300,7 +48300,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -48343,7 +48343,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -48355,7 +48355,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -48502,7 +48502,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -48667,7 +48667,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -48759,7 +48759,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -48771,13 +48771,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Marsala Dolce (Sweet)",
+        "name": "Marsala Dolce (sweet)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -49076,7 +49076,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -49290,7 +49290,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -49308,7 +49308,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -49351,7 +49351,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -49400,7 +49400,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -49479,7 +49479,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -49534,7 +49534,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -49565,7 +49565,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -49614,7 +49614,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
@@ -49626,7 +49626,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -49730,7 +49730,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -49779,7 +49779,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -49828,7 +49828,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -49846,7 +49846,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -49889,7 +49889,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -50054,7 +50054,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -50146,7 +50146,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -50262,7 +50262,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -50366,7 +50366,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -50439,13 +50439,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "1.25 ml",
         "qty": 1.25,
         "unit": "ml"
@@ -50702,7 +50702,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -50971,7 +50971,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -51069,7 +51069,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -51081,7 +51081,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -51130,7 +51130,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -51265,7 +51265,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -51320,7 +51320,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -51436,7 +51436,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -51473,7 +51473,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "5 fresh",
         "qty": null,
         "unit": null
@@ -51583,7 +51583,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Watermelon (Fresh)",
+        "name": "Watermelon (fresh)",
         "amount": "1 slice",
         "qty": null,
         "unit": null
@@ -51742,7 +51742,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -51895,7 +51895,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -51981,7 +51981,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -52042,7 +52042,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -52201,7 +52201,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "3 fresh",
         "qty": null,
         "unit": null
@@ -52311,7 +52311,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -52372,7 +52372,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -52415,7 +52415,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -52654,7 +52654,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Inch Cucumber (Fresh)",
+        "name": "Inch Cucumber (fresh)",
         "amount": "1",
         "qty": null,
         "unit": null
@@ -52709,7 +52709,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -52837,7 +52837,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -53019,7 +53019,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -53050,7 +53050,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -53099,13 +53099,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -53136,13 +53136,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -53172,7 +53172,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -53221,7 +53221,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -53276,7 +53276,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -53325,7 +53325,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -53496,7 +53496,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -53582,7 +53582,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -53643,19 +53643,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -53698,7 +53698,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -53857,7 +53857,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -53869,7 +53869,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -53918,13 +53918,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -53983,7 +53983,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -54020,7 +54020,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -54032,7 +54032,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "2 ml",
         "qty": 2,
         "unit": "ml"
@@ -54124,7 +54124,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -54185,7 +54185,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Mixer (Carbonated)",
+        "name": "Top Up With Mixer (carbonated)",
         "amount": "",
         "qty": null,
         "unit": null
@@ -54220,7 +54220,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -54287,7 +54287,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -54764,7 +54764,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lemon-Lime Soda",
+        "name": "Lemon-lime Soda",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -54801,7 +54801,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -54813,13 +54813,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -54856,7 +54856,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -54874,7 +54874,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -54917,13 +54917,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -54996,7 +54996,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -55027,7 +55027,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "2 fresh",
         "qty": null,
         "unit": null
@@ -55051,7 +55051,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -55382,7 +55382,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -55486,19 +55486,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -55541,7 +55541,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -55590,13 +55590,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -55694,7 +55694,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Inch Cucumber (Fresh)",
+        "name": "Inch Cucumber (fresh)",
         "amount": "1",
         "qty": null,
         "unit": null
@@ -55767,7 +55767,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -55804,7 +55804,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -56055,7 +56055,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -56086,13 +56086,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -56104,7 +56104,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -56190,7 +56190,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -56239,13 +56239,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -56343,7 +56343,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Chinato (Barolo/Barbera/Grignolino)",
+        "name": "Chinato (barolo/barbera/grignolino)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -56355,7 +56355,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Barrel-Aged Bitters",
+        "name": "Barrel-aged Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -56453,7 +56453,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "1.25 ml",
         "qty": 1.25,
         "unit": "ml"
@@ -56484,7 +56484,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -56539,7 +56539,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -56569,7 +56569,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -56624,7 +56624,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -56655,19 +56655,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -56734,7 +56734,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -56777,13 +56777,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -56923,7 +56923,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -56966,7 +56966,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -57021,7 +57021,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Inch Cucumber (Fresh)",
+        "name": "Inch Cucumber (fresh)",
         "amount": "2",
         "qty": null,
         "unit": null
@@ -57033,7 +57033,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -57088,7 +57088,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -57333,7 +57333,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "8 fresh",
         "qty": null,
         "unit": null
@@ -57406,7 +57406,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -57449,7 +57449,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -57539,7 +57539,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -57673,7 +57673,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -57716,7 +57716,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -57734,7 +57734,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -57997,13 +57997,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -58113,13 +58113,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -58162,7 +58162,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -58217,7 +58217,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -58327,7 +58327,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -58394,7 +58394,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -58669,7 +58669,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -58834,7 +58834,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -58901,7 +58901,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -58932,7 +58932,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -58962,7 +58962,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -59060,7 +59060,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -59103,7 +59103,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -59244,7 +59244,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -59317,7 +59317,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -59433,7 +59433,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -59573,7 +59573,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -59677,7 +59677,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange Zest/Swath",
+        "name": "Orange Zest/swath",
         "amount": "3 twist",
         "qty": null,
         "unit": null
@@ -59879,7 +59879,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -59903,7 +59903,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -60025,7 +60025,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -60062,7 +60062,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -60098,7 +60098,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -60391,7 +60391,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -60422,7 +60422,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "12 fresh",
         "qty": null,
         "unit": null
@@ -60557,7 +60557,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lime Juice (Burnt)",
+        "name": "Lime Juice (burnt)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -60575,7 +60575,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -60612,7 +60612,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -60673,7 +60673,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -60734,7 +60734,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "0.1 ml",
         "qty": 0.1,
         "unit": "ml"
@@ -61108,7 +61108,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -61151,7 +61151,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -61267,7 +61267,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -61432,7 +61432,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -61487,7 +61487,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pear PuréE",
+        "name": "Pear Purée",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -61585,7 +61585,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -61652,13 +61652,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -61878,13 +61878,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -62129,7 +62129,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -62184,7 +62184,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -62355,7 +62355,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Shochu/Soju",
+        "name": "Shochu/soju",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -62478,7 +62478,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -62594,7 +62594,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -62637,13 +62637,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -62686,7 +62686,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -62735,7 +62735,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -62784,13 +62784,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -62857,7 +62857,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -62888,13 +62888,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -62906,7 +62906,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -62961,7 +62961,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -62998,7 +62998,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -63102,7 +63102,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -63151,7 +63151,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -63212,7 +63212,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -63267,7 +63267,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -63685,7 +63685,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -63825,7 +63825,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -63935,7 +63935,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -64063,7 +64063,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -64094,7 +64094,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -64118,7 +64118,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -64149,7 +64149,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -64259,7 +64259,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -64394,7 +64394,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -64431,7 +64431,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -64517,7 +64517,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "52.5 ml",
         "qty": 52.5,
         "unit": "ml"
@@ -64541,7 +64541,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -64951,7 +64951,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "éLixir VéGéTal",
+        "name": "Élixir Végétal",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -65110,7 +65110,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -65153,7 +65153,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -65214,7 +65214,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -65257,13 +65257,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -65477,13 +65477,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -65501,7 +65501,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -65544,7 +65544,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -66020,7 +66020,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -66142,7 +66142,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -66252,7 +66252,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -66264,7 +66264,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -66319,7 +66319,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -66350,7 +66350,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -66393,25 +66393,25 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "2 ml",
         "qty": 2,
         "unit": "ml"
@@ -66503,7 +66503,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Jasmine Tea (Cold)",
+        "name": "Jasmine Tea (cold)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -66583,13 +66583,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D9D4CA",
     "ingredients": [
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "35 ml",
         "qty": 35,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "35 ml",
         "qty": 35,
         "unit": "ml"
@@ -66638,7 +66638,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -66791,7 +66791,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -66895,7 +66895,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -67042,13 +67042,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -67164,7 +67164,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Jasmine Tea (Cold)",
+        "name": "Jasmine Tea (cold)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -67464,7 +67464,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "8 fresh",
         "qty": null,
         "unit": null
@@ -67519,19 +67519,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -67733,7 +67733,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -67788,7 +67788,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -67874,7 +67874,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -68009,7 +68009,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -68100,7 +68100,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -68192,7 +68192,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -68516,7 +68516,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -68624,7 +68624,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -68777,7 +68777,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "5 fresh",
         "qty": null,
         "unit": null
@@ -68887,7 +68887,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -68924,7 +68924,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -68936,7 +68936,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -68985,7 +68985,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -69083,7 +69083,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -69450,7 +69450,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -69504,13 +69504,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -69547,7 +69547,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -69590,7 +69590,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "3 slice",
         "qty": null,
         "unit": null
@@ -69608,7 +69608,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -69645,7 +69645,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -69700,7 +69700,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -69749,13 +69749,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "CrèMe Yvette Liqueur",
+        "name": "Crème Yvette Liqueur",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -69798,7 +69798,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -69841,7 +69841,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -70036,7 +70036,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -70067,7 +70067,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -70122,7 +70122,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -70183,7 +70183,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -70214,7 +70214,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -70416,13 +70416,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -70532,7 +70532,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -70575,7 +70575,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -70587,13 +70587,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe Yvette Liqueur",
+        "name": "Crème Yvette Liqueur",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -70636,7 +70636,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -70660,7 +70660,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -70758,13 +70758,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Ramazzotti)",
+        "name": "Amaro (e.g. Ramazzotti)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -70972,7 +70972,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -71082,7 +71082,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -71137,7 +71137,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -71431,7 +71431,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -71474,7 +71474,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -71523,7 +71523,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -71762,7 +71762,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -71909,7 +71909,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -72197,7 +72197,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Ramazzotti)",
+        "name": "Amaro (e.g. Ramazzotti)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -72246,7 +72246,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -72283,7 +72283,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -72375,7 +72375,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -72424,7 +72424,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -72479,7 +72479,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "CrèMe Yvette Liqueur",
+        "name": "Crème Yvette Liqueur",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -72503,7 +72503,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -72546,7 +72546,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -72705,7 +72705,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -72827,7 +72827,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -72858,7 +72858,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Blueberries (Fresh)",
+        "name": "Blueberries (fresh)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -72937,7 +72937,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -73072,7 +73072,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -73145,7 +73145,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -73345,7 +73345,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -73547,7 +73547,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -73651,7 +73651,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -73682,7 +73682,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Ring Pineapple (Fresh)",
+        "name": "Ring Pineapple (fresh)",
         "amount": "1/2",
         "qty": null,
         "unit": null
@@ -73724,7 +73724,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -73779,7 +73779,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Weisse (Wheat) Beer",
+        "name": "Top Up With Weisse (wheat) Beer",
         "amount": "",
         "qty": null,
         "unit": null
@@ -73834,7 +73834,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -74030,13 +74030,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -74293,7 +74293,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -74354,7 +74354,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -74391,7 +74391,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -74440,7 +74440,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -74458,13 +74458,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Kaffir Lime (Fresh Fruit)",
+        "name": "Kaffir Lime (fresh Fruit)",
         "amount": "2 leaf",
         "qty": null,
         "unit": null
@@ -74556,13 +74556,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -74617,13 +74617,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Barrel-Aged Bitters",
+        "name": "Barrel-aged Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -74660,7 +74660,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -74703,7 +74703,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -74825,7 +74825,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -74868,7 +74868,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -74886,7 +74886,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -74929,13 +74929,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -74984,7 +74984,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -75002,7 +75002,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -75063,7 +75063,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -75081,7 +75081,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -75155,7 +75155,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -75210,13 +75210,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -75271,7 +75271,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -75308,13 +75308,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -75332,7 +75332,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -75363,13 +75363,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -75516,7 +75516,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -75620,19 +75620,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -75730,13 +75730,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Barrel-Aged Bitters",
+        "name": "Barrel-aged Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -75773,7 +75773,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -75932,7 +75932,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -75981,13 +75981,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -76030,7 +76030,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -76054,7 +76054,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -76146,7 +76146,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -76219,7 +76219,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Yoghurt (Natural)",
+        "name": "Yoghurt (natural)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -76391,13 +76391,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -76507,7 +76507,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -76562,7 +76562,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -76623,13 +76623,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -76690,13 +76690,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
       },
       {
-        "name": "Barrel-Aged Bitters",
+        "name": "Barrel-aged Bitters",
         "amount": "2 ml",
         "qty": 2,
         "unit": "ml"
@@ -76757,7 +76757,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -76904,7 +76904,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -77057,7 +77057,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -77430,7 +77430,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -77606,7 +77606,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -77704,7 +77704,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Watermelon (Fresh)",
+        "name": "Watermelon (fresh)",
         "amount": "1 wedge",
         "qty": null,
         "unit": null
@@ -77765,7 +77765,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Pineapple (Fresh)",
+        "name": "Pineapple (fresh)",
         "amount": "1 cube",
         "qty": null,
         "unit": null
@@ -78040,7 +78040,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Saffron Syrup (Homemade)",
+        "name": "Saffron Syrup (homemade)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -78052,7 +78052,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -78138,7 +78138,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.2 ml",
         "qty": 0.2,
         "unit": "ml"
@@ -78175,7 +78175,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -78187,7 +78187,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -78432,7 +78432,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -78530,13 +78530,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Sercial (Dry) Madeira Wine",
+        "name": "Sercial (dry) Madeira Wine",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -78591,7 +78591,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -78615,7 +78615,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -78719,7 +78719,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -78768,7 +78768,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.6 ml",
         "qty": 0.6,
         "unit": "ml"
@@ -78805,7 +78805,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "2 slice",
         "qty": null,
         "unit": null
@@ -78835,7 +78835,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -78890,7 +78890,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "1 whole",
         "qty": null,
         "unit": null
@@ -79110,7 +79110,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -79141,7 +79141,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "3 slice",
         "qty": null,
         "unit": null
@@ -79153,7 +79153,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -79214,7 +79214,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -79299,7 +79299,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -79336,7 +79336,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -79525,7 +79525,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Watermelon (Fresh)",
+        "name": "Watermelon (fresh)",
         "amount": "1 slice",
         "qty": null,
         "unit": null
@@ -79580,7 +79580,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -79684,7 +79684,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -79757,7 +79757,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -79794,7 +79794,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -79892,7 +79892,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -79935,13 +79935,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -79996,7 +79996,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -80057,7 +80057,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -80155,13 +80155,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -80283,7 +80283,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -80385,7 +80385,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -80434,7 +80434,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -80507,7 +80507,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -80556,7 +80556,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -80642,7 +80642,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -80691,13 +80691,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -80746,7 +80746,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -80783,7 +80783,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -80893,7 +80893,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -80948,7 +80948,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -80996,19 +80996,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -81063,7 +81063,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -81124,7 +81124,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Barrel-Aged Bitters",
+        "name": "Barrel-aged Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -81253,7 +81253,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Cherry Tomato (Fresh)",
+        "name": "Cherry Tomato (fresh)",
         "amount": "3 fresh",
         "qty": null,
         "unit": null
@@ -81418,7 +81418,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -81754,7 +81754,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -81852,13 +81852,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -81950,7 +81950,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -82070,7 +82070,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "105 ml",
         "qty": 105,
         "unit": "ml"
@@ -82113,7 +82113,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -82150,7 +82150,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White Peach PuréE",
+        "name": "White Peach Purée",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -82168,7 +82168,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -82214,7 +82214,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -82316,7 +82316,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -82540,7 +82540,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -82815,13 +82815,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -82919,7 +82919,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -82962,7 +82962,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -82974,13 +82974,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
       },
       {
-        "name": "Barrel-Aged Bitters",
+        "name": "Barrel-aged Bitters",
         "amount": "2 ml",
         "qty": 2,
         "unit": "ml"
@@ -83023,7 +83023,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -83353,7 +83353,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -83457,7 +83457,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Ramazzotti)",
+        "name": "Amaro (e.g. Ramazzotti)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -83549,13 +83549,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -83598,7 +83598,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -83671,7 +83671,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Barrel-Aged Bitters",
+        "name": "Barrel-aged Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -83763,7 +83763,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -83812,7 +83812,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -83959,7 +83959,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -84002,7 +84002,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "52.5 ml",
         "qty": 52.5,
         "unit": "ml"
@@ -84057,7 +84057,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -84369,7 +84369,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -84528,13 +84528,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -84577,7 +84577,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -84589,7 +84589,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Apricot Jam/Preserve",
+        "name": "Apricot Jam/preserve",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -84666,7 +84666,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "2 fresh",
         "qty": null,
         "unit": null
@@ -84690,7 +84690,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -84721,7 +84721,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -84770,7 +84770,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -84825,7 +84825,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -84849,7 +84849,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "1 whole",
         "qty": null,
         "unit": null
@@ -84984,7 +84984,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -85045,7 +85045,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Lemon-Lime Soda",
+        "name": "Lemon-lime Soda",
         "amount": "105 ml",
         "qty": 105,
         "unit": "ml"
@@ -85149,7 +85149,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -85192,7 +85192,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -85210,7 +85210,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "India Pale Ale (Ipa) Beer",
+        "name": "India Pale Ale (ipa) Beer",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -85314,7 +85314,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -85369,7 +85369,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -85436,7 +85436,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -85473,7 +85473,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -85528,7 +85528,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -85588,7 +85588,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -85606,7 +85606,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -85649,7 +85649,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -85686,7 +85686,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -85747,7 +85747,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -85814,13 +85814,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -85863,7 +85863,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -85934,7 +85934,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -86020,7 +86020,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Inch Cucumber (Fresh)",
+        "name": "Inch Cucumber (fresh)",
         "amount": "2",
         "qty": null,
         "unit": null
@@ -86081,7 +86081,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -86136,7 +86136,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -86362,7 +86362,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -86405,7 +86405,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -86654,7 +86654,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -86697,13 +86697,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Pear PuréE",
+        "name": "Pear Purée",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -86746,7 +86746,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -86813,7 +86813,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -86856,7 +86856,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -86880,7 +86880,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -86996,7 +86996,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -87161,7 +87161,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -87235,7 +87235,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -87320,7 +87320,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -87357,13 +87357,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -87479,7 +87479,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -87534,13 +87534,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -87595,7 +87595,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -87644,7 +87644,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "7 fresh",
         "qty": null,
         "unit": null
@@ -87699,7 +87699,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Red Grapes (Seedless)",
+        "name": "Red Grapes (seedless)",
         "amount": "3 fresh",
         "qty": null,
         "unit": null
@@ -87813,7 +87813,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -87856,7 +87856,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Poteen/PoitíN",
+        "name": "Poteen/poitín",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -87929,7 +87929,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -87953,7 +87953,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -88045,7 +88045,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -88075,7 +88075,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -88106,7 +88106,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -88228,7 +88228,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -88283,7 +88283,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -88399,7 +88399,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -88509,7 +88509,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -88564,7 +88564,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -88576,7 +88576,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -88619,13 +88619,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -88711,7 +88711,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -88766,7 +88766,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -88858,7 +88858,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "3 slice",
         "qty": null,
         "unit": null
@@ -88980,7 +88980,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -89084,7 +89084,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -89212,7 +89212,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -89304,7 +89304,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -89518,7 +89518,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -89665,13 +89665,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -89720,7 +89720,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -89769,13 +89769,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -89818,7 +89818,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -89836,7 +89836,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -89873,7 +89873,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -89928,7 +89928,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -89989,7 +89989,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -90044,7 +90044,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -90056,13 +90056,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -90105,7 +90105,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -90117,7 +90117,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -90160,7 +90160,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -90209,7 +90209,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -90239,7 +90239,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -90270,7 +90270,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -90325,7 +90325,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -90386,13 +90386,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -90435,13 +90435,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Rubino/Rosso/Rojo Vermouth",
+        "name": "Rubino/rosso/rojo Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -90484,7 +90484,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -90544,7 +90544,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -90599,7 +90599,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -90648,13 +90648,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "1 slice",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -90709,13 +90709,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -90764,7 +90764,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -90819,7 +90819,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -90874,7 +90874,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -90886,13 +90886,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -90929,7 +90929,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -90984,7 +90984,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -90996,7 +90996,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -91020,7 +91020,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -91051,13 +91051,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -91118,13 +91118,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -91179,7 +91179,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -91228,19 +91228,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Coc.)",
+        "name": "Vermouth Amaro (coc.)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -91301,7 +91301,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -91344,13 +91344,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -91411,7 +91411,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -91454,7 +91454,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -91478,7 +91478,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -91515,7 +91515,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -91539,7 +91539,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -91570,13 +91570,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -91625,7 +91625,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -91637,7 +91637,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -91686,7 +91686,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -91704,7 +91704,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blackcurrant Jam (Preserve)",
+        "name": "Blackcurrant Jam (preserve)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -91735,7 +91735,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -91790,7 +91790,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -91845,7 +91845,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -91863,7 +91863,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -91900,13 +91900,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -91949,7 +91949,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -91967,7 +91967,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -92004,25 +92004,25 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -92059,13 +92059,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -92108,7 +92108,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -92167,19 +92167,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -92228,7 +92228,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -92277,7 +92277,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -92326,7 +92326,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -92375,13 +92375,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -92430,7 +92430,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -92485,7 +92485,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -92540,13 +92540,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -92589,7 +92589,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -92644,7 +92644,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -92662,7 +92662,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -92772,7 +92772,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -92833,13 +92833,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -92906,13 +92906,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -92967,7 +92967,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -93022,7 +93022,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -93120,7 +93120,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -93285,13 +93285,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "GéNéPi Liqueur",
+        "name": "Génépi Liqueur",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -93370,13 +93370,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
       },
       {
-        "name": "Blueberries (Fresh)",
+        "name": "Blueberries (fresh)",
         "amount": "3 fresh",
         "qty": null,
         "unit": null
@@ -93443,7 +93443,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -93474,7 +93474,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -93492,7 +93492,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -93553,7 +93553,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -93608,7 +93608,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -93651,7 +93651,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -93759,7 +93759,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Poteen/PoitíN",
+        "name": "Poteen/poitín",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -93777,7 +93777,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "3 ml",
         "qty": 3,
         "unit": "ml"
@@ -93808,7 +93808,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -93918,7 +93918,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "300 ml",
         "qty": 300,
         "unit": "ml"
@@ -93979,7 +93979,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -94052,7 +94052,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -94101,7 +94101,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -94205,7 +94205,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -94223,7 +94223,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "2 ml",
         "qty": 2,
         "unit": "ml"
@@ -94272,7 +94272,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -94321,7 +94321,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Rubino/Rosso/Rojo Vermouth",
+        "name": "Rubino/rosso/rojo Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -94382,7 +94382,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -94602,7 +94602,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -94620,7 +94620,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -94828,7 +94828,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "8 fresh",
         "qty": null,
         "unit": null
@@ -94883,7 +94883,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -94895,7 +94895,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -95005,7 +95005,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -95091,7 +95091,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -95146,7 +95146,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -95158,7 +95158,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -95195,19 +95195,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -95219,7 +95219,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -95305,7 +95305,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -95421,7 +95421,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -95506,7 +95506,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -95543,7 +95543,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -95555,7 +95555,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -95665,7 +95665,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Ciociaro)",
+        "name": "Amaro (e.g. Ciociaro)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -95781,7 +95781,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -95824,7 +95824,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -96013,7 +96013,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -96056,7 +96056,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -96087,7 +96087,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -96191,13 +96191,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -96246,7 +96246,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -96295,7 +96295,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -96307,7 +96307,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -96338,25 +96338,25 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Blueberries (Fresh)",
+        "name": "Blueberries (fresh)",
         "amount": "10 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -96387,7 +96387,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -96478,7 +96478,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -96521,7 +96521,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -96570,7 +96570,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -96631,7 +96631,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -96662,7 +96662,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
@@ -96674,7 +96674,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "3 fresh",
         "qty": null,
         "unit": null
@@ -96686,7 +96686,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -96717,19 +96717,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Pineapple (Fresh)",
+        "name": "Pineapple (fresh)",
         "amount": "4 cube",
         "qty": null,
         "unit": null
@@ -96741,7 +96741,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -96772,13 +96772,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -96796,7 +96796,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -96827,19 +96827,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "3 slice",
         "qty": null,
         "unit": null
@@ -96851,7 +96851,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -96882,25 +96882,25 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Red Grapes (Seedless)",
+        "name": "Red Grapes (seedless)",
         "amount": "8 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -96931,19 +96931,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Red Grapes (Seedless)",
+        "name": "Red Grapes (seedless)",
         "amount": "6 fresh",
         "qty": null,
         "unit": null
@@ -96955,7 +96955,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -97041,13 +97041,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -97065,7 +97065,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -97096,25 +97096,25 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Kiwi Fruit (Fresh)",
+        "name": "Kiwi Fruit (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -97450,7 +97450,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -97511,7 +97511,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
@@ -97529,7 +97529,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -97615,7 +97615,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -97725,19 +97725,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Kiwi Fruit (Fresh)",
+        "name": "Kiwi Fruit (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
@@ -97755,7 +97755,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -97786,7 +97786,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
@@ -97798,13 +97798,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cupful Watermelon (Fresh)",
+        "name": "Cupful Watermelon (fresh)",
         "amount": "1/2",
         "qty": null,
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -97835,25 +97835,25 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Melon (Cantaloupe)",
+        "name": "Melon (cantaloupe)",
         "amount": "1 slice",
         "qty": null,
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -97884,19 +97884,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Melon (Cantaloupe)",
+        "name": "Melon (cantaloupe)",
         "amount": "1 slice",
         "qty": null,
         "unit": null
@@ -97908,7 +97908,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -97939,25 +97939,25 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Superfine/Caster Sugar",
+        "name": "Superfine/caster Sugar",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Pineapple (Fresh)",
+        "name": "Pineapple (fresh)",
         "amount": "1/2 slice",
         "qty": null,
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -97994,13 +97994,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98047,19 +98047,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98112,13 +98112,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98171,13 +98171,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98230,13 +98230,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98289,13 +98289,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98348,13 +98348,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98407,13 +98407,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98460,19 +98460,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98525,13 +98525,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98584,13 +98584,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98643,13 +98643,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98702,13 +98702,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98761,13 +98761,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -98820,13 +98820,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -99252,7 +99252,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Lemon (Fresh)",
+        "name": "Lemon (fresh)",
         "amount": "1/4 fresh",
         "qty": null,
         "unit": null
@@ -99362,7 +99362,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -99374,7 +99374,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -99392,7 +99392,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -99423,7 +99423,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -99435,7 +99435,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -99649,7 +99649,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -99710,7 +99710,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -100083,7 +100083,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -100285,7 +100285,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -100297,7 +100297,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -100499,7 +100499,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
@@ -100542,7 +100542,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -100646,7 +100646,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -100723,7 +100723,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -100766,13 +100766,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -100955,7 +100955,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -101194,7 +101194,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pineapple PuréE",
+        "name": "Pineapple Purée",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -101237,7 +101237,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -101384,7 +101384,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -101481,7 +101481,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -101646,7 +101646,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -101762,7 +101762,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -101811,13 +101811,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -101858,7 +101858,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Birch Eau-De-Vie",
+        "name": "Birch Eau-de-vie",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -101937,7 +101937,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Strawberry PuréE",
+        "name": "Strawberry Purée",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -102127,13 +102127,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D9D4CA",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -102145,7 +102145,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "0.15 ml",
         "qty": 0.15,
         "unit": "ml"
@@ -102188,7 +102188,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -102243,7 +102243,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -102335,7 +102335,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -102372,7 +102372,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -102384,7 +102384,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -102470,13 +102470,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -102531,13 +102531,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -102610,7 +102610,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -102842,7 +102842,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -102995,7 +102995,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -103246,13 +103246,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -103270,7 +103270,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "1 whole",
         "qty": null,
         "unit": null
@@ -103313,7 +103313,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -103570,7 +103570,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -103625,7 +103625,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -103686,7 +103686,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cherry Tomato (Fresh)",
+        "name": "Cherry Tomato (fresh)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -103777,7 +103777,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -103820,13 +103820,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Chinato (Barolo/Barbera/Grignolino)",
+        "name": "Chinato (barolo/barbera/grignolino)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -103869,13 +103869,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -103918,7 +103918,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -104028,7 +104028,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CréOle Shrubb Liqueur",
+        "name": "Créole Shrubb Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -104071,7 +104071,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -104124,13 +104124,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -104167,19 +104167,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -104216,7 +104216,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -104265,13 +104265,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Sugar-Free Sweetener Syrup",
+        "name": "Sugar-free Sweetener Syrup",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -104283,7 +104283,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -104326,7 +104326,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Sugar-Free Sweetener Syrup",
+        "name": "Sugar-free Sweetener Syrup",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -104369,13 +104369,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Sugar-Free Sweetener Syrup",
+        "name": "Sugar-free Sweetener Syrup",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -104424,7 +104424,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Sugar-Free Sweetener Syrup",
+        "name": "Sugar-free Sweetener Syrup",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -104467,13 +104467,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Sugar-Free Sweetener Syrup",
+        "name": "Sugar-free Sweetener Syrup",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "90 ml",
         "qty": 90,
         "unit": "ml"
@@ -104516,13 +104516,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Sugar-Free Sweetener Syrup",
+        "name": "Sugar-free Sweetener Syrup",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "90 ml",
         "qty": 90,
         "unit": "ml"
@@ -104571,13 +104571,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Sugar-Free Sweetener Syrup",
+        "name": "Sugar-free Sweetener Syrup",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -104614,7 +104614,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -104748,7 +104748,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -104803,7 +104803,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -104840,7 +104840,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "6 fresh",
         "qty": null,
         "unit": null
@@ -104864,7 +104864,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -104942,13 +104942,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -104972,7 +104972,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -105021,7 +105021,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Noyau",
+        "name": "Crème De Noyau",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -105064,13 +105064,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Noyau",
+        "name": "Crème De Noyau",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -105131,7 +105131,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Noyau",
+        "name": "Crème De Noyau",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -105174,7 +105174,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Noyau",
+        "name": "Crème De Noyau",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -105266,7 +105266,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "5 fresh",
         "qty": null,
         "unit": null
@@ -105327,7 +105327,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "3 slice",
         "qty": null,
         "unit": null
@@ -105394,7 +105394,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -105565,13 +105565,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -106158,13 +106158,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -106250,7 +106250,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -106299,7 +106299,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -106391,7 +106391,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -106525,7 +106525,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
@@ -106537,13 +106537,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "3 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -106586,7 +106586,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -106635,7 +106635,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -106670,19 +106670,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -106760,7 +106760,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Meletti)",
+        "name": "Amaro (e.g. Meletti)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -106856,7 +106856,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -106929,7 +106929,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -107007,7 +107007,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Chinato (Barolo/Barbera/Grignolino)",
+        "name": "Chinato (barolo/barbera/grignolino)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -107056,7 +107056,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -107117,7 +107117,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -107331,13 +107331,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -107435,7 +107435,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -107502,7 +107502,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -107539,7 +107539,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -107551,7 +107551,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -107594,13 +107594,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -107900,7 +107900,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -107996,7 +107996,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -108094,13 +108094,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -108179,7 +108179,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -108381,13 +108381,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -108485,7 +108485,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -108538,7 +108538,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Framboise Eau-De-Vie",
+        "name": "Framboise Eau-de-vie",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -108648,7 +108648,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -108728,7 +108728,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -108789,13 +108789,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -108843,7 +108843,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "GéNéPi Liqueur",
+        "name": "Génépi Liqueur",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -109074,7 +109074,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -109129,7 +109129,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -109172,7 +109172,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -109221,7 +109221,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -109300,7 +109300,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -109349,7 +109349,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -109386,7 +109386,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Passion Fruit PuréE",
+        "name": "Passion Fruit Purée",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -109435,7 +109435,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Passion Fruit PuréE",
+        "name": "Passion Fruit Purée",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -109490,7 +109490,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -109527,7 +109527,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "2 fresh",
         "qty": null,
         "unit": null
@@ -109539,7 +109539,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -109618,7 +109618,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -109661,7 +109661,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "India Pale Ale (Ipa) Beer",
+        "name": "India Pale Ale (ipa) Beer",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -109712,7 +109712,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dunkel/Black Lager",
+        "name": "Dunkel/black Lager",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -109796,13 +109796,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "Passion Fruit PuréE",
+        "name": "Passion Fruit Purée",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -109881,7 +109881,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -109936,7 +109936,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -109979,13 +109979,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -110089,7 +110089,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -110175,7 +110175,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -110224,7 +110224,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -110402,7 +110402,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -110537,7 +110537,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -110586,7 +110586,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -110733,13 +110733,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -110800,7 +110800,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Top Up With Soda (Club Soda) Water",
+        "name": "Top Up With Soda (club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -111110,7 +111110,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -111238,7 +111238,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -111342,7 +111342,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -111385,13 +111385,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -111403,7 +111403,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -111440,7 +111440,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -111532,7 +111532,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -111581,7 +111581,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -111728,7 +111728,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -111740,7 +111740,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -111832,7 +111832,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -111936,7 +111936,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -111991,13 +111991,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "4 fresh",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -112095,7 +112095,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -112193,7 +112193,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -112205,7 +112205,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -112297,7 +112297,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -112358,7 +112358,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -112370,7 +112370,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -112462,13 +112462,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -112639,7 +112639,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -112682,7 +112682,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -112694,7 +112694,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -112706,7 +112706,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -112743,7 +112743,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -112878,7 +112878,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Watermelon (Fresh)",
+        "name": "Watermelon (fresh)",
         "amount": "1 slice",
         "qty": null,
         "unit": null
@@ -113037,7 +113037,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lemon-Lime Soda",
+        "name": "Lemon-lime Soda",
         "amount": "105 ml",
         "qty": 105,
         "unit": "ml"
@@ -113174,7 +113174,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -113186,7 +113186,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -113278,7 +113278,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -113370,7 +113370,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "7 fresh",
         "qty": null,
         "unit": null
@@ -113584,13 +113584,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -113645,7 +113645,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -113755,7 +113755,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -113926,7 +113926,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -113968,7 +113968,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -114041,7 +114041,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -114078,7 +114078,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -114121,7 +114121,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -114243,7 +114243,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F2D98D",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -114286,7 +114286,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D9D4CA",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -114321,7 +114321,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "2 slice",
         "qty": null,
         "unit": null
@@ -114333,7 +114333,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -114388,7 +114388,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -114400,7 +114400,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White Peach PuréE",
+        "name": "White Peach Purée",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -114461,13 +114461,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "90 ml",
         "qty": 90,
         "unit": "ml"
@@ -114504,7 +114504,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -114602,7 +114602,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -114681,13 +114681,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -114724,7 +114724,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -114987,13 +114987,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -115036,7 +115036,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "3 slice",
         "qty": null,
         "unit": null
@@ -115066,7 +115066,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -115103,19 +115103,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -115170,7 +115170,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -115207,7 +115207,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -115256,7 +115256,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -115354,7 +115354,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -115397,7 +115397,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Orange (Fresh)",
+        "name": "Orange (fresh)",
         "amount": "2 slice",
         "qty": null,
         "unit": null
@@ -115409,7 +115409,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -115452,7 +115452,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -115482,7 +115482,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -115519,13 +115519,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Apricot Eau-De-Vie",
+        "name": "Apricot Eau-de-vie",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -115629,13 +115629,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -115842,7 +115842,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -115903,13 +115903,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -115946,19 +115946,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -116013,7 +116013,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -116117,7 +116117,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -116135,7 +116135,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -116178,7 +116178,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "3 fresh",
         "qty": null,
         "unit": null
@@ -116190,7 +116190,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Passion Fruit PuréE",
+        "name": "Passion Fruit Purée",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -116276,7 +116276,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -116343,7 +116343,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -116367,7 +116367,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lemon-Lime Soda",
+        "name": "Lemon-lime Soda",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -116410,7 +116410,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -116471,7 +116471,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -116526,7 +116526,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -116544,7 +116544,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -116587,7 +116587,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -116654,7 +116654,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -116697,13 +116697,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -116862,13 +116862,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Banana (Yellow) Sugar Syrup",
+        "name": "Banana (yellow) Sugar Syrup",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -117027,7 +117027,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -117149,7 +117149,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -117161,7 +117161,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -117332,7 +117332,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -117363,7 +117363,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -117424,7 +117424,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -117436,7 +117436,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -117595,7 +117595,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -117886,19 +117886,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -118054,7 +118054,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Heavy/Double Cream",
+        "name": "Heavy/double Cream",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -118177,7 +118177,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -118189,7 +118189,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -118262,7 +118262,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -118358,7 +118358,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -118505,13 +118505,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -118743,13 +118743,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Cranberries (Fresh)",
+        "name": "Cranberries (fresh)",
         "amount": "4 fresh",
         "qty": null,
         "unit": null
@@ -118804,7 +118804,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "90 ml",
         "qty": 90,
         "unit": "ml"
@@ -118841,7 +118841,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -118890,7 +118890,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -118939,7 +118939,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -118976,7 +118976,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -119031,7 +119031,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -119134,7 +119134,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -119146,7 +119146,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -119287,7 +119287,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -119348,7 +119348,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -119550,13 +119550,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -119697,7 +119697,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -119770,7 +119770,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -119831,13 +119831,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -120124,7 +120124,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -120326,7 +120326,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -120387,7 +120387,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -120424,7 +120424,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -120479,7 +120479,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -120522,7 +120522,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -120534,7 +120534,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "2 ml",
         "qty": 2,
         "unit": "ml"
@@ -120632,7 +120632,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -120736,7 +120736,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -120779,7 +120779,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -120889,7 +120889,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -120932,7 +120932,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -120950,7 +120950,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -121042,7 +121042,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -121140,7 +121140,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#C9B79C",
     "ingredients": [
       {
-        "name": "Oregano (Fresh)",
+        "name": "Oregano (fresh)",
         "amount": "3 sprig",
         "qty": null,
         "unit": null
@@ -121433,7 +121433,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -121488,7 +121488,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -121794,7 +121794,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -121904,7 +121904,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -121959,7 +121959,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -122216,7 +122216,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -122326,13 +122326,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Meletti)",
+        "name": "Amaro (e.g. Meletti)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -122436,7 +122436,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -122466,7 +122466,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -122521,7 +122521,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -122564,19 +122564,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -122625,7 +122625,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -122692,13 +122692,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -122734,7 +122734,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -122783,7 +122783,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -122801,7 +122801,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "1.25 ml",
         "qty": 1.25,
         "unit": "ml"
@@ -122850,7 +122850,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -122948,7 +122948,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -122997,7 +122997,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -123101,7 +123101,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -123315,13 +123315,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -123358,13 +123358,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -123413,13 +123413,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -123497,7 +123497,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -123601,7 +123601,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -123742,7 +123742,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -123828,7 +123828,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -123895,7 +123895,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -123932,7 +123932,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -124461,7 +124461,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -124528,7 +124528,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -124589,7 +124589,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -124626,7 +124626,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -124730,7 +124730,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -124779,7 +124779,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -124840,13 +124840,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -124950,7 +124950,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -125065,7 +125065,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -125108,7 +125108,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -125206,13 +125206,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -125457,7 +125457,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -125732,7 +125732,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -125744,7 +125744,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "100 ml",
         "qty": 100,
         "unit": "ml"
@@ -125785,7 +125785,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Ramazzotti)",
+        "name": "Amaro (e.g. Ramazzotti)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -125981,7 +125981,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -126018,7 +126018,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -126183,7 +126183,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -126226,7 +126226,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "China-China Liqueur",
+        "name": "China-china Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -126238,13 +126238,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
       },
       {
-        "name": "Barrel-Aged Bitters",
+        "name": "Barrel-aged Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -126335,7 +126335,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -126365,7 +126365,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -126408,7 +126408,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -126469,7 +126469,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -126622,13 +126622,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -126671,7 +126671,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -126818,7 +126818,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -126836,7 +126836,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Corn/Maize Liqueur",
+        "name": "Corn/maize Liqueur",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -126885,7 +126885,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -127099,7 +127099,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -127154,7 +127154,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -127221,7 +127221,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -127319,7 +127319,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -127435,7 +127435,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -127576,7 +127576,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -127588,7 +127588,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -127698,7 +127698,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -127765,7 +127765,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -127863,7 +127863,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -127930,7 +127930,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -127961,7 +127961,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "52.5 ml",
         "qty": 52.5,
         "unit": "ml"
@@ -128028,13 +128028,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Santoni)",
+        "name": "Amaro (e.g. Santoni)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Chamomile/Camomile Liqueur",
+        "name": "Chamomile/camomile Liqueur",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -128071,13 +128071,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Santoni)",
+        "name": "Amaro (e.g. Santoni)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -128193,7 +128193,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "90 ml",
         "qty": 90,
         "unit": "ml"
@@ -128230,7 +128230,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -128297,7 +128297,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -128407,7 +128407,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -128474,7 +128474,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -128590,7 +128590,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.1 ml",
         "qty": 0.1,
         "unit": "ml"
@@ -128688,7 +128688,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -128737,7 +128737,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -128853,7 +128853,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -128908,7 +128908,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -129000,7 +129000,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -129043,7 +129043,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -129226,7 +129226,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "éLixir VéGéTal",
+        "name": "Élixir Végétal",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -129275,7 +129275,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -129422,7 +129422,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -129440,7 +129440,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -129684,7 +129684,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -129800,7 +129800,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -129861,7 +129861,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -129990,13 +129990,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -130069,7 +130069,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -130173,7 +130173,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.2 ml",
         "qty": 0.2,
         "unit": "ml"
@@ -130210,13 +130210,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -130259,7 +130259,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -130497,7 +130497,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -130521,7 +130521,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -130607,7 +130607,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -130637,7 +130637,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -130735,13 +130735,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -130851,7 +130851,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -130888,7 +130888,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -130949,7 +130949,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -130992,7 +130992,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -131047,13 +131047,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -131108,7 +131108,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -131163,7 +131163,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -131310,13 +131310,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.2 ml",
         "qty": 0.2,
         "unit": "ml"
@@ -131371,13 +131371,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Passion Fruit PuréE",
+        "name": "Passion Fruit Purée",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -131420,7 +131420,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -131463,7 +131463,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -131506,7 +131506,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -131555,7 +131555,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -131671,7 +131671,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -131726,7 +131726,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Apricot Eau-De-Vie",
+        "name": "Apricot Eau-de-vie",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -131793,7 +131793,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Apricot Eau-De-Vie",
+        "name": "Apricot Eau-de-vie",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -131848,7 +131848,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -131958,7 +131958,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -131995,7 +131995,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -132074,7 +132074,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -132184,7 +132184,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -132221,19 +132221,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -132276,7 +132276,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -132545,7 +132545,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -132582,13 +132582,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -132735,13 +132735,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -132784,7 +132784,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#C9B79C",
     "ingredients": [
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -132887,7 +132887,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -132936,7 +132936,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -132991,7 +132991,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.2 ml",
         "qty": 0.2,
         "unit": "ml"
@@ -133040,7 +133040,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -133162,7 +133162,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -133205,13 +133205,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -133266,7 +133266,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -133321,7 +133321,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rubino/Rosso/Rojo Vermouth",
+        "name": "Rubino/rosso/rojo Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -133376,19 +133376,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "0.2 ml",
         "qty": 0.2,
         "unit": "ml"
@@ -133474,13 +133474,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Framboise Eau-De-Vie",
+        "name": "Framboise Eau-de-vie",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -133584,7 +133584,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Ciociaro)",
+        "name": "Amaro (e.g. Ciociaro)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -133870,7 +133870,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Santoni)",
+        "name": "Amaro (e.g. Santoni)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -134004,7 +134004,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -134053,7 +134053,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -134096,7 +134096,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -134139,7 +134139,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -134182,13 +134182,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -134237,13 +134237,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -134292,7 +134292,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -134316,7 +134316,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lime Zest (Peel)",
+        "name": "Lime Zest (peel)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -134353,7 +134353,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -134365,7 +134365,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -134414,7 +134414,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -134512,7 +134512,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -134530,7 +134530,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -134573,7 +134573,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -134787,7 +134787,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -134799,7 +134799,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -134842,7 +134842,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -134854,7 +134854,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Ramazzotti)",
+        "name": "Amaro (e.g. Ramazzotti)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -134903,7 +134903,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -134940,13 +134940,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -135032,7 +135032,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Chamomile/Camomile Liqueur",
+        "name": "Chamomile/camomile Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -135050,7 +135050,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -135130,13 +135130,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -135148,7 +135148,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Heavy/Double Cream",
+        "name": "Heavy/double Cream",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -135246,7 +135246,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -135295,7 +135295,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -135307,7 +135307,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -135319,7 +135319,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -135539,7 +135539,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -135551,7 +135551,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "China-China Liqueur",
+        "name": "China-china Liqueur",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -135606,7 +135606,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -135722,7 +135722,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -135826,13 +135826,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -135869,13 +135869,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -135979,7 +135979,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Framboise Eau-De-Vie",
+        "name": "Framboise Eau-de-vie",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -136144,7 +136144,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -136260,13 +136260,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "2 ml",
         "qty": 2,
         "unit": "ml"
@@ -136364,7 +136364,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -136480,7 +136480,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -136529,7 +136529,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -136651,13 +136651,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Framboise Eau-De-Vie",
+        "name": "Framboise Eau-de-vie",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -136718,7 +136718,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -136761,13 +136761,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -136804,13 +136804,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Mirabelle Eau-De-Vie",
+        "name": "Mirabelle Eau-de-vie",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -136822,7 +136822,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -136914,7 +136914,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Santoni)",
+        "name": "Amaro (e.g. Santoni)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -137000,19 +137000,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
       },
       {
-        "name": "China-China Liqueur",
+        "name": "China-china Liqueur",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -137201,7 +137201,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "80 ml",
         "qty": 80,
         "unit": "ml"
@@ -137311,7 +137311,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -137366,7 +137366,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -137445,7 +137445,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -137561,7 +137561,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -137616,7 +137616,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -137702,7 +137702,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Masala Chai (Cold)",
+        "name": "Masala Chai (cold)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -137769,7 +137769,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -137806,7 +137806,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -137867,7 +137867,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -137934,7 +137934,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -138038,7 +138038,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -138085,7 +138085,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -138226,7 +138226,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -138287,13 +138287,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.4 ml",
         "qty": 0.4,
         "unit": "ml"
@@ -138416,7 +138416,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -138459,13 +138459,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F2D98D",
     "ingredients": [
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -138508,13 +138508,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -138557,7 +138557,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -138581,7 +138581,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -138624,7 +138624,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -138685,7 +138685,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -138758,7 +138758,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -138795,7 +138795,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -138844,7 +138844,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Green Grapes (Seedless)",
+        "name": "Green Grapes (seedless)",
         "amount": "8 fresh",
         "qty": null,
         "unit": null
@@ -138935,7 +138935,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -139094,7 +139094,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "GéNéPi Liqueur",
+        "name": "Génépi Liqueur",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -139320,7 +139320,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -139363,7 +139363,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -139565,13 +139565,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
       },
       {
-        "name": "Apple/Cider Eau-De-Vie",
+        "name": "Apple/cider Eau-de-vie",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -139718,7 +139718,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -139810,7 +139810,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -139865,7 +139865,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Passion Fruit PuréE",
+        "name": "Passion Fruit Purée",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -139920,7 +139920,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Passion Fruit PuréE",
+        "name": "Passion Fruit Purée",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -140061,7 +140061,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Santoni)",
+        "name": "Amaro (e.g. Santoni)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -140116,13 +140116,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -140182,7 +140182,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -140329,13 +140329,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Meletti)",
+        "name": "Amaro (e.g. Meletti)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -140390,7 +140390,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -140427,13 +140427,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -140531,7 +140531,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -140598,13 +140598,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -140774,7 +140774,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -140811,7 +140811,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -140915,7 +140915,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -141013,7 +141013,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -141160,7 +141160,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -141337,7 +141337,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Swath Grapefruit Peel/Zest",
+        "name": "Swath Grapefruit Peel/zest",
         "amount": "1",
         "qty": null,
         "unit": null
@@ -141374,13 +141374,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -141545,13 +141545,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -141594,7 +141594,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -141655,7 +141655,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -141802,7 +141802,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -141863,7 +141863,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -141930,7 +141930,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -141948,7 +141948,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -141985,7 +141985,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -142083,7 +142083,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -142175,7 +142175,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -142254,7 +142254,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -142309,7 +142309,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -142400,7 +142400,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -142431,13 +142431,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -142498,7 +142498,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -142590,7 +142590,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rubino/Rosso/Rojo Vermouth",
+        "name": "Rubino/rosso/rojo Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -142743,7 +142743,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -142767,7 +142767,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -142914,7 +142914,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -142975,7 +142975,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -143016,7 +143016,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -143114,7 +143114,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -143230,7 +143230,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "85 ml",
         "qty": 85,
         "unit": "ml"
@@ -143334,7 +143334,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -143438,7 +143438,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -143499,7 +143499,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -143658,13 +143658,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -143676,7 +143676,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -143719,7 +143719,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -143786,7 +143786,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -143871,7 +143871,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -143908,7 +143908,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -144238,7 +144238,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -144250,7 +144250,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -144287,7 +144287,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Braulio)",
+        "name": "Amaro (e.g. Braulio)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -144373,7 +144373,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -144440,13 +144440,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -144501,7 +144501,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -144513,7 +144513,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -144599,13 +144599,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -144672,7 +144672,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Framboise Eau-De-Vie",
+        "name": "Framboise Eau-de-vie",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -144837,7 +144837,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -144959,7 +144959,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -145020,7 +145020,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -145032,7 +145032,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -145087,13 +145087,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -145197,7 +145197,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -145301,7 +145301,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D9D4CA",
     "ingredients": [
       {
-        "name": "Strawberries (Fresh)",
+        "name": "Strawberries (fresh)",
         "amount": "6 fresh",
         "qty": null,
         "unit": null
@@ -145478,7 +145478,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -145741,7 +145741,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.2 ml",
         "qty": 0.2,
         "unit": "ml"
@@ -145900,13 +145900,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "GéNéPi Liqueur",
+        "name": "Génépi Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -145918,7 +145918,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -145967,13 +145967,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -146022,7 +146022,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -146034,7 +146034,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -146120,7 +146120,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -146150,7 +146150,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -146248,7 +146248,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -146413,7 +146413,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -146425,7 +146425,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -146468,25 +146468,25 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -146535,7 +146535,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -146694,7 +146694,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -146767,7 +146767,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -146828,7 +146828,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -146993,19 +146993,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "China-China Liqueur",
+        "name": "China-china Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -147060,7 +147060,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -147274,7 +147274,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -147378,7 +147378,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -147433,7 +147433,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Lemon-Lime Soda",
+        "name": "Lemon-lime Soda",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -147531,7 +147531,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -147580,7 +147580,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -147592,7 +147592,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -147623,13 +147623,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Santoni)",
+        "name": "Amaro (e.g. Santoni)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -147641,7 +147641,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -147678,7 +147678,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -147739,7 +147739,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -147782,7 +147782,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -147806,7 +147806,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -147849,7 +147849,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -147898,7 +147898,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -147953,7 +147953,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -148120,7 +148120,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -148261,7 +148261,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -148383,13 +148383,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -148432,7 +148432,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -148517,7 +148517,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "3 ml",
         "qty": 3,
         "unit": "ml"
@@ -148548,7 +148548,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -148603,7 +148603,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -148646,7 +148646,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -148707,7 +148707,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -149061,19 +149061,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Meletti)",
+        "name": "Amaro (e.g. Meletti)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -149122,13 +149122,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Meletti)",
+        "name": "Amaro (e.g. Meletti)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -149165,19 +149165,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.25 ml",
         "qty": 0.25,
         "unit": "ml"
@@ -149213,7 +149213,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -149329,7 +149329,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "GéNéPi Liqueur",
+        "name": "Génépi Liqueur",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -149433,7 +149433,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Chinato (Barolo/Barbera/Grignolino)",
+        "name": "Chinato (barolo/barbera/grignolino)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -149488,19 +149488,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -149555,13 +149555,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -149573,7 +149573,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -149610,7 +149610,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -149909,13 +149909,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Chinato (Barolo/Barbera/Grignolino)",
+        "name": "Chinato (barolo/barbera/grignolino)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -150239,7 +150239,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -150330,7 +150330,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Swath Grapefruit Peel/Zest",
+        "name": "Swath Grapefruit Peel/zest",
         "amount": "1",
         "qty": null,
         "unit": null
@@ -150373,13 +150373,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -150507,7 +150507,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "1 whole",
         "qty": null,
         "unit": null
@@ -150550,7 +150550,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -150593,7 +150593,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -150654,7 +150654,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Passion Fruit PuréE",
+        "name": "Passion Fruit Purée",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -150727,7 +150727,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "67.5 ml",
         "qty": 67.5,
         "unit": "ml"
@@ -150758,7 +150758,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Braulio)",
+        "name": "Amaro (e.g. Braulio)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -150770,7 +150770,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -150910,7 +150910,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -151002,7 +151002,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -151081,7 +151081,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -151136,7 +151136,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Abbott'S Bitters",
+        "name": "Abbott's Bitters",
         "amount": "0.2 ml",
         "qty": 0.2,
         "unit": "ml"
@@ -151179,7 +151179,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -151252,7 +151252,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -151276,7 +151276,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -151313,13 +151313,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Chinato (Barolo/Barbera/Grignolino)",
+        "name": "Chinato (barolo/barbera/grignolino)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -151356,7 +151356,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Rubino/Rosso/Rojo Vermouth",
+        "name": "Rubino/rosso/rojo Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -151374,7 +151374,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Santoni)",
+        "name": "Amaro (e.g. Santoni)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -151423,7 +151423,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -151466,7 +151466,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -151533,7 +151533,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Navy Rum (Ideally 54.5% Alc./Vol.)",
+        "name": "Navy Rum (ideally 54.5% Alc./vol.)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -151588,7 +151588,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -151606,7 +151606,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -151649,7 +151649,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -151686,7 +151686,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -151753,7 +151753,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "12.5 ml",
         "qty": 12.5,
         "unit": "ml"
@@ -151802,13 +151802,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -151851,7 +151851,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -151912,7 +151912,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -151936,7 +151936,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -151967,7 +151967,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -151979,7 +151979,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -152022,7 +152022,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -152077,7 +152077,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Corn/Maize Liqueur",
+        "name": "Corn/maize Liqueur",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -152220,7 +152220,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -152261,13 +152261,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "67.5 ml",
         "qty": 67.5,
         "unit": "ml"
@@ -152331,13 +152331,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -152349,13 +152349,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -152416,7 +152416,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -152520,7 +152520,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -152575,7 +152575,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -152679,7 +152679,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -152764,7 +152764,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -152862,7 +152862,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -152917,7 +152917,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "75 ml",
         "qty": 75,
         "unit": "ml"
@@ -152946,7 +152946,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -153108,7 +153108,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -153220,13 +153220,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "110 ml",
         "qty": 110,
         "unit": "ml"
@@ -153353,7 +153353,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -153377,7 +153377,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -153420,7 +153420,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -153665,7 +153665,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -153768,7 +153768,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -153915,7 +153915,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -153952,13 +153952,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D9D4CA",
     "ingredients": [
       {
-        "name": "Green CrèMe De Menthe",
+        "name": "Green Crème De Menthe",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "110 ml",
         "qty": 110,
         "unit": "ml"
@@ -154032,13 +154032,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D9D4CA",
     "ingredients": [
       {
-        "name": "Alcohol-Free Amaro",
+        "name": "Alcohol-free Amaro",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Non-Alc Hemp And Root",
+        "name": "Non-alc Hemp And Root",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -154081,13 +154081,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Non-Alcoholic Bourbon Alternative",
+        "name": "Non-alcoholic Bourbon Alternative",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Alcohol-Free Amaro",
+        "name": "Alcohol-free Amaro",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -154142,13 +154142,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -154160,7 +154160,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -154197,7 +154197,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -154286,7 +154286,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -154329,7 +154329,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -154341,7 +154341,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -154396,7 +154396,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -154451,13 +154451,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -154506,7 +154506,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -154543,7 +154543,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Cucumber (Fresh)",
+        "name": "Cucumber (fresh)",
         "amount": "4 slice",
         "qty": null,
         "unit": null
@@ -154665,7 +154665,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -154677,13 +154677,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "80 ml",
         "qty": 80,
         "unit": "ml"
@@ -154836,7 +154836,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -154879,7 +154879,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -154922,7 +154922,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -154971,7 +154971,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -155020,13 +155020,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -155075,19 +155075,19 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -155250,7 +155250,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Alcohol-Free Amaro",
+        "name": "Alcohol-free Amaro",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -155311,7 +155311,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -155419,7 +155419,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -155511,13 +155511,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -155548,7 +155548,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -155578,7 +155578,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -155652,7 +155652,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -155707,13 +155707,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -155890,7 +155890,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -155963,7 +155963,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -156079,7 +156079,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -156152,7 +156152,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -156295,7 +156295,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -156521,7 +156521,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -156594,7 +156594,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -156655,7 +156655,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Corn/Maize Liqueur",
+        "name": "Corn/maize Liqueur",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -156802,13 +156802,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -156820,7 +156820,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -156875,13 +156875,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -156930,13 +156930,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CréOle Shrubb Liqueur",
+        "name": "Créole Shrubb Liqueur",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -157215,13 +157215,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Ciociaro)",
+        "name": "Amaro (e.g. Ciociaro)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -157264,7 +157264,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -157276,7 +157276,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Swath Lime Zest (Peel)",
+        "name": "Swath Lime Zest (peel)",
         "amount": "1",
         "qty": null,
         "unit": null
@@ -157374,13 +157374,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -157429,7 +157429,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -157728,7 +157728,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -157740,7 +157740,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -157783,13 +157783,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -157807,7 +157807,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Heavy/Double Cream",
+        "name": "Heavy/double Cream",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -157844,7 +157844,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -157905,7 +157905,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -157960,7 +157960,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -158046,7 +158046,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Lime (Fresh)",
+        "name": "Lime (fresh)",
         "amount": "1/2 fresh",
         "qty": null,
         "unit": null
@@ -158148,7 +158148,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -158189,7 +158189,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -158219,7 +158219,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -158439,7 +158439,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -158537,7 +158537,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -158625,13 +158625,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Raspberry PuréE",
+        "name": "Raspberry Purée",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -158686,13 +158686,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -158710,7 +158710,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -158771,7 +158771,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "1.25 ml",
         "qty": 1.25,
         "unit": "ml"
@@ -158808,7 +158808,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -158820,7 +158820,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -158881,13 +158881,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Cassis",
+        "name": "Crème De Cassis",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -158985,7 +158985,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -159003,13 +159003,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Milk  (Whole/Full 3-4% Fat)",
+        "name": "Milk  (whole/full 3-4% Fat)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
       },
       {
-        "name": "Yoghurt (Natural)",
+        "name": "Yoghurt (natural)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -159105,13 +159105,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -159160,7 +159160,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -159215,7 +159215,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -159233,7 +159233,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -159264,7 +159264,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Non-Alc Gin Alternative",
+        "name": "Non-alc Gin Alternative",
         "amount": "40 ml",
         "qty": 40,
         "unit": "ml"
@@ -159368,7 +159368,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -159508,7 +159508,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -159708,7 +159708,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -159891,7 +159891,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -159952,7 +159952,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -160074,7 +160074,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -160190,7 +160190,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -160306,7 +160306,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -160347,7 +160347,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -160377,7 +160377,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Xanthan Gum (E415)",
+        "name": "Xanthan Gum (e415)",
         "amount": "1/4 barspoon",
         "qty": null,
         "unit": null
@@ -160512,7 +160512,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Corn/Maize Liqueur",
+        "name": "Corn/maize Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -160530,7 +160530,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -160585,7 +160585,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -160683,7 +160683,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -160738,7 +160738,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -160775,13 +160775,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -160824,7 +160824,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Inch Cucumber (Fresh)",
+        "name": "Inch Cucumber (fresh)",
         "amount": "1",
         "qty": null,
         "unit": null
@@ -160854,7 +160854,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -160903,7 +160903,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -160946,7 +160946,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E6C7E0",
     "ingredients": [
       {
-        "name": "CréOle Shrubb Liqueur",
+        "name": "Créole Shrubb Liqueur",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -160964,7 +160964,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -160995,7 +160995,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Non-Alc Gin Alternative",
+        "name": "Non-alc Gin Alternative",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -161068,7 +161068,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -161141,7 +161141,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -161306,7 +161306,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -161349,7 +161349,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -161605,7 +161605,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -161642,13 +161642,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -161764,7 +161764,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -161776,7 +161776,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -161831,7 +161831,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CrèMe De Violette",
+        "name": "Crème De Violette",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -161886,7 +161886,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -161972,7 +161972,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Pedro XiméNez Sherry",
+        "name": "Pedro Ximénez Sherry",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -162082,7 +162082,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -162338,7 +162338,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Vermouth Amaro (Pun.)",
+        "name": "Vermouth Amaro (pun.)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -162532,7 +162532,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosé/Rosato Vermouth",
+        "name": "Rosé/rosato Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -162593,7 +162593,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "90 ml",
         "qty": 90,
         "unit": "ml"
@@ -162689,7 +162689,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -162805,7 +162805,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -162842,7 +162842,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -162970,7 +162970,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Apple/Cider Eau-De-Vie",
+        "name": "Apple/cider Eau-de-vie",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -163037,7 +163037,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -163080,7 +163080,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -163123,13 +163123,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -163178,7 +163178,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -163190,7 +163190,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -163239,7 +163239,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Menthe",
+        "name": "White Crème De Menthe",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -163300,13 +163300,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Chamomile/Camomile Liqueur",
+        "name": "Chamomile/camomile Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -163550,7 +163550,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -163654,7 +163654,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -163666,7 +163666,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -163758,7 +163758,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Bourbon Bonded-Strength",
+        "name": "Bourbon Bonded-strength",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -163892,7 +163892,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -164124,7 +164124,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D9D4CA",
     "ingredients": [
       {
-        "name": "Non-Alc Hemp And Root",
+        "name": "Non-alc Hemp And Root",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -164148,7 +164148,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -164197,7 +164197,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -164234,7 +164234,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cynar/Carciofo Amaro",
+        "name": "Cynar/carciofo Amaro",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -164283,7 +164283,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -164368,7 +164368,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Ramazzotti)",
+        "name": "Amaro (e.g. Ramazzotti)",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -164417,7 +164417,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -164435,7 +164435,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -164539,7 +164539,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange CuraçAo",
+        "name": "Orange Curaçao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -164582,13 +164582,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -164600,7 +164600,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -164643,7 +164643,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -164692,7 +164692,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -164759,7 +164759,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -164908,7 +164908,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -165146,7 +165146,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -165189,7 +165189,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -165232,7 +165232,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -165250,7 +165250,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -165305,7 +165305,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -165409,7 +165409,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Espresso Coffee (Hot)",
+        "name": "Espresso Coffee (hot)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -165519,7 +165519,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Coconut-Pineapple Soda",
+        "name": "Coconut-pineapple Soda",
         "amount": "120 ml",
         "qty": 120,
         "unit": "ml"
@@ -165609,7 +165609,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -165670,7 +165670,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -165725,7 +165725,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -165737,7 +165737,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blanc Quinquina/Kina",
+        "name": "Blanc Quinquina/kina",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -165859,7 +165859,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -165902,13 +165902,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -165945,7 +165945,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Nardini)",
+        "name": "Amaro (e.g. Nardini)",
         "amount": "37.5 ml",
         "qty": 37.5,
         "unit": "ml"
@@ -165969,7 +165969,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -166006,13 +166006,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Meletti)",
+        "name": "Amaro (e.g. Meletti)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -166061,7 +166061,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Red Quinquina E.G. Dubonnet, Byrrh",
+        "name": "Red Quinquina E.g. Dubonnet, Byrrh",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -166122,7 +166122,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Mango PuréE",
+        "name": "Mango Purée",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -166220,7 +166220,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -166353,7 +166353,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "AñEjo Tequila",
+        "name": "Añejo Tequila",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -166365,7 +166365,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -166426,7 +166426,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -166585,7 +166585,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Braulio)",
+        "name": "Amaro (e.g. Braulio)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -166701,7 +166701,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -166713,13 +166713,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "BéNéDictine D.O.M.",
+        "name": "Bénédictine D.o.m.",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
       },
       {
-        "name": "White CrèMe De Cacao",
+        "name": "White Crème De Cacao",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -166762,7 +166762,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -166780,7 +166780,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Mango PuréE",
+        "name": "Mango Purée",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -166841,7 +166841,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg (White And Yolk)",
+        "name": "Egg (white And Yolk)",
         "amount": "1 fresh",
         "qty": null,
         "unit": null
@@ -166933,7 +166933,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -166964,7 +166964,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -166976,7 +166976,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Montenegro)",
+        "name": "Amaro (e.g. Montenegro)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -167080,7 +167080,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Dark/Black Rum",
+        "name": "Dark/black Rum",
         "amount": "50 ml",
         "qty": 50,
         "unit": "ml"
@@ -167121,7 +167121,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#D4E8A8",
     "ingredients": [
       {
-        "name": "Amaro (E.G. Averna)",
+        "name": "Amaro (e.g. Averna)",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -167145,7 +167145,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "7.5 ml",
         "qty": 7.5,
         "unit": "ml"
@@ -167188,13 +167188,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue CuraçAo Liqueur",
+        "name": "Blue Curaçao Liqueur",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Agricole Rhum (Unaged)",
+        "name": "Agricole Rhum (unaged)",
         "amount": "5 ml",
         "qty": 5,
         "unit": "ml"
@@ -167304,13 +167304,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -167402,7 +167402,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#E8C39E",
     "ingredients": [
       {
-        "name": "Cognac (Brandy)",
+        "name": "Cognac (brandy)",
         "amount": "45 ml",
         "qty": 45,
         "unit": "ml"
@@ -167414,7 +167414,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -167457,13 +167457,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -167579,13 +167579,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -167634,7 +167634,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -167713,7 +167713,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Framboise Eau-De-Vie",
+        "name": "Framboise Eau-de-vie",
         "amount": "2.5 ml",
         "qty": 2.5,
         "unit": "ml"
@@ -167750,7 +167750,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Rosso/Sweet Vermouth",
+        "name": "Rosso/sweet Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -167811,7 +167811,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G. Lucano)",
+        "name": "Amaro (e.g. Lucano)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -167823,7 +167823,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Boker'S Style Bitters",
+        "name": "Boker's Style Bitters",
         "amount": "1 ml",
         "qty": 1,
         "unit": "ml"
@@ -167866,7 +167866,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "CachaçA",
+        "name": "Cachaça",
         "amount": "60 ml",
         "qty": 60,
         "unit": "ml"
@@ -167890,7 +167890,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -167994,7 +167994,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -168049,13 +168049,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Dark CrèMe De Cacao",
+        "name": "Dark Crème De Cacao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "20 ml",
         "qty": 20,
         "unit": "ml"
@@ -168110,7 +168110,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -168153,7 +168153,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Bianco/Blanco Vermouth",
+        "name": "Bianco/blanco Vermouth",
         "amount": "30 ml",
         "qty": 30,
         "unit": "ml"
@@ -168263,13 +168263,13 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Amaro (E.G.  Nonino)",
+        "name": "Amaro (e.g.  Nonino)",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
@@ -168397,7 +168397,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -168458,7 +168458,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Soda (Club Soda) Water",
+        "name": "Soda (club Soda) Water",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -168519,7 +168519,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Egg White (Pasteurised)",
+        "name": "Egg White (pasteurised)",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -168568,7 +168568,7 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Orange-Red Aperitivo",
+        "name": "Orange-red Aperitivo",
         "amount": "22.5 ml",
         "qty": 22.5,
         "unit": "ml"
