@@ -8,6 +8,7 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import type { AppEnv } from "./env";
+import { catalog } from "./routes/catalog";
 
 export type { Env } from "./env";
 
@@ -36,5 +37,8 @@ app.get("/health", async (c) => {
   }
   return c.json({ status: db === "ok" ? "ok" : "degraded", db });
 });
+
+// Mount routers
+app.route("/", catalog);
 
 export default app;
