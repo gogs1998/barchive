@@ -13,25 +13,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 3/4 shot",
+        "amount": "1.75 oz",
         "qty": 1.75,
         "unit": "oz"
       },
       {
         "name": "Grand Marnier",
-        "amount": "1 Shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Lemon Juice",
-        "amount": "1/4 Shot",
+        "amount": "0.25 oz",
         "qty": 0.25,
         "unit": "oz"
       },
       {
         "name": "Grenadine",
-        "amount": "1/8 Shot",
+        "amount": "0.125 oz",
         "qty": 0.125,
         "unit": "oz"
       }
@@ -95,25 +95,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "2 shots",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
       {
         "name": "Grenadine",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Heavy cream",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Milk",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -145,7 +145,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "151 proof rum",
-        "amount": "1 oz Bacardi",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -258,7 +258,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Applejack",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -474,7 +474,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dark rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -513,13 +513,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 shot",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Vermouth",
-        "amount": "1 1/2 shot",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       }
@@ -626,7 +626,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Scotch",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -644,7 +644,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Orange bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       }
@@ -672,19 +672,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Triple sec",
-        "amount": "1 1/2 tsp",
+        "amount": "1.5 tsp",
         "qty": 1.5,
         "unit": "tsp"
       },
       {
         "name": "Lime juice",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
@@ -729,13 +729,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Creme de Cacao",
-        "amount": "1/2 oz white",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -778,13 +778,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Crown Royal",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Kahlua",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -828,13 +828,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Blackberry brandy",
-        "amount": "1 1/2 tsp",
+        "amount": "1.5 tsp",
         "qty": 1.5,
         "unit": "tsp"
       },
       {
         "name": "Lemon juice",
-        "amount": "1 1/2 tsp",
+        "amount": "1.5 tsp",
         "qty": 1.5,
         "unit": "tsp"
       },
@@ -873,7 +873,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sweet Vermouth",
-        "amount": "1 oz red",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -914,7 +914,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Blended whiskey",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -952,19 +952,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Sweet Vermouth",
-        "amount": "1 1/2 tsp",
+        "amount": "1.5 tsp",
         "qty": 1.5,
         "unit": "tsp"
       },
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       }
@@ -1029,13 +1029,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Sweet Vermouth",
-        "amount": "2 shots",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
       {
         "name": "Dry Vermouth",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -1110,19 +1110,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Kahlua",
-        "amount": "1/3 shot",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
       {
         "name": "Sambuca",
-        "amount": "1/3 shot",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
       {
         "name": "Grand Marnier",
-        "amount": "1/3 shot",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       }
@@ -1193,7 +1193,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -1211,7 +1211,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Grenadine",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -1245,13 +1245,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Irish cream",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Goldschlager",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -1363,25 +1363,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Scotch",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Sweet Vermouth",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Dry Vermouth",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       }
@@ -1409,25 +1409,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Triple sec",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Blue Curacao",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -1479,13 +1479,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Maraschino Liqueur",
-        "amount": "1/4 oz",
+        "amount": "0.25 oz",
         "qty": 0.25,
         "unit": "oz"
       },
       {
         "name": "Angostura Bitters",
-        "amount": "3 dashes",
+        "amount": "3 dash",
         "qty": 3,
         "unit": "dash"
       },
@@ -1574,19 +1574,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Dry Vermouth",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
       {
         "name": "Maraschino liqueur",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -1712,13 +1712,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "151 proof rum",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Scotch",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -1770,7 +1770,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Bacardi Limon",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       }
@@ -1802,7 +1802,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Vodka",
-        "amount": "1 fifth Smirnoff red label",
+        "amount": "1 fifth",
         "qty": null,
         "unit": null
       },
@@ -1860,7 +1860,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sloe gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -1893,19 +1893,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Midori melon liqueur",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Jägermeister",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Goldschlager",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -1937,7 +1937,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Triple sec",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -2019,19 +2019,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Baileys irish cream",
-        "amount": "1/3 oz",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
       {
         "name": "Kahlua",
-        "amount": "1/3 oz",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
       {
         "name": "Sambuca",
-        "amount": "1/3 oz",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       }
@@ -2230,19 +2230,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Maraschino liqueur",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       },
       {
         "name": "Lemon juice",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       },
       {
         "name": "Orange bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -2286,13 +2286,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Milk",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Triple sec",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -2337,7 +2337,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Cachaca",
-        "amount": "2 1/2 oz",
+        "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
       }
@@ -2400,7 +2400,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dark rum",
-        "amount": "1-2 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -2449,19 +2449,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "1 1/4 oz",
+        "amount": "1.25 oz",
         "qty": 1.25,
         "unit": "oz"
       },
       {
         "name": "Cherry brandy",
-        "amount": "1 1/2 tsp",
+        "amount": "1.5 tsp",
         "qty": 1.5,
         "unit": "tsp"
       },
       {
         "name": "Light cream",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       }
@@ -2535,13 +2535,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Falernum",
-        "amount": "1/3 oz",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
       {
         "name": "Angostura Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -2625,19 +2625,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Triple sec",
-        "amount": "1 1/2 tsp",
+        "amount": "1.5 tsp",
         "qty": 1.5,
         "unit": "tsp"
       },
       {
         "name": "Lime juice",
-        "amount": "1 1/2 tsp",
+        "amount": "1.5 tsp",
         "qty": 1.5,
         "unit": "tsp"
       },
       {
         "name": "Maraschino liqueur",
-        "amount": "1 1/2 tsp",
+        "amount": "1.5 tsp",
         "qty": 1.5,
         "unit": "tsp"
       }
@@ -2663,7 +2663,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -2716,13 +2716,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "2 tblsp",
+        "amount": "2 tbsp",
         "qty": 2,
         "unit": "tbsp"
       },
       {
         "name": "White rum",
-        "amount": "2-3 oz",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -2761,13 +2761,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Triple sec",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Lemon juice",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       }
@@ -2801,7 +2801,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Campari",
-        "amount": "1 1/2 cl",
+        "amount": "1.5 cl",
         "qty": 1.5,
         "unit": "cl"
       }
@@ -2886,19 +2886,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 1/4 oz",
+        "amount": "1.25 oz",
         "qty": 1.25,
         "unit": "oz"
       },
       {
         "name": "Lime juice",
-        "amount": "1/4 oz",
+        "amount": "0.25 oz",
         "qty": 0.25,
         "unit": "oz"
       },
       {
         "name": "Cointreau",
-        "amount": "1/4 oz",
+        "amount": "0.25 oz",
         "qty": 0.25,
         "unit": "oz"
       },
@@ -3004,7 +3004,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lemon juice",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -3050,25 +3050,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Triple Sec",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Lillet Blanc",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Lemon Juice",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -3100,13 +3100,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Chocolate liqueur",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Milk",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -3146,13 +3146,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sloe gin",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Wine",
-        "amount": "1/2 oz Muscatel",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -3178,13 +3178,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Coffee",
-        "amount": "10 tblsp instant",
+        "amount": "10 tbsp",
         "qty": 10,
         "unit": "tbsp"
       },
       {
         "name": "Vanilla extract",
-        "amount": "4 tblsp",
+        "amount": "4 tbsp",
         "qty": 4,
         "unit": "tbsp"
       },
@@ -3324,7 +3324,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Almond flavoring",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
@@ -3365,7 +3365,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Peach Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -3443,7 +3443,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -3531,13 +3531,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Tequila",
-        "amount": "2 shots",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
       {
         "name": "151 proof rum",
-        "amount": "Float Bacardi",
+        "amount": "Float",
         "qty": null,
         "unit": null
       }
@@ -3566,7 +3566,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -3606,13 +3606,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 2/3 oz",
+        "amount": "1.6667 oz",
         "qty": 1.6667,
         "unit": "oz"
       },
       {
         "name": "Dry Vermouth",
-        "amount": "1/3 oz",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
@@ -3652,13 +3652,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Scotch",
-        "amount": "2 1/2 oz",
+        "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
       },
       {
         "name": "Dry Vermouth",
-        "amount": "1 1/2 tsp",
+        "amount": "1.5 tsp",
         "qty": 1.5,
         "unit": "tsp"
       },
@@ -3731,9 +3731,9 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "70ml/2fl oz",
+        "amount": "70 ml",
         "qty": 70,
-        "unit": "oz"
+        "unit": "ml"
       },
       {
         "name": "Dry Vermouth",
@@ -3883,7 +3883,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Cachaca",
-        "amount": "2 1/2 oz",
+        "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
       }
@@ -3936,7 +3936,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Angostura Bitters",
-        "amount": "2 Dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -4010,13 +4010,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dubonnet Rouge",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -4061,7 +4061,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Milk",
-        "amount": "6-8 oz",
+        "amount": "6 oz",
         "qty": 6,
         "unit": "oz"
       },
@@ -4079,7 +4079,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Chocolate",
-        "amount": "2 oz finely chopped dark",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -4118,7 +4118,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Absinthe",
-        "amount": "2 shots",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -4153,13 +4153,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Chocolate syrup",
-        "amount": "2 tblsp",
+        "amount": "2 tbsp",
         "qty": 2,
         "unit": "tbsp"
       },
       {
         "name": "Milk",
-        "amount": "6 oz whole",
+        "amount": "6 oz",
         "qty": 6,
         "unit": "oz"
       },
@@ -4228,7 +4228,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Salt",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       },
@@ -4290,19 +4290,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Brandy",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Sweet Vermouth",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -4383,25 +4383,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Rum",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Vanilla syrup",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Espresso",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Coffee",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       }
@@ -4437,15 +4437,15 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "3 tblsp",
+        "amount": "3 tbsp",
         "qty": 3,
         "unit": "tbsp"
       },
       {
         "name": "Condensed milk",
         "amount": "13 oz skimmed",
-        "qty": 13,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Milk",
@@ -4497,19 +4497,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Apricot brandy",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Dry Vermouth",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -4521,7 +4521,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lemon juice",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       },
@@ -4610,7 +4610,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Salt",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       },
@@ -4663,13 +4663,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Chocolate liqueur",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Coffee liqueur",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -4710,8 +4710,8 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Rose",
         "amount": "750 ml",
-        "qty": 750,
-        "unit": "ml"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Sugar",
@@ -4727,7 +4727,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lemon Juice",
-        "amount": "2-3 oz",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       }
@@ -4778,7 +4778,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "1-2 tsp",
+        "amount": "1 tsp",
         "qty": 1,
         "unit": "tsp"
       }
@@ -4810,13 +4810,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Amaretto",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Creme de Cacao",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -4848,25 +4848,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Sugar",
-        "amount": "2 tsp superfine",
+        "amount": "2 tsp",
         "qty": 2,
         "unit": "tsp"
       },
       {
         "name": "Lemon juice",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Champagne",
-        "amount": "4 oz Chilled",
+        "amount": "4 oz",
         "qty": 4,
         "unit": "oz"
       },
@@ -4934,7 +4934,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Angostura Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -4981,7 +4981,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Benedictine",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -5044,7 +5044,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Orange juice",
-        "amount": "4 oz frozen",
+        "amount": "4 oz",
         "qty": 4,
         "unit": "oz"
       },
@@ -5094,7 +5094,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "2 tblsp",
+        "amount": "2 tbsp",
         "qty": 2,
         "unit": "tbsp"
       },
@@ -5150,19 +5150,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Jägermeister",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Sambuca",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Vodka",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -5188,19 +5188,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Rum",
-        "amount": "2 shots",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
       {
         "name": "Apricot Nectar",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Pomegranate juice",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -5362,13 +5362,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Firewater",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Absolut Peppar",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -5406,7 +5406,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Triple sec",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -5433,19 +5433,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Triple sec",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
       {
         "name": "Lime juice",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -5541,7 +5541,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar syrup",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       }
@@ -5567,13 +5567,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Cognac",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Amaretto",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       }
@@ -5615,7 +5615,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "151 proof rum",
-        "amount": "1 oz Bacardi",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -5739,7 +5739,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lime juice",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
@@ -5779,7 +5779,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -5791,13 +5791,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lime juice",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
       {
         "name": "Sugar",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       }
@@ -5825,7 +5825,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Galliano",
-        "amount": "2 1/2 shots",
+        "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
       },
@@ -5865,19 +5865,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "2 1/2 oz",
+        "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
       },
       {
         "name": "Lime Juice",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Sugar Syrup",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -6010,7 +6010,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "1/2 tsp superfine",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -6097,13 +6097,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Amaretto",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       }
@@ -6132,13 +6132,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Scotch",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Amaretto",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       }
@@ -6198,7 +6198,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lemon peel",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       }
@@ -6283,7 +6283,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Powdered sugar",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -6390,13 +6390,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "1/2 tsp superfine",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
       {
         "name": "Grenadine",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -6541,7 +6541,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -6627,7 +6627,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -6639,7 +6639,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Powdered sugar",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
@@ -6685,19 +6685,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Malibu rum",
-        "amount": "1 1/2 cl",
+        "amount": "1.5 cl",
         "qty": 1.5,
         "unit": "cl"
       },
       {
         "name": "Peach schnapps",
-        "amount": "1 1/2 cl",
+        "amount": "1.5 cl",
         "qty": 1.5,
         "unit": "cl"
       },
       {
         "name": "Blue Curacao",
-        "amount": "1 1/2 cl",
+        "amount": "1.5 cl",
         "qty": 1.5,
         "unit": "cl"
       },
@@ -6782,13 +6782,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Lime juice",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Sugar",
-        "amount": "1 tsp superfine",
+        "amount": "1 tsp",
         "qty": 1,
         "unit": "tsp"
       },
@@ -6836,7 +6836,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -6854,7 +6854,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Grenadine",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -6888,19 +6888,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Green Creme de Menthe",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Creme de Cacao",
-        "amount": "3/4 oz white",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Light cream",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       }
@@ -6937,7 +6937,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "151 proof rum",
-        "amount": "1 oz Bacardi",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -7147,7 +7147,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Hot Damn",
-        "amount": "5 shots",
+        "amount": "5 oz",
         "qty": 5,
         "unit": "oz"
       },
@@ -7199,7 +7199,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       }
@@ -7231,7 +7231,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Spiced rum",
-        "amount": "1 1/2 cl",
+        "amount": "1.5 cl",
         "qty": 1.5,
         "unit": "cl"
       },
@@ -7487,7 +7487,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Coffee",
-        "amount": "1 1/2 oz instant",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -7536,19 +7536,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Irish whiskey",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Baileys irish cream",
-        "amount": "3/4 shot",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Coffee",
-        "amount": "6 oz hot",
+        "amount": "6 oz",
         "qty": 6,
         "unit": "oz"
       }
@@ -7580,7 +7580,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Galliano",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -7622,13 +7622,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Triple sec",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Pineapple juice",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       }
@@ -7702,19 +7702,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Scotch",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Sweet Vermouth",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Orange bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -7748,8 +7748,8 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Chocolate",
         "amount": "12 oz fine",
-        "qty": 12,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Butter",
@@ -7759,7 +7759,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Vanilla extract",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -7851,7 +7851,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -7962,7 +7962,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Chocolate syrup",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       }
@@ -7990,7 +7990,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Irish whiskey",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -8008,7 +8008,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Whipped cream",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       }
@@ -8044,7 +8044,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Peach brandy",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -8095,13 +8095,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Blended whiskey",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -8146,13 +8146,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Kahlua",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -8262,25 +8262,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Baileys irish cream",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Bourbon",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Vodka",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Orange juice",
-        "amount": "2-3 oz",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       }
@@ -8307,13 +8307,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Baileys irish cream",
-        "amount": "2/3 oz",
+        "amount": "0.6667 oz",
         "qty": 0.6667,
         "unit": "oz"
       },
       {
         "name": "Chambord raspberry liqueur",
-        "amount": "1/3 oz",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
@@ -8365,13 +8365,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Grenadine",
-        "amount": "3 dashes",
+        "amount": "3 dash",
         "qty": 3,
         "unit": "dash"
       },
       {
         "name": "Lime juice",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -8383,7 +8383,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar syrup",
-        "amount": "3 dashes",
+        "amount": "3 dash",
         "qty": 3,
         "unit": "dash"
       },
@@ -8524,13 +8524,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Coffee liqueur",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Light rum",
-        "amount": "1 shot Jamaican",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -8583,7 +8583,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "1 tsp superfine",
+        "amount": "1 tsp",
         "qty": 1,
         "unit": "tsp"
       },
@@ -8632,7 +8632,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Blended whiskey",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -8650,7 +8650,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Port",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
@@ -8774,19 +8774,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Green Chartreuse",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Yellow Chartreuse",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -8814,7 +8814,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Apple brandy",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -8873,8 +8873,8 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Coca-Cola",
         "amount": "10-12 oz",
-        "qty": 10,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       }
     ],
     "steps": [
@@ -9127,7 +9127,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Brandy",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -9172,7 +9172,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Vodka",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -9258,25 +9258,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Amaretto",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Sloe gin",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Triple sec",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -9309,13 +9309,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "151 proof rum",
-        "amount": "2 oz light",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
       {
         "name": "Kool-Aid",
-        "amount": "1/2 tsp Tropical",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       }
@@ -9348,7 +9348,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Benedictine",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -9380,7 +9380,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Benedictine",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -9414,13 +9414,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Kool-Aid",
-        "amount": "1/2 oz Grape",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Vodka",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -9527,7 +9527,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
@@ -9575,7 +9575,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Amaretto",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -9609,13 +9609,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 1/2 shot",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Cointreau",
-        "amount": "1 1/2 shot",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -9650,13 +9650,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Galliano",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Absolut Citron",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -9668,7 +9668,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "Bacardi",
+        "amount": "",
         "qty": null,
         "unit": null
       },
@@ -9714,7 +9714,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Angostura bitters",
-        "amount": "4 dashes",
+        "amount": "4 dash",
         "qty": 4,
         "unit": "dash"
       },
@@ -9914,13 +9914,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Drambuie",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Dry Vermouth",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -9955,19 +9955,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Maraschino liqueur",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Orange bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       }
@@ -10052,7 +10052,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "4 tblsp",
+        "amount": "4 tbsp",
         "qty": 4,
         "unit": "tbsp"
       },
@@ -10064,7 +10064,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lemon juice",
-        "amount": "2 tblsp",
+        "amount": "2 tbsp",
         "qty": 2,
         "unit": "tbsp"
       }
@@ -10128,13 +10128,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dark rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Tia maria",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -10218,25 +10218,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Light rum",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Tequila",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -10342,13 +10342,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Sweet Vermouth",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       }
@@ -10416,25 +10416,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Tequila",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Light rum",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -10482,7 +10482,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Vodka",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -10536,19 +10536,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Cumin seed",
-        "amount": "1/2 tsp ground roasted",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
       {
         "name": "Salt",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       },
       {
         "name": "Mint",
-        "amount": "1/4 tsp dried",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       }
@@ -10622,7 +10622,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "2-3 oz",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -10728,19 +10728,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Orgeat syrup",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Triple sec",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Sweet and sour",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -10777,13 +10777,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 2/3 oz",
+        "amount": "1.6667 oz",
         "qty": 1.6667,
         "unit": "oz"
       },
       {
         "name": "Dry Vermouth",
-        "amount": "1/3 oz",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
@@ -10830,7 +10830,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lime Juice",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
@@ -10879,13 +10879,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Sweet Vermouth",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Bourbon",
-        "amount": "2 1/2 oz Blended",
+        "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
       },
@@ -10939,13 +10939,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Tequila",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Triple sec",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -11036,7 +11036,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Bourbon",
-        "amount": "2 1/2 oz",
+        "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
       },
@@ -11080,8 +11080,8 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Southern Comfort",
         "amount": "750 ml",
-        "qty": 750,
-        "unit": "ml"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Orange juice",
@@ -11092,8 +11092,8 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Pepsi Cola",
         "amount": "750 ml",
-        "qty": 750,
-        "unit": "ml"
+        "qty": null,
+        "unit": null
       }
     ],
     "steps": [
@@ -11118,13 +11118,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Sweet Vermouth",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -11136,7 +11136,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Angostura Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       }
@@ -11201,7 +11201,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "151 proof rum",
-        "amount": "5 oz Bacardi",
+        "amount": "5 oz",
         "qty": 5,
         "unit": "oz"
       },
@@ -11318,8 +11318,8 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Red wine",
         "amount": "750 ml",
-        "qty": 750,
-        "unit": "ml"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Brandy",
@@ -11358,7 +11358,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Tea",
-        "amount": "3-4 tsp",
+        "amount": "3 tsp",
         "qty": 3,
         "unit": "tsp"
       },
@@ -11499,7 +11499,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Cocoa powder",
-        "amount": "2 tblsp",
+        "amount": "2 tbsp",
         "qty": 2,
         "unit": "tbsp"
       },
@@ -11609,15 +11609,15 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Dark rum",
-        "amount": "1/8 L Jamaican",
-        "qty": null,
-        "unit": null
+        "amount": "125 ml",
+        "qty": 125,
+        "unit": "ml"
       },
       {
         "name": "Club soda",
-        "amount": "1/8 L",
-        "qty": null,
-        "unit": null
+        "amount": "125 ml",
+        "qty": 125,
+        "unit": "ml"
       },
       {
         "name": "Angostura bitters",
@@ -11660,7 +11660,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Orange juice",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -11701,13 +11701,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "White Creme de Menthe",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Cream",
-        "amount": "3/4 oz double",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       }
@@ -11735,7 +11735,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -11747,13 +11747,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Maraschino liqueur",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
       {
         "name": "Grenadine",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -11788,7 +11788,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -11964,25 +11964,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Rum",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Vodka",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Blue Curacao",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -12034,7 +12034,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lemon juice",
-        "amount": "2 oz sweetened",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -12080,15 +12080,15 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Vanilla extract",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
       {
         "name": "Milk",
         "amount": "12 oz",
-        "qty": 12,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       }
     ],
     "steps": [
@@ -12116,25 +12116,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Creme de Cacao",
-        "amount": "1/2 oz white",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Amaretto",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Triple sec",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Vodka",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -12226,7 +12226,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Angostura Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -12271,7 +12271,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar syrup",
-        "amount": "2-3 cl",
+        "amount": "2 cl",
         "qty": 2,
         "unit": "cl"
       },
@@ -12392,13 +12392,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Cherry brandy",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -12437,13 +12437,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Bourbon",
-        "amount": "4.5 cL",
+        "amount": "4.5 cl",
         "qty": 4.5,
         "unit": "cl"
       },
       {
         "name": "Angostura bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -12640,7 +12640,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -12711,7 +12711,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Chocolate",
-        "amount": "4 oz chopped bittersweet or semi-sweet",
+        "amount": "4 oz",
         "qty": 4,
         "unit": "oz"
       },
@@ -12723,13 +12723,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Espresso",
-        "amount": "1/2 tsp instant",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
       {
         "name": "Nutmeg",
-        "amount": "1/8 tsp ground",
+        "amount": "0.125 tsp",
         "qty": 0.125,
         "unit": "tsp"
       }
@@ -12766,20 +12766,20 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Whiskey",
         "amount": "12 oz",
-        "qty": 12,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Beer",
         "amount": "12 oz",
-        "qty": 12,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Lemonade",
         "amount": "12 oz frozen",
-        "qty": 12,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Ice",
@@ -12815,7 +12815,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Tequila",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       }
@@ -12882,7 +12882,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Bitters",
-        "amount": "3 dashes",
+        "amount": "3 dash",
         "qty": 3,
         "unit": "dash"
       },
@@ -12917,19 +12917,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Orange Curacao",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Lime Juice",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -12967,7 +12967,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -13011,13 +13011,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Coconut Liqueur",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -13075,7 +13075,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lemon Juice",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -13093,7 +13093,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Islay single malt Scotch",
-        "amount": "1/4 oz",
+        "amount": "0.25 oz",
         "qty": 0.25,
         "unit": "oz"
       }
@@ -13134,7 +13134,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "1-2 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
@@ -13223,13 +13223,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Coconut milk",
-        "amount": "3 tblsp",
+        "amount": "3 tbsp",
         "qty": 3,
         "unit": "tbsp"
       },
       {
         "name": "Pineapple",
-        "amount": "3 tblsp",
+        "amount": "3 tbsp",
         "qty": 3,
         "unit": "tbsp"
       }
@@ -13260,20 +13260,20 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Everclear",
         "amount": "750 ml",
-        "qty": 750,
-        "unit": "ml"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Vodka",
         "amount": "1750 ml",
-        "qty": 1750,
-        "unit": "ml"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Peach schnapps",
         "amount": "1750 ml",
-        "qty": 1750,
-        "unit": "ml"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Orange juice",
@@ -13411,13 +13411,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Creme de Cacao",
-        "amount": "3/4 oz white",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       }
@@ -13443,7 +13443,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Port",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -13628,7 +13628,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Prosecco",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       }
@@ -13662,13 +13662,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Grenadine",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
       {
         "name": "Green Creme de Menthe",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -13695,13 +13695,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Port",
-        "amount": "2 1/2 oz",
+        "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
       },
       {
         "name": "Brandy",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       }
@@ -13809,13 +13809,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Sugar Syrup",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -13880,13 +13880,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dark rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Kahlua",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -13898,7 +13898,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Nutmeg",
-        "amount": "1/8 tsp grated",
+        "amount": "0.125 tsp",
         "qty": 0.125,
         "unit": "tsp"
       }
@@ -13932,13 +13932,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lime vodka",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Sherry",
-        "amount": "1/2 oz cream",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -14075,19 +14075,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dry Vermouth",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Benedictine",
-        "amount": "1 1/2 tsp",
+        "amount": "1.5 tsp",
         "qty": 1.5,
         "unit": "tsp"
       }
@@ -14113,13 +14113,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Brandy",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -14163,7 +14163,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sherry",
-        "amount": "1/3 oz cream",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
@@ -14195,7 +14195,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dry Vermouth",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -14207,13 +14207,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Apricot brandy",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Lemon juice",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -14256,14 +14256,14 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Beer",
         "amount": "12 oz",
-        "qty": 12,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "7-Up",
         "amount": "12 oz",
-        "qty": 12,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       }
     ],
     "steps": [
@@ -14299,7 +14299,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "1/2 tsp superfine",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -14352,14 +14352,14 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Fruit punch",
         "amount": "355 ml frozen",
-        "qty": 355,
-        "unit": "ml"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Orange juice",
         "amount": "355 ml frozen",
-        "qty": 355,
-        "unit": "ml"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Ice",
@@ -14389,7 +14389,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Rum",
-        "amount": "2 oz light or dark",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -14480,7 +14480,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Rum",
-        "amount": "2 oz light or dark",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -14519,7 +14519,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Malibu rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -14531,19 +14531,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Orange juice",
-        "amount": "3-4 oz",
+        "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
       },
       {
         "name": "Pineapple juice",
-        "amount": "3-4 oz",
+        "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
       },
       {
         "name": "Cranberry juice",
-        "amount": "3-4 oz",
+        "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
       }
@@ -14569,13 +14569,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Scotch",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Drambuie",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -14612,19 +14612,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Crown Royal",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Amaretto",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Cranberry juice",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       }
@@ -14682,7 +14682,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Crown Royal",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -14694,7 +14694,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Chambord raspberry liqueur",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -14727,7 +14727,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Sugar",
-        "amount": "1 tsp superfine",
+        "amount": "1 tsp",
         "qty": 1,
         "unit": "tsp"
       },
@@ -14911,7 +14911,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "4.5 cL",
+        "amount": "4.5 cl",
         "qty": 4.5,
         "unit": "cl"
       },
@@ -15080,7 +15080,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Raspberry syrup",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -15114,7 +15114,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -15186,7 +15186,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Light rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -15198,7 +15198,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Powdered sugar",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -15366,7 +15366,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Peach schnapps",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -15538,13 +15538,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Brandy",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "White Creme de Menthe",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -15580,13 +15580,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "1/2 tsp superfine",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
       {
         "name": "Peychaud bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -15642,7 +15642,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Cointreau",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -15744,7 +15744,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Allspice",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
@@ -15797,13 +15797,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Advocaat",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Lemonade",
-        "amount": "8-10 oz cold",
+        "amount": "8 oz",
         "qty": 8,
         "unit": "oz"
       },
@@ -15889,13 +15889,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Salt",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       }
@@ -15960,7 +15960,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -16002,7 +16002,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Scotch",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -16014,7 +16014,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Powdered sugar",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -16053,7 +16053,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Godiva liqueur",
-        "amount": "2 shots",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -16120,7 +16120,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Sherry",
-        "amount": "1 1/2 oz cream",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -16171,13 +16171,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Brandy",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Anisette",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       }
@@ -16292,19 +16292,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "151 proof rum",
-        "amount": "1 shot Bacardi",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Malibu rum",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Pineapple juice",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -16350,7 +16350,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Sherry",
-        "amount": "2 oz cream",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -16414,7 +16414,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Honey",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       }
@@ -16512,13 +16512,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Scotch",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Wine",
-        "amount": "1 oz Green Ginger",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -16552,19 +16552,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dark Rum",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Campari",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Creme De Banane",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -16668,7 +16668,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Green Chartreuse",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -16703,7 +16703,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Amaretto",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -16735,25 +16735,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Kahlua",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Irish cream",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Amaretto",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "151 proof rum",
-        "amount": "1/2 oz Bacardi",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -16786,13 +16786,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Coffee",
-        "amount": "6 tblsp ground",
+        "amount": "6 tbsp",
         "qty": 6,
         "unit": "tbsp"
       },
       {
         "name": "Coriander",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       },
@@ -16859,7 +16859,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sugar",
-        "amount": "1 tsp superfine",
+        "amount": "1 tsp",
         "qty": 1,
         "unit": "tsp"
       },
@@ -16913,7 +16913,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lemon juice",
-        "amount": "1-2 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
@@ -17029,13 +17029,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lemon juice",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
       {
         "name": "Grenadine",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -17137,7 +17137,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Condensed milk",
-        "amount": "2 tsp sweetened",
+        "amount": "2 tsp",
         "qty": 2,
         "unit": "tsp"
       },
@@ -17234,13 +17234,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Anis",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       },
       {
         "name": "Bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -17338,7 +17338,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Tequila",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -17416,13 +17416,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Melon Liqueur",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -17467,31 +17467,31 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dry Vermouth",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Maraschino liqueur",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       },
       {
         "name": "Anis",
-        "amount": "1/4 tsp",
+        "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
       },
       {
         "name": "Orange bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       },
@@ -17735,19 +17735,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Sweet Vermouth",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Brandy",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -17843,7 +17843,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Sweet Vermouth",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -17893,7 +17893,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Cherry brandy",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -18061,13 +18061,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lime Juice",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Vodka",
-        "amount": "1 1/2 shot",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       }
@@ -18136,13 +18136,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Dry Vermouth",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -18206,13 +18206,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dry Vermouth",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Creme de Cassis",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
@@ -18245,7 +18245,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -18257,7 +18257,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Grape juice",
-        "amount": "3 oz unsweetened",
+        "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
       },
@@ -18329,19 +18329,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Apricot brandy",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Orange juice",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       },
       {
         "name": "Orange bitters",
-        "amount": "2 dashes",
+        "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
       }
@@ -18367,13 +18367,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Scotch",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Wine",
-        "amount": "1 oz Green Ginger",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       }
@@ -18491,7 +18491,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Red wine",
-        "amount": "2 oz white or",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -18531,31 +18531,31 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Tequila",
-        "amount": "1 2/3 oz",
+        "amount": "1.6667 oz",
         "qty": 1.6667,
         "unit": "oz"
       },
       {
         "name": "Campari",
-        "amount": "1/4 oz",
+        "amount": "0.25 oz",
         "qty": 0.25,
         "unit": "oz"
       },
       {
         "name": "Lime Juice",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Orange Juice",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Rosemary Syrup",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -18602,7 +18602,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Powdered sugar",
-        "amount": "1/2 tsp",
+        "amount": "0.5 tsp",
         "qty": 0.5,
         "unit": "tsp"
       },
@@ -18686,7 +18686,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Tequila",
-        "amount": "2 shots",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -18755,8 +18755,8 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "White Wine",
         "amount": "750 ml",
-        "qty": 750,
-        "unit": "ml"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Strawberries",
@@ -18772,7 +18772,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Apple Brandy",
-        "amount": "3 shots",
+        "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
       },
@@ -18826,7 +18826,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Lime juice",
-        "amount": "3 tblsp fresh",
+        "amount": "3 tbsp",
         "qty": 3,
         "unit": "tbsp"
       }
@@ -18853,19 +18853,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Triple sec",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Gin",
-        "amount": "3/4 oz",
+        "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
       },
       {
         "name": "Pineapple juice",
-        "amount": "1 tblsp",
+        "amount": "1 tbsp",
         "qty": 1,
         "unit": "tbsp"
       }
@@ -19017,13 +19017,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Peachtree schnapps",
-        "amount": "4 shots",
+        "amount": "4 oz",
         "qty": 4,
         "unit": "oz"
       },
       {
         "name": "Surge",
-        "amount": "4 shots",
+        "amount": "4 oz",
         "qty": 4,
         "unit": "oz"
       }
@@ -19114,13 +19114,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
         "name": "Gold rum",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -19180,7 +19180,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Sambuca",
-        "amount": "1 1/2 oz",
+        "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
@@ -19219,13 +19219,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "1 1/4 oz Stoli",
+        "amount": "1.25 oz",
         "qty": 1.25,
         "unit": "oz"
       },
       {
         "name": "Ouzo",
-        "amount": "1/4 oz",
+        "amount": "0.25 oz",
         "qty": 0.25,
         "unit": "oz"
       }
@@ -19252,13 +19252,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Jägermeister",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Root beer",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -19284,13 +19284,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Chambord raspberry liqueur",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Vodka",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -19325,8 +19325,8 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Zima",
         "amount": "12 oz",
-        "qty": 12,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Chambord raspberry liqueur",
@@ -19409,8 +19409,8 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Zima",
         "amount": "12 oz",
-        "qty": 12,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       }
     ],
     "steps": [
@@ -19448,7 +19448,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Kool-Aid",
-        "amount": "4 oz Grape",
+        "amount": "4 oz",
         "qty": 4,
         "unit": "oz"
       }
@@ -19507,25 +19507,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Dark rum",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Light rum",
-        "amount": "2 shots",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
       {
         "name": "Vodka",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
         "name": "Orange juice",
-        "amount": "1 shot",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       }
@@ -19554,8 +19554,8 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       {
         "name": "Lager",
         "amount": "16 oz",
-        "qty": 16,
-        "unit": "oz"
+        "qty": null,
+        "unit": null
       },
       {
         "name": "Tequila",
@@ -19586,19 +19586,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Malibu rum",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Light rum",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "151 proof rum",
-        "amount": "1/2 oz Bacardi",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -19656,13 +19656,13 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "151 proof rum",
-        "amount": "1/2 shot Bacardi",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Wild Turkey",
-        "amount": "1/2 shot",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -19688,25 +19688,25 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Goldschlager",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Jägermeister",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Rumple Minze",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "151 proof rum",
-        "amount": "1/2 oz Bacardi",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       }
@@ -19732,19 +19732,19 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Jack Daniels",
-        "amount": "1/3 oz",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
       {
         "name": "Johnnie Walker",
-        "amount": "1/3 oz",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       },
       {
         "name": "Jim Beam",
-        "amount": "1/3 oz",
+        "amount": "0.3333 oz",
         "qty": 0.3333,
         "unit": "oz"
       }
@@ -19770,37 +19770,37 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Light rum",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Tequila",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Triple sec",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Vodka",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
         "name": "Coca-Cola",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
@@ -19846,7 +19846,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Peach Vodka",
-        "amount": "2-3 oz",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -19878,7 +19878,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Vanilla vodka",
-        "amount": "2 1/2 oz",
+        "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
       },
@@ -19969,7 +19969,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Creme de Cacao",
-        "amount": "1 oz white",
+        "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
@@ -20002,7 +20002,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "2 oz dry",
+        "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
@@ -20135,7 +20135,7 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
       },
       {
         "name": "Orange Curacao",
-        "amount": "1/2 oz",
+        "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },

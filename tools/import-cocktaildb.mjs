@@ -24,11 +24,24 @@ function slugify(name) {
 // --- measure parser -> {amount(display), qty, unit} where unit in oz/ml/cl/tsp/tbsp/dash ---
 const UNIT_MAP = {
   oz: "oz", ounce: "oz", ounces: "oz", shot: "oz", shots: "oz",
-  ml: "ml", cl: "cl",
+  cl: "cl",
   tsp: "tsp", teaspoon: "tsp", teaspoons: "tsp",
   tbsp: "tbsp", tablespoon: "tbsp", tablespoons: "tbsp", tblsp: "tbsp",
   dash: "dash", dashes: "dash",
 };
+// ml per 1 unit — used to detect batch/punch pours regardless of source unit.
+const TO_ML = { oz: 29.5735, ml: 1, cl: 10, tsp: 5, tbsp: 15, dash: 0.6 };
+// Above this a single "serving" is really a batch/punch pour (750 ml, 1 L,
+// 1750 ml bottle) that must not be fed to the single-serve scaler.
+const SINGLE_SERVE_ML_MAX = 250;
+
+// Brand / colour descriptors that leak into TheCocktailDB measure strings
+// ("1 oz Bacardi", "1 fifth Smirnoff red label"). Stripped from the display.
+const BRAND_RE =
+  /\b(bacardi|smirnoff|absolut|finlandia|malibu|captain morgan|jose cuervo|gordon'?s|(?:red|black|blue|gold) label)\b/gi;
+function stripBrands(s) {
+  return s.replace(BRAND_RE, "").replace(/\s{2,}/g, " ").trim();
+}
 
 function parseNumber(s) {
   s = s.trim();
@@ -41,19 +54,44 @@ function parseNumber(s) {
   return null;
 }
 
+function fmtNum(n) {
+  const r = Math.round(n * 10000) / 10000;
+  return String(r);
+}
+
 function parseMeasure(raw) {
   const amount = (raw || "").replace(/\s+/g, " ").trim();
   if (!amount) return { amount: "", qty: null, unit: null };
+
+  // ml first: handles dual-unit "70ml/2fl oz" (prefer the ml value) and the
+  // no-space "70ml" form the old \b-anchored unit regex silently mis-read as oz.
+  let mlVal = null;
+  const mlM = amount.match(/(\d+(?:\.\d+)?)\s*ml\b/i);
+  if (mlM) {
+    mlVal = parseFloat(mlM[1]);
+  } else {
+    const litM = amount.match(/(\d+(?:\.\d+)?|\d+\/\d+)\s*(?:l|litre|liter|litres|liters)\b/i);
+    if (litM) mlVal = parseNumber(litM[1]) * 1000;
+  }
+  if (mlVal != null) {
+    if (mlVal >= SINGLE_SERVE_ML_MAX) return { amount, qty: null, unit: null }; // batch → display-only
+    return { amount: fmtNum(mlVal) + " ml", qty: +mlVal.toFixed(4), unit: "ml" };
+  }
+
   const num = parseNumber(amount);
-  // find a unit token anywhere after the number
   const unitMatch = amount
     .toLowerCase()
-    .match(/\b(oz|ounces?|shots?|ml|cl|tsp|teaspoons?|tbsp|tablespoons?|tblsp|dashes?)\b/);
+    .match(/\b(oz|ounces?|shots?|cl|tsp|teaspoons?|tbsp|tablespoons?|tblsp|dashes?)\b/);
   if (num != null && unitMatch) {
     const unit = UNIT_MAP[unitMatch[1]];
-    if (unit) return { amount, qty: +num.toFixed(4), unit };
+    if (unit) {
+      if (num * TO_ML[unit] >= SINGLE_SERVE_ML_MAX) return { amount, qty: null, unit: null }; // batch
+      // Canonical display drops trailing brand/descriptor fragments ("1 oz Bacardi" → "1 oz").
+      return { amount: fmtNum(num) + " " + unit, qty: +num.toFixed(4), unit };
+    }
   }
-  return { amount, qty: null, unit: null }; // non-numeric / unscalable -> display only
+  // Non-numeric / unscalable → display only, with brand fragments stripped.
+  return { amount: stripBrands(amount), qty: null, unit: null };
 }
 
 // --- derive spirit category from ingredient names ---
