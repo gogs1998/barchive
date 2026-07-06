@@ -185,6 +185,49 @@ export function parseAmount(amount: string): { qty: number | null; unit: string 
   return { qty, unit };
 }
 
+/**
+ * Derive dietary flags from an ingredient list. This is the single source of
+ * truth used by every source (curated + both importers) so the flags stay
+ * consistent — a drink is only vegan/gluten-free if none of its ingredients
+ * are on the relevant blocklist. Deriving from ingredients keeps the flags
+ * correct as data grows, instead of hand-flagging each record.
+ *
+ * Care is taken to avoid substring false positives: plant-based "coconut
+ * cream"/"almond milk" are vegan, and soda-style "ginger ale"/"ginger beer"
+ * are gluten-free.
+ */
+const VEGAN_ALLOW = /\b(coconut|almond|soy|soya|oat|cashew|rice|hemp|pea)\b/;
+const VEGAN_BLOCK =
+  /\b(egg|eggs|yolk|yolks|albumen|cream|creamer|milk|buttermilk|butter|dairy|honey|yogh?urt|whey|custard|gelati?n|half.and.half|condensed|evaporated|baileys|irish cream|advocaat|falernum)\b/;
+
+function isNonVeganIngredient(name: string): boolean {
+  const n = name.toLowerCase();
+  // Plant-based "cream"/"milk" (coconut cream, almond milk, oat milk) are vegan.
+  if (VEGAN_ALLOW.test(n) && /\b(cream|milk)\b/.test(n)) return false;
+  // "Cream soda"/"cream sherry" are not dairy.
+  if (/cream soda|cream sherry/.test(n)) return false;
+  // Egg is unambiguous even when it appears as "egg white".
+  if (/\begg\b|\beggs\b|\byolks?\b|\balbumen\b/.test(n)) return true;
+  return VEGAN_BLOCK.test(n);
+}
+
+const GLUTEN_BLOCK = /\b(beer|lager|stout|porter|ale|malt|wheat|barley|rye bread)\b/;
+function isNonGlutenFreeIngredient(name: string): boolean {
+  const n = name.toLowerCase();
+  // Sodas that merely contain "ale"/"beer" as a word are gluten-free.
+  if (/ginger ale|ginger beer|root beer|cream soda|pale ale syrup/.test(n)) return false;
+  // "Rye" / "rye whiskey" is distilled — gluten-free; only guard "rye bread".
+  return GLUTEN_BLOCK.test(n);
+}
+
+/** Compute { vegan, glutenFree } for a set of ingredient names. */
+function deriveDietary(names: string[]): { vegan: boolean; glutenFree: boolean } {
+  return {
+    vegan: !names.some(isNonVeganIngredient),
+    glutenFree: !names.some(isNonGlutenFreeIngredient),
+  };
+}
+
 function C(
   id: string,
   name: string,
@@ -199,6 +242,7 @@ function C(
   time = "2 min",
   dietary: { vegan?: boolean; glutenFree?: boolean } = {}
 ): Cocktail {
+  const derived = deriveDietary(rawIngredients.map(([n]) => n));
   return {
     id,
     name,
@@ -214,8 +258,10 @@ function C(
     tags,
     abv,
     time,
-    vegan: dietary.vegan !== false,
-    glutenFree: dietary.glutenFree !== false,
+    // Derive dietary flags from the ingredients (single source of truth), but
+    // an explicit `false` in the record can still force a flag off.
+    vegan: dietary.vegan === false ? false : derived.vegan,
+    glutenFree: dietary.glutenFree === false ? false : derived.glutenFree,
     lowAbv: parseInt(abv) < 15,
     slug: slugify(name),
   };
@@ -640,8 +686,7 @@ const CURATED_COCKTAILS: Cocktail[] = [
  * Full cocktail library, in priority order: hand-curated first (richest data),
  * then TheCocktailDB, then the Difford's Guide quality subset. A drink already
  * present in a higher-priority source is dropped from lower ones — matched by
- * slug, id, or (non-empty) image URL, since the same recipe can be named
- * slightly differently across sources.
+ * slug or id (never image URL; see note in the body).
  */
 function mergeUnique(...sources: Cocktail[][]): Cocktail[] {
   const out: Cocktail[] = [];
@@ -664,7 +709,15 @@ export const COCKTAILS: Cocktail[] = mergeUnique(
   CURATED_COCKTAILS,
   IMPORTED_COCKTAILS,
   DIFFORDS_COCKTAILS
-);
+).map((c) => {
+  // Reconcile dietary flags across all three sources with one rule set. The
+  // importers baked hardcoded `vegan:false`/`glutenFree:false` values that were
+  // both wrong and inconsistent with the curated data; derive from ingredients
+  // instead so egg/dairy/cream/honey drinks are correctly non-vegan and beers
+  // non-GF, while everything else is accurate.
+  const derived = deriveDietary(c.ingredients.map((i) => i.name));
+  return { ...c, vegan: derived.vegan, glutenFree: derived.glutenFree };
+});
 
 // Derived helpers
 

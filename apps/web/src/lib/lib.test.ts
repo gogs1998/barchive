@@ -47,10 +47,28 @@ describe("COCKTAILS dataset", () => {
       expect(c.lowAbv).toBe(true);
     }
   });
-  it("each cocktail has a unique img URL", () => {
-    const urls = COCKTAILS.map((c) => c.img).filter(Boolean);
-    const unique = new Set(urls);
-    expect(unique.size).toBe(urls.length);
+  it("no cocktail renders the shared placeholder image", () => {
+    // P0-1: img must not be a dedup key, so distinct cocktails may share a
+    // source image (same drink under different names). The only hard rule is
+    // that the pixelated.jpg placeholder is never emitted — it's blanked.
+    for (const c of COCKTAILS) {
+      expect(c.img).not.toContain("pixelated.jpg");
+      if (c.img) expect(c.img).toMatch(/^https?:\/\//);
+    }
+  });
+
+  it("dairy/egg/honey drinks are not vegan; plant creams stay vegan", () => {
+    const byName = (n: string) => COCKTAILS.find((c) => c.name === n);
+    // Egg white
+    expect(byName("Whiskey Sour")?.vegan).toBe(false);
+    // Cream / dairy
+    expect(byName("White Russian")?.vegan).toBe(false);
+    expect(byName("Grasshopper")?.vegan).toBe(false);
+    expect(byName("Irish Coffee")?.vegan).toBe(false);
+    // Coconut cream is plant-based — Piña Colada stays vegan
+    expect(byName("Piña Colada")?.vegan).toBe(true);
+    // A spirit-only stirred drink is vegan
+    expect(byName("Negroni")?.vegan).toBe(true);
   });
 });
 
