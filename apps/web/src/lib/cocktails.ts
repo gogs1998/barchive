@@ -731,19 +731,40 @@ function normalizeGlass(raw: string | undefined): string {
  * present in a higher-priority source is dropped from lower ones — matched by
  * slug or id (never image URL; see note in the body).
  */
+/**
+ * A dedup key that ignores *attribution* suffixes ("(Difford's recipe)",
+ * "(Savoy recipe)", "(by David Wondrich)", "(… version)", "(generic name)")
+ * so near-duplicate records for the same drink collapse (Daiquiri vs
+ * "Daiquiri (Difford's recipe)"). Deliberately does NOT strip descriptive /
+ * ratio variants ("(frozen)", "(perfect)", "(with triple sec)",
+ * "(mezcal-based)"), which are genuinely different drinks. (P2-3)
+ */
+function dedupKey(name: string): string {
+  const stripped = name
+    .replace(
+      /\s*\((?:[^)]*\brecipe\b|[^)]*\bversion\b|by\s+[^)]+|generic name)\)\s*$/i,
+      ""
+    )
+    .trim();
+  return slugify(stripped);
+}
+
 function mergeUnique(...sources: Cocktail[][]): Cocktail[] {
   const out: Cocktail[] = [];
   const slugs = new Set<string>();
   const ids = new Set<string>();
+  const keys = new Set<string>();
   for (const src of sources) {
     for (const c of src) {
-      // Dedup on slug or id only. Image URL must NOT be a dedup key: dozens of
-      // Difford's records share a placeholder image, which previously collided
-      // and silently dropped ~67 distinct cocktails.
-      if (slugs.has(c.slug) || ids.has(c.id)) continue;
+      // Dedup on slug, id, or attribution-normalized name key. Image URL must
+      // NOT be a dedup key: dozens of Difford's records share a placeholder
+      // image, which previously collided and dropped ~67 distinct cocktails.
+      const key = dedupKey(c.name);
+      if (slugs.has(c.slug) || ids.has(c.id) || keys.has(key)) continue;
       out.push(c);
       slugs.add(c.slug);
       ids.add(c.id);
+      keys.add(key);
     }
   }
   return out;
