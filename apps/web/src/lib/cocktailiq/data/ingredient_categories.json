@@ -109,12 +109,61 @@
       "category_group": "carbonated"
     },
     "apple": {
-      "primary_category": "spirit_brandy",
+      "primary_category": "juice_fruit",
       "all_categories": [
-        "spirit_brandy",
         "juice_fruit"
       ],
+      "category_group": "juice"
+    },
+    "apple juice": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "applejack": {
+      "primary_category": "spirit_brandy",
+      "all_categories": [
+        "spirit_brandy"
+      ],
       "category_group": "spirit"
+    },
+    "pineapple": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit",
+        "garnish_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "pineapple juice": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "grape juice": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "pomegranate juice": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "tomato juice": {
+      "primary_category": "juice_vegetable",
+      "all_categories": [
+        "juice_vegetable"
+      ],
+      "category_group": "juice"
     },
     "fruit": {
       "primary_category": "juice_citrus_grapefruit",
@@ -144,19 +193,11 @@
       "category_group": "juice"
     },
     "ice": {
-      "primary_category": "juice_citrus_lemon",
+      "primary_category": "ice",
       "all_categories": [
-        "juice_citrus_lemon",
-        "juice_citrus_lime",
-        "juice_citrus_orange",
-        "juice_citrus_grapefruit",
-        "juice_fruit",
-        "juice_vegetable",
-        "garnish_spice",
-        "ice",
-        "misc"
+        "ice"
       ],
-      "category_group": "juice"
+      "category_group": "ice"
     },
     "club soda": {
       "primary_category": "carbonated_neutral",
@@ -767,11 +808,11 @@
       "category_group": "garnish"
     },
     "firewater": {
-      "primary_category": "ice",
+      "primary_category": "liqueur_herbal",
       "all_categories": [
-        "ice"
+        "liqueur_herbal"
       ],
-      "category_group": "ice"
+      "category_group": "liqueur"
     },
     "absolut peppar": {
       "primary_category": "spirit_vodka",
@@ -832,11 +873,11 @@
       "category_group": "other"
     },
     "whisky": {
-      "primary_category": "unknown",
+      "primary_category": "spirit_whiskey",
       "all_categories": [
-        "unknown"
+        "spirit_whiskey"
       ],
-      "category_group": "other"
+      "category_group": "spirit"
     },
     "tea": {
       "primary_category": "misc",
