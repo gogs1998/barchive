@@ -26,6 +26,35 @@ describe("resolveCanonical", () => {
   });
 });
 
+// P1-3: canonical spirit spellings + tightened fallback (liqueur/schnapps/juice
+// must never fall through to a base spirit).
+describe("resolver P1-3 canonical spellings + fallback tightening", () => {
+  const group = (name: string) =>
+    mapToBalanceGroup(getCategoryInfo(resolveCanonical(name) ?? ""));
+
+  it("resolves rye/scotch spellings to a base spirit", () => {
+    expect(group("Rye Whiskey 50% Abv")).toBe("base_spirit");
+    expect(group("Scotch Whisky")).toBe("base_spirit");
+  });
+
+  it("never resolves a liqueur/schnapps to a base spirit", () => {
+    expect(group("Ginger Liqueur")).not.toBe("base_spirit");
+    expect(resolveCanonical("Ginger Liqueur")).toBe("ginger liqueur");
+    expect(group("Apple Schnapps")).not.toBe("base_spirit");
+    expect(resolveCanonical("Apple Schnapps")).toBe("apple schnapps");
+  });
+
+  it("passion fruit is a (non-citrus) juice, not fake citrus", () => {
+    expect(group("Passion Fruit")).not.toBe("citrus");
+    expect(resolveCanonical("Passion Fruit")).toBe("passion fruit");
+  });
+
+  it("brut sparkling wine is a sparkling wine, not red wine", () => {
+    expect(resolveCanonical("Brut Sparkling Wine")).toBe("sparkling wine");
+    expect(getCategoryInfo("sparkling wine")?.category_group).not.toBe("wine_beer");
+  });
+});
+
 describe("data lookups", () => {
   it("maps spirit to base_spirit", () => {
     expect(mapToBalanceGroup(getCategoryInfo("gin"))).toBe("base_spirit");

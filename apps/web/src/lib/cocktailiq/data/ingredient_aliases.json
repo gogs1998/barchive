@@ -242,7 +242,7 @@
     "orgeat syrup": "orgeat syrup",
     "ouzo": "ouzo",
     "papaya": "papaya",
-    "passion fruit juice": "fruit",
+    "passion fruit juice": "passion fruit",
     "passion fruit syrup": "fruit",
     "passoa": "passoa",
     "peach bitters": "bitters",
@@ -320,7 +320,18 @@
     "yellow chartreuse": "yellow chartreuse",
     "yoghurt": "yoghurt",
     "yukon jack": "yukon jack",
-    "zima": "zima"
+    "zima": "zima",
+    "rye": "whiskey",
+    "scotch whisky": "whisky",
+    "scotch whiskey": "whisky",
+    "brut sparkling wine": "sparkling wine",
+    "sparkling wine (brut)": "sparkling wine",
+    "sparkling wine": "sparkling wine",
+    "cava": "sparkling wine",
+    "passion fruit": "passion fruit",
+    "passionfruit": "passion fruit",
+    "ginger liqueur": "ginger liqueur",
+    "apple schnapps": "apple schnapps"
   },
   "canonical_to_aliases": {
     "lime juice": [

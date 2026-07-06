@@ -24,8 +24,23 @@ const QUALIFIERS = new Set([
   "blended", "extra", "premium", "quality", "london",
 ]);
 
+/**
+ * Words that signal the ingredient is NOT a base spirit (a liqueur, cordial,
+ * mixer, etc.). When present, the loose first/last-word fallback must not be
+ * allowed to resolve to a base spirit (e.g. "Ginger Liqueur" -> gin). (P1-3)
+ */
+const NON_SPIRIT_WORDS = new Set([
+  "liqueur", "schnapps", "cordial", "syrup", "juice", "cream", "bitters",
+  "wine", "beer", "soda", "sparkling", "tonic", "nectar", "cola", "ale",
+  "puree", "purée", "sherbet", "shrub",
+]);
+
 function inVocab(key: string): boolean {
   return Boolean(catMap[key] || subMap[key] || chemMap[key]);
+}
+
+function isSpiritCanonical(canonical: string): boolean {
+  return catMap[canonical]?.category_group === "spirit";
 }
 
 function exact(name: string): string | null {
@@ -49,9 +64,16 @@ export function resolveCanonical(name: string): string | null {
     const stripped = exact(filtered.join(" "));
     if (stripped) return stripped;
   }
-  const last = exact(words[words.length - 1]);
+
+  // Loose single-word fallback. Reject a base-spirit hit when the name carries a
+  // liqueur/mixer qualifier — a "Ginger Liqueur"/"Apple Schnapps" is not a spirit.
+  const hasNonSpiritWord = words.some((w) => NON_SPIRIT_WORDS.has(w));
+  const accept = (c: string | null): string | null =>
+    c && hasNonSpiritWord && isSpiritCanonical(c) ? null : c;
+
+  const last = accept(exact(words[words.length - 1]));
   if (last) return last;
-  const first = exact(words[0]);
+  const first = accept(exact(words[0]));
   if (first) return first;
   return null;
 }

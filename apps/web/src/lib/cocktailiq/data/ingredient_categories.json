@@ -1451,6 +1451,35 @@
         "unknown"
       ],
       "category_group": "other"
+    },
+    "sparkling wine": {
+      "primary_category": "carbonated_wine",
+      "all_categories": [
+        "carbonated_wine"
+      ],
+      "category_group": "carbonated"
+    },
+    "passion fruit": {
+      "primary_category": "juice_fruit",
+      "all_categories": [
+        "juice_fruit",
+        "garnish_fruit"
+      ],
+      "category_group": "juice"
+    },
+    "ginger liqueur": {
+      "primary_category": "liqueur_flavored",
+      "all_categories": [
+        "liqueur_flavored"
+      ],
+      "category_group": "liqueur"
+    },
+    "apple schnapps": {
+      "primary_category": "liqueur_fruit",
+      "all_categories": [
+        "liqueur_fruit"
+      ],
+      "category_group": "liqueur"
     }
   },
   "stats": {
