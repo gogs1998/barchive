@@ -7,6 +7,7 @@
 // splits instructions into steps, and keeps the strDrinkThumb image URL.
 
 import { readFileSync, writeFileSync } from "node:fs";
+import { deriveCategory } from "./shared.mjs";
 
 const SRC = "D:/Cursor/CocktailIQ/claude_work/data/raw/all_cocktails_expanded.json";
 const OUT = "D:/VM/BarIQ PC/barchive/apps/web/src/lib/cocktails.imported.ts";
@@ -94,26 +95,6 @@ function parseMeasure(raw) {
   return { amount: stripBrands(amount), qty: null, unit: null };
 }
 
-// --- derive spirit category from ingredient names ---
-const SPIRITS = [
-  [/\btequila\b/, "Tequila"],
-  [/\bmezcal\b/, "Mezcal"],
-  [/\b(rum|cacha[cç]a|rhum)\b/, "Rum"],
-  [/\bgin\b/, "Gin"],
-  [/\bvodka\b/, "Vodka"],
-  [/\b(whisk(e)?y|bourbon|rye|scotch)\b/, "Whiskey"],
-  [/\b(brandy|cognac|armagnac|pisco|calvados)\b/, "Brandy"],
-  [/\b(triple sec|cointreau|curacao|cura[cç]ao|liqueur|amaretto|campari|aperol|chartreuse)\b/, "Liqueur"],
-  [/\b(wine|champagne|prosecco|vermouth|sherry|port|sake)\b/, "Wine"],
-  [/\b(beer|lager|ale|stout|cider)\b/, "Beer"],
-];
-function deriveCategory(ingredientNames, fallback) {
-  const hay = ingredientNames.join(" ").toLowerCase();
-  for (const [re, cat] of SPIRITS) if (re.test(hay)) return cat;
-  if (fallback && /non[\s-]?alcohol/i.test(fallback)) return "Mocktail";
-  return "Other";
-}
-
 const COLOR = {
   Tequila: "#D4E8A8", Mezcal: "#C9B79C", Rum: "#F5E6CA", Gin: "#BFD8C2",
   Vodka: "#E8EEF2", Whiskey: "#D4A56A", Brandy: "#E8C39E", Liqueur: "#E6C7E0",
@@ -152,7 +133,9 @@ const cocktails = drinks.map((d) => {
     const { amount, qty, unit } = parseMeasure(d["strMeasure" + i]);
     ingredients.push({ name, amount, qty, unit });
   }
-  const category = deriveCategory(ingredients.map((x) => x.name), d.strAlcoholic);
+  const category = deriveCategory(ingredients, {
+    nonAlcoholic: /non[\s-]?alcohol/i.test(d.strAlcoholic || ""),
+  });
   const tags = (d.strTags ? d.strTags.split(",").map((t) => t.trim()).filter(Boolean) : []);
   return {
     id: String(d.idDrink),

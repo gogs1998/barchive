@@ -6,6 +6,7 @@
 //   apps/web/src/lib/cocktails.diffords.ts  (DIFFORDS_COCKTAILS: Cocktail[])
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { deriveCategory } from "./shared.mjs";
 
 const RECIPES = "D:/VM/BarIQ PC/barchive/tools/diffords/raw/diffords_recipes.json";
 const IMAGES = "D:/VM/BarIQ PC/barchive/tools/diffords/raw/images.json";
@@ -73,20 +74,6 @@ function cleanCountIngredient(original) {
   return { name: s, amount: "" };
 }
 
-const SPIRITS = [
-  [/\btequila\b/, "Tequila"], [/\bmezcal\b/, "Mezcal"],
-  [/\b(rum|cacha[cç]a|rhum)\b/, "Rum"], [/\bgin\b/, "Gin"], [/\bvodka\b/, "Vodka"],
-  [/\b(whisk(e)?y|bourbon|rye|scotch)\b/, "Whiskey"],
-  [/\b(brandy|cognac|armagnac|pisco|calvados)\b/, "Brandy"],
-  [/\b(triple sec|cointreau|curacao|cura[cç]ao|liqueur|amaretto|campari|aperol|chartreuse)\b/, "Liqueur"],
-  [/\b(wine|champagne|prosecco|vermouth|sherry|port|sake)\b/, "Wine"],
-  [/\b(beer|lager|ale|stout|cider)\b/, "Beer"],
-];
-function deriveCategory(names) {
-  const hay = names.join(" ").toLowerCase();
-  for (const [re, cat] of SPIRITS) if (re.test(hay)) return cat;
-  return "Other";
-}
 const COLOR = {
   Tequila: "#D4E8A8", Mezcal: "#C9B79C", Rum: "#F5E6CA", Gin: "#BFD8C2", Vodka: "#E8EEF2",
   Whiskey: "#D4A56A", Brandy: "#E8C39E", Liqueur: "#E6C7E0", Wine: "#E8B3C0", Beer: "#F2D98D", Other: "#D9D4CA",
@@ -123,7 +110,7 @@ for (const r of recipes) {
   });
   if (!ingredients.length) continue;
 
-  const category = deriveCategory(ingredients.map((i) => i.name));
+  const category = deriveCategory(ingredients);
   const steps = (r.notes ? r.notes.split("|").map((s) => decodeEntities(s).trim()).filter(Boolean) : []);
   const idm = (r.source_url || "").match(/\/recipe\/(\d+)\//);
 

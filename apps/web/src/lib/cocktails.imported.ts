@@ -283,10 +283,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17839",
     "name": "Affair",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/h5za6y1582477994.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Strawberry schnapps",
@@ -382,10 +382,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15106",
     "name": "Apello",
-    "category": "Mocktail",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/uptxtv1468876415.jpg",
-    "color": "#BFE3E0",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Orange juice",
@@ -619,10 +619,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17840",
     "name": "Affinity",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/wzdtnn1582477684.jpg",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Scotch",
@@ -771,10 +771,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "16419",
     "name": "Avalanche",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/uppqty1472720165.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Crown Royal",
@@ -1061,10 +1061,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15853",
     "name": "B-52",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Shot",
     "img": "https://www.thecocktaildb.com/images/media/drink/5a3vg61504372070.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Baileys irish cream",
@@ -1103,10 +1103,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "13332",
     "name": "B-53",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/rwqxrv1461866023.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Kahlua",
@@ -1238,10 +1238,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "13222",
     "name": "Big Red",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Shot",
     "img": "https://www.thecocktaildb.com/images/media/drink/yqwuwu1441248116.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Irish cream",
@@ -2012,10 +2012,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "14538",
     "name": "Bumble Bee",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Shot",
     "img": "https://www.thecocktaildb.com/images/media/drink/uwqpvv1461866378.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Baileys irish cream",
@@ -2056,10 +2056,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15511",
     "name": "Baby Eskimo",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/wywrtw1472720227.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Kahlua",
@@ -2273,10 +2273,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "14181",
     "name": "Cafe Savoy",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coffee Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/vqwptt1441247711.jpg",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Coffee",
@@ -3133,10 +3133,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "11255",
     "name": "Clove Cocktail",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/qxvtst1461867579.jpg",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sweet Vermouth",
@@ -3299,10 +3299,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "12890",
     "name": "Cranberry Punch",
-    "category": "Beer",
+    "category": "Mocktail",
     "glass": "Punch Bowl",
     "img": "https://www.thecocktaildb.com/images/media/drink/mzgaqu1504389248.jpg",
-    "color": "#F2D98D",
+    "color": "#BFE3E0",
     "ingredients": [
       {
         "name": "Cranberry juice",
@@ -3686,10 +3686,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "14466",
     "name": "Dirty Nipple",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Shot",
     "img": "https://www.thecocktaildb.com/images/media/drink/vtyqrt1461866508.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Kahlua",
@@ -4003,10 +4003,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "11326",
     "name": "Dubonnet Cocktail",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/pfz3hz1582483111.jpg",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Dubonnet Rouge",
@@ -4111,10 +4111,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "178334",
     "name": "Death in the Afternoon",
-    "category": "Wine",
+    "category": "Liqueur",
     "glass": "Margarita",
     "img": "https://www.thecocktaildb.com/images/media/drink/y7s3rh1598719574.jpg",
-    "color": "#E8B3C0",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -4841,10 +4841,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17197",
     "name": "French 75",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/hrxfbl1606773109.jpg",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -5143,10 +5143,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "14688",
     "name": "Freddy Kruger",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Shot",
     "img": "https://www.thecocktaildb.com/images/media/drink/tuppuq1461866798.jpg",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Jägermeister",
@@ -5232,10 +5232,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15743",
     "name": "Fuzzy Asshole",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coffee Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/wrvpuu1472667898.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Coffee",
@@ -5309,10 +5309,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17248",
     "name": "French Negroni",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://www.thecocktaildb.com/images/media/drink/x8lhp41513703167.jpg",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -5694,10 +5694,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "13675",
     "name": "Flander's Flake-Out",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/sqvqrx1461866705.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Sambuca",
@@ -5818,10 +5818,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15997",
     "name": "GG",
-    "category": "Beer",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/vyxwut1468875960.jpg",
-    "color": "#F2D98D",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Galliano",
@@ -6678,10 +6678,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15427",
     "name": "Grand Blue",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Old-Fashioned",
     "img": "https://www.thecocktaildb.com/images/media/drink/vsrsqu1472761749.jpg",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Malibu rum",
@@ -6881,10 +6881,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17200",
     "name": "Grasshopper",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/aqm9el1504369613.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Green Creme de Menthe",
@@ -7006,10 +7006,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "16262",
     "name": "H.D.",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Beer Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Whisky",
@@ -7791,10 +7791,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17176",
     "name": "Ipamena",
-    "category": "Beer",
+    "category": "Mocktail",
     "glass": "Wine",
     "img": "https://www.thecocktaildb.com/images/media/drink/yswuwp1469090992.jpg",
-    "color": "#F2D98D",
+    "color": "#BFE3E0",
     "ingredients": [
       {
         "name": "Lime",
@@ -8088,10 +8088,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "11524",
     "name": "Imperial Fizz",
-    "category": "Rum",
+    "category": "Whiskey",
     "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/zj1usl1504884548.jpg",
-    "color": "#F5E6CA",
+    "color": "#D4A56A",
     "ingredients": [
       {
         "name": "Light rum",
@@ -8185,10 +8185,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "12706",
     "name": "Imperial Cocktail",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/bcsj2e1487603625.jpg",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Lime juice",
@@ -8223,10 +8223,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "12772",
     "name": "Iced Coffee Fillip",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coffee Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/sxtxrp1454514223.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Kahlua",
@@ -8892,10 +8892,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17203",
     "name": "Kir",
-    "category": "Wine",
+    "category": "Liqueur",
     "glass": "Wine",
     "img": "https://www.thecocktaildb.com/images/media/drink/apneom1504370294.jpg",
-    "color": "#E8B3C0",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Creme de Cassis",
@@ -9002,10 +9002,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "13837",
     "name": "Kir Royale",
-    "category": "Wine",
+    "category": "Liqueur",
     "glass": "Champagne Flute",
     "img": "https://www.thecocktaildb.com/images/media/drink/yt9i7n1504370388.jpg",
-    "color": "#E8B3C0",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Creme de Cassis",
@@ -9114,10 +9114,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "16951",
     "name": "Kioki Coffee",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coffee Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/uppqty1441247374.jpg",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Kahlua",
@@ -9251,10 +9251,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "13190",
     "name": "Kool-Aid Shot",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Old-Fashioned",
     "img": "https://www.thecocktaildb.com/images/media/drink/fegm621503564966.jpg",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -9643,10 +9643,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "12752",
     "name": "Lemon Shot",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Shot",
     "img": "https://www.thecocktaildb.com/images/media/drink/mx31hv1487602979.jpg",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Galliano",
@@ -11072,10 +11072,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "16041",
     "name": "Mudslinger",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Punch Bowl",
     "img": "https://www.thecocktaildb.com/images/media/drink/hepk6h1504885554.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Southern Comfort",
@@ -11688,10 +11688,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "14842",
     "name": "Midnight Mint",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/svuvrq1441208310.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Baileys irish cream",
@@ -11919,10 +11919,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "13861",
     "name": "Nutty Irishman",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/xspupx1441248014.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Baileys irish cream",
@@ -12015,10 +12015,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "13204",
     "name": "New York Lemonade",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/b3n0ge1503565473.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absolut Citron",
@@ -12109,10 +12109,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "11872",
     "name": "Orgasm",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/vr6kle1504886114.jpg",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Creme de Cacao",
@@ -12482,10 +12482,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "13499",
     "name": "Oreo Mudslide",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/tpwwut1468925017.jpg",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -12534,10 +12534,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17266",
     "name": "Oatmeal Cookie",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Mason Jar",
     "img": "https://www.thecocktaildb.com/images/media/drink/bsvmlg1515792693.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Kahlua",
@@ -13655,10 +13655,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "11961",
     "name": "Port And Starboard",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Pousse Cafe",
     "img": "https://www.thecocktaildb.com/images/media/drink/wxvupx1441553911.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Grenadine",
@@ -13688,10 +13688,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "11963",
     "name": "Port Wine Cocktail",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/qruprq1441553976.jpg",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Port",
@@ -13996,10 +13996,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15761",
     "name": "Quick-sand",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/vprxqv1478963533.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Black Sambuca",
@@ -14150,10 +14150,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "11985",
     "name": "Quarter Deck Cocktail",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/qrwvps1478963017.jpg",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Light rum",
@@ -14643,10 +14643,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17122",
     "name": "Royal Bitch",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Shot",
     "img": "https://www.thecocktaildb.com/images/media/drink/qupuyr1441210090.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Frangelico",
@@ -14819,10 +14819,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "12630",
     "name": "Rail Splitter",
-    "category": "Beer",
+    "category": "Mocktail",
     "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/stsuqq1441207660.jpg",
-    "color": "#F2D98D",
+    "color": "#BFE3E0",
     "ingredients": [
       {
         "name": "Sugar syrup",
@@ -15284,10 +15284,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "16984",
     "name": "Radioactive Long Island Iced Tea",
-    "category": "Tequila",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg",
-    "color": "#D4E8A8",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Rum",
@@ -15353,10 +15353,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17141",
     "name": "Smut",
-    "category": "Wine",
+    "category": "Liqueur",
     "glass": "Beer Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/rx8k8e1504365812.jpg",
-    "color": "#E8B3C0",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Red wine",
@@ -15397,10 +15397,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17215",
     "name": "Spritz",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Old-Fashioned",
     "img": "https://www.thecocktaildb.com/images/media/drink/j9evx11504373665.jpg",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Prosecco",
@@ -15790,10 +15790,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "14195",
     "name": "Snowball",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/7ibfs61504735416.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Advocaat",
@@ -16545,10 +16545,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "178350",
     "name": "The Galah",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/sy7y6r1614775067.jpg",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Dark Rum",
@@ -16728,10 +16728,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15639",
     "name": "Texas Sling",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Wine",
     "img": "https://www.thecocktaildb.com/images/media/drink/ypl13s1504890158.jpg",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Kahlua",
@@ -16939,10 +16939,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "14860",
     "name": "Talos Coffee",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Brandy Snifter",
     "img": "https://www.thecocktaildb.com/images/media/drink/rswqpy1441246518.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Grand Marnier",
@@ -17171,10 +17171,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "17247",
     "name": "The Last Word",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Cocktail",
     "img": "https://www.thecocktaildb.com/images/media/drink/91oule1513702624.jpg",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Green Chartreuse",
@@ -18972,10 +18972,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15328",
     "name": "Zorro",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coffee Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/kvvd4z1485621283.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Sambuca",
@@ -19010,10 +19010,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "14888",
     "name": "Zinger",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://www.thecocktaildb.com/images/media/drink/iixv4l1485620014.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Peachtree schnapps",
@@ -19044,10 +19044,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15691",
     "name": "Zoksel",
-    "category": "Beer",
+    "category": "Liqueur",
     "glass": "Beer Pilsner",
     "img": "https://www.thecocktaildb.com/images/media/drink/ft8ed01485620930.jpg",
-    "color": "#F2D98D",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Beer",
@@ -19173,10 +19173,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15933",
     "name": "Zambeer",
-    "category": "Beer",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/bje5401485619578.jpg",
-    "color": "#F2D98D",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Sambuca",
@@ -19245,10 +19245,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "15254",
     "name": "Zenmeister",
-    "category": "Beer",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://www.thecocktaildb.com/images/media/drink/qyuvsu1479209462.jpg",
-    "color": "#F2D98D",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Jägermeister",
@@ -19579,10 +19579,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "14588",
     "name": "151 Florida Bushwacker",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Beer Mug",
     "img": "https://www.thecocktaildb.com/images/media/drink/rvwrvv1468877323.jpg",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Malibu rum",
@@ -20037,10 +20037,10 @@ export const IMPORTED_COCKTAILS: Cocktail[] = [
   {
     "id": "14229",
     "name": "747",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Shot",
     "img": "https://www.thecocktaildb.com/images/media/drink/xxsxqy1472668106.jpg",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Kahlua",

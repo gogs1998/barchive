@@ -55,10 +55,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5",
     "name": "Absinthe Cocktail",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/PrLWAL/square/0/512x512.webp?v=1737701571",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -98,10 +98,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-10",
     "name": "Absolutely Fabulous",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/LR1YRw/square/0/512x512.webp?v=1737701571",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -404,10 +404,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-18",
     "name": "Adonis",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/XOd7r9/square/0/512x512.webp?v=1737701571",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Palo Cortado Sherry",
@@ -551,10 +551,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-27",
     "name": "Air Mail",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/3O7oOk/square/0/512x512.webp?v=1737701571",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Light Gold Rum 1-3yo",
@@ -643,10 +643,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31",
     "name": "Alamagoozlum Cocktail",
-    "category": "Rum",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/7AQpRw/square/0/512x512.webp?v=1737701571",
-    "color": "#F5E6CA",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -1034,10 +1034,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-56",
     "name": "Ambrosia",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/nOzX1A/square/0/512x512.webp?v=1737701571",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -1089,10 +1089,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-57",
     "name": "Ambrosia Cocktail",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/VRjlZr/square/0/512x512.webp?v=1737701571",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -1303,10 +1303,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-69",
     "name": "Apple and Elderflower Collins",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/LRZ0Lr/square/0/512x512.webp?v=1737701571",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -1695,10 +1695,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-81",
     "name": "Apple Martini (simple)",
-    "category": "Gin",
+    "category": "Vodka",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/jRB06r/square/0/512x512.webp?v=1737701571",
-    "color": "#BFD8C2",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -2341,10 +2341,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-109",
     "name": "Asian Ginger Cocktail",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/JRJ2bR/square/0/512x512.webp?v=1737701572",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fresh Ginger",
@@ -2451,10 +2451,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-111",
     "name": "Asian Pear Cocktail",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/zAMmNA/square/0/512x512.webp?v=1737701572",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -2579,10 +2579,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-115",
     "name": "Atomic Cocktail",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/zA9DaR/square/0/512x512.webp?v=1737701572",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -3194,10 +3194,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-149",
     "name": "Balalaika",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/PrLYmO/square/0/512x512.webp?v=1737701572",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Triple Sec",
@@ -3243,10 +3243,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-157",
     "name": "Bamboo (with triple sec)",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/VRjDGr/square/0/512x512.webp?v=1737701572",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -3292,10 +3292,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-160",
     "name": "Banana Boomer",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/JRK5yr/square/0/512x512.webp?v=1737701572",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -3695,10 +3695,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-170",
     "name": "Barbary Coast",
-    "category": "Gin",
+    "category": "Whiskey",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/GrWb5A/square/0/512x512.webp?v=1737701572",
-    "color": "#BFD8C2",
+    "color": "#D4A56A",
     "ingredients": [
       {
         "name": "Scotch Whisky",
@@ -3805,10 +3805,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-174",
     "name": "Bartender's Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Yrgp1O/square/0/512x512.webp?v=1737701572",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -3915,10 +3915,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-179",
     "name": "Basil Grande",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/gO39dA/square/0/512x512.webp?v=1737701572",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Strawberries (fresh)",
@@ -4145,10 +4145,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-189",
     "name": "Beach Blonde",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/KO5jGR/square/0/512x512.webp?v=1737701572",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Banana",
@@ -4885,10 +4885,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-209",
     "name": "Between The Sheets",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/JRJd8r/square/1/512x512.webp?v=1763653775",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Light Gold Rum 1-3yo",
@@ -5622,10 +5622,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-245",
     "name": "Bloodhound #2",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/KO5z7R/square/0/512x512.webp?v=1737701572",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -5866,10 +5866,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-263",
     "name": "Blue Lady",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Blue Curaçao Liqueur",
@@ -6172,10 +6172,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-278",
     "name": "Blush Martini",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/POlLbO/square/0/512x512.webp?v=1737701572",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -6227,10 +6227,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-279",
     "name": "Blushin' Russian",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/gO3Y0A/square/0/512x512.webp?v=1737701572",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -7041,10 +7041,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-321",
     "name": "Breakfast At Terrell's",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/PAGakO/square/0/512x512.webp?v=1738933066",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Brut Sparkling Wine",
@@ -7496,10 +7496,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-336",
     "name": "Bull's Blood",
-    "category": "Rum",
+    "category": "Brandy",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/gApXjA/square/0/512x512.webp?v=1737701572",
-    "color": "#F5E6CA",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Light White Rum",
@@ -8297,10 +8297,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-382",
     "name": "Casablanca No.2",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/4A2qeR/square/0/512x512.webp?v=1737701573",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Citrus Vodka",
@@ -8474,10 +8474,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-386",
     "name": "Cassini",
-    "category": "Gin",
+    "category": "Vodka",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/MOXjKA/square/0/512x512.webp?v=1737701573",
-    "color": "#BFD8C2",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -8627,10 +8627,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-393",
     "name": "Champagne Cocktail",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/PrL9NO/square/0/512x512.webp?v=1737701573",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sugar Cube",
@@ -9169,10 +9169,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-416",
     "name": "Chin Chin",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/JRKvxO/square/1/512x512.webp?v=1770369787",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Scotch Whisky",
@@ -10129,10 +10129,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-458",
     "name": "Genever Collins",
-    "category": "Other",
+    "category": "Gin",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/9REVKA/square/0/512x512.webp?v=1737701573",
-    "color": "#D9D4CA",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -10227,10 +10227,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-469",
     "name": "Cool Coronation",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/LRZE5O/square/1/512x512.webp?v=1752834046",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sauvignon Blanc Wine",
@@ -10288,10 +10288,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-470",
     "name": "Coronation",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/GrWePR/square/2/512x512.webp?v=1754561636",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -10698,10 +10698,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-485",
     "name": "Creamy Creamsicle",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/YAk9YO/square/0/512x512.webp?v=1737701573",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Amaretto Liqueur",
@@ -10857,10 +10857,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3416",
     "name": "Triple A",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RKagyr/square/0/512x512.webp?v=1737701573",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -11559,10 +11559,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-520",
     "name": "Amsterdam Cocktail",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/GRo2KO/square/0/512x512.webp?v=1737701573",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -13704,10 +13704,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-593",
     "name": "Corpse Reviver No.2 (Savoy Recipe)",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/PrLlJr/square/0/512x512.webp?v=1737701573",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -13826,10 +13826,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-598",
     "name": "Creole Cosmo",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/LR1QbR/square/0/512x512.webp?v=1737701573",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Créole Shrubb Liqueur",
@@ -15244,10 +15244,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-648",
     "name": "Diplomat",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/ory6NO/square/0/512x512.webp?v=1737701574",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Dry Vermouth",
@@ -15342,10 +15342,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-652",
     "name": "Divino's",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/oOnJ9O/square/0/512x512.webp?v=1737701574",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -15556,10 +15556,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-660",
     "name": "Dolores",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/JRK63O/square/0/512x512.webp?v=1737701574",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Aged Rum (6-10yr)",
@@ -16160,10 +16160,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-681",
     "name": "Dutch Breakfast Cocktail",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/jRBzoR/square/0/512x512.webp?v=1737701574",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Advocaat Liqueur",
@@ -17102,10 +17102,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-710",
     "name": "Elle for Leather",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/LR19vR/square/0/512x512.webp?v=1737701574",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Scotch Whisky",
@@ -17402,10 +17402,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-718",
     "name": "Envy",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/XOdP4O/square/0/512x512.webp?v=1737701574",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -17506,10 +17506,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-722",
     "name": "Escalator",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/6Ra9eR/square/0/512x512.webp?v=1778243997",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Pear Liqueur",
@@ -18564,10 +18564,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-771",
     "name": "Fluffy Duck",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/3O78ZR/square/0/512x512.webp?v=1737701574",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -18717,10 +18717,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-775",
     "name": "Flying Grasshopper",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/7AQnNr/square/0/512x512.webp?v=1737701574",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -19218,10 +19218,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-790",
     "name": "French 75",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/7RYK2r/square/0/512x512.webp?v=1737701574",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Lemon Juice",
@@ -19726,10 +19726,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-813",
     "name": "Fruit and Nut Chocolate Martini",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Raspberry Vodka",
@@ -20056,10 +20056,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-821",
     "name": "Funky Monkey",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/PAGXBr/square/0/512x512.webp?v=1737701574",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Light Gold Rum 1-3yo",
@@ -21410,10 +21410,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-871",
     "name": "Golden Bird",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/3O74zR/square/0/512x512.webp?v=1737701574",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Light Gold Rum 1-3yo",
@@ -21783,10 +21783,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-892",
     "name": "Grand Sidecar",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/oryBJO/square/0/512x512.webp?v=1737701575",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Grand Marnier",
@@ -22132,10 +22132,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-903",
     "name": "Grapparita",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/NAmdLR/square/0/512x512.webp?v=1737701575",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -22346,10 +22346,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-911",
     "name": "Green Fairy",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/zAMxpR/square/0/512x512.webp?v=1737701575",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -22826,10 +22826,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-928",
     "name": "Hakkatini",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/vAxQ5r/square/0/512x512.webp?v=1737701575",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -23878,10 +23878,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-968",
     "name": "Honey Wall",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Light Gold Rum 1-3yo",
@@ -23921,10 +23921,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-969",
     "name": "Honeymoon",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/LRZw0A/square/0/512x512.webp?v=1737701575",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -24294,10 +24294,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-994",
     "name": "I B Damm'd",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/kA6xzO/square/0/512x512.webp?v=1737701575",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -24833,10 +24833,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1015",
     "name": "Insomniac",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/zA9Z0r/square/0/512x512.webp?v=1737701575",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -24888,10 +24888,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1016",
     "name": "International Incident",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/JRK0XA/square/0/512x512.webp?v=1737701575",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Irish Cream Liqueur",
@@ -25084,10 +25084,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1023",
     "name": "Irish Espresso Martini",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/vRD1KA/square/0/512x512.webp?v=1737701575",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Irish Cream Liqueur",
@@ -25971,10 +25971,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1059",
     "name": "Jayne Mansfield",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/zA9d0R/square/0/512x512.webp?v=1737701575",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Strawberries (fresh)",
@@ -27598,10 +27598,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1133",
     "name": "Last Word",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/3r47bA/square/0/512x512.webp?v=1781258036",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -27653,10 +27653,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3440",
     "name": "Dublin Minstrel",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AP7n2R/square/1/512x512.webp?v=1772804699",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Irish Whiskey",
@@ -28693,10 +28693,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1189",
     "name": "Long Flight of Stairs",
-    "category": "Vodka",
+    "category": "Brandy",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/KO5d8r/square/0/512x512.webp?v=1737701576",
-    "color": "#E8EEF2",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Pear Vodka",
@@ -29681,10 +29681,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1230",
     "name": "Man-Bour-Tini",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Yrg81O/square/0/512x512.webp?v=1737701576",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mandarin Liqueur",
@@ -30189,10 +30189,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3454",
     "name": "The Bomb",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1jMxA/square/0/512x512.webp?v=1737701576",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Amontillado Sherry",
@@ -30532,10 +30532,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3453",
     "name": "Electro Batida",
-    "category": "Mezcal",
+    "category": "Rum",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RJeYbO/square/0/512x512.webp?v=1737701576",
-    "color": "#C9B79C",
+    "color": "#F5E6CA",
     "ingredients": [
       {
         "name": "Cachaça",
@@ -31012,10 +31012,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1264",
     "name": "Martinez (Difford's recipe)",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/GRozJO/square/0/512x512.webp?v=1737701576",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -31483,10 +31483,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1291",
     "name": "Meloncholy Martini",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/NAmoxO/square/1/512x512.webp?v=1760610048",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -32349,10 +32349,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1317",
     "name": "Milk Punch",
-    "category": "Rum",
+    "category": "Brandy",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/3r0Xer/square/0/512x512.webp?v=1737701576",
-    "color": "#F5E6CA",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -32691,10 +32691,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1332",
     "name": "Mint Martini",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Grek5R/square/0/512x512.webp?v=1737701576",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Mint Leaves",
@@ -33039,10 +33039,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1345",
     "name": "Momisette",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/KO5e7O/square/0/512x512.webp?v=1737701576",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Pastis",
@@ -33355,10 +33355,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3404",
     "name": "Champagne Snowball",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/ry81bA/square/0/512x512.webp?v=1737701576",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Brut Sparkling Wine",
@@ -33612,10 +33612,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1374",
     "name": "Mudslide",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Hurricane",
     "img": "https://cdn.diffordsguide.com/cocktail/YrgjBA/square/0/512x512.webp?v=1737701576",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Irish Cream Liqueur",
@@ -33777,10 +33777,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1378",
     "name": "Mule's Hind Leg",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/POldbO/square/0/512x512.webp?v=1737701576",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -35000,10 +35000,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1441",
     "name": "Orange Brûlée",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/YAkL3r/square/0/512x512.webp?v=1737701577",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Amaretto Liqueur",
@@ -35049,10 +35049,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1442",
     "name": "Orange Custard Cocktail",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/MOXVKA/square/0/512x512.webp?v=1737701577",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Advocaat Liqueur",
@@ -35422,10 +35422,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1451",
     "name": "Osmo",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/NrbVwr/square/0/512x512.webp?v=1737701577",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -35685,10 +35685,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1458",
     "name": "Pall Mall Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/9REw0r/square/0/512x512.webp?v=1737701577",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -35899,10 +35899,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1470",
     "name": "Parisian Cocktail",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/GrW3Gr/square/0/512x512.webp?v=1737701577",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -35942,10 +35942,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1471",
     "name": "Parisian Spring Punch",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/3O714A/square/0/512x512.webp?v=1737701577",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -39124,10 +39124,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1570",
     "name": "Playmate Martini",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/GrWJPA/square/0/512x512.webp?v=1737701577",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -39583,10 +39583,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1593",
     "name": "Port Wine Cocktail",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/PrL05r/square/0/512x512.webp?v=1737701578",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Tawny Port",
@@ -39724,10 +39724,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-30925",
     "name": "What A Pear",
-    "category": "Whiskey",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RZ6VgR/square/0/512x512.webp?v=1737701578",
-    "color": "#D4A56A",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Pear And Cognac Liqueur",
@@ -39840,10 +39840,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1601",
     "name": "Prince of Wales No. 3",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/KO5kwA/square/1/512x512.webp?v=1767875429",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Brown Sugar",
@@ -40162,10 +40162,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1610",
     "name": "P.S. I Love You",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/LR1BbA/square/0/512x512.webp?v=1737701578",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Light Gold Rum 1-3yo",
@@ -40315,10 +40315,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1618",
     "name": "Purple Pear Martini",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/XOdLqO/square/0/512x512.webp?v=1737701578",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Bison Grass Vodka",
@@ -41446,10 +41446,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1652",
     "name": "Red Angel 'Martini'",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/oOnjDO/square/0/512x512.webp?v=1737701578",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Shiraz Red Wine",
@@ -42021,10 +42021,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1677",
     "name": "Ritz Cocktail",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/3r4yzO/square/0/512x512.webp?v=1737979165",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -42315,10 +42315,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1688",
     "name": "Roman Punch",
-    "category": "Rum",
+    "category": "Brandy",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/7Oveyr/square/0/512x512.webp?v=1737701579",
-    "color": "#F5E6CA",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Bénédictine D.o.m.",
@@ -42615,10 +42615,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1697",
     "name": "Rossini",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/JRJW4A/square/0/512x512.webp?v=1737701579",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Strawberries (fresh)",
@@ -42707,10 +42707,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1699",
     "name": "Roulette",
-    "category": "Rum",
+    "category": "Brandy",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/zAM89R/square/0/512x512.webp?v=1737701579",
-    "color": "#F5E6CA",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -43440,10 +43440,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1730",
     "name": "Sake'Politan",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Yrg4YO/square/0/512x512.webp?v=1737701580",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -43495,10 +43495,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1731",
     "name": "Saketini No. 2",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/7AQMzA/square/1/512x512.webp?v=1769166974",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -43587,10 +43587,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1733",
     "name": "Sakini",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/3r4GQA/square/0/512x512.webp?v=1737701580",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -44082,10 +44082,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1748",
     "name": "Satan's Whiskers (Straight)",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/oryzNO/square/0/512x512.webp?v=1737701580",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -44906,10 +44906,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3395",
     "name": "Turf Club (1935, Albert Stevens Crockett)",
-    "category": "Wine",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rbl3DR/square/0/512x512.webp?v=1737701581",
-    "color": "#E8B3C0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -45047,10 +45047,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1780",
     "name": "Sloe Gin Fizz",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/gApywr/square/0/512x512.webp?v=1737701581",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sloe Gin Liqueur",
@@ -45671,10 +45671,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1805",
     "name": "Screaming Banana Banshee",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Hurricane",
     "img": "https://cdn.diffordsguide.com/cocktail/PrLNkR/square/0/512x512.webp?v=1737701581",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -45787,10 +45787,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1811",
     "name": "75 Cocktail (MacElhone's 1926 recipe)",
-    "category": "Gin",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/zAMoDO/square/0/512x512.webp?v=1737701581",
-    "color": "#BFD8C2",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -45836,10 +45836,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1813",
     "name": "Sgroppino / Sorbetto",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/VRjnaR/square/1/512x512.webp?v=1758193029",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -46166,10 +46166,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1832",
     "name": "Slow Comfortable Screw",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/GremYr/square/0/512x512.webp?v=1737701581",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Southern Liqueur",
@@ -46215,10 +46215,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1833",
     "name": "Slow Comfortable Screw Against The Wall",
-    "category": "Gin",
+    "category": "Vodka",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/3r4pVr/square/0/512x512.webp?v=1737701581",
-    "color": "#BFD8C2",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -46411,10 +46411,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1848",
     "name": "Southern Tea",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/oryxGA/square/0/512x512.webp?v=1737701581",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -46527,10 +46527,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1850",
     "name": "Soyer Au Champagne",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/kA6mgR/square/1/512x512.webp?v=1767872810",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vanilla Ice Cream",
@@ -46894,10 +46894,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1872",
     "name": "Steep Flight",
-    "category": "Vodka",
+    "category": "Brandy",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/vAx74R/square/0/512x512.webp?v=1737701582",
-    "color": "#E8EEF2",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -47291,10 +47291,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1890",
     "name": "Stupid Cupid",
-    "category": "Gin",
+    "category": "Vodka",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/7RY22A/square/1/512x512.webp?v=1746713338",
-    "color": "#BFD8C2",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Citrus Vodka",
@@ -47395,10 +47395,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1896",
     "name": "Sumo In A Sidecar",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/oOnLqA/square/0/512x512.webp?v=1737701582",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Apricot Liqueur",
@@ -48496,10 +48496,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1947",
     "name": "Three Miller",
-    "category": "Rum",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmlPWR/square/0/512x512.webp?v=1737701583",
-    "color": "#F5E6CA",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -48869,10 +48869,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1963",
     "name": "Toasted Almond",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/rN4XKR/square/0/512x512.webp?v=1737701583",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -48918,10 +48918,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1966",
     "name": "Toffee Apple Martini",
-    "category": "Gin",
+    "category": "Brandy",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Rax5kO/square/0/512x512.webp?v=1737701583",
-    "color": "#BFD8C2",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -49449,10 +49449,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-1991",
     "name": "Triple Orange",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/AmllWR/square/0/512x512.webp?v=1737701583",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -50409,10 +50409,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2021",
     "name": "Vacation Martini",
-    "category": "Rum",
+    "category": "Vodka",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/AGwwEA/square/0/512x512.webp?v=1737701583",
-    "color": "#F5E6CA",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vanilla Vodka",
@@ -51412,10 +51412,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2060",
     "name": "Waltzing Matilda",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RKakKr/square/0/512x512.webp?v=1737701583",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Passion Fruit",
@@ -53197,10 +53197,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2140",
     "name": "Alice Mine",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AP76JR/square/0/512x512.webp?v=1737701584",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Grand Marnier",
@@ -54008,10 +54008,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2173",
     "name": "Gin Cocktail",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r8azvO/square/0/512x512.webp?v=1737701584",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -55266,10 +55266,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2238",
     "name": "Alberto Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A2j5YA/square/0/512x512.webp?v=1737701584",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -55884,10 +55884,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2260",
     "name": "Astoria",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/RKa2Jr/square/0/512x512.webp?v=1737701585",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Old Tom Gin",
@@ -55982,10 +55982,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2269",
     "name": "Balm Cocktail",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RZ02Lr/square/0/512x512.webp?v=1737701585",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Manzanilla Sherry",
@@ -56899,10 +56899,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2308",
     "name": "Blue Eyed Martini",
-    "category": "Gin",
+    "category": "Vodka",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Onl7NA/square/0/512x512.webp?v=1737701585",
-    "color": "#BFD8C2",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -57125,10 +57125,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2315",
     "name": "Bohemian Mule",
-    "category": "Beer",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/A9nwar/square/0/512x512.webp?v=1737701585",
-    "color": "#F2D98D",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -57388,10 +57388,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2326",
     "name": "Byculla",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rWDj5O/square/0/512x512.webp?v=1737701585",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -57437,10 +57437,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2335",
     "name": "Champino",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/O3a2dA/square/0/512x512.webp?v=1737701585",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Bitter Liqueur",
@@ -57588,10 +57588,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2342",
     "name": "Clairvoyant",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OXMeER/square/0/512x512.webp?v=1737701585",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Oloroso Sherry",
@@ -58034,10 +58034,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2355",
     "name": "Corpse Reviver No.2 (Contemporary Recipe)",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AMQYNA/square/0/512x512.webp?v=1737701585",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -58596,10 +58596,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2371",
     "name": "Damn It Jimmy",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/O7g2qO/square/0/512x512.webp?v=1737701585",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -59183,10 +59183,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2393",
     "name": "East Village Athletic Club",
-    "category": "Tequila",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLkGmA/square/0/512x512.webp?v=1737701585",
-    "color": "#D4E8A8",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Blanco Tequila",
@@ -59354,10 +59354,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2397",
     "name": "Eighteen '97",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/RJeGbO/square/0/512x512.webp?v=1737701585",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Kumquats",
@@ -59616,10 +59616,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2406",
     "name": "Final Ward",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A60beO/square/0/512x512.webp?v=1781258130",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Rye Whiskey 50% Abv",
@@ -59989,10 +59989,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2420",
     "name": "Gin Daisy (Jerry Thomas style)",
-    "category": "Other",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ro62PO/square/1/512x512.webp?v=1758196347",
-    "color": "#D9D4CA",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -60123,10 +60123,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2423",
     "name": "Gin Punch No. 2",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RDxKWR/square/0/512x512.webp?v=1737701586",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -60655,10 +60655,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2449",
     "name": "Ideal",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLkXBA/square/0/512x512.webp?v=1737701586",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -60808,10 +60808,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2456",
     "name": "Jalisco Flower",
-    "category": "Tequila",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/OzXN7A/square/0/512x512.webp?v=1737701586",
-    "color": "#D4E8A8",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Reposado Tequila",
@@ -61090,10 +61090,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2470",
     "name": "Little Venice",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/rWDMnO/square/0/512x512.webp?v=1737701586",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -61524,10 +61524,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2488",
     "name": "Martinez (London spec. with genever)",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ov864A/square/0/512x512.webp?v=1737701586",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -63322,10 +63322,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2560",
     "name": "Reverse Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/RKaDZr/square/0/512x512.webp?v=1737701587",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Dry Vermouth",
@@ -63587,10 +63587,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2568",
     "name": "Sake Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/RwNyLO/square/0/512x512.webp?v=1737701587",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -63917,10 +63917,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2581",
     "name": "Smokey Joe",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RB0QBr/square/1/512x512.webp?v=1741277687",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -64860,10 +64860,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2617",
     "name": "Corpse Reviver No.2 (Duffy's/Gaige's recipe)",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r09QYO/square/0/512x512.webp?v=1737701587",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -65043,10 +65043,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2620",
     "name": "D'Artagnan",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ro6x3O/square/0/512x512.webp?v=1737701587",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Armagnac Brandy",
@@ -65092,10 +65092,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2624",
     "name": "Death By Chocolate",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Hurricane",
     "img": "https://cdn.diffordsguide.com/cocktail/RwNKoO/square/0/512x512.webp?v=1737701587",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -66130,10 +66130,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2650",
     "name": "English Channel",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A60ybO/square/0/512x512.webp?v=1737701587",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Grand Marnier",
@@ -66577,10 +66577,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2674",
     "name": "Grasshopper",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rgbgQA/square/0/512x512.webp?v=1737701587",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Green Crème De Menthe",
@@ -66883,10 +66883,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2686",
     "name": "Holland House (Genever-based)",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OXM9JR/square/0/512x512.webp?v=1737701587",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -68498,10 +68498,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2743",
     "name": "Elderflower Spritz",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/Aql6xR/square/0/512x512.webp?v=1737701588",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sauvignon Blanc Wine",
@@ -68588,10 +68588,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2747",
     "name": "Screaming Orgasm",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Hurricane",
     "img": "https://cdn.diffordsguide.com/cocktail/AmlYeR/square/0/512x512.webp?v=1737701588",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -68820,10 +68820,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2757",
     "name": "Trilby No.2",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Rjl70r/square/0/512x512.webp?v=1737701588",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Dry Vermouth",
@@ -69181,10 +69181,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2775",
     "name": "Apple Martini (with apple schnapps)",
-    "category": "Gin",
+    "category": "Vodka",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AQQ05A/square/0/512x512.webp?v=1737701588",
-    "color": "#BFD8C2",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -69486,10 +69486,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2790",
     "name": "Chanticleer",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RYkq7r/square/0/512x512.webp?v=1737701588",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -70061,10 +70061,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2810",
     "name": "Islander",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1jk5A/square/0/512x512.webp?v=1737701588",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Rosso/sweet Vermouth",
@@ -70263,10 +70263,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2815",
     "name": "Lazy Man Flip",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/A9n4xr/square/0/512x512.webp?v=1737701588",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Ruby Port",
@@ -70312,10 +70312,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2816",
     "name": "Limey Gimlet",
-    "category": "Rum",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RKax3r/square/0/512x512.webp?v=1737701588",
-    "color": "#F5E6CA",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Lime Cordial",
@@ -70569,10 +70569,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2832",
     "name": "Perpetual Cocktail",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/reL1qA/square/0/512x512.webp?v=1737701588",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Rosso/sweet Vermouth",
@@ -70966,10 +70966,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2851",
     "name": "A Sinking Cocktail",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rblboR/square/0/512x512.webp?v=1737701589",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Orange-red Aperitivo",
@@ -71278,10 +71278,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2858",
     "name": "Starry Night",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RE7Xdr/square/0/512x512.webp?v=1737701589",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Chardonnay Wine",
@@ -71787,10 +71787,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2876",
     "name": "Le Dijonnais Martini",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/reLjqA/square/0/512x512.webp?v=1737701589",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mustard Liqueur",
@@ -72179,10 +72179,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2886",
     "name": "Skid Row",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OXMvgR/square/0/512x512.webp?v=1737701589",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -72412,10 +72412,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2895",
     "name": "Sherry Cobbler",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/rbl1oR/square/0/512x512.webp?v=1737701589",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Oloroso Sherry",
@@ -73127,10 +73127,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2920",
     "name": "Corpse Reviver No.Blue",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ro6VgO/square/0/512x512.webp?v=1737701589",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -73286,10 +73286,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2923",
     "name": "Death in Venice",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/RDxmyR/square/0/512x512.webp?v=1737701589",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Bitter Liqueur",
@@ -73676,10 +73676,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2938",
     "name": "Woodside",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A2jxzA/square/0/512x512.webp?v=1737701590",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Ring Pineapple (fresh)",
@@ -74281,10 +74281,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2956",
     "name": "The Dunaway",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OzXdBA/square/0/512x512.webp?v=1737701590",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -75143,10 +75143,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-2994",
     "name": "Monte Cassino",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A609gO/square/0/512x512.webp?v=1737701590",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Rye Whiskey 50% Abv",
@@ -75859,10 +75859,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3020",
     "name": "Rusty To The Core",
-    "category": "Whiskey",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ro63zO/square/0/512x512.webp?v=1737701590",
-    "color": "#D4A56A",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -76128,10 +76128,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3030",
     "name": "Blue Lassi",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rgbK0A/square/0/512x512.webp?v=1737701590",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -76605,10 +76605,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3055",
     "name": "Satan's Whiskers (Curled)",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AMQ2jA/square/0/512x512.webp?v=1737701590",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -78120,10 +78120,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3118",
     "name": "Malty Dry Martini",
-    "category": "Wine",
+    "category": "Gin",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Odn6EA/square/0/512x512.webp?v=1737701591",
-    "color": "#E8B3C0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -78163,10 +78163,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3122",
     "name": "Christmas Pudding and Custard Cocktail",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RaxmyO/square/0/512x512.webp?v=1737701591",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Advocaat Liqueur",
@@ -78420,10 +78420,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3129",
     "name": "Dutch Blood and Sand",
-    "category": "Brandy",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r8aGzO/square/0/512x512.webp?v=1737701591",
-    "color": "#E8C39E",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -79446,10 +79446,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3260",
     "name": "Jack Pot",
-    "category": "Gin",
+    "category": "Beer",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RKaPXr/square/0/512x512.webp?v=1737701591",
-    "color": "#BFD8C2",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Honey Herbal Liqueur",
@@ -79831,10 +79831,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3448",
     "name": "Closing Argument",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/ry89bA/square/0/512x512.webp?v=1737701591",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -79880,10 +79880,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3449",
     "name": "Special Brew Martini",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLkymA/square/0/512x512.webp?v=1737701591",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -79984,10 +79984,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3283",
     "name": "Haberdasher",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rVQPwA/square/0/512x512.webp?v=1737701591",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Bourbon Whiskey",
@@ -80088,10 +80088,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3287",
     "name": "The Lone Ranger",
-    "category": "Tequila",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/AqlkDR/square/0/512x512.webp?v=1737701591",
-    "color": "#D4E8A8",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Blanco Tequila",
@@ -80728,10 +80728,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3306",
     "name": "Royalist Cocktail",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A60PLO/square/0/512x512.webp?v=1737701592",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Dry Vermouth",
@@ -81039,10 +81039,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3317",
     "name": "Stout Fellow",
-    "category": "Rum",
+    "category": "Beer",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r09PwO/square/0/512x512.webp?v=1737701592",
-    "color": "#F5E6CA",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Stout Beer",
@@ -81088,10 +81088,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3320",
     "name": "De Beauvoir",
-    "category": "Whiskey",
+    "category": "Beer",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ro6GwO/square/0/512x512.webp?v=1737701592",
-    "color": "#D4A56A",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Rye Whiskey 50% Abv",
@@ -81834,10 +81834,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3357",
     "name": "Affogato Cocktail",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RjlyZr/square/0/512x512.webp?v=1737701592",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -81944,10 +81944,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3360",
     "name": "Gennaro's Sidecar",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RKaVJr/square/0/512x512.webp?v=1737701592",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -81999,10 +81999,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3361",
     "name": "Ginger No-jito (Temperance Ginger Mojito)",
-    "category": "Beer",
+    "category": "Other",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/r09lwO/square/0/512x512.webp?v=1737701592",
-    "color": "#F2D98D",
+    "color": "#D9D4CA",
     "ingredients": [
       {
         "name": "Lime Juice",
@@ -82190,10 +82190,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3367",
     "name": "Sour Cherry Spritz",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Rocks",
     "img": "https://cdn.diffordsguide.com/cocktail/RDxl1R/square/0/512x512.webp?v=1737701592",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Prosecco",
@@ -82675,10 +82675,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3413",
     "name": "Sticky Toffee Fizz",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/Rjl3Gr/square/0/512x512.webp?v=1737701592",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Spiced Rum",
@@ -82797,10 +82797,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3419",
     "name": "Fairy Cream",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rN43pR/square/0/512x512.webp?v=1737701592",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -82901,10 +82901,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3433",
     "name": "Buttercup",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r4WEWA/square/0/512x512.webp?v=1737701592",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -83219,10 +83219,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3445",
     "name": "Wordsmith",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O589Gr/square/0/512x512.webp?v=1737701592",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Op High Ester Aged Pot Still Rum",
@@ -83268,10 +83268,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3447",
     "name": "Next to Last Word",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmlqxR/square/0/512x512.webp?v=1737701592",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -83488,10 +83488,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3462",
     "name": "Marvin's Last Word",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OdnqkA/square/0/512x512.webp?v=1737701592",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -83904,10 +83904,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3470",
     "name": "Love Heart",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/rWD95O/square/0/512x512.webp?v=1737701592",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -84394,10 +84394,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3489",
     "name": "Give Me Fever",
-    "category": "Mezcal",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O581Gr/square/0/512x512.webp?v=1737701593",
-    "color": "#C9B79C",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Gin",
@@ -84715,10 +84715,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3503",
     "name": "Quincy Jones",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmlQ8R/square/0/512x512.webp?v=1737701593",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Quinquina E.g. Dubonnet, Byrrh",
@@ -84764,10 +84764,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3504",
     "name": "The Other Woman",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/ry8naA/square/0/512x512.webp?v=1737701593",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Quinquina E.g. Dubonnet, Byrrh",
@@ -84819,10 +84819,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3505",
     "name": "Fly Me The Flip To France",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLk4BA/square/0/512x512.webp?v=1737701593",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Quinquina E.g. Dubonnet, Byrrh",
@@ -84874,10 +84874,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3509",
     "name": "Petanque cocktail",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RJeQ8O/square/0/512x512.webp?v=1737701593",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -85137,10 +85137,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3627",
     "name": "Mr Simon",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O7gb4O/square/0/512x512.webp?v=1737701593",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -85186,10 +85186,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3522",
     "name": "Bitches' Brew cocktail",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RaxYLO/square/0/512x512.webp?v=1737701593",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Quinquina E.g. Dubonnet, Byrrh",
@@ -85357,10 +85357,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3528",
     "name": "Grosvenor cocktail",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ax0qxA/square/0/512x512.webp?v=1737701593",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Ginseng Liqueur",
@@ -85522,10 +85522,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3535",
     "name": "Dirty(ish) Banana cocktail",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/O3aB0A/square/0/512x512.webp?v=1737701593",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cachaça",
@@ -85631,10 +85631,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3537",
     "name": "Sloane Square cocktail",
-    "category": "Tequila",
+    "category": "Whiskey",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/RB0b1r/square/0/512x512.webp?v=1737701593",
-    "color": "#D4E8A8",
+    "color": "#D4A56A",
     "ingredients": [
       {
         "name": "Single Malt Scotch Whisky",
@@ -85971,10 +85971,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3548",
     "name": "Greek Celery Cocktail",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/ry8WaA/square/0/512x512.webp?v=1737701593",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mastiha Liqueur",
@@ -86014,10 +86014,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3550",
     "name": "Fresh Cocktail",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A60BeO/square/0/512x512.webp?v=1737701593",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Inch Cucumber (fresh)",
@@ -86740,10 +86740,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3574",
     "name": "Black Jack",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rgb6BA/square/0/512x512.webp?v=1737701593",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Quinquina E.g. Dubonnet, Byrrh",
@@ -86801,10 +86801,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3576",
     "name": "Byrrh Cocktail",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/reLy5A/square/0/512x512.webp?v=1737701593",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Canadian Whisky",
@@ -86850,10 +86850,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3578",
     "name": "Thuir Sour",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OlPMbO/square/0/512x512.webp?v=1737701593",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Quinquina E.g. Dubonnet, Byrrh",
@@ -86911,10 +86911,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3579",
     "name": "Copenhagen Cocktail",
-    "category": "Brandy",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O3ax0A/square/0/512x512.webp?v=1737701593",
-    "color": "#E8C39E",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -87589,10 +87589,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3595",
     "name": "Reverse Vesper Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/rbl5nR/square/0/512x512.webp?v=1737701593",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Blanc Quinquina/kina",
@@ -87638,10 +87638,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3596",
     "name": "La Vendangeuse",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OnljnA/square/0/512x512.webp?v=1737701593",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Green Grapes (seedless)",
@@ -88033,10 +88033,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3616",
     "name": "Popeye Sour",
-    "category": "Mezcal",
+    "category": "Rum",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RKa7Zr/square/0/512x512.webp?v=1737701593",
-    "color": "#C9B79C",
+    "color": "#F5E6CA",
     "ingredients": [
       {
         "name": "Spinach Leaves",
@@ -88375,10 +88375,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3623",
     "name": "The Cornichon",
-    "category": "Tequila",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RDxoER/square/0/512x512.webp?v=1737701594",
-    "color": "#D4E8A8",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Blanco Tequila",
@@ -88558,10 +88558,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3626",
     "name": "The Angel Wore Red",
-    "category": "Liqueur",
+    "category": "Beer",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/rWD5GO/square/0/512x512.webp?v=1737701594",
-    "color": "#E6C7E0",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Bianco/blanco Vermouth",
@@ -88656,10 +88656,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3632",
     "name": "Waterloo",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/reL9EA/square/0/512x512.webp?v=1737701594",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -89066,10 +89066,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3642",
     "name": "French 125 (French '75' with cognac)",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/OXMYKR/square/0/512x512.webp?v=1737701594",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Lemon Juice",
@@ -89543,10 +89543,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3663",
     "name": "Ultima Palabra",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rN4n5R/square/0/512x512.webp?v=1737701594",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -89604,10 +89604,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3664",
     "name": "Well-fortified",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ro6YMO/square/1/512x512.webp?v=1757002828",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -89659,10 +89659,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3667",
     "name": "Tribute",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/RDxBER/square/0/512x512.webp?v=1737701594",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Crème De Violette",
@@ -89702,10 +89702,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3668",
     "name": "The Savelberg",
-    "category": "Wine",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RwN1LO/square/0/512x512.webp?v=1737701594",
-    "color": "#E8B3C0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -90099,10 +90099,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3682",
     "name": "Amaro-etti Biscotti",
-    "category": "Whiskey",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A2jNeA/square/0/512x512.webp?v=1737701594",
-    "color": "#D4A56A",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -90587,10 +90587,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3709",
     "name": "Winter Clove",
-    "category": "Whiskey",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RJe6lO/square/0/512x512.webp?v=1737701594",
-    "color": "#D4A56A",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Clove",
@@ -90642,10 +90642,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3710",
     "name": "The French Canadian",
-    "category": "Gin",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1jGNA/square/0/512x512.webp?v=1737701594",
-    "color": "#BFD8C2",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Cucumber (fresh)",
@@ -90923,10 +90923,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3720",
     "name": "Homely Smoke",
-    "category": "Whiskey",
+    "category": "Brandy",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Ro6m3O/square/0/512x512.webp?v=1737701594",
-    "color": "#D4A56A",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -91173,10 +91173,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3729",
     "name": "Berry Flip",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r8axMO/square/0/512x512.webp?v=1737701594",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -91943,10 +91943,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3754",
     "name": "Bon Accord",
-    "category": "Whiskey",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1j4NA/square/0/512x512.webp?v=1737701594",
-    "color": "#D4A56A",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -92320,10 +92320,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3765",
     "name": "IS talking",
-    "category": "Brandy",
+    "category": "Gin",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/AGwE8A/square/0/512x512.webp?v=1737701594",
-    "color": "#E8C39E",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -93151,10 +93151,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3811",
     "name": "Amsterdamage",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AMQW9A/square/0/512x512.webp?v=1737701595",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -93261,10 +93261,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3825",
     "name": "Simon Says",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Rocks",
     "img": "https://cdn.diffordsguide.com/cocktail/RZ0V4r/square/0/512x512.webp?v=1737701595",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -93425,10 +93425,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3876",
     "name": "Sleepy Smoker",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/reGW0R/square/0/512x512.webp?v=1737701595",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Oak Smoked Vodka",
@@ -93468,10 +93468,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3877",
     "name": "Colleen Bawn",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r4a9zO/square/0/512x512.webp?v=1737701595",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Egg (white And Yolk)",
@@ -94089,10 +94089,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3947",
     "name": "Grappa Espresso Martini",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Am6lNr/square/0/512x512.webp?v=1737701596",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -94144,10 +94144,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3948",
     "name": "Geisha Martini",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/ryg8NR/square/0/512x512.webp?v=1737701596",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -94254,10 +94254,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3965",
     "name": "Sake Manhattan",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AGll2r/square/0/512x512.webp?v=1737701596",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -94370,10 +94370,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3967",
     "name": "18th Century",
-    "category": "Wine",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RD22ar/square/0/512x512.webp?v=1737701596",
-    "color": "#E8B3C0",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Batavia Arrack",
@@ -94419,10 +94419,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-3970",
     "name": "Wild Ward",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/rWWWer/square/0/512x512.webp?v=1737701596",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Rye Whiskey 50% Abv",
@@ -94712,10 +94712,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4043",
     "name": "Dutch Artist's Special",
-    "category": "Wine",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AqW3yO/square/0/512x512.webp?v=1737701596",
-    "color": "#E8B3C0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -94987,10 +94987,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4070",
     "name": "Killer in Red",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rWWdwr/square/0/512x512.webp?v=1737701596",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Red Bitter Liqueur",
@@ -95244,10 +95244,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4075",
     "name": "Cadáver Reviver",
-    "category": "Tequila",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AQDWNR/square/0/512x512.webp?v=1737701596",
-    "color": "#D4E8A8",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Blanco Tequila",
@@ -95348,10 +95348,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4077",
     "name": "Last Palabra",
-    "category": "Tequila",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r4aMVO/square/0/512x512.webp?v=1737701596",
-    "color": "#D4E8A8",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Reposado Tequila",
@@ -95598,10 +95598,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4088",
     "name": "Winter Punch",
-    "category": "Rum",
+    "category": "Whiskey",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ov3l1R/square/0/512x512.webp?v=1737701597",
-    "color": "#F5E6CA",
+    "color": "#D4A56A",
     "ingredients": [
       {
         "name": "Bourbon Whiskey",
@@ -95708,10 +95708,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4095",
     "name": "Ginger Last Word",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rb46ZR/square/0/512x512.webp?v=1737701597",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Fresh Ginger",
@@ -95873,10 +95873,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4101",
     "name": "Dutchess",
-    "category": "Other",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O5Kz2A/square/0/512x512.webp?v=1737701597",
-    "color": "#D9D4CA",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -96081,10 +96081,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4108",
     "name": "Eggs-cellent",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/On2bgO/square/0/512x512.webp?v=1737701597",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -96130,10 +96130,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4110",
     "name": "Grand Duchess Cocktail",
-    "category": "Rum",
+    "category": "Vodka",
     "glass": "Coupe",
     "img": "",
-    "color": "#F5E6CA",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -96442,10 +96442,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4122",
     "name": "The Artist's Muse",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RaLokO/square/0/512x512.webp?v=1737701597",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Pisco",
@@ -96558,10 +96558,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4124",
     "name": "The Ribbon",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Rw7P0R/square/0/512x512.webp?v=1737701597",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -97444,10 +97444,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4190",
     "name": "Showgirl Cocktail",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RYlXEO/square/0/512x512.webp?v=1737701597",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Orange-red Aperitivo",
@@ -97554,10 +97554,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4195",
     "name": "Embrasse de la Terre",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rb4DER/square/0/512x512.webp?v=1737701597",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -97670,10 +97670,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4197",
     "name": "Scandinavian Daiquiri",
-    "category": "Other",
+    "category": "Vodka",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RJ2j5R/square/0/512x512.webp?v=1737701597",
-    "color": "#D9D4CA",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Akvavit / Aquavit",
@@ -98631,10 +98631,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4216",
     "name": "Genever Fruit Cup (Difford's Cup No.12)",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RKk2KR/square/0/512x512.webp?v=1737701597",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -99619,10 +99619,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4254",
     "name": "French 75 (Difford's recipe)",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/R1aoeR/square/0/512x512.webp?v=1737701598",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Lemon Juice",
@@ -99692,10 +99692,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4256",
     "name": "Flat White Martini",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Oz2BoO/square/0/512x512.webp?v=1737701598",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Irish Cream Liqueur",
@@ -100126,10 +100126,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4274",
     "name": "Alabama Slammer (long)",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/rgMNvR/square/0/512x512.webp?v=1737701598",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -100681,10 +100681,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4310",
     "name": "Loose Talk",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1a2PR/square/0/512x512.webp?v=1737701598",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Rye Whiskey 50% Abv",
@@ -101274,10 +101274,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4346",
     "name": "G+T Royale",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RYlE0O/square/0/512x512.webp?v=1737701598",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -101415,10 +101415,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4349",
     "name": "Time for Suze",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLqGKO/square/0/512x512.webp?v=1737701598",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -101750,10 +101750,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4371",
     "name": "The Duchess",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O7Wv5O/square/0/512x512.webp?v=1737701598",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -101895,10 +101895,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4378",
     "name": "Pan Galactic Gargle Blaster",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/OlmXwR/square/0/512x512.webp?v=1737701599",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Basil Leaves",
@@ -102121,10 +102121,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4384",
     "name": "The Queen's Steeple",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/APWmJR/square/0/512x512.webp?v=1737701599",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Amaro (e.g. Montenegro)",
@@ -102170,10 +102170,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4386",
     "name": "Grassoide Ferro Cocktail",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OXJzPA/square/0/512x512.webp?v=1737701599",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -102458,10 +102458,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4509",
     "name": "Royal Balkan",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -102513,10 +102513,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4556",
     "name": "Forbidden Fruit",
-    "category": "Gin",
+    "category": "Brandy",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/Oz2l4O/square/0/512x512.webp?v=1737701599",
-    "color": "#BFD8C2",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -102653,10 +102653,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4575",
     "name": "Ernst Happel",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -102763,10 +102763,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4580",
     "name": "Golden Tang",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -102867,10 +102867,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4586",
     "name": "Lightness Cocktail",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Citrus Vodka",
@@ -102983,10 +102983,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4589",
     "name": "Witches' Yellow Flip",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Strega Liqueur",
@@ -103142,10 +103142,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4592",
     "name": "Witches' Grappa",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -104887,10 +104887,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4672",
     "name": "La Petite Bouche",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gentian Liqueur",
@@ -105376,10 +105376,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4687",
     "name": "Aviazione",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AqW6JO/square/0/512x512.webp?v=1737701600",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -105614,10 +105614,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4706",
     "name": "Millionaire's Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A6g5mr/square/0/512x512.webp?v=1737701600",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -106899,10 +106899,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4811",
     "name": "Mrs Hendrickx Lemonade Highball",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/AMm1nA/square/0/512x512.webp?v=1737701601",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -107203,10 +107203,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4822",
     "name": "Improved Dunlop Cocktail",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RaLJmO/square/0/512x512.webp?v=1737701601",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Tawny Port",
@@ -107527,10 +107527,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4834",
     "name": "1910",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OlmoaR/square/0/512x512.webp?v=1737701601",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -107582,10 +107582,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4835",
     "name": "Queen Mother",
-    "category": "Rum",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O3gLoO/square/0/512x512.webp?v=1737701601",
-    "color": "#F5E6CA",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Gin",
@@ -108204,10 +108204,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4862",
     "name": "Cotillion",
-    "category": "Rum",
+    "category": "Whiskey",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OdywwR/square/0/512x512.webp?v=1737701601",
-    "color": "#F5E6CA",
+    "color": "#D4A56A",
     "ingredients": [
       {
         "name": "Bourbon Whiskey",
@@ -108520,10 +108520,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4878",
     "name": "Glee Club Cocktail",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OlmwaR/square/0/512x512.webp?v=1737701601",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Amontillado Sherry",
@@ -108880,10 +108880,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4895",
     "name": "Life is Beautiful",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rb402R/square/0/512x512.webp?v=1737701601",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Ambrato Vermouth",
@@ -108972,10 +108972,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4897",
     "name": "The Witches",
-    "category": "Liqueur",
+    "category": "Vodka",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RJ2KlR/square/0/512x512.webp?v=1737701601",
-    "color": "#E6C7E0",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Akvavit / Aquavit",
@@ -109111,10 +109111,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4908",
     "name": "Jabberwock",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/On26DO/square/0/512x512.webp?v=1737701601",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -109643,10 +109643,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4927",
     "name": "Irish Shandy",
-    "category": "Whiskey",
+    "category": "Beer",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/O7WZwO/square/0/512x512.webp?v=1737701601",
-    "color": "#D4A56A",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Irish Whiskey",
@@ -109743,10 +109743,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4934",
     "name": "Absinthe Spider Highball",
-    "category": "Beer",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/OlmGLR/square/0/512x512.webp?v=1737701602",
-    "color": "#F2D98D",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -110347,10 +110347,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4957",
     "name": "Grappa and Ginger Highball",
-    "category": "Beer",
+    "category": "Brandy",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/Rj5N0O/square/0/512x512.webp?v=1737701602",
-    "color": "#F2D98D",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -110433,10 +110433,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4961",
     "name": "Florence Cocktail",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r0zJmR/square/0/512x512.webp?v=1737701602",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -111006,10 +111006,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4987",
     "name": "Poinciana",
-    "category": "Rum",
+    "category": "Whiskey",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AqWmxO/square/0/512x512.webp?v=1737701602",
-    "color": "#F5E6CA",
+    "color": "#D4A56A",
     "ingredients": [
       {
         "name": "Raspberries",
@@ -111147,10 +111147,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-4993",
     "name": "Absinthe by Jimmy",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLq8JO/square/0/512x512.webp?v=1737701602",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -111612,10 +111612,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5005",
     "name": "Anchorman",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLq8QO/square/0/512x512.webp?v=1737701602",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -111661,10 +111661,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5006",
     "name": "Dunmore Cobbler",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/A6g7Kr/square/0/512x512.webp?v=1737701602",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Amontillado Sherry",
@@ -111716,10 +111716,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5007",
     "name": "Fumata Bianca",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/rb4joR/square/0/512x512.webp?v=1737701602",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gentian Liqueur",
@@ -112022,10 +112022,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5037",
     "name": "The Field Marshal",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RBZwoR/square/0/512x512.webp?v=1737701602",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Light White Rum",
@@ -112077,10 +112077,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5038",
     "name": "Witches' Flight",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A2QnxR/square/0/512x512.webp?v=1737701602",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Bourbon Whiskey",
@@ -112291,10 +112291,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5076",
     "name": "Jimmie Roosevelt",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/reGlqR/square/0/512x512.webp?v=1738934117",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -112615,10 +112615,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5107",
     "name": "Psychopathia Sexualis",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rb47ZR/square/1/512x512.webp?v=1763654140",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Old Tom Gin",
@@ -112780,10 +112780,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5155",
     "name": "Saketini",
-    "category": "Gin",
+    "category": "Vodka",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/AMmBDA/square/1/512x512.webp?v=1769166894",
-    "color": "#BFD8C2",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -113272,10 +113272,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5169",
     "name": "Reverse Manhattan",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RZe5YO/square/0/512x512.webp?v=1737701603",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Rosso/sweet Vermouth",
@@ -113865,10 +113865,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5412",
     "name": "Saison Highball",
-    "category": "Brandy",
+    "category": "Beer",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/Oz2J3O/square/0/512x512.webp?v=1737701604",
-    "color": "#E8C39E",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -114005,10 +114005,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5444",
     "name": "Astral Plane",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/Ov3LKR/square/0/512x512.webp?v=1737701604",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "White Port",
@@ -114237,10 +114237,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5578",
     "name": "Monte Mule",
-    "category": "Beer",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/OlmaYR/square/0/512x512.webp?v=1737701604",
-    "color": "#F2D98D",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Amaro (e.g. Montenegro)",
@@ -114280,10 +114280,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5579",
     "name": "Monte and Tonic",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/O3gmnO/square/0/512x512.webp?v=1737701604",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Amaro (e.g. Montenegro)",
@@ -114315,10 +114315,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5585",
     "name": "Bitter Maid",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AkDGJr/square/0/512x512.webp?v=1737701604",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cucumber (fresh)",
@@ -114449,10 +114449,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5595",
     "name": "Ostend Fizz",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/rb4xDR/square/0/512x512.webp?v=1737701605",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Kirschwasser",
@@ -114914,10 +114914,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5807",
     "name": "Sunflower",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rb4wwR/square/0/512x512.webp?v=1737701605",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -115244,10 +115244,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5854",
     "name": "Hardy Grunter",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1njaA/square/0/512x512.webp?v=1737701605",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Amontillado Sherry",
@@ -115342,10 +115342,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-5857",
     "name": "The Symphony No.2",
-    "category": "Wine",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RjDl1r/square/0/512x512.webp?v=1737701605",
-    "color": "#E8B3C0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -115885,10 +115885,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-6127",
     "name": "Devil's Soul",
-    "category": "Mezcal",
+    "category": "Whiskey",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O7EDvA/square/1/512x512.webp?v=1766066589",
-    "color": "#C9B79C",
+    "color": "#D4A56A",
     "ingredients": [
       {
         "name": "Rye Whiskey 50% Abv",
@@ -116111,10 +116111,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-6186",
     "name": "Downhill Daring",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OXDjgO/square/0/512x512.webp?v=1737701606",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vermouth Amaro (pun.)",
@@ -116679,10 +116679,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-6422",
     "name": "East Wind",
-    "category": "Rum",
+    "category": "Vodka",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ra0lyO/square/0/512x512.webp?v=1737701606",
-    "color": "#F5E6CA",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -117125,10 +117125,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-6538",
     "name": "The Frank",
-    "category": "Tequila",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A2Kvnr/square/0/512x512.webp?v=1737701607",
-    "color": "#D4E8A8",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -117247,10 +117247,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-6569",
     "name": "Mezcalero",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RZlpZr/square/0/512x512.webp?v=1737701607",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Triple Sec",
@@ -117716,10 +117716,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-6830",
     "name": "Sherry Valance",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rgpaBO/square/0/512x512.webp?v=1737701607",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Manzanilla Sherry",
@@ -117880,10 +117880,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-6850",
     "name": "Gustings' Grasshopper",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A6jZeA/square/0/512x512.webp?v=1737701607",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -118609,10 +118609,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-7545",
     "name": "Rosé 75",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O5pabr/square/0/512x512.webp?v=1737701609",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -118829,10 +118829,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-7611",
     "name": "Salome",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AM4JZR/square/0/512x512.webp?v=1737701609",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -119019,10 +119019,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-7705",
     "name": "Killer Queen",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLYDWO/square/0/512x512.webp?v=1737701609",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "White Overproof Rum",
@@ -119226,10 +119226,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-7808",
     "name": "Elderflower Champagne Cocktail",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/OnqlNr/square/0/512x512.webp?v=1737701609",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -120149,10 +120149,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-8405",
     "name": "Summa Peto",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLabkO/square/0/512x512.webp?v=1737701610",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -120198,10 +120198,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-8406",
     "name": "Flor de Jerez",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A6qvgR/square/0/512x512.webp?v=1737701610",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Amontillado Sherry",
@@ -120357,10 +120357,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-8711",
     "name": "The Last Wall Highball",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/AMX1ZR/square/0/512x512.webp?v=1737701611",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -120461,10 +120461,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-8744",
     "name": "Rosina Ferrario  No. 203",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OvlVKA/square/0/512x512.webp?v=1737701611",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -120620,10 +120620,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-8778",
     "name": "Around The World",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Tsipouro",
@@ -121030,10 +121030,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-9199",
     "name": "Aged Grappa Espresso Martini",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AMXe4R/square/0/512x512.webp?v=1737701612",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Aged Grappa",
@@ -121085,10 +121085,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-9209",
     "name": "Weather Up",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RJd8lr/square/0/512x512.webp?v=1737701612",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Aged Grappa",
@@ -121715,10 +121715,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-9719",
     "name": "Fix One's Flint",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rNeXnA/square/0/512x512.webp?v=1737701612",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Habenero Bourbon",
@@ -121947,10 +121947,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-9729",
     "name": "Matador",
-    "category": "Tequila",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r8zazR/square/0/512x512.webp?v=1737701612",
-    "color": "#D4E8A8",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Reposado Tequila",
@@ -122057,10 +122057,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-9733",
     "name": "Last of the Oaxacans",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r4zW2R/square/0/512x512.webp?v=1737701612",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -122198,10 +122198,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-9777",
     "name": "Queen Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/r4za2R/square/0/512x512.webp?v=1737701612",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -122552,10 +122552,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-9976",
     "name": "Lady Jane",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/repPVA/square/0/512x512.webp?v=1737701613",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Rye Whiskey 50% Abv",
@@ -123138,10 +123138,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-9994",
     "name": "Yellow Cocktail",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A6poLO/square/0/512x512.webp?v=1737701613",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -123626,10 +123626,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-10035",
     "name": "Stone Wheel",
-    "category": "Tequila",
+    "category": "Beer",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/O31EdA/square/0/512x512.webp?v=1737701613",
-    "color": "#D4E8A8",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Reposado Tequila",
@@ -124089,10 +124089,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-10137",
     "name": "German Vacation",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RB7k1A/square/0/512x512.webp?v=1737701613",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Aged Rum (6-10yr)",
@@ -124193,10 +124193,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-10310",
     "name": "The Very Last Word",
-    "category": "Tequila",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1KNNr/square/0/512x512.webp?v=1737701614",
-    "color": "#D4E8A8",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Chartreuse Green",
@@ -124278,10 +124278,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-10313",
     "name": "The Last Laugh",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/Rj1LQO/square/0/512x512.webp?v=1737701614",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -124767,10 +124767,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-10389",
     "name": "Without Borders",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O5zmzR/square/0/512x512.webp?v=1737701614",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -124828,10 +124828,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-10391",
     "name": "Nassau Street",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmBgjr/square/0/512x512.webp?v=1737701614",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -124877,10 +124877,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-10505",
     "name": "Sharon",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLWoQA/square/0/512x512.webp?v=1737701614",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Manzanilla Sherry",
@@ -126122,10 +126122,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-11180",
     "name": "Bergamot Martini",
-    "category": "Gin",
+    "category": "Vodka",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Apz6qO/square/0/512x512.webp?v=1737701615",
-    "color": "#BFD8C2",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -127087,10 +127087,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-11289",
     "name": "Upper Cut",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O5zk7R/square/0/512x512.webp?v=1737701616",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Triple Sec",
@@ -127301,10 +127301,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-11386",
     "name": "Quotidien",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OX4YKO/square/0/512x512.webp?v=1737701616",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -127356,10 +127356,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-11387",
     "name": "Dot (by J. E. Clapham)",
-    "category": "Rum",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AqB7vr/square/0/512x512.webp?v=1737701616",
-    "color": "#F5E6CA",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Gin",
@@ -127460,10 +127460,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-11457",
     "name": "Written Word",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Rj12QO/square/0/512x512.webp?v=1737701616",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -127564,10 +127564,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-11460",
     "name": "Eeyore's Requiem",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RKWbxR/square/0/512x512.webp?v=1737701616",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Red Bitter Liqueur",
@@ -127796,10 +127796,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-11513",
     "name": "Split Apple Martini",
-    "category": "Vodka",
+    "category": "Brandy",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Rj1n0O/square/0/512x512.webp?v=1737701617",
-    "color": "#E8EEF2",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -128010,10 +128010,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-11557",
     "name": "Old Italian Friend",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Rj1j0O/square/0/512x512.webp?v=1737701617",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -128517,10 +128517,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-11730",
     "name": "Gage Cobbler",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/rgvMJA/square/0/512x512.webp?v=1737701617",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -128725,10 +128725,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-11888",
     "name": "Bridal Suite",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OvppPA/square/0/512x512.webp?v=1737701617",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -129196,10 +129196,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-12028",
     "name": "French 1605",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/Ax2W6O/square/0/512x512.webp?v=1737701618",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Chartreuse Green",
@@ -129257,10 +129257,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-12043",
     "name": "Queen's Jubilee Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AqnjDr/square/0/512x512.webp?v=1737701618",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -129300,10 +129300,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-12052",
     "name": "Mezcal Dante",
-    "category": "Tequila",
+    "category": "Mezcal",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OnEQYr/square/0/512x512.webp?v=1737701618",
-    "color": "#D4E8A8",
+    "color": "#C9B79C",
     "ingredients": [
       {
         "name": "Basil Leaves",
@@ -129416,10 +129416,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-12054",
     "name": "Wow",
-    "category": "Rum",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1v2PA/square/0/512x512.webp?v=1737701618",
-    "color": "#F5E6CA",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -129648,10 +129648,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-12198",
     "name": "Mad Monk Monkey",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1vQYA/square/0/512x512.webp?v=1737701618",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -130375,10 +130375,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-12881",
     "name": "Clergyman's Lapse",
-    "category": "Mezcal",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RBgVGA/square/0/512x512.webp?v=1737701619",
-    "color": "#C9B79C",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Gin",
@@ -130479,10 +130479,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-12891",
     "name": "Negroni Amaro Sour",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Amp1mR/square/0/512x512.webp?v=1737701619",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -130601,10 +130601,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-13229",
     "name": "Evening Sun",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r8qBVO/square/0/512x512.webp?v=1737701619",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -130772,10 +130772,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-13233",
     "name": "Appease the Cheese",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r4mBbO/square/0/512x512.webp?v=1737701619",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -130931,10 +130931,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-13327",
     "name": "USS Wondrich",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O7MbqA/square/0/512x512.webp?v=1737701620",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Amontillado Sherry",
@@ -131445,10 +131445,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-13477",
     "name": "Whist",
-    "category": "Rum",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r4m5kO/square/0/512x512.webp?v=1737701620",
-    "color": "#F5E6CA",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -131989,10 +131989,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31647",
     "name": "Winter Sidecar",
-    "category": "Vodka",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmgxWO/square/0/512x512.webp?v=1737701622",
-    "color": "#E8EEF2",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -132056,10 +132056,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-14827",
     "name": "Maximilian Affair",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O7D3wR/square/0/512x512.webp?v=1737701622",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -132411,10 +132411,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-15055",
     "name": "Bonsai",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AMDLDR/square/0/512x512.webp?v=1737701622",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -132778,10 +132778,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-15493",
     "name": "Rosina",
-    "category": "Mezcal",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rL9eWO/square/0/512x512.webp?v=1737701623",
-    "color": "#C9B79C",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Quinquina E.g. Dubonnet, Byrrh",
@@ -133022,10 +133022,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-15517",
     "name": "Naked and Infamous",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r0KdXA/square/0/512x512.webp?v=1737701623",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Passion Fruit",
@@ -133303,10 +133303,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-15693",
     "name": "Rapid Automobile Cocktail (RAC)",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rL9aBO/square/0/512x512.webp?v=1737701623",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sage Gin",
@@ -133419,10 +133419,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-15695",
     "name": "Last Lap",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rbdpnR/square/0/512x512.webp?v=1737701623",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Sage Gin",
@@ -133688,10 +133688,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-15747",
     "name": "Firecracker",
-    "category": "Mezcal",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmGBvO/square/0/512x512.webp?v=1737701623",
-    "color": "#C9B79C",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Pisco",
@@ -133804,10 +133804,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-15751",
     "name": "Golden Glow",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rbd6wR/square/0/512x512.webp?v=1737701623",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Scotch Whisky",
@@ -133852,10 +133852,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-15754",
     "name": "Midnight Caller",
-    "category": "Mezcal",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1ovar/square/0/512x512.webp?v=1737701624",
-    "color": "#C9B79C",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Gin",
@@ -133925,10 +133925,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-15755",
     "name": "Monkey Bizz",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AMGw4O/square/0/512x512.webp?v=1737701624",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -133980,10 +133980,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-15793",
     "name": "Cherry Bakewell",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rL97NO/square/0/512x512.webp?v=1737701624",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Dry Vermouth",
@@ -134176,10 +134176,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-16019",
     "name": "Chicago",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/rNWYZO/square/0/512x512.webp?v=1737701624",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -134286,10 +134286,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-16032",
     "name": "Snaquiri No. 2",
-    "category": "Rum",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rea5qr/square/0/512x512.webp?v=1737701624",
-    "color": "#F5E6CA",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -134977,10 +134977,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-16508",
     "name": "Greenhorn",
-    "category": "Tequila",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/On767R/square/0/512x512.webp?v=1737701625",
-    "color": "#D4E8A8",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Blanco Tequila",
@@ -135020,10 +135020,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-16591",
     "name": "Ve.n.to",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmGwyO/square/0/512x512.webp?v=1737701625",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -135179,10 +135179,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-16594",
     "name": "Bosun Bird",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A6d7LO/square/0/512x512.webp?v=1737701625",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Aged Jamaican Rum",
@@ -135588,10 +135588,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-17019",
     "name": "Widow's Word",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rNW6vO/square/0/512x512.webp?v=1737701626",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Calvados Apple Brandy",
@@ -135710,10 +135710,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-17062",
     "name": "Flying Dutchman No. 2",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Odoaqr/square/0/512x512.webp?v=1737701626",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -135808,10 +135808,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-17180",
     "name": "Prophet in Plain Clothes",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/ApGWwR/square/0/512x512.webp?v=1737701626",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Peated Malt Whisky",
@@ -136089,10 +136089,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-17214",
     "name": "Absinthe Dripped",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/RE92VR/square/0/512x512.webp?v=1737701627",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -136236,10 +136236,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-17617",
     "name": "Czarina",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r02WwR/square/0/512x512.webp?v=1737701627",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -136700,10 +136700,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-17690",
     "name": "Fourth Degree",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RY9DlR/square/0/512x512.webp?v=1737701628",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -136896,10 +136896,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-17687",
     "name": "Three Citrus Garibaldi",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/AqjBMr/square/0/512x512.webp?v=1737701628",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Blood Orange Juice",
@@ -136988,10 +136988,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-17691",
     "name": "Ohio",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/Am4pyR/square/0/512x512.webp?v=1737701628",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Rye Whiskey 50% Abv",
@@ -138073,10 +138073,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-18983",
     "name": "Coronation Cocktail (Jacques Straub's)",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rVknmO/square/0/512x512.webp?v=1737701631",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -138453,10 +138453,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-19258",
     "name": "Italian Buck",
-    "category": "Beer",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/REDzPO/square/0/512x512.webp?v=1737701632",
-    "color": "#F2D98D",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cynar/carciofo Amaro",
@@ -138502,10 +138502,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-19259",
     "name": "Iz Bananaz",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/A91vPA/square/0/512x512.webp?v=1737701632",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cachaça",
@@ -138551,10 +138551,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-19260",
     "name": "Second Serve",
-    "category": "Wine",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RKvdVO/square/0/512x512.webp?v=1737701632",
-    "color": "#E8B3C0",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Amaro (e.g. Montenegro)",
@@ -139241,10 +139241,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-19629",
     "name": "Pornstar Bellini",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/r8JqzR/square/0/512x512.webp?v=1737701632",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Passion Fruit",
@@ -139498,10 +139498,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-19664",
     "name": "Tropical Racer",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RoWnmR/square/0/512x512.webp?v=1737701633",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "New Make Spirit",
@@ -139651,10 +139651,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-19909",
     "name": "Yes Dear!",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RJGqbA/square/0/512x512.webp?v=1737701633",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Pisco",
@@ -139792,10 +139792,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-19933",
     "name": "Triple Crown",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r4LkWr/square/0/512x512.webp?v=1737701633",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Bourbon Whiskey",
@@ -140372,10 +140372,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-20196",
     "name": "Strawberries and Cream",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OnX4PA/square/0/512x512.webp?v=1737701634",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -140732,10 +140732,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-20320",
     "name": "B-Side",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RoW7KR/square/0/512x512.webp?v=1737701634",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Mint Leaves",
@@ -140799,10 +140799,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-20322",
     "name": "Americano Perfecto",
-    "category": "Liqueur",
+    "category": "Beer",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RaBJMA/square/0/512x512.webp?v=1737701634",
-    "color": "#E6C7E0",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Red Bitter Liqueur",
@@ -141044,10 +141044,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-20827",
     "name": "A Quiet Word",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O7n15r/square/0/512x512.webp?v=1737701635",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Light Gold Rum 1-3yo",
@@ -141203,10 +141203,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-20867",
     "name": "Californie Palace",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RDGgKO/square/0/512x512.webp?v=1737701635",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Dry Vermouth",
@@ -141478,10 +141478,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-20958",
     "name": "Better Half",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/REV1eA/square/0/512x512.webp?v=1737701635",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Amontillado Sherry",
@@ -141686,10 +141686,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-35971",
     "name": "Bullier",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O7YQZA/square/0/512x512.webp?v=1749210454",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -141790,10 +141790,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-21344",
     "name": "Oh My Word",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OvX8lA/square/0/512x512.webp?v=1737701636",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Old Tom Gin",
@@ -142792,10 +142792,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-22426",
     "name": "Dutch Nemesis",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rW1qPR/square/0/512x512.webp?v=1737701639",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -142902,10 +142902,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-22468",
     "name": "Blackthorn No. 1",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RwXZoA/square/0/512x512.webp?v=1737701639",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sloe Gin Liqueur",
@@ -143255,10 +143255,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-22656",
     "name": "Papaya Jack",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/OzNkEO/square/0/512x512.webp?v=1737701639",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Tennessee Whiskey",
@@ -143896,10 +143896,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-23191",
     "name": "Persephone",
-    "category": "Gin",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmWmyO/square/0/512x512.webp?v=1737701640",
-    "color": "#BFD8C2",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Applejack Brandy",
@@ -144153,10 +144153,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-23267",
     "name": "Pomegranate Cosmopolitan",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RDNjZr/square/0/512x512.webp?v=1737701640",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -144477,10 +144477,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-23464",
     "name": "Six Cylinder",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RoMDMr/square/2/512x512.webp?v=1777026056",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Navy Strength Gin",
@@ -144758,10 +144758,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-23549",
     "name": "Bitter Almondo",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLvw5R/square/0/512x512.webp?v=1737701641",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Almond Milk Amaretto",
@@ -144813,10 +144813,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-23570",
     "name": "House No. 3",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rWM2PR/square/0/512x512.webp?v=1737701641",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Scotch Whisky",
@@ -146401,10 +146401,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-24677",
     "name": "Cantilever",
-    "category": "Gin",
+    "category": "Whiskey",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r4vl8R/square/0/512x512.webp?v=1737701644",
-    "color": "#BFD8C2",
+    "color": "#D4A56A",
     "ingredients": [
       {
         "name": "Rye Whiskey 50% Abv",
@@ -146450,10 +146450,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-24750",
     "name": "Sherry Cocktail",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A6YKxR/square/0/512x512.webp?v=1737701644",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -146572,10 +146572,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-24880",
     "name": "French Blonde",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Apv9wO/square/0/512x512.webp?v=1737701644",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Aromatized Wine",
@@ -146792,10 +146792,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-24905",
     "name": "Anchor Heart",
-    "category": "Whiskey",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLvxkR/square/0/512x512.webp?v=1737701644",
-    "color": "#D4A56A",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -147262,10 +147262,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-25029",
     "name": "Meditation",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r8yx4O/square/0/512x512.webp?v=1737701645",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Amontillado Sherry",
@@ -147556,10 +147556,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-25700",
     "name": "Orchard Thief",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ovg6lR/square/0/512x512.webp?v=1737701647",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -147617,10 +147617,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-25702",
     "name": "Tuscano",
-    "category": "Wine",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RYZWDA/square/0/512x512.webp?v=1737701647",
-    "color": "#E8B3C0",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Amaro (e.g. Santoni)",
@@ -147886,10 +147886,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-25786",
     "name": "Grappa Luca",
-    "category": "Other",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OXZaJA/square/0/512x512.webp?v=1737701647",
-    "color": "#D9D4CA",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -148002,10 +148002,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-25791",
     "name": "Sakura Vesper",
-    "category": "Gin",
+    "category": "Vodka",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmXnjR/square/0/512x512.webp?v=1737701647",
-    "color": "#BFD8C2",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -148304,10 +148304,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-26291",
     "name": "Stars and Garters",
-    "category": "Tequila",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmXwLR/square/0/512x512.webp?v=1737701649",
-    "color": "#D4E8A8",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Blanco Tequila",
@@ -148597,10 +148597,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-26633",
     "name": "Montana (Albert Stevens Crockett, 1931)",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r4kbkA/square/0/512x512.webp?v=1737701650",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -148799,10 +148799,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-26639",
     "name": "Cherry Blossom Sake Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/rVZXmr/square/0/512x512.webp?v=1737701650",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -148982,10 +148982,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-26642",
     "name": "Pink Sakura",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OXZ3wA/square/0/512x512.webp?v=1737701650",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -149104,10 +149104,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-26647",
     "name": "Money in the Bank",
-    "category": "Mezcal",
+    "category": "Gin",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmX38R/square/0/512x512.webp?v=1737701650",
-    "color": "#C9B79C",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Gin",
@@ -149317,10 +149317,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-26652",
     "name": "Electric Circus",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OnW3nR/square/0/512x512.webp?v=1737701650",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -149476,10 +149476,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-28556",
     "name": "Palm Royale Grasshopper",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OzbM3O/square/0/512x512.webp?v=1737701655",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vodka",
@@ -149854,10 +149854,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-28613",
     "name": "Golden Pisco Tang",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RjLvZr/square/0/512x512.webp?v=1737701655",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Pisco",
@@ -150129,10 +150129,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-28619",
     "name": "Caracalla Jazz Club",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rN06ER/square/0/512x512.webp?v=1737701655",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Almond Milk Amaretto",
@@ -150630,10 +150630,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-29285",
     "name": "Mezcal Porn Star Martini",
-    "category": "Mezcal",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Akxpar/square/0/512x512.webp?v=1737701656",
-    "color": "#C9B79C",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -151039,10 +151039,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-29306",
     "name": "Spiced Nut Cutlet",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A6vLgA/square/0/512x512.webp?v=1737701657",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mexican Corn Whisky",
@@ -151301,10 +151301,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-29587",
     "name": "Going Nowhere (but making good time)",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Aqx5eR/square/0/512x512.webp?v=1737701657",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Old Tom Gin",
@@ -151582,10 +151582,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-29693",
     "name": "1919",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLb3KR/square/0/512x512.webp?v=1737701658",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Vermouth Amaro (pun.)",
@@ -152065,10 +152065,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-29991",
     "name": "Palabra Caliente",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmxZ8R/square/0/512x512.webp?v=1737701658",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -152249,10 +152249,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-30037",
     "name": "Americano Branco (Ferroviario)",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Highball",
     "img": "https://cdn.diffordsguide.com/cocktail/RBz5BR/square/0/512x512.webp?v=1737701658",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fernet Liqueur",
@@ -152673,10 +152673,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-30284",
     "name": "Apocalypse Negroni",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/APMJyr/square/0/512x512.webp?v=1737701659",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Rosso/sweet Vermouth",
@@ -152746,10 +152746,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-30321",
     "name": "Norwegian Wood",
-    "category": "Brandy",
+    "category": "Vodka",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AGYB2O/square/0/512x512.webp?v=1737701659",
-    "color": "#E8C39E",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Akvavit / Aquavit",
@@ -152940,10 +152940,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-30371",
     "name": "Césaire's Last Word",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O75pvA/square/0/512x512.webp?v=1737701659",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Agricole Rhum (unaged)",
@@ -153306,10 +153306,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-30720",
     "name": "Bubbly Belle",
-    "category": "Brandy",
+    "category": "Beer",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RoxZQA/square/0/512x512.webp?v=1737701660",
-    "color": "#E8C39E",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Pear And Cognac Liqueur",
@@ -153793,10 +153793,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-30922",
     "name": "Último Raúl",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RajyZA/square/0/512x512.webp?v=1737701661",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Pisco",
@@ -153946,10 +153946,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-30995",
     "name": "Vaca Verde (Green Cow)",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/rbPY9R/square/0/512x512.webp?v=1737701661",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Green Crème De Menthe",
@@ -154026,10 +154026,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-30997",
     "name": "The Easy Way",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RJnabR/square/0/512x512.webp?v=1737701661",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Alcohol-free Amaro",
@@ -154488,10 +154488,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31393",
     "name": "Almond Milk Espresso Martini",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rL15JO/square/0/512x512.webp?v=1737701662",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Almond Milk Amaretto",
@@ -154812,10 +154812,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31454",
     "name": "Dunhill's Special",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R19Y5R/square/0/512x512.webp?v=1737701663",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -155238,10 +155238,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31498",
     "name": "Temperance Amaro Mojito",
-    "category": "Other",
+    "category": "Liqueur",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/R19L5R/square/0/512x512.webp?v=1737701663",
-    "color": "#D9D4CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mint Leaves",
@@ -155348,10 +155348,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31507",
     "name": "Teatime Spritz",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/rbPGZR/square/0/512x512.webp?v=1737701663",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Brut Sparkling Wine",
@@ -155395,10 +155395,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31508",
     "name": "Pear and Cardamom Spritz",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/Ong1qR/square/0/512x512.webp?v=1737701663",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Green Cardamom Pods",
@@ -155444,10 +155444,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31545",
     "name": "Percheron",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O5m5BO/square/0/512x512.webp?v=1737701663",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Pisco",
@@ -155542,10 +155542,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31601",
     "name": "Mince Pie and Custard 'Tini",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/O5mN2O/square/0/512x512.webp?v=1737701663",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -155603,10 +155603,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31603",
     "name": "Lemon Drop",
-    "category": "Vodka",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmgnWO/square/0/512x512.webp?v=1737701663",
-    "color": "#E8EEF2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Limoncello Liqueur",
@@ -156183,10 +156183,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31664",
     "name": "Napoleó",
-    "category": "Liqueur",
+    "category": "Gin",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/RogxzR/square/0/512x512.webp?v=1737701663",
-    "color": "#E6C7E0",
+    "color": "#BFD8C2",
     "ingredients": [
       {
         "name": "Oude Genever",
@@ -156381,10 +156381,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31757",
     "name": "North By Northwest",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/RjgQ3A/square/0/512x512.webp?v=1737701663",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -156442,10 +156442,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31766",
     "name": "Smoky and Spicy Pineapple Margarita",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ra9QyR/square/0/512x512.webp?v=1737701663",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -156796,10 +156796,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31834",
     "name": "Pool",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ol4ewO/square/0/512x512.webp?v=1756999938",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -156918,10 +156918,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31840",
     "name": "Hula Hoola Houla",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/APEKJr/square/0/512x512.webp?v=1757000084",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Aged Rum (6-10yr)",
@@ -156979,10 +156979,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-31847",
     "name": "Smoky Piña Porn Star Martini",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmgeQO/square/0/512x512.webp?v=1737701663",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Passion Fruit",
@@ -158531,10 +158531,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-32311",
     "name": "Fig Leaf Americano",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/AMMPnA/square/0/512x512.webp?v=1738922308",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Rosso/sweet Vermouth",
@@ -158973,10 +158973,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-32465",
     "name": "Rum Mango Lassi",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AGLWMr/square/0/512x512.webp?v=1739966951",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mango Liqueur",
@@ -159641,10 +159641,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-32816",
     "name": "Quarter Century",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RKJdKO/square/0/512x512.webp?v=1741277390",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Bitter Liqueur",
@@ -159989,10 +159989,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-33021",
     "name": "Parkeroo",
-    "category": "Tequila",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AG9lyO/square/0/512x512.webp?v=1742488437",
-    "color": "#D4E8A8",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Blanco Tequila",
@@ -160451,10 +160451,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-33137",
     "name": "Mango Mimosa",
-    "category": "Liqueur",
+    "category": "Wine",
     "glass": "Flute",
     "img": "https://cdn.diffordsguide.com/cocktail/RB177O/square/0/512x512.webp?v=1742477726",
-    "color": "#E6C7E0",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Brut Sparkling Wine",
@@ -161960,10 +161960,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-33861",
     "name": "Dark Side",
-    "category": "Whiskey",
+    "category": "Beer",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r0wY7A/square/0/512x512.webp?v=1744892589",
-    "color": "#D4A56A",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Rye Whiskey 50% Abv",
@@ -162180,10 +162180,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-33868",
     "name": "Dolcevita",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/RwdB0A/square/0/512x512.webp?v=1744891875",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Amaretto Liqueur",
@@ -162314,10 +162314,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-34187",
     "name": "Stay Woke",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AqpEMR/square/0/512x512.webp?v=1749207903",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Bourbon Whiskey",
@@ -162453,10 +162453,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-34919",
     "name": "Sake and Lychee Martini",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/rND4KR/square/2/512x512.webp?v=1746790699",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -162508,10 +162508,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-34920",
     "name": "Spanish Lychee Martini",
-    "category": "Gin",
+    "category": "Vodka",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/Roy6zr/square/1/512x512.webp?v=1746790785",
-    "color": "#BFD8C2",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Vodka",
@@ -162787,10 +162787,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-35052",
     "name": "Greek in Manhattan",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OnmqMr/square/0/512x512.webp?v=1747896965",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Greek Spirit",
@@ -162946,10 +162946,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-35174",
     "name": "Manzanita",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rg7o7r/square/0/512x512.webp?v=1747897485",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Manzanilla Sherry",
@@ -163117,10 +163117,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-35390",
     "name": "Beverly Pickup",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RY7War/square/0/512x512.webp?v=1747897987",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -163166,10 +163166,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-35391",
     "name": "Arthur Hale No. 2",
-    "category": "Whiskey",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AmYJxA/square/0/512x512.webp?v=1747897920",
-    "color": "#D4A56A",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Bourbon Whiskey",
@@ -163276,10 +163276,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-35393",
     "name": "Waku Waku",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rLovmA/square/0/512x512.webp?v=1747897680",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sake",
@@ -163343,10 +163343,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-35394",
     "name": "You Melon!",
-    "category": "Vodka",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A65Y5R/square/0/512x512.webp?v=1747896511",
-    "color": "#E8EEF2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Fino Sherry",
@@ -163703,10 +163703,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-35631",
     "name": "Mr. New Yorker",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AQonmO/square/0/512x512.webp?v=1749209014",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Dry Vermouth",
@@ -164173,10 +164173,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36265",
     "name": "Ben 90 Espresso",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Martini",
     "img": "https://cdn.diffordsguide.com/cocktail/AGXVZr/square/0/512x512.webp?v=1752227972",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -164222,10 +164222,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36299",
     "name": "Growing Old and Dying Happy Is a Hope...",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AMkVZO/square/0/512x512.webp?v=1752229436",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Absinthe",
@@ -164576,10 +164576,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36332",
     "name": "Stout Espresso Martini",
-    "category": "Rum",
+    "category": "Beer",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/re73VR/square/0/512x512.webp?v=1752827984",
-    "color": "#F5E6CA",
+    "color": "#F2D98D",
     "ingredients": [
       {
         "name": "Dark/black Rum",
@@ -164884,10 +164884,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36444",
     "name": "Stout Fella",
-    "category": "Rum",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/OvMD6r/square/0/512x512.webp?v=1752828101",
-    "color": "#F5E6CA",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Cream Sherry",
@@ -165171,10 +165171,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36564",
     "name": "Broken Plane",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/RoyYPr/square/0/512x512.webp?v=1754562196",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -165226,10 +165226,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36798",
     "name": "Boulevardier No. 2",
-    "category": "Brandy",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/R1kqNr/square/0/512x512.webp?v=1755773236",
-    "color": "#E8C39E",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Red Quinquina E.g. Dubonnet, Byrrh",
@@ -165542,10 +165542,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36640",
     "name": "Lumière",
-    "category": "Gin",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/APZzVO/square/0/512x512.webp?v=1754563751",
-    "color": "#BFD8C2",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Gin",
@@ -165884,10 +165884,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36706",
     "name": "Fair and Warmer No. 1",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A65mbR/square/0/512x512.webp?v=1755770572",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Sloe Gin Liqueur",
@@ -165939,10 +165939,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36707",
     "name": "Bitter Swagger",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rbeL2A/square/0/512x512.webp?v=1755770712",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Amaro (e.g. Nardini)",
@@ -166098,10 +166098,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36952",
     "name": "Spicy Mango Buck",
-    "category": "Tequila",
+    "category": "Mezcal",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/On4p9A/square/0/512x512.webp?v=1756994927",
-    "color": "#D4E8A8",
+    "color": "#C9B79C",
     "ingredients": [
       {
         "name": "Mezcal",
@@ -166202,10 +166202,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36775",
     "name": "Hasty",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/AQo4mO/square/0/512x512.webp?v=1755772841",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gin",
@@ -166306,10 +166306,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36818",
     "name": "Bloodless Transfusion",
-    "category": "Beer",
+    "category": "Other",
     "glass": "Collins",
     "img": "https://cdn.diffordsguide.com/cocktail/Od0pqO/square/0/512x512.webp?v=1755776804",
-    "color": "#F2D98D",
+    "color": "#D9D4CA",
     "ingredients": [
       {
         "name": "Red Grape Juice",
@@ -166573,10 +166573,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36859",
     "name": "El Avioncito",
-    "category": "Whiskey",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/A94nPR/square/0/512x512.webp?v=1757000758",
-    "color": "#D4A56A",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Bourbon Whiskey",
@@ -166695,10 +166695,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36895",
     "name": "Diable à Quattre",
-    "category": "Brandy",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rb940A/square/0/512x512.webp?v=1757000497",
-    "color": "#E8C39E",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Cognac (brandy)",
@@ -167115,10 +167115,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-36961",
     "name": "Sicilian Espresso Martini",
-    "category": "Tequila",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/r04W9r/square/0/512x512.webp?v=1757003007",
-    "color": "#D4E8A8",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Amaro (e.g. Averna)",
@@ -167445,10 +167445,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-37007",
     "name": "Piccola Italia",
-    "category": "Liqueur",
+    "category": "Brandy",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/rb96ZA/square/0/512x512.webp?v=1758195894",
-    "color": "#E6C7E0",
+    "color": "#E8C39E",
     "ingredients": [
       {
         "name": "Grappa",
@@ -168025,10 +168025,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-37100",
     "name": "Daisy Buchanan No. 2",
-    "category": "Rum",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Ov29PO/square/0/512x512.webp?v=1758198850",
-    "color": "#F5E6CA",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Aged Rum (6-10yr)",
@@ -168141,10 +168141,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-37179",
     "name": "Sherry White Negroni",
-    "category": "Gin",
+    "category": "Wine",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/O34EKR/square/0/512x512.webp?v=1759484872",
-    "color": "#BFD8C2",
+    "color": "#E8B3C0",
     "ingredients": [
       {
         "name": "Gentian Liqueur",
@@ -168605,10 +168605,10 @@ export const DIFFORDS_COCKTAILS: Cocktail[] = [
   {
     "id": "diffords-37243",
     "name": "Witches' Cauldron",
-    "category": "Mezcal",
+    "category": "Liqueur",
     "glass": "Coupe",
     "img": "https://cdn.diffordsguide.com/cocktail/Aqe0eA/square/0/512x512.webp?v=1759490383",
-    "color": "#C9B79C",
+    "color": "#E6C7E0",
     "ingredients": [
       {
         "name": "Mezcal",
