@@ -213,19 +213,27 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // Guest items are keyed by ingredient slug (AddIngredientSheet ids), which
     // the TS Worker resolves server-side via ingredients.slug — so these writes
     // now succeed. We still only destroy the guest bar once EVERY write is
-    // confirmed (P0-2), so no data is lost if any write fails.
-    let allSucceeded = true;
+    // confirmed (P0-2), so no data is lost on a real (retryable) failure.
+    let allResolved = true;
     for (const item of guestItems) {
       try {
         await addUserBarIngredient(item.id);
-      } catch {
-        // Record the failure but keep going so partial progress can persist.
-        allSucceeded = false;
+      } catch (err) {
+        // A 404 means the server doesn't know this slug — it will never resolve,
+        // so treat it as a terminal SKIP rather than a retryable failure. Without
+        // this, one unknown slug would keep the guest bar forever and re-run the
+        // whole migration on every login (L5). Non-404 errors (network/5xx) stay
+        // retryable so we don't wipe the guest bar on a transient problem.
+        const status = (err as { status?: number } | undefined)?.status;
+        if (status !== 404) {
+          allResolved = false;
+        }
       }
     }
-    // Only clear the guest bar once EVERY write is confirmed. On any failure we
-    // keep bariq_guest_bar so the user's bar is never silently wiped.
-    if (allSucceeded && typeof window !== "undefined") {
+    // Clear the guest bar once every item has either been written or terminally
+    // skipped. On a real (retryable) failure we keep bariq_guest_bar so the
+    // user's bar is never silently wiped.
+    if (allResolved && typeof window !== "undefined") {
       localStorage.removeItem(GUEST_BAR_KEY);
     }
     try {

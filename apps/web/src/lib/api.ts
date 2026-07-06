@@ -298,7 +298,13 @@ export async function addUserBarIngredient(ingredientId: string): Promise<void> 
     credentials: "include",
   });
   if (!res.ok && res.status !== 204) {
-    throw new Error(`Failed to add ingredient: ${res.status}`);
+    // Attach the HTTP status so callers can distinguish a terminal 404 (unknown
+    // ingredient slug) from a retryable failure (e.g. network/5xx). (L5)
+    const err = new Error(`Failed to add ingredient: ${res.status}`) as Error & {
+      status?: number;
+    };
+    err.status = res.status;
+    throw err;
   }
 }
 
