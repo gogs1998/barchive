@@ -210,12 +210,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const migrateGuestBar = useCallback(async () => {
     const guestItems = loadJSON<BarIngredientAPI[]>(GUEST_BAR_KEY, []);
     if (guestItems.length === 0) return;
-    // TODO(DECISION-1): guest items are stored with `id = display name`, but the
-    // backend expects an ingredient UUID, so these writes currently 422. Wiring
-    // the name -> UUID resolution (and calling migration from register()/OAuth)
-    // is blocked on which auth backend is real. Until then we only attempt the
-    // writes and, critically, never destroy the guest bar unless every write
-    // succeeded — so no data is lost when the writes fail.
+    // Guest items are keyed by ingredient slug (AddIngredientSheet ids), which
+    // the TS Worker resolves server-side via ingredients.slug — so these writes
+    // now succeed. We still only destroy the guest bar once EVERY write is
+    // confirmed (P0-2), so no data is lost if any write fails.
     let allSucceeded = true;
     for (const item of guestItems) {
       try {
@@ -254,11 +252,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const register = useCallback(
     async (
-      _displayName: string,
+      displayName: string,
       email: string,
       password: string
     ): Promise<{ error?: string }> => {
-      const result = await registerApi(email, password);
+      const result = await registerApi(email, password, displayName);
       if (result.error) return { error: result.error };
       // Account created; user is not yet verified — show verify-email view
       setPendingEmail(email);

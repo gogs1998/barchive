@@ -181,16 +181,18 @@ export async function loginApi(
 
 /**
  * POST /api/v1/auth/register — creates account, sends verification email.
+ * The optional display name is persisted server-side (users.display_name).
  */
 export async function registerApi(
   email: string,
-  password: string
+  password: string,
+  displayName?: string
 ): Promise<{ error?: string }> {
   const res = await fetch(`${API_BASE}/api/v1/auth/register`, {
     method: "POST",
     credentials: "include",
     headers: { "Content-Type": "application/json", Accept: "application/json" },
-    body: JSON.stringify({ email, password }),
+    body: JSON.stringify({ email, password, displayName }),
   });
   if (res.status === 201 || res.ok) return {};
   const data = await res.json().catch(() => ({}));
@@ -266,8 +268,10 @@ export interface GetBarResponse {
   total: number;
 }
 
+// Base URL of the TS/Hono Worker (apps/api). Override via NEXT_PUBLIC_API_URL;
+// `wrangler dev` serves it at :8787 locally.
 const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8787";
 
 /**
  * Fetch the current user's bar ingredient inventory.
