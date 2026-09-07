@@ -8,6 +8,9 @@ export function Footer() {
         <span className={styles.copy}>
           The bartender&apos;s companion. Drink responsibly.
         </span>
+        <a className={styles.iqlabs} href="https://iqlabs.app">
+          An IQ Labs product
+        </a>
       </div>
     </footer>
   );
