@@ -11,7 +11,7 @@ BarIQ's library (~3,468 cocktails) is live, and most of it carries copyright ris
 - The **79 hand-curated** recipes in `cocktails.ts` (the `C(...)` entries) are fine to keep, but their images in the `IMG` map also point at TheCocktailDB/Unsplash and need replacing.
 
 ## Goal
-Replace the Difford's and TheCocktailDB data with a dataset built only from openly licensed sources, with original wording and images BarIQ owns or may legally use. A smaller, clean library is better than a big, risky one.
+Build a **separate, ready-to-use** cocktail dataset from openly licensed sources only, with original wording and images BarIQ owns or may legally use. **Source it; don't replace anything.** The owner will decide later whether to switch over. A smaller, clean library is better than a big, risky one.
 
 ## Sources (allowed)
 - **Wikidata** (CC0): cocktail entities, ingredients, IBA status, glass.
@@ -44,20 +44,19 @@ Add `apps/web/src/lib/cocktails.open.sources.json` with, per slug: recipe source
 
 Put the pipeline in `apps/web/tools/open-data/` (fetch, normalise, build) so it can be re-run. Keep raw downloads in a gitignored `raw/` folder.
 
-## Wiring it in
-In `apps/web/src/lib/cocktails.ts`, `COCKTAILS` is currently
-`mergeUnique(CURATED_COCKTAILS, IMPORTED_COCKTAILS, DIFFORDS_COCKTAILS)`. Change it to
-`mergeUnique(CURATED_COCKTAILS, OPEN_COCKTAILS)`.
-
-Then delete `cocktails.imported.ts`, `cocktails.diffords.ts`, `tools/import-cocktaildb.mjs`, `tools/import-diffords.mjs` and `tools/diffords/`, and replace the third-party URLs in the curated `IMG` map.
+## SOURCE ONLY. Do not wire it in.
+This job is to **gather and prepare** the open data. The owner will decide later whether and how to swap it in.
+- **Do not** import `cocktails.open.ts` anywhere or change `COCKTAILS` in `cocktails.ts`.
+- **Do not** delete or edit `cocktails.imported.ts`, `cocktails.diffords.ts`, the importers, `tools/diffords/`, or the curated `IMG` map.
+- **Do not** change any app code, tests or config. The live site must be unaffected.
+- Only add new files: the pipeline under `apps/web/tools/open-data/`, `cocktails.open.ts`, `cocktails.open.sources.json`, and images under `apps/web/public/img/cocktails/`. (If you prefer, keep everything under `apps/web/tools/open-data/out/` instead and don't touch `src/` or `public/` at all.)
 
 ## Done when
-- No `diffordsguide.com` or `thecocktaildb.com` string anywhere in `apps/web/src` or the built `apps/web/out` (`grep -r` to confirm).
-- Every recipe and image in `cocktails.open.sources.json` has a source and licence.
-- `cd apps/web && npm run test` and `npx tsc --noEmit` pass. Some tests check that specific drinks exist (Whiskey Sour, White Russian, Negroni, Piña Colada, Margarita, Irish Coffee, Grasshopper), so keep those classics.
-- Build works. Building on the network share fails at the `out/` copy step (EPERM), so copy `apps/web` to a local temp folder and build there.
+- Every recipe and image has a source and licence in `cocktails.open.sources.json`.
+- `cocktails.open.ts` type-checks on its own (`npx tsc --noEmit` in `apps/web` still passes) and existing tests still pass (`npm run test`), proving nothing else changed.
+- A short `apps/web/tools/open-data/REPORT.md` with: how many recipes sourced, how many have clean images, which classics from the current set are covered and which aren't, any licence questions, and how to re-run the pipeline.
 
 ## Don't
-- Don't deploy. The owner will review and deploy.
-- Don't touch `apps/api` (the auth Worker) or the onboarding/CocktailIQ code beyond what the data swap needs.
-- Don't push to `main`. Work on `work/claude` or a new branch off it.
+- Don't deploy.
+- Don't touch `apps/api`, onboarding, CocktailIQ or any existing data.
+- Don't push to `main`. Commit to `work/claude` or a new branch off it.
