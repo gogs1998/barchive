@@ -43,3 +43,6 @@ apps/web/test-results/
 
 # Local scrape outputs (large; regenerable)
 tools/diffords/raw/
+
+# Open-data pipeline downloads (regenerable). Outputs are committed.
+apps/web/tools/open-data/raw/

@@ -1,0 +1,2217 @@
+{
+  "alexander": {
+    "slug": "alexander",
+    "name": "Alexander",
+    "publishedName": "Alexander",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/alexander/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Cognac",
+      "30 ml Crème de Cacao (Brown)",
+      "30 ml Fresh Cream"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Cocktail.png",
+    "imageAuthor": "Bruce The Deus",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "americano": {
+    "slug": "americano",
+    "name": "Americano",
+    "publishedName": "Americano",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/americano/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Bitter Campari",
+      "30 ml Sweet Red Vermouth",
+      "A splash of Soda Water"
+    ],
+    "notes": [
+      "Published as Campari. Mapped to Red Bitter Liqueur, the starter-bar name."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Americano_cocktail_at_Nightwood_Restaurant.jpg",
+    "imageAuthor": "Conrad and Peter",
+    "imageLicence": "CC BY 2.0"
+  },
+  "angel-face": {
+    "slug": "angel-face",
+    "name": "Angel Face",
+    "publishedName": "Angel Face",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/angel-face/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Gin",
+      "30 ml Apricot Brandy",
+      "30 ml Calvados"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:IBA_Cocktail_Angel_Face_(28068833805).jpg",
+    "imageAuthor": "Michael Styne from Averill Park, NY, USA",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "aviation": {
+    "slug": "aviation",
+    "name": "Aviation",
+    "publishedName": "Aviation",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/aviation/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Gin",
+      "15 ml Maraschino Luxardo",
+      "15 ml Fresh Lemon Juice",
+      "1 Bar Spoon Crème de Violette"
+    ],
+    "notes": [
+      "1 bar spoon read as 1 tsp (5 ml)"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aviation_Cocktail.jpg",
+    "imageAuthor": "Bskinner112 at English Wikipedia",
+    "imageLicence": "Public domain"
+  },
+  "bee-s-knees": {
+    "slug": "bee-s-knees",
+    "name": "Bee's Knees",
+    "publishedName": "Bee's Knees",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/bees-knees/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "52.5 ml Dry Gin",
+      "2 teaspoons Honey Syrup",
+      "22.5 ml Fresh Lemon Juice",
+      "22.5 ml Fresh Orange Juice"
+    ],
+    "notes": [
+      "Published as honey syrup. Named Honey And Water Syrup so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bee%27s_Knees.jpg",
+    "imageAuthor": "Will Shenton",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "bellini": {
+    "slug": "bellini",
+    "name": "Bellini",
+    "publishedName": "Bellini",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/bellini/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "100 ml Prosecco",
+      "50 ml White Peach Puree"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bellini_Cipriani,_Macaroni_Grill,_Dunwoody_GA.jpg",
+    "imageAuthor": "John Phelan",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "between-the-sheets": {
+    "slug": "between-the-sheets",
+    "name": "Between the Sheets",
+    "publishedName": "Between the Sheets",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/between-the-sheets/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml White Rum",
+      "30 ml Cognac",
+      "30 ml Triple Sec",
+      "20 ml Fresh Lemon Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Between_The_Sheets_Cocktail.jpg",
+    "imageAuthor": "Zach",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "black-russian": {
+    "slug": "black-russian",
+    "name": "Black Russian",
+    "publishedName": "Black Russian",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/black-russian/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Vodka",
+      "20 ml Coffee Liqueur"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Russian.jpg",
+    "imageAuthor": "Will Shenton",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "bloody-mary": {
+    "slug": "bloody-mary",
+    "name": "Bloody Mary",
+    "publishedName": "Bloody Mary",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/bloody-mary/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Vodka",
+      "90 ml Tomato Juice",
+      "15 ml Fresh Lemon Juice",
+      "2 dashes Worcestershire Sauce",
+      "Tabasco, Celery Salt, Pepper (Up to taste)"
+    ],
+    "notes": [
+      "published as one to-taste line"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bloody_Mary_Coctail_with_celery_stalk_-_Evan_Swigart.jpg",
+    "imageAuthor": "Evan Swigart from Chicago, USA",
+    "imageLicence": "CC BY 2.0"
+  },
+  "boulevardier": {
+    "slug": "boulevardier",
+    "name": "Boulevardier",
+    "publishedName": "Boulevardier",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/boulevardier/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Bourbon or Rye Whiskey",
+      "30 ml Bitter Campari",
+      "30 ml Sweet Red Vermouth"
+    ],
+    "notes": [
+      "The published spec allows rye whiskey in place of bourbon.",
+      "Published as Campari. Mapped to Red Bitter Liqueur, the starter-bar name."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:VTR_Happy_Hour_-_Boulevardier.jpg",
+    "imageAuthor": "Edsel Little",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "bramble": {
+    "slug": "bramble",
+    "name": "Bramble",
+    "publishedName": "Bramble",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/bramble/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Gin",
+      "25 ml Fresh Lemon Juice",
+      "12.5 ml Sugar Syrup",
+      "15 ml Crème de Mûre"
+    ],
+    "notes": [
+      "Published as sugar syrup. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bramble_Cocktail1.jpg",
+    "imageAuthor": "Erich Wagner ( www.eventografie.de )",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "brandy-crusta": {
+    "slug": "brandy-crusta",
+    "name": "Brandy Crusta",
+    "publishedName": "Brandy Crusta",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/brandy-crusta/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "52.5 ml Brandy",
+      "7.5 ml Maraschino Luxardo",
+      "1 Bar Spoon Curacao",
+      "15 ml Fresh Lemon Juice",
+      "1 Bar Spoon Simple Syrup",
+      "2 Dashes Aromatic Bitters"
+    ],
+    "notes": [
+      "1 bar spoon read as 1 tsp (5 ml)",
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0306.jpg",
+    "imageAuthor": "Ralf Roletschek",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "caipirinha": {
+    "slug": "caipirinha",
+    "name": "Caipirinha",
+    "publishedName": "Caipirinha",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/caipirinha/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Cachaça",
+      "1 Lime cut into small wedges",
+      "4 Teaspoons White Cane Sugar"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Caipirinha_with_lime.jpg",
+    "imageAuthor": "rawpixel.com",
+    "imageLicence": "CC0"
+  },
+  "canchanchara": {
+    "slug": "canchanchara",
+    "name": "Canchanchara",
+    "publishedName": "Canchanchara",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/canchanchara/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Cuban Aguardiente",
+      "15 ml Fresh Lime Juice",
+      "15 ml Raw Honey",
+      "50 ml Water"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Canchanchara.jpg",
+    "imageAuthor": "Miriam Gómez Blanes",
+    "imageLicence": "CC BY 2.0"
+  },
+  "cardinale": {
+    "slug": "cardinale",
+    "name": "Cardinale",
+    "publishedName": "Cardinale",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/cardinale/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "40 ml Gin",
+      "20 ml Dry Vermouth",
+      "10 ml Bitter Campari"
+    ],
+    "notes": [
+      "Published as Campari. Mapped to Red Bitter Liqueur, the starter-bar name."
+    ],
+    "imageSourceUrl": null,
+    "imageAuthor": null,
+    "imageLicence": null
+  },
+  "casino": {
+    "slug": "casino",
+    "name": "Casino",
+    "publishedName": "Casino",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/casino/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "40 ml Old Tom Gin",
+      "10 ml Maraschino Luxardo",
+      "10 ml Fresh Lemon Juice",
+      "2 Dashes Orange Bitters"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Casino_Cocktail_(9120690108).jpg",
+    "imageAuthor": "Adrian Scottow from London, England",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "champagne-cocktail": {
+    "slug": "champagne-cocktail",
+    "name": "Champagne Cocktail",
+    "publishedName": "Champagne Cocktail",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/champagne-cocktail/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "90 ml Chilled Champagne",
+      "10 ml Cognac",
+      "2 dashes Angostura bitters",
+      "Few drops of Grand Marnier (optional)",
+      "1 sugar cube"
+    ],
+    "notes": [
+      "optional",
+      "published as a few drops"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Champagne_cocktail_-_Portal,_Clerkenwell,_London_(4356768748)_(cropped).jpg",
+    "imageAuthor": "Ewan Munro from London, UK",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "chartreuse-swizzle": {
+    "slug": "chartreuse-swizzle",
+    "name": "Chartreuse Swizzle",
+    "publishedName": "Chartreuse Swizzle",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/chartreuse-swizzle/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Green Chartreuse",
+      "30 ml Fresh Pineapple Juice",
+      "22.5 ml Fresh Lime Juice",
+      "15 ml Falernum"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chartreuse_swizzle.jpg",
+    "imageAuthor": "BanjoZebra",
+    "imageLicence": "CC BY 4.0"
+  },
+  "clover-club": {
+    "slug": "clover-club",
+    "name": "Clover Club",
+    "publishedName": "Clover Club",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/clover-club/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Gin",
+      "15 ml Raspberry Syrup",
+      "15 ml Fresh Lemon Juice",
+      "Few Drops of Egg White"
+    ],
+    "notes": [
+      "published as a few drops"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0126.jpg",
+    "imageAuthor": "Ralf Roletschek",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "corpse-reviver-no-2": {
+    "slug": "corpse-reviver-no-2",
+    "name": "Corpse Reviver No. 2",
+    "publishedName": "Corpse Reviver #2",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/corpse-reviver-2/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Gin",
+      "30 ml Cointreau",
+      "30 ml Lillet Blanc",
+      "30 ml Fresh Lemon Juice",
+      "1 dash Absinthe"
+    ],
+    "notes": [
+      "Published as Cointreau. Mapped to Triple Sec, the starter-bar name."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Corpse_Reviver_2.jpg",
+    "imageAuthor": "Will Shenton",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "cosmopolitan": {
+    "slug": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "publishedName": "Cosmopolitan",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/cosmopolitan/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "40 ml Vodka Citron",
+      "15 ml Cointreau",
+      "15 ml Fresh Lime Juice",
+      "30 ml Cranberry Juice"
+    ],
+    "notes": [
+      "Published as Cointreau. Mapped to Triple Sec, the starter-bar name."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cosmopolitan_(5076906532).jpg",
+    "imageAuthor": "TheCulinaryGeek from Chicago, USA",
+    "imageLicence": "CC BY 2.0"
+  },
+  "cuba-libre": {
+    "slug": "cuba-libre",
+    "name": "Cuba Libre",
+    "publishedName": "Cuba Libre",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/cuba-libre/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml White Rum",
+      "120 ml Cola",
+      "10 ml Fresh Lime Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cuba_Libre.jpg",
+    "imageAuthor": "Martin Belam (currybet)",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "daiquiri": {
+    "slug": "daiquiri",
+    "name": "Daiquiri",
+    "publishedName": "Daiquiri",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/daiquiri/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml White Cuban Ron",
+      "20 ml Fresh Lime Juice",
+      "2 Bar Spoons Superfine Sugar"
+    ],
+    "notes": [
+      "Published as white Cuban rum. Named Light White Rum.",
+      "1 bar spoon read as 1 tsp (5 ml)"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Classic_Daiquiri_in_Cocktail_Glass.jpg",
+    "imageAuthor": "Will Shenton",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "dark-n-stormy": {
+    "slug": "dark-n-stormy",
+    "name": "Dark 'n' Stormy",
+    "publishedName": "Dark 'N' Stormy",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/dark-n-stormy/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Goslings Rum",
+      "100 ml Ginger Beer"
+    ],
+    "notes": [
+      "Published as Gosling's rum. Mapped to Aged Rum (6-10yr) so the starter bar matches. The IBA name of the drink is a Gosling's trademark."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:DarknStormy.jpg",
+    "imageAuthor": "GXBltd",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "don-s-special-daiquiri": {
+    "slug": "don-s-special-daiquiri",
+    "name": "Don's Special Daiquiri",
+    "publishedName": "Don's Special Daiquiri",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/dons-special-daiquiri/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Gold Jamaican Rum",
+      "15 ml Cuban Rum",
+      "15 ml Passion Fruit Syrup",
+      "15 ml Fresh lime juice",
+      "15 ml Honey Syrup"
+    ],
+    "notes": [
+      "Published as honey syrup. Named Honey And Water Syrup so the starter bar matches."
+    ],
+    "imageSourceUrl": null,
+    "imageAuthor": null,
+    "imageLicence": null
+  },
+  "dry-martini": {
+    "slug": "dry-martini",
+    "name": "Dry Martini",
+    "publishedName": "Dry Martini",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/dry-martini/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Gin",
+      "10 ml Dry Vermouth"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dry_Martini-2.jpg",
+    "imageAuthor": "Dry_Martini.jpg : Original uploader was Hayford Peirce at en.wikipedia derivative work: Sigmundausfaller ( talk )",
+    "imageLicence": "Public domain"
+  },
+  "espresso-martini": {
+    "slug": "espresso-martini",
+    "name": "Espresso Martini",
+    "publishedName": "Espresso Martini",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/espresso-martini/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Vodka",
+      "30 ml Kahlúa",
+      "10 ml Sugar Syrup",
+      "1 strong Espresso"
+    ],
+    "notes": [
+      "Published as Kahlúa. Mapped to Coffee Liqueur.",
+      "Published as sugar syrup. Named Sugar Syrup (2:1) so the starter bar matches.",
+      "published as 1 strong espresso; counted as 30 ml"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bistrot_Bruno_Loubet,_Clerkenwell,_London_(4574785649).jpg",
+    "imageAuthor": "Ewan Munro from London, UK",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "fernandito": {
+    "slug": "fernandito",
+    "name": "Fernandito",
+    "publishedName": "Fernandito",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/fernandito/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Fernet Branca",
+      "Fill up with Cola"
+    ],
+    "notes": [],
+    "imageSourceUrl": null,
+    "imageAuthor": null,
+    "imageLicence": null
+  },
+  "french-75": {
+    "slug": "french-75",
+    "name": "French 75",
+    "publishedName": "French 75",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/french-75/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Gin",
+      "15 ml Fresh Lemon Juice",
+      "15 ml Sugar Syrup",
+      "60 ml Champagne"
+    ],
+    "notes": [
+      "Published as sugar syrup. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:French_75.jpg",
+    "imageAuthor": "https://www.flickr.com/people/garyjwood/",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "french-connection": {
+    "slug": "french-connection",
+    "name": "French Connection",
+    "publishedName": "French Connection",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/french-connection/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "35 ml Cognac",
+      "35 ml Amaretto"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:French_Connection_(cocktail).jpg",
+    "imageAuthor": "Arnaud 25",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "french-martini": {
+    "slug": "french-martini",
+    "name": "French Martini",
+    "publishedName": "French Martini",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/french-martini/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Vodka",
+      "15 ml Raspberry Liqueur",
+      "15 ml Fresh Pineapple Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:French_Martini.jpg",
+    "imageAuthor": "Keithchief",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "garibaldi": {
+    "slug": "garibaldi",
+    "name": "Garibaldi",
+    "publishedName": "Garibaldi",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/garibaldi/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Bitter Campari",
+      "120 ml Freshly Squeezed Orange Juice"
+    ],
+    "notes": [
+      "Published as Campari. Mapped to Red Bitter Liqueur, the starter-bar name."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Garibaldi_cocktail_bright.jpg",
+    "imageAuthor": "User:BanjoZebra",
+    "imageLicence": "CC BY 4.0"
+  },
+  "gin-basil-smash": {
+    "slug": "gin-basil-smash",
+    "name": "Gin Basil Smash",
+    "publishedName": "Gin Basil Smash",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/gin-basil-smash/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60ml Gin",
+      "22.5 ml Freshly Squeezed Lemon Juice",
+      "22.5 ml Sugar Syrup",
+      "10 pcs Italian Basil leaves"
+    ],
+    "notes": [
+      "Published as sugar syrup. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gin_Basil_Smash.jpg",
+    "imageAuthor": "Erich Wagner ( www.eventografie.de )",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "gin-fizz": {
+    "slug": "gin-fizz",
+    "name": "Gin Fizz",
+    "publishedName": "Gin Fizz",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/gin-fizz/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Gin",
+      "30 ml Fresh Lemon Juice",
+      "10 ml Simple Syrup",
+      "Splash of Soda Water"
+    ],
+    "notes": [
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": null,
+    "imageAuthor": null,
+    "imageLicence": null
+  },
+  "grand-margarita": {
+    "slug": "grand-margarita",
+    "name": "Grand Margarita",
+    "publishedName": "Grand Margarita",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/grand-margarita/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Tequila 100% agave",
+      "30 ml Grand Marnier",
+      "15 ml Fresh Lime Juice"
+    ],
+    "notes": [
+      "Published as 100% agave tequila. Named Blanco Tequila."
+    ],
+    "imageSourceUrl": null,
+    "imageAuthor": null,
+    "imageLicence": null
+  },
+  "grasshopper": {
+    "slug": "grasshopper",
+    "name": "Grasshopper",
+    "publishedName": "Grasshopper",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/grasshopper/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "20 ml Crème de Cacao (White)",
+      "20 ml Crème de Menthe (Green)",
+      "20 ml Fresh Cream"
+    ],
+    "notes": [
+      "Published as white crème de cacao."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Grasshopper_cocktail.jpg",
+    "imageAuthor": "TexasDex",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "hanky-panky": {
+    "slug": "hanky-panky",
+    "name": "Hanky Panky",
+    "publishedName": "Hanky Panky",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/hanky-panky/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml London Dry Gin",
+      "45 ml Sweet Red Vermouth",
+      "7.5 ml Fernet"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hanky_Panky_cocktail.jpg",
+    "imageAuthor": "Tim Sackton from Somerville, MA",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "hemingway-special": {
+    "slug": "hemingway-special",
+    "name": "Hemingway Special",
+    "publishedName": "Hemingway Special",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/hemingway-special/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Rum",
+      "40 ml Grapefruit Juice",
+      "15 ml Maraschino Luxardo",
+      "15 ml Fresh Lime"
+    ],
+    "notes": [
+      "Published as grapefruit juice. Named Pink Grapefruit Juice, the starter-bar juice.",
+      "A measured millilitre amount of fresh lime was read as lime juice."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hemingway_Daiquiri.jpg",
+    "imageAuthor": "Achim Schleuning (E-Mail: comander02_de@yahoo.de )",
+    "imageLicence": "CC BY-SA 3.0 de"
+  },
+  "horse-s-neck": {
+    "slug": "horse-s-neck",
+    "name": "Horse's Neck",
+    "publishedName": "Horse's Neck",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/horses-neck/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "40 ml Cognac",
+      "120 ml Ginger Ale",
+      "Dash of Angostura Bitters (optional)"
+    ],
+    "notes": [
+      "optional"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Horse%27s_Neck_cocktail.jpg",
+    "imageAuthor": "Plume.janvier",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "iba-tiki": {
+    "slug": "iba-tiki",
+    "name": "IBA Tiki",
+    "publishedName": "IBA Tiki",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/iba-tiki/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Ron Profundo Havana Club",
+      "30 ml Ron Smoky Havana Club",
+      "15 ml Licor Amaretto",
+      "5 ml Licor Frangelico",
+      "5 drops Maraschino Luxardo",
+      "30 ml Passion Fruit Puree",
+      "90 Fresh Pineapple Juice",
+      "30 Fresh Lime Juice",
+      "1 pc Gengibre Slice"
+    ],
+    "notes": [
+      "Published as Ron Profundo Havana Club. Named Aged Rum (6-10yr).",
+      "Published as Ron Smoky Havana Club. Kept as Smoked Rum.",
+      "millilitres assumed; the page omitted the unit"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:IBA_Tiki.jpg",
+    "imageAuthor": "BanjoZebra",
+    "imageLicence": "CC BY 4.0"
+  },
+  "illegal": {
+    "slug": "illegal",
+    "name": "Illegal",
+    "publishedName": "Illegal",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/illegal/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Espadin Mezcal",
+      "15 ml Jamaica Overproof White Rum",
+      "15 ml Falernum",
+      "1 Bar Spoon Maraschino Luxardo",
+      "22.5 ml Fresh Lime Juice",
+      "15 ml Simple Syrup",
+      "Few Drops of Egg White (Optional)"
+    ],
+    "notes": [
+      "1 bar spoon read as 1 tsp (5 ml)",
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches.",
+      "optional",
+      "published as a few drops"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Illegal_cocktail.jpg",
+    "imageAuthor": "BanjoZebra",
+    "imageLicence": "CC BY 4.0"
+  },
+  "irish-coffee": {
+    "slug": "irish-coffee",
+    "name": "Irish Coffee",
+    "publishedName": "Irish Coffee",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/irish-coffee/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Irish Whiskey",
+      "120 ml Hot coffee",
+      "50 ml Fresh cream (Chilled)",
+      "1 teaspoon Sugar"
+    ],
+    "notes": [
+      "Chilled"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Irish_coffee_glass.jpg",
+    "imageAuthor": "jules / stone soup",
+    "imageLicence": "CC BY 2.0"
+  },
+  "john-collins": {
+    "slug": "john-collins",
+    "name": "John Collins",
+    "publishedName": "John Collins",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/john-collins/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Gin",
+      "30 ml Fresh Lemon Juice",
+      "15 ml Simple Syrup",
+      "60 ml Soda Water"
+    ],
+    "notes": [
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:IBA_Cocktail_John_Collins_(29221732881).jpg",
+    "imageAuthor": "Michael Styne from Averill Park, NY, USA",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "jungle-bird": {
+    "slug": "jungle-bird",
+    "name": "Jungle Bird",
+    "publishedName": "Jungle Bird",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/jungle-bird/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Blackstrap rum",
+      "22.5 ml Campari",
+      "45 ml Pineapple juice",
+      "15 ml Freshly Squeezed Lime juice",
+      "15 ml Demerara sugar syrup"
+    ],
+    "notes": [
+      "Published as Campari. Mapped to Red Bitter Liqueur, the starter-bar name."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jungle_bird_cocktail.jpg",
+    "imageAuthor": "BanjoZebra",
+    "imageLicence": "CC BY 4.0"
+  },
+  "kir": {
+    "slug": "kir",
+    "name": "Kir",
+    "publishedName": "Kir",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/kir/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "90 ml Dry White Wine",
+      "10 ml Crème de Cassis"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kir_cocktail.jpg",
+    "imageAuthor": "Stuart Webster from Southampton, England",
+    "imageLicence": "CC BY 2.0"
+  },
+  "last-word": {
+    "slug": "last-word",
+    "name": "Last Word",
+    "publishedName": "Last Word",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/last-word/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "22.5 ml Gin",
+      "22.5 ml Green Chartreuse",
+      "22.5 ml Maraschino Luxardo",
+      "22.5 ml Fresh Lime Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Last_Word_cocktail_raised.jpg",
+    "imageAuthor": "Don LaVange",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "lemon-drop-martini": {
+    "slug": "lemon-drop-martini",
+    "name": "Lemon Drop Martini",
+    "publishedName": "Lemon Drop Martini",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/lemon-drop-martini/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Vodka",
+      "20 ml Triple Sec",
+      "15 ml Fresh Squeezed Lemon Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lemon_Drop_cocktails.jpg",
+    "imageAuthor": "Schezar from New York City, USA",
+    "imageLicence": "CC BY 2.0"
+  },
+  "long-island-iced-tea": {
+    "slug": "long-island-iced-tea",
+    "name": "Long Island Iced Tea",
+    "publishedName": "Long Island Iced Tea",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/long-island-iced-tea/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "15 ml Vodka",
+      "15 ml Tequila",
+      "15 ml White rum",
+      "15 ml Gin",
+      "15 ml Cointreau",
+      "25 ml Lemon juice",
+      "30 ml Simple syrup",
+      "Top with Cola"
+    ],
+    "notes": [
+      "Published as tequila. Named Blanco Tequila.",
+      "Published as Cointreau. Mapped to Triple Sec, the starter-bar name.",
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Long_Island_Iced_Teas.jpg",
+    "imageAuthor": "Eduardo Quagliato from Curitiba, Paraná, Brasil",
+    "imageLicence": "CC BY 2.0"
+  },
+  "mai-tai": {
+    "slug": "mai-tai",
+    "name": "Mai Tai",
+    "publishedName": "Mai-Tai",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/mai-tai/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Amber Jamaican Rum",
+      "30 ml Martinique Molasses Rhum*",
+      "15 ml Orange Curacao",
+      "15 ml Orgeat Syrup (Almond)",
+      "30 ml Fresh Squeezed Lime Juice",
+      "7.5 ml Simple Syrup"
+    ],
+    "notes": [
+      "Published as Martinique molasses rum, which the IBA note says is not agricole.",
+      "Almond",
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches.",
+      "2 published measures of Aged Rum (6-10yr) were combined"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mai_Tai_at_Trader_Vic%27s_Emeryville.jpg",
+    "imageAuthor": "Kevdo",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "manhattan": {
+    "slug": "manhattan",
+    "name": "Manhattan",
+    "publishedName": "Manhattan",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/manhattan/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Rye Whiskey",
+      "20 ml Sweet Red Vermouth",
+      "1 dash Angostura Bitters"
+    ],
+    "notes": [
+      "Named Rye Whiskey 50% Abv so the starter bar matches. ABV maths uses 50% for that bottle."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Manhattan_Cocktail2.jpg",
+    "imageAuthor": "Hayford Peirce at English Wikipedia",
+    "imageLicence": "Public domain"
+  },
+  "margarita": {
+    "slug": "margarita",
+    "name": "Margarita",
+    "publishedName": "Margarita",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/margarita/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Tequila 100% Agave",
+      "20 ml Triple Sec",
+      "15 ml Freshly Squeezed Lime Juice"
+    ],
+    "notes": [
+      "Published as 100% agave tequila. Named Blanco Tequila."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:MargaritaReal.jpg",
+    "imageAuthor": "Akke Monasso",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "martinez": {
+    "slug": "martinez",
+    "name": "Martinez",
+    "publishedName": "Martinez",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/martinez/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml London Dry Gin",
+      "45 ml Sweet Red Vermouth",
+      "1 Bar Spoon Maraschino Luxardo",
+      "2 Dashes Orange Bitters"
+    ],
+    "notes": [
+      "1 bar spoon read as 1 tsp (5 ml)"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Martinez_Cocktail.jpg",
+    "imageAuthor": "Will Shenton",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "mary-pickford": {
+    "slug": "mary-pickford",
+    "name": "Mary Pickford",
+    "publishedName": "Mary Pickford",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/mary-pickford/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml White Rum",
+      "45 ml Fresh Pineapple Juice",
+      "7.5 ml Maraschino Luxardo",
+      "5 ml Grenadine Syrup"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_Pickford_Cocktail.jpg",
+    "imageAuthor": "Will Shenton",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "mimosa": {
+    "slug": "mimosa",
+    "name": "Mimosa",
+    "publishedName": "Mimosa",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/mimosa/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "75 ml Freshly Squeezed Orange Juice",
+      "75 ml Prosecco"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pool-side_Mimosas_at_The_Standard_Hotel.jpg",
+    "imageAuthor": "vxla",
+    "imageLicence": "CC BY 2.0"
+  },
+  "mint-julep": {
+    "slug": "mint-julep",
+    "name": "Mint Julep",
+    "publishedName": "Mint Julep",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/mint-julep/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Bourbon Whiskey",
+      "4 fresh Mint sprigs",
+      "1 tsp Powdered Sugar",
+      "2 tsp Water"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mint_Julep_im_Silberbecher.jpg",
+    "imageAuthor": "Cocktailmarler",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "missionary-s-downfall": {
+    "slug": "missionary-s-downfall",
+    "name": "Missionary's Downfall",
+    "publishedName": "Missionary's Downfall",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/missionarys-downfall/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml White rum",
+      "15 ml Peach Brandy",
+      "15 ml Fresh lime juice",
+      "30 ml Honey Mix",
+      "10 pcs Mint Leaves",
+      "3 to 4 pcs Pineapple Chunks"
+    ],
+    "notes": [
+      "Published as honey mix. Named Honey And Water Syrup so the starter bar matches.",
+      "published as 3 to 4"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Missionary%27s_downfall.jpg",
+    "imageAuthor": "BanjoZebra",
+    "imageLicence": "CC BY 4.0"
+  },
+  "mojito": {
+    "slug": "mojito",
+    "name": "Mojito",
+    "publishedName": "Mojito",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/mojito/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml White Cuban Ron",
+      "20 ml Fresh Lime Juice",
+      "6 pcs Mint Sprigs",
+      "2 tsp White Cane Sugar",
+      "Soda Water"
+    ],
+    "notes": [
+      "Published as white Cuban rum. Named Light White Rum."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0072.jpg",
+    "imageAuthor": "Ralf Roletschek",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "monkey-gland": {
+    "slug": "monkey-gland",
+    "name": "Monkey Gland",
+    "publishedName": "Monkey Gland",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/monkey-gland/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Dry Gin",
+      "45 ml Fresh Orange Juice",
+      "1 Tablespoon Absinthe",
+      "1 Tablespoon Grenadine Syrup"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Monkey_Gland_(11677703163).jpg",
+    "imageAuthor": "Adrian Scottow from London, England",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "moscow-mule": {
+    "slug": "moscow-mule",
+    "name": "Moscow Mule",
+    "publishedName": "Moscow Mule",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/moscow-mule/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Smirnoff Vodka",
+      "120 ml Ginger Beer",
+      "10 ml Fresh lime juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cocktail_Moscow_Mule_im_Kupferbecher_mit_Minze.jpg",
+    "imageAuthor": "Gordito1869",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "naked-and-famous": {
+    "slug": "naked-and-famous",
+    "name": "Naked and Famous",
+    "publishedName": "Naked and Famous",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/naked-and-famous/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "22.5 ml Mezcal",
+      "22.5 ml Yellow Chartreuse",
+      "22.5 ml Aperol",
+      "22.5 ml Fresh Lime Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Naked_and_Famous_cocktail.jpg",
+    "imageAuthor": "Rascalisimo",
+    "imageLicence": "CC BY 4.0"
+  },
+  "negroni": {
+    "slug": "negroni",
+    "name": "Negroni",
+    "publishedName": "Negroni",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/negroni/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Gin",
+      "30 ml Bitter Campari",
+      "30 ml Sweet Red Vermouth"
+    ],
+    "notes": [
+      "Published as Campari. Mapped to Red Bitter Liqueur, the starter-bar name."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%B3ctel_Negroni_Campari.jpg",
+    "imageAuthor": "Desdealbert00",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "new-york-sour": {
+    "slug": "new-york-sour",
+    "name": "New York Sour",
+    "publishedName": "New York Sour",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/new-york-sour/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Rye Whiskey or Bourbon",
+      "22.5 ml Simple syrup",
+      "30 ml Fresh lemon juice",
+      "Few Drops of Egg White",
+      "15 ml Red wine (Shiraz or Malbech)"
+    ],
+    "notes": [
+      "The published spec allows bourbon in place of rye.",
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches.",
+      "published as a few drops",
+      "Shiraz or Malbech"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:New_York_Sour.jpg",
+    "imageAuthor": "Erich Wagner ( www.eventografie.de )",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "old-cuban": {
+    "slug": "old-cuban",
+    "name": "Old Cuban",
+    "publishedName": "Old Cuban",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/old-cuban/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "6/8 pcs Mint Leaves",
+      "45 ml Aged Rum",
+      "22.5 ml Fresh Lime Juice",
+      "30 ml Simple Syrup",
+      "2 Dashes Angostura Bitters",
+      "60 ml Brut Champagne or Prosecco"
+    ],
+    "notes": [
+      "published as 6/8",
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches.",
+      "The published spec allows prosecco in place of champagne."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:VTR_-_The_%22Old_Cuban%22_(6038903420).jpg",
+    "imageAuthor": "Edsel Little",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "old-fashioned": {
+    "slug": "old-fashioned",
+    "name": "Old Fashioned",
+    "publishedName": "Old Fashioned",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/old-fashioned/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Bourbon or Rye Whiskey",
+      "1 Sugar Cube",
+      "Few Dashes Angostura Bitters",
+      "Few Dashes Plain Water"
+    ],
+    "notes": [
+      "The published spec allows rye whiskey in place of bourbon.",
+      "published as a few dashes"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Whiskey_Old_Fashioned1.jpg",
+    "imageAuthor": "Erich Wagner ( www.eventografie.de )",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "paloma": {
+    "slug": "paloma",
+    "name": "Paloma",
+    "publishedName": "Paloma",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/paloma/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml 100% Agave Tequila",
+      "5 ml Fresh lime",
+      "A pinch of Salt",
+      "100 ml Pink Grapefruit Soda"
+    ],
+    "notes": [
+      "Published as 100% agave tequila. Named Blanco Tequila.",
+      "A measured millilitre amount of fresh lime was read as lime juice."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Paloma_Cocktail2.jpg",
+    "imageAuthor": "Erich Wagner ( www.eventografie.de )",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "paper-plane": {
+    "slug": "paper-plane",
+    "name": "Paper Plane",
+    "publishedName": "Paper Plane",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/paper-plane/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Bourbon Whiskey",
+      "30 ml Amaro Nonino",
+      "30 ml Aperol",
+      "30 ml Fresh Lemon Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Taub_Family_Outpost_-_June_11_2021_-_Sarah_Stierch_02.jpg",
+    "imageAuthor": "Missvain",
+    "imageLicence": "CC BY 4.0"
+  },
+  "paradise": {
+    "slug": "paradise",
+    "name": "Paradise",
+    "publishedName": "Paradise",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/paradise/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Gin",
+      "20 ml Apricot Brandy",
+      "15 ml Fresh Orange Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Paradise_cocktail.jpg",
+    "imageAuthor": "Stuart Webster from Southampton, England",
+    "imageLicence": "CC BY 2.0"
+  },
+  "penicillin": {
+    "slug": "penicillin",
+    "name": "Penicillin",
+    "publishedName": "Penicillin",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/penicillin/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Blended scotch whisky",
+      "7.5 ml Lagavulin 16y",
+      "22.5 ml Fresh lemon juice",
+      "22.5 ml Honey syrup",
+      "2-3 quarter size sliced fresh ginger"
+    ],
+    "notes": [
+      "Published as Lagavulin 16. Named Islay Scotch Whisky.",
+      "Published as honey syrup. Named Honey And Water Syrup so the starter bar matches.",
+      "published as 2-3 quarter size sliced fresh ginger"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Spotted_Owl_-_Penicillin.jpg",
+    "imageAuthor": "Edsel Little",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "pina-colada": {
+    "slug": "pina-colada",
+    "name": "Piña Colada",
+    "publishedName": "Pina Colada",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/pina-colada/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml White Rum",
+      "30 ml Coconut Cream",
+      "50 ml Fresh Pineapple Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pina_Colada_at_Aruba.jpg",
+    "imageAuthor": "DDJJ",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "pisco-punch": {
+    "slug": "pisco-punch",
+    "name": "Pisco Punch",
+    "publishedName": "Pisco Punch",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/pisco-punch/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Pisco",
+      "22.5 ml Fresh Pineapple Juice",
+      "15 ml Simple Syrup",
+      "15 ml Fresh Lemon Juice",
+      "30 ml Dry White Wine",
+      "3 pcs Cloves"
+    ],
+    "notes": [
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pisco_Punch.jpg",
+    "imageAuthor": "Ministerio de Relaciones Exteriores",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "pisco-sour": {
+    "slug": "pisco-sour",
+    "name": "Pisco Sour",
+    "publishedName": "Pisco Sour",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/pisco-sour/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Pisco",
+      "30 ml Fresh Lemon Juice",
+      "20 ml Simple Syrup",
+      "1 Raw whole Egg White"
+    ],
+    "notes": [
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pisco_sour_20100613b.JPG",
+    "imageAuthor": "Dtarazona",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "planters-punch": {
+    "slug": "planters-punch",
+    "name": "Planters Punch",
+    "publishedName": "Planters Punch",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/planters-punch/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Jamaican Rum",
+      "15 ml Lime Juice",
+      "30 ml Sugar Cane Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Planters_Punch_1.jpg",
+    "imageAuthor": "Achim Schleuning (E-Mail: comander02_de@yahoo.de )",
+    "imageLicence": "CC BY-SA 3.0 de"
+  },
+  "pornstar-martini": {
+    "slug": "pornstar-martini",
+    "name": "Pornstar Martini",
+    "publishedName": "Porn Star Martini",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/porn-star-martini/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Vanilla Vodka",
+      "20 ml Passion Fruit Liqueur",
+      "50 ml Passion Fruit Puree",
+      "2 Bar Spoons Vanilla Sugar",
+      "50 ml Champagne to serve on the side"
+    ],
+    "notes": [
+      "1 bar spoon read as 1 tsp (5 ml)",
+      "serve on the side"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pornstar_martini_cocktail_-_own_work.jpg",
+    "imageAuthor": "DobbAY",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "porto-flip": {
+    "slug": "porto-flip",
+    "name": "Porto Flip",
+    "publishedName": "Porto Flip",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/porto-flip/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "15 ml Brandy",
+      "45 ml Red Tawny Port Wine",
+      "10 ml Egg Yolk"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Porto_Flip.jpg",
+    "imageAuthor": "Stuart Webster",
+    "imageLicence": "CC BY 2.0"
+  },
+  "rabo-de-galo": {
+    "slug": "rabo-de-galo",
+    "name": "Rabo de Galo",
+    "publishedName": "Rabo de Galo",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/rabo-de-galo/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Cachaca",
+      "20 ml Sweet Vermouth Cinzano Rosso",
+      "15 ml Cynar",
+      "2 Drops Angostura (Optional)"
+    ],
+    "notes": [
+      "optional"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rabo_de_Galo_(1511113688).jpg",
+    "imageAuthor": "Stella Dauer from São Bernardo do Campo, Brasil",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "ramos-fizz": {
+    "slug": "ramos-fizz",
+    "name": "Ramos Fizz",
+    "publishedName": "Ramos Fizz",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/ramos-fizz/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Gin",
+      "15 ml Fresh Lime Juice",
+      "15 ml Fresh Lemon Juice",
+      "30 ml Sugar Syrup",
+      "60 ml Cream",
+      "30ml Egg white",
+      "3 Dashes Orange Flower Water",
+      "2 Drops Vanilla Extract",
+      "Soda Water"
+    ],
+    "notes": [
+      "Published as sugar syrup. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0078.jpg",
+    "imageAuthor": "Ralf Roletschek",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "remember-the-maine": {
+    "slug": "remember-the-maine",
+    "name": "Remember the Maine",
+    "publishedName": "Remember the Maine",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/remember-the-maine/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Rye Whiskey",
+      "22.5 ml Sweet Vermouth",
+      "15 ml Cherry Brandy Luxardo",
+      "7.5 ml Absinthe"
+    ],
+    "notes": [
+      "Named Rye Whiskey 50% Abv so the starter bar matches. ABV maths uses 50% for that bottle."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Remember_the_Maine_-_Cocktail.jpg",
+    "imageAuthor": "Adrian Scottow",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "russian-spring-punch": {
+    "slug": "russian-spring-punch",
+    "name": "Russian Spring Punch",
+    "publishedName": "Russian Spring Punch",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/russian-spring-punch/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "25 ml Vodka",
+      "25 ml Fresh Lemon Juice",
+      "15 ml Creme de Cassis",
+      "10 ml Sugar Syrup",
+      "Top up with Sparkling Wine"
+    ],
+    "notes": [
+      "Published as sugar syrup. Named Sugar Syrup (2:1) so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Russian_spring_punch.jpg",
+    "imageAuthor": "charlene mcbride",
+    "imageLicence": "CC BY 2.0"
+  },
+  "rusty-nail": {
+    "slug": "rusty-nail",
+    "name": "Rusty Nail",
+    "publishedName": "Rusty Nail",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/rusty-nail/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Scotch Whisky",
+      "25 ml Drambuie"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rusty_Nail_a_cocktail_by_@tokenchick13_(16503594826).jpg",
+    "imageAuthor": "Brian Child",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "sazerac": {
+    "slug": "sazerac",
+    "name": "Sazerac",
+    "publishedName": "Sazerac",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/sazerac/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Cognac",
+      "10 ml Absinthe",
+      "1 Sugar Cube",
+      "2 Dashes Peychaud's Bitters"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:SazeracCocktail.jpg",
+    "imageAuthor": "Gtandersson",
+    "imageLicence": "CC BY 4.0"
+  },
+  "sea-breeze": {
+    "slug": "sea-breeze",
+    "name": "Sea Breeze",
+    "publishedName": "Sea Breeze",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/sea-breeze/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "40 ml Vodka",
+      "120 ml Cranberry Juice",
+      "30 ml Grapefruit Juice"
+    ],
+    "notes": [
+      "Published as grapefruit juice. Named Pink Grapefruit Juice, the starter-bar juice."
+    ],
+    "imageSourceUrl": null,
+    "imageAuthor": null,
+    "imageLicence": null
+  },
+  "sex-on-the-beach": {
+    "slug": "sex-on-the-beach",
+    "name": "Sex on the Beach",
+    "publishedName": "Sex on the Beach",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/sex-on-the-beach/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "40 ml Vodka",
+      "20 ml Peach Schnapps",
+      "40 ml Fresh Orange Juice",
+      "40 ml Cranberry Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sex_On_The_Beach.jpg",
+    "imageAuthor": "Stuart Webster from Southampton, England",
+    "imageLicence": "CC BY 2.0"
+  },
+  "sherry-cobbler": {
+    "slug": "sherry-cobbler",
+    "name": "Sherry Cobbler",
+    "publishedName": "Sherry Cobbler",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/sherry-cobbler/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Amontillado sherry",
+      "45 ml Palo Cortado",
+      "1 tsp Superfine Sugar (or granulated)",
+      "1/2 Orange Wheel",
+      "1/2 Lemon Wheel"
+    ],
+    "notes": [
+      "or granulated"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sherry_cobbler.jpg",
+    "imageAuthor": "BanjoZebra",
+    "imageLicence": "CC BY 4.0"
+  },
+  "sidecar": {
+    "slug": "sidecar",
+    "name": "Sidecar",
+    "publishedName": "Sidecar",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/sidecar/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Cognac",
+      "20 ml Triple Sec",
+      "20 ml Fresh Lemon Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sidecar-cocktail.jpg",
+    "imageAuthor": "Evan Swigart from Chicago, USA",
+    "imageLicence": "CC BY 2.0"
+  },
+  "singapore-sling": {
+    "slug": "singapore-sling",
+    "name": "Singapore Sling",
+    "publishedName": "Singapore Sling",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/singapore-sling/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Gin",
+      "15 ml Cherry Sangue Morlacco",
+      "7.5 ml Cointreau",
+      "7.5 ml DOM Bénédictine",
+      "120 ml Fresh Pineapple Juice",
+      "15 ml Fresh Lime Juice",
+      "10 ml Grenadine Syrup",
+      "A dash of Angostura bitters"
+    ],
+    "notes": [
+      "Published as Cherry Sangue Morlacco. Named Cherry Liqueur.",
+      "Published as Cointreau. Mapped to Triple Sec, the starter-bar name."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Sling_and_peanuts_at_the_Raffles_Hotel_Long_Bar_in_Singapore.jpg",
+    "imageAuthor": "Paul2520",
+    "imageLicence": "CC BY 4.0"
+  },
+  "south-side": {
+    "slug": "south-side",
+    "name": "South Side",
+    "publishedName": "South Side",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/south-side/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml London dry Gin",
+      "30 ml Fresh Lemon Juice",
+      "15 ml Simple syrup",
+      "5/6 Mint leaves",
+      "Few drops Egg white (Optional)"
+    ],
+    "notes": [
+      "Published as simple syrup, usually 1:1. Named Sugar Syrup (2:1) so the starter bar matches.",
+      "published as 5/6",
+      "optional",
+      "published as a few drops"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Southside_-_kind_of_a_gin_mojito.jpg",
+    "imageAuthor": "davidgiesberg",
+    "imageLicence": "CC BY 2.0"
+  },
+  "spicy-fifty": {
+    "slug": "spicy-fifty",
+    "name": "Spicy Fifty",
+    "publishedName": "Spicy Fifty",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/spicy-fifty/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Vodka Vanilla",
+      "15 ml Elderflower Cordial",
+      "15 ml Fresh Lime Juice",
+      "10 ml Monin Honey Syrup",
+      "2 thin Slices Red Chili Pepper"
+    ],
+    "notes": [
+      "Published as Monin honey syrup. Named Honey And Water Syrup."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Spicy_Fifty.jpg",
+    "imageAuthor": "BanjoZebra",
+    "imageLicence": "CC BY 4.0"
+  },
+  "spritz": {
+    "slug": "spritz",
+    "name": "Spritz",
+    "publishedName": "Spritz",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/spritz/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "90 ml Prosecco",
+      "60 ml Aperol",
+      "Splash of Soda water"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aperol_Spritz_aboard_Viking_Mariella.jpg",
+    "imageAuthor": "JIP",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "stinger": {
+    "slug": "stinger",
+    "name": "Stinger",
+    "publishedName": "Stinger",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/stinger/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Cognac",
+      "20 ml White Crème de Menthe"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stinger_Cocktail.jpg",
+    "imageAuthor": "Will Shenton",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "suffering-bastard": {
+    "slug": "suffering-bastard",
+    "name": "Suffering Bastard",
+    "publishedName": "Suffering Bastard",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/suffering-bastard/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Cognac or Brandy",
+      "30 ml Gin",
+      "15 ml Fresh Lime Juice",
+      "2 Dashes Angostura Bitters",
+      "Top up Ginger beer"
+    ],
+    "notes": [
+      "The published spec allows brandy in place of cognac."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Suffering_Bastard_Cocktail.jpg",
+    "imageAuthor": "Will Shenton",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "tequila-sunrise": {
+    "slug": "tequila-sunrise",
+    "name": "Tequila Sunrise",
+    "publishedName": "Tequila Sunrise",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/tequila-sunrise/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Tequila",
+      "90 ml Fresh Orange Juice",
+      "15 ml Grenadine Syrup"
+    ],
+    "notes": [
+      "Published as tequila. Named Blanco Tequila."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tequila_Sunrise_(5084102035).jpg",
+    "imageAuthor": "TheCulinaryGeek from Chicago, USA",
+    "imageLicence": "CC BY 2.0"
+  },
+  "three-dots-and-a-dash": {
+    "slug": "three-dots-and-a-dash",
+    "name": "Three Dots and a Dash",
+    "publishedName": "Three Dots and a Dash",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Rhum Martinique Agricole",
+      "15 ml Blended Aged Rum",
+      "7.5 ml Falernum",
+      "7.5 ml Allspice Saint Elizabeth15 ml Fresh Lime Juice",
+      "15 ml Fresh Orange juice",
+      "15 ml Honey Syrup",
+      "2 Dashes Angostura Bitters"
+    ],
+    "notes": [
+      "Split a joined line into: 7.5 ml Allspice Saint Elizabeth | 15 ml Fresh Lime Juice",
+      "Published as Allspice (St. Elizabeth). Named Allspice Dram.",
+      "Published as honey syrup. Named Honey And Water Syrup so the starter bar matches."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Three_Dots_and_a_Dash_cocktail.jpg",
+    "imageAuthor": "BanjoZebra",
+    "imageLicence": "CC BY 4.0"
+  },
+  "tipperary": {
+    "slug": "tipperary",
+    "name": "Tipperary",
+    "publishedName": "Tipperary",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/tipperary/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "50 ml Irish Whiskey",
+      "25 ml Sweet Red Vermouth",
+      "15 ml Green Chartreuse",
+      "2 Dashes Angostura Bitters"
+    ],
+    "notes": [],
+    "imageSourceUrl": null,
+    "imageAuthor": null,
+    "imageLicence": null
+  },
+  "tommy-s-margarita": {
+    "slug": "tommy-s-margarita",
+    "name": "Tommy's Margarita",
+    "publishedName": "Tommy's Margarita",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/tommys-margarita/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "60 ml Tequila 100% agave",
+      "30 ml Fresh Lime Juice",
+      "30 ml Agave Nectar"
+    ],
+    "notes": [
+      "Published as 100% agave tequila. Named Blanco Tequila."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:TommysMargarita.jpg",
+    "imageAuthor": "Rick Audet",
+    "imageLicence": "CC BY 2.0"
+  },
+  "trinidad-sour": {
+    "slug": "trinidad-sour",
+    "name": "Trinidad Sour",
+    "publishedName": "Trinidad Sour",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/trinidad-sour/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Angostura Bitters",
+      "30 ml Orgeat Syrup",
+      "22.5 ml Fresh Lemon Juice",
+      "15 ml Rye Whiskey"
+    ],
+    "notes": [
+      "Named Rye Whiskey 50% Abv so the starter bar matches. ABV maths uses 50% for that bottle."
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:VTR_-_Trinidad_Sour_(18045674468).jpg",
+    "imageAuthor": "Edsel Little",
+    "imageLicence": "CC BY-SA 2.0"
+  },
+  "tuxedo": {
+    "slug": "tuxedo",
+    "name": "Tuxedo",
+    "publishedName": "Tuxedo",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/tuxedo/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Old Tom Gin",
+      "30 ml Dry Vermouth",
+      "1/2 Bar Spoon Maraschino Luxardo",
+      "1/4 Bar Spoon of Absinthe",
+      "3 Dashes Orange Bitters"
+    ],
+    "notes": [
+      "1 bar spoon read as 1 tsp (5 ml)"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tuxedo_No._2_cocktail.jpg",
+    "imageAuthor": "BanjoZebra",
+    "imageLicence": "CC BY 4.0"
+  },
+  "ve-n-to": {
+    "slug": "ve-n-to",
+    "name": "Ve.N.To",
+    "publishedName": "Ve.N.To",
+    "ibaCategory": "new-era",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/ve-n-to/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml White Smooth Grappa",
+      "22.5 ml Fresh lemon Juice",
+      "15 ml Honey mix (replace water with chamomile)*",
+      "15 ml Chamomile cordial",
+      "Few Drops of Egg White (Optional)"
+    ],
+    "notes": [
+      "replace water with chamomile",
+      "Published as honey mix. Named Honey And Water Syrup so the starter bar matches.",
+      "optional",
+      "published as a few drops"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ve.n.to_cocktail.jpg",
+    "imageAuthor": "Jonsico",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "vesper": {
+    "slug": "vesper",
+    "name": "Vesper",
+    "publishedName": "Vesper",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/vesper/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Gin",
+      "15 ml Vodka",
+      "7.5 ml Lillet Blanc"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Vesper.png",
+    "imageAuthor": "Matthias Friedlein ( www.augustine-bar.de )",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "vieux-carre": {
+    "slug": "vieux-carre",
+    "name": "Vieux Carré",
+    "publishedName": "Vieux Carré",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/vieux-carre/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "30 ml Rye Whiskey",
+      "30 ml Cognac",
+      "30 ml Sweet Vermouth",
+      "1 Bar Spoon Bénédictine",
+      "2 Dashes Peychaud's Bitters"
+    ],
+    "notes": [
+      "Named Rye Whiskey 50% Abv so the starter bar matches. ABV maths uses 50% for that bottle.",
+      "1 bar spoon read as 1 tsp (5 ml)"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vieux_Carr%C3%A9_in_Tumbler.jpg",
+    "imageAuthor": "CocktailStevee",
+    "imageLicence": "CC BY-SA 4.0"
+  },
+  "whiskey-sour": {
+    "slug": "whiskey-sour",
+    "name": "Whiskey Sour",
+    "publishedName": "Whiskey Sour",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/whiskey-sour/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Bourbon Whiskey",
+      "25 ml Fresh Lemon Juice",
+      "20 ml Sugar Syrup",
+      "Few Drops of Egg White (Optional)"
+    ],
+    "notes": [
+      "Published as sugar syrup. Named Sugar Syrup (2:1) so the starter bar matches.",
+      "optional",
+      "published as a few drops"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Whiskey_Sour.jpg",
+    "imageAuthor": "Jgilgamesh",
+    "imageLicence": "CC BY-SA 3.0"
+  },
+  "white-lady": {
+    "slug": "white-lady",
+    "name": "White Lady",
+    "publishedName": "White Lady",
+    "ibaCategory": "unforgettables",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/white-lady/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "40 ml Gin",
+      "30 ml Triple Sec",
+      "20 ml Fresh Lemon Juice"
+    ],
+    "notes": [],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:White_Lady_-_Beefeater_gin,_Cointreau,_fresh_lemon_juice_(12403540403).jpg",
+    "imageAuthor": "City Foodsters",
+    "imageLicence": "CC BY 2.0"
+  },
+  "zombie": {
+    "slug": "zombie",
+    "name": "Zombie",
+    "publishedName": "Zombie",
+    "ibaCategory": "contemporary-classics",
+    "recipeSources": [
+      "https://iba-world.com/iba-cocktail/zombie/"
+    ],
+    "recipeLicence": "Ingredient names, amounts, glass and garnish are facts from the IBA official cocktail specification at recipeSources. Preparation steps were written for this dataset and do not reproduce IBA wording. IBA photographs and method text were not copied.",
+    "publishedIngredients": [
+      "45 ml Jamaican dark rum",
+      "45 ml Gold Puerto Rican rum",
+      "30 ml Demerara Rum",
+      "20 ml Fresh lime juice",
+      "15 ml Falernum",
+      "15 ml Donn’s Mix*",
+      "1 tsp Grenadine syrup",
+      "1 dash Angostura bitters",
+      "6 drops Pernod"
+    ],
+    "notes": [
+      "Published as Pernod. Mapped to Absinthe, the matching anise bottle in the bar list.",
+      "Donn's Mix expanded using the IBA note: 2 parts grapefruit juice to 1 part cinnamon syrup.",
+      "3 published measures of Aged Rum (6-10yr) were combined"
+    ],
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ZombieCocktail.jpg",
+    "imageAuthor": "Pitel",
+    "imageLicence": "CC BY-SA 4.0"
+  }
+}
