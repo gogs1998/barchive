@@ -5,6 +5,7 @@ export const metadata = {
   title: "Welcome — BarIQ",
   description:
     "Set up your bar in 30 seconds and find out which cocktails you can make right now.",
+  robots: { index: false, follow: true },
 };
 
 export default function WelcomePage() {

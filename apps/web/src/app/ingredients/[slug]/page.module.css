@@ -88,3 +88,35 @@
   color: var(--color-muted);
   font-style: italic;
 }
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.subList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.subItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+}
+
+.subName {
+  color: var(--text);
+  font-size: 0.9375rem;
+}
+
+.subNote {
+  color: var(--muted);
+  font-size: 0.8125rem;
+}

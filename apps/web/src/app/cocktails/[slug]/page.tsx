@@ -1,11 +1,24 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 import RecipeScaler from "@/components/RecipeScaler";
 import { FavouriteButton } from "@/components/FavouriteButton";
+import { JsonLd } from "@/components/JsonLd";
 import { getCocktail } from "@/lib/api";
 import { COCKTAILS } from "@/lib/cocktails";
+import {
+  COCKTAILDB_CREDIT_TEXT,
+  COCKTAILDB_URL,
+  breadcrumbJsonLd,
+  isIndexable,
+  needsCocktailDbCredit,
+  recipeDescription,
+  recipeJsonLd,
+  spiritPath,
+  spiritTitle,
+} from "@/lib/seo";
 import styles from "./page.module.css";
 import { BalanceMeter } from "@/components/BalanceMeter";
 import { FlavorSciencePanel } from "@/components/FlavorSciencePanel";
@@ -23,12 +36,15 @@ export async function generateStaticParams() {
   return COCKTAILS.map((c) => ({ slug: c.slug }));
 }
 
-export async function generateMetadata({ params }: Props) {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cocktail = await getCocktail(params.slug);
   if (!cocktail) return {};
   return {
     title: `${cocktail.name} Recipe — BarIQ`,
-    description: `How to make a ${cocktail.name}. ${cocktail.ingredients.length} ingredients, ${cocktail.time}.`,
+    description: recipeDescription(cocktail),
+    alternates: { canonical: `/cocktails/${cocktail.slug}` },
+    // Difford's-sourced recipes stay browsable but out of the index.
+    ...(isIndexable(cocktail) ? {} : { robots: { index: false, follow: true } }),
   };
 }
 
@@ -46,8 +62,24 @@ export default async function CocktailDetailPage({ params }: Props) {
     ? calculateBalance(cocktailToBuild(cocktail))
     : null;
 
+  const stats = [
+    { label: "ABV", value: cocktail.abv },
+    { label: "Time", value: cocktail.time },
+    { label: "Glass", value: cocktail.glass },
+    { label: "Category", value: cocktail.category },
+  ].filter((s) => s.value);
+
   return (
     <PageShell active="cocktails">
+      {isIndexable(cocktail) && <JsonLd data={recipeJsonLd(cocktail)} />}
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Cocktails", path: "/cocktails" },
+          { name: spiritTitle(cocktail.category), path: spiritPath(cocktail.category) },
+          { name: cocktail.name, path: `/cocktails/${cocktail.slug}` },
+        ])}
+      />
+
       {/* Back link */}
       <Link href="/cocktails" className={styles.back}>
         <svg
@@ -65,7 +97,7 @@ export default async function CocktailDetailPage({ params }: Props) {
         All Cocktails
       </Link>
 
-      <article className={styles.article} itemScope itemType="https://schema.org/Recipe">
+      <article className={styles.article}>
 
         {/* Hero image — falls back to the drink's colour wash when no image */}
         <div
@@ -80,7 +112,6 @@ export default async function CocktailDetailPage({ params }: Props) {
               priority
               sizes="(max-width: 1024px) 100vw, 50vw"
               className={styles.heroImg}
-              itemProp="image"
             />
           )}
           <div className={styles.heroOverlay} />
@@ -88,21 +119,22 @@ export default async function CocktailDetailPage({ params }: Props) {
           {/* Category + name on top of image */}
           <div className={styles.heroText}>
             <p className={styles.category}>
-              {cocktail.category} · {cocktail.glass}
+              <Link href={spiritPath(cocktail.category)} className={styles.categoryLink}>
+                {cocktail.category}
+              </Link>{" "}
+              · {cocktail.glass}
             </p>
             <div className={styles.heroTitleRow}>
-              <h1 className={styles.name} itemProp="name">
-                {cocktail.name}
-              </h1>
+              <h1 className={styles.name}>{cocktail.name}</h1>
               <FavouriteButton slug={cocktail.slug} recipeName={cocktail.name} size="detail" />
             </div>
             {/* Metadata chips */}
             <div className={styles.metaChips} aria-label="Recipe metadata">
               {cocktail.abv && (
-                <span className={styles.metaChip} itemProp="suitableForDiet">{cocktail.abv}</span>
+                <span className={styles.metaChip}>{cocktail.abv}</span>
               )}
               {cocktail.time && (
-                <span className={styles.metaChip} itemProp="totalTime">{cocktail.time}</span>
+                <span className={styles.metaChip}>{cocktail.time}</span>
               )}
             </div>
           </div>
@@ -112,12 +144,7 @@ export default async function CocktailDetailPage({ params }: Props) {
         <div className={styles.details}>
           {/* Stats */}
           <div className={styles.stats} role="list" aria-label="Cocktail stats">
-            {[
-              { label: "ABV", value: cocktail.abv },
-              { label: "Time", value: cocktail.time },
-              { label: "Glass", value: cocktail.glass },
-              { label: "Category", value: cocktail.category },
-            ].map(({ label, value }) => (
+            {stats.map(({ label, value }) => (
               <div key={label} className={styles.stat} role="listitem">
                 <span className={styles.statLabel}>{label}</span>
                 <span className={styles.statValue}>{value}</span>
@@ -167,10 +194,7 @@ export default async function CocktailDetailPage({ params }: Props) {
               <h2 id="method-heading" className={styles.sectionTitle}>
                 Method
               </h2>
-              <ol
-                className={styles.stepList}
-                itemProp="recipeInstructions"
-              >
+              <ol className={styles.stepList}>
                 {cocktail.steps.map((step, i) => (
                   <li key={i} className={styles.step}>
                     <span className={styles.stepNumber} aria-hidden="true">
@@ -190,6 +214,16 @@ export default async function CocktailDetailPage({ params }: Props) {
             >
               <BalanceMeter scores={balanceScores} />
             </FlavorSciencePanel>
+          )}
+
+          {needsCocktailDbCredit(cocktail) && (
+            <p className={styles.credit}>
+              {COCKTAILDB_CREDIT_TEXT} (
+              <a href={COCKTAILDB_URL} rel="noopener" target="_blank">
+                thecocktaildb.com
+              </a>
+              )
+            </p>
           )}
         </div>
       </article>

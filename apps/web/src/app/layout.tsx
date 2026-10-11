@@ -2,11 +2,14 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { AuthProvider } from "@/lib/auth-context";
 import { AuthModal } from "@/components/AuthModal";
+import { SITE_URL } from "@/lib/seo";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "BarIQ — Cocktail App for Bars",
   description:
-    "Search, browse, and mix 80+ classic cocktail recipes. The bartender's companion.",
+    "Search, browse, and mix thousands of cocktail recipes, with ingredient substitutions and a bar mode for service. The bartender's companion.",
+  openGraph: { siteName: "BarIQ", type: "website", locale: "en_GB" },
 };
 
 export const viewport: Viewport = {

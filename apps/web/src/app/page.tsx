@@ -6,6 +6,10 @@ import { OnboardingBanner } from "@/components/OnboardingBanner";
 import { getCocktails, getCategories } from "@/lib/api";
 import styles from "./page.module.css";
 
+export const metadata = {
+  alternates: { canonical: "/" },
+};
+
 export default async function HomePage() {
   const [{ cocktails: featured, total: cocktailCount }, categories] =
     await Promise.all([getCocktails({ pageSize: 6 }), getCategories()]);

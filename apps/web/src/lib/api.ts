@@ -16,6 +16,7 @@ import {
   slugify,
   type Cocktail,
 } from "./cocktails";
+import { isIndexable } from "./seo";
 
 // Re-export types so consumers only import from api.ts
 export type { Cocktail };
@@ -91,22 +92,42 @@ export interface IngredientSummary {
   slug: string;
   /** Number of cocktails that use this ingredient */
   cocktailCount: number;
+  /** Cocktails using this ingredient whose pages are indexable (see lib/seo) */
+  indexableCount: number;
   /** Cocktail slugs that use this ingredient */
   cocktails: { name: string; slug: string }[];
 }
 
+let ingredientIndex: IngredientSummary[] | null = null;
+
 /**
- * Fetch the full ingredient index.
+ * Fetch the full ingredient index. Built once per process: every ingredient
+ * page reads it at build time, and a full rebuild scans all cocktails.
  */
 export async function getIngredients(): Promise<IngredientSummary[]> {
   await delay(STUB_DELAY);
+  if (ingredientIndex) return ingredientIndex;
 
-  return ALL_INGREDIENTS.map((name) => {
-    const cocktails = COCKTAILS.filter((c) =>
-      c.ingredients.some((i) => i.name === name)
-    ).map((c) => ({ name: c.name, slug: c.slug }));
-    return { name, slug: slugify(name), cocktailCount: cocktails.length, cocktails };
+  const byName = new Map<string, Cocktail[]>();
+  for (const c of COCKTAILS) {
+    for (const name of new Set(c.ingredients.map((i) => i.name))) {
+      const list = byName.get(name) ?? [];
+      list.push(c);
+      byName.set(name, list);
+    }
+  }
+
+  ingredientIndex = ALL_INGREDIENTS.map((name) => {
+    const using = byName.get(name) ?? [];
+    return {
+      name,
+      slug: slugify(name),
+      cocktailCount: using.length,
+      indexableCount: using.filter(isIndexable).length,
+      cocktails: using.map((c) => ({ name: c.name, slug: c.slug })),
+    };
   });
+  return ingredientIndex;
 }
 
 /**
