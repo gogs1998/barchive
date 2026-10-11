@@ -17,7 +17,7 @@ export function nameKey(s) {
 }
 
 /** Published wording → starter / curated vocabulary. */
-const ALIASES = {
+export const ALIASES = {
   gin: "Gin",
   "dry gin": "Gin",
   "london dry gin": "Gin",
