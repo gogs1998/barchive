@@ -27,6 +27,16 @@ import {
 export const auth = new Hono<AppEnv>();
 
 const MIN_PASSWORD_LEN = 8;
+// Bounds the PBKDF2 input (NEW-2/NEW-4); long passphrases still fit.
+const MAX_PASSWORD_LEN = 128;
+const MAX_EMAIL_LEN = 254;
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+function passwordError(password: string): string | null {
+  if (password.length < MIN_PASSWORD_LEN) return "Password must be at least 8 characters";
+  if (password.length > MAX_PASSWORD_LEN) return "Password must be at most 128 characters";
+  return null;
+}
 
 // A real PBKDF2 hash of a throwaway string. On login for a missing user (or one
 // without a password_hash) we still run verifyPassword against this so the
@@ -59,9 +69,11 @@ auth.post("/api/v1/auth/register", async (c) => {
       : null;
 
   if (!email) return c.json({ error: "Email is required" }, 400);
-  if (password.length < MIN_PASSWORD_LEN) {
-    return c.json({ error: "Password must be at least 8 characters" }, 400);
+  if (email.length > MAX_EMAIL_LEN || !EMAIL_RE.test(email)) {
+    return c.json({ error: "Enter a valid email address" }, 400);
   }
+  const pwError = passwordError(password);
+  if (pwError) return c.json({ error: pwError }, 400);
 
   const existing = await findUserByEmail(c.env.DB, email);
   if (existing) return c.json({ error: "Email already registered" }, 409);
@@ -94,6 +106,10 @@ auth.post("/api/v1/auth/login", async (c) => {
   const body = await readJson(c);
   const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
   const password = typeof body.password === "string" ? body.password : "";
+  // Over-long input can't be a valid password; reject before hashing (NEW-2).
+  if (password.length > MAX_PASSWORD_LEN || email.length > MAX_EMAIL_LEN) {
+    return c.json({ error: "Invalid email or password" }, 401);
+  }
 
   const user = await findUserByEmail(c.env.DB, email);
   // Always run PBKDF2 — against the real hash when present, otherwise a dummy —
@@ -189,9 +205,8 @@ auth.post("/api/v1/auth/password-reset/confirm", async (c) => {
   const token = typeof body.token === "string" ? body.token : "";
   const newPassword = typeof body.new_password === "string" ? body.new_password : "";
 
-  if (newPassword.length < MIN_PASSWORD_LEN) {
-    return c.json({ error: "Password must be at least 8 characters" }, 400);
-  }
+  const pwError = passwordError(newPassword);
+  if (pwError) return c.json({ error: pwError }, 400);
 
   const payload = await verifyOfType(token, secret, "password_reset");
   if (!payload) return c.json({ error: "Invalid or expired reset token" }, 400);

@@ -39,6 +39,9 @@ export async function verifyToken(
 ): Promise<TokenPayload | null> {
   try {
     const payload = (await verify(token, secret, "HS256")) as TokenPayload;
+    // hono only checks `exp` when present; every token we sign has one, so a
+    // token without it is not ours (NEW-4).
+    if (typeof payload.exp !== "number") return null;
     return payload;
   } catch {
     return null;

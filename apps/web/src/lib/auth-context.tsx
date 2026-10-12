@@ -21,6 +21,7 @@ import React, {
   useEffect,
   type ReactNode,
 } from "react";
+import { slugify } from "./slug";
 import {
   getMe,
   loginApi,
@@ -217,7 +218,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     let allResolved = true;
     for (const item of guestItems) {
       try {
-        await addUserBarIngredient(item.id);
+        // slugify is idempotent on slugs and fixes older guest bars that were
+        // keyed by display name (NEW-1).
+        await addUserBarIngredient(slugify(item.id));
       } catch (err) {
         // A 404 means the server doesn't know this slug — it will never resolve,
         // so treat it as a terminal SKIP rather than a retryable failure. Without

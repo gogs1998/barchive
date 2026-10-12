@@ -3,48 +3,39 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useAuth } from "@/lib/auth-context";
 import { type BarIngredient } from "./IngredientList";
+import { STARTER_INGREDIENTS } from "@/lib/onboarding-ingredients";
+import { slugify } from "@/lib/slug";
 import styles from "./AddIngredientSheet.module.css";
 
-// Canonical ingredient list (stub — replace with API)
-const CANONICAL_INGREDIENTS: BarIngredient[] = [
-  { id: "gin", name: "Gin", category: "Spirits", emoji: "🫙" },
-  { id: "vodka", name: "Vodka", category: "Spirits", emoji: "🫙" },
-  { id: "rum", name: "Rum", category: "Spirits", emoji: "🫙" },
-  { id: "dark-rum", name: "Dark rum", category: "Spirits", emoji: "🫙" },
-  { id: "tequila", name: "Tequila", category: "Spirits", emoji: "🫙" },
-  { id: "whiskey", name: "Whiskey", category: "Spirits", emoji: "🫙" },
-  { id: "bourbon", name: "Bourbon", category: "Spirits", emoji: "🫙" },
-  { id: "brandy", name: "Brandy", category: "Spirits", emoji: "🫙" },
-  { id: "sloe-gin", name: "Sloe gin", category: "Spirits", emoji: "🫙" },
-  { id: "amaretto", name: "Amaretto", category: "Liqueurs", emoji: "🫙" },
-  { id: "triple-sec", name: "Triple sec", category: "Liqueurs", emoji: "🫙" },
-  { id: "kahlua", name: "Kahlúa", category: "Liqueurs", emoji: "🫙" },
-  { id: "baileys", name: "Baileys", category: "Liqueurs", emoji: "🫙" },
-  { id: "campari", name: "Campari", category: "Liqueurs", emoji: "🫙" },
-  { id: "aperol", name: "Aperol", category: "Liqueurs", emoji: "🫙" },
-  { id: "sweet-vermouth", name: "Sweet vermouth", category: "Liqueurs", emoji: "🫙" },
-  { id: "dry-vermouth", name: "Dry vermouth", category: "Liqueurs", emoji: "🫙" },
-  { id: "lime-juice", name: "Lime juice", category: "Mixers", emoji: "🍋" },
-  { id: "lemon-juice", name: "Lemon juice", category: "Mixers", emoji: "🍋" },
-  { id: "simple-syrup", name: "Simple syrup", category: "Syrups", emoji: "🍯" },
-  { id: "grenadine", name: "Grenadine", category: "Syrups", emoji: "🍯" },
-  { id: "ginger-syrup", name: "Ginger syrup", category: "Syrups", emoji: "🍯" },
-  { id: "angostura-bitters", name: "Angostura bitters", category: "Bitters", emoji: "💧" },
-  { id: "orange-bitters", name: "Orange bitters", category: "Bitters", emoji: "💧" },
-  { id: "peychauds-bitters", name: "Peychaud's bitters", category: "Bitters", emoji: "💧" },
-  { id: "soda-water", name: "Soda water", category: "Mixers", emoji: "💧" },
-  { id: "tonic-water", name: "Tonic water", category: "Mixers", emoji: "💧" },
-  { id: "ginger-beer", name: "Ginger beer", category: "Mixers", emoji: "🍺" },
-  { id: "cola", name: "Cola", category: "Mixers", emoji: "🥤" },
-  { id: "egg-white", name: "Egg white", category: "Other", emoji: "🥚" },
-  { id: "cream", name: "Heavy cream", category: "Other", emoji: "🥛" },
-  { id: "mint", name: "Mint", category: "Garnishes", emoji: "🌿" },
-  { id: "lime-wedge", name: "Lime wedge", category: "Garnishes", emoji: "🍋" },
-  { id: "salt", name: "Salt", category: "Garnishes", emoji: "🧂" },
-  { id: "maraschino-cherry", name: "Maraschino cherry", category: "Garnishes", emoji: "🍒" },
-];
+const CATEGORY_EMOJI: Record<string, string> = {
+  Spirits: "🫙",
+  Liqueurs: "🫙",
+  "Mixers & Soda": "💧",
+  "Citrus & Juice": "🍋",
+  "Syrups & Sweeteners": "🍯",
+  "Bitters & Garnish": "🌿",
+};
 
-const QUICK_ADD = ["Gin", "Vodka", "Rum", "Tequila", "Whiskey", "Lime juice", "Simple syrup", "Angostura bitters"];
+// The starter vocabulary: the same names the recipes use, so anything added
+// here counts towards "What Can I Make?". Ids are slugs, which the Worker
+// resolves via ingredients.slug.
+const CANONICAL_INGREDIENTS: BarIngredient[] = STARTER_INGREDIENTS.map((s) => ({
+  id: slugify(s.name),
+  name: s.name,
+  category: s.category,
+  emoji: CATEGORY_EMOJI[s.category] ?? "🫙",
+}));
+
+const QUICK_ADD = [
+  "Gin",
+  "Vodka",
+  "Light White Rum",
+  "Blanco Tequila",
+  "Bourbon Whiskey",
+  "Lime Juice",
+  "Sugar Syrup (2:1)",
+  "Aromatic Bitters",
+];
 
 const CATEGORIES = ["All", ...Array.from(new Set(CANONICAL_INGREDIENTS.map((i) => i.category)))];
 

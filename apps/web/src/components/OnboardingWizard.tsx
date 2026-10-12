@@ -9,6 +9,7 @@ import { CocktailCard } from "@/components/CocktailCard";
 import { STARTER_INGREDIENTS } from "@/lib/onboarding-ingredients";
 import { COCKTAILS } from "@/lib/cocktails";
 import { isMakeable, countMakeable } from "@/lib/makeable";
+import { slugify } from "@/lib/slug";
 import styles from "./OnboardingWizard.module.css";
 
 const ONBOARDED_KEY = "biq_onboarded";
@@ -24,7 +25,8 @@ function markOnboarded() {
 
 /** Build the BarIngredientAPI[] a guest bar expects from selected names. */
 function toGuestItems(names: string[]): BarIngredientAPI[] {
-  return names.map((name) => ({ id: name, name, category: "Other" }));
+  // Keyed by slug: the Worker resolves bar items by ingredients.slug (NEW-1).
+  return names.map((name) => ({ id: slugify(name), name, category: "Other" }));
 }
 
 type Step = 1 | 2 | 3;

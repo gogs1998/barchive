@@ -107,8 +107,9 @@ describe("OnboardingWizard", () => {
     expect(mockSetGuestBar).toHaveBeenCalledTimes(1);
     const items = mockSetGuestBar.mock.calls[0][0];
     expect(items).toEqual([
-      { id: "Gin", name: "Gin", category: "Other" },
-      { id: "Dry Vermouth", name: "Dry Vermouth", category: "Other" },
+      // Slug ids: the Worker resolves bar items by ingredients.slug (NEW-1).
+      { id: "gin", name: "Gin", category: "Other" },
+      { id: "dry-vermouth", name: "Dry Vermouth", category: "Other" },
     ]);
     // Onboarded flag persisted and router pushed to the make deep-link.
     expect(localStorage.getItem(ONBOARDED_KEY)).toBeTruthy();

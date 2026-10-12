@@ -5,6 +5,9 @@ import { useAuth } from "@/lib/auth-context";
 import { PasswordStrengthMeter, getPasswordStrength } from "./PasswordStrengthMeter";
 import styles from "./AuthForm.module.css";
 
+// The Worker has no Google OAuth route yet; show the button once it does.
+const GOOGLE_OAUTH_ENABLED = false;
+
 // ─── Shared field component ──────────────────────────────────────────────────
 
 interface FieldProps {
@@ -129,17 +132,21 @@ export function LoginForm({ onSuccess, onForgotPassword, onRegister }: LoginForm
         {loading ? "Signing in…" : "Sign in"}
       </button>
 
-      <div className={styles.divider} aria-hidden="true"><span>or</span></div>
+      {GOOGLE_OAUTH_ENABLED && (
+        <>
+          <div className={styles.divider} aria-hidden="true"><span>or</span></div>
 
-      <button type="button" className={styles.socialBtn} onClick={() => startGoogleOAuth()}>
-        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-          <path d="M16.51 9.18c0-.56-.05-1.1-.14-1.61H9v3.04h4.2a3.59 3.59 0 01-1.56 2.36v1.96h2.52c1.47-1.36 2.35-3.36 2.35-5.75z" fill="#4285F4"/>
-          <path d="M9 17c2.1 0 3.86-.7 5.15-1.89l-2.52-1.96c-.7.47-1.59.74-2.63.74-2.02 0-3.73-1.37-4.34-3.2H2.06v2.02A8 8 0 009 17z" fill="#34A853"/>
-          <path d="M4.66 10.69A4.8 4.8 0 014.4 9c0-.59.1-1.16.26-1.69V5.29H2.06A8.01 8.01 0 001 9c0 1.29.31 2.51.86 3.59l1.8-1.4.97-.5z" fill="#FBBC05"/>
-          <path d="M9 3.58c1.14 0 2.16.39 2.96 1.16l2.22-2.22C12.85.89 11.09.1 9 .1A8 8 0 002.06 5.3L4.66 7.3C5.27 5.48 6.98 3.58 9 3.58z" fill="#EA4335"/>
-        </svg>
-        Continue with Google
-      </button>
+    <button type="button" className={styles.socialBtn} onClick={() => startGoogleOAuth()}>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M16.51 9.18c0-.56-.05-1.1-.14-1.61H9v3.04h4.2a3.59 3.59 0 01-1.56 2.36v1.96h2.52c1.47-1.36 2.35-3.36 2.35-5.75z" fill="#4285F4"/>
+              <path d="M9 17c2.1 0 3.86-.7 5.15-1.89l-2.52-1.96c-.7.47-1.59.74-2.63.74-2.02 0-3.73-1.37-4.34-3.2H2.06v2.02A8 8 0 009 17z" fill="#34A853"/>
+              <path d="M4.66 10.69A4.8 4.8 0 014.4 9c0-.59.1-1.16.26-1.69V5.29H2.06A8.01 8.01 0 001 9c0 1.29.31 2.51.86 3.59l1.8-1.4.97-.5z" fill="#FBBC05"/>
+              <path d="M9 3.58c1.14 0 2.16.39 2.96 1.16l2.22-2.22C12.85.89 11.09.1 9 .1A8 8 0 002.06 5.3L4.66 7.3C5.27 5.48 6.98 3.58 9 3.58z" fill="#EA4335"/>
+            </svg>
+            Continue with Google
+          </button>
+        </>
+      )}
 
       <p className={styles.switchPrompt}>
         {"Don't have an account? "}
@@ -235,17 +242,21 @@ export function RegisterForm({ onSuccess, onLogin }: RegisterFormProps) {
         {loading ? "Creating account…" : "Create my account"}
       </button>
 
-      <div className={styles.divider} aria-hidden="true"><span>or</span></div>
+      {GOOGLE_OAUTH_ENABLED && (
+        <>
+          <div className={styles.divider} aria-hidden="true"><span>or</span></div>
 
-      <button type="button" className={styles.socialBtn} onClick={() => startGoogleOAuth()}>
-        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-          <path d="M16.51 9.18c0-.56-.05-1.1-.14-1.61H9v3.04h4.2a3.59 3.59 0 01-1.56 2.36v1.96h2.52c1.47-1.36 2.35-3.36 2.35-5.75z" fill="#4285F4"/>
-          <path d="M9 17c2.1 0 3.86-.7 5.15-1.89l-2.52-1.96c-.7.47-1.59.74-2.63.74-2.02 0-3.73-1.37-4.34-3.2H2.06v2.02A8 8 0 009 17z" fill="#34A853"/>
-          <path d="M4.66 10.69A4.8 4.8 0 014.4 9c0-.59.1-1.16.26-1.69V5.29H2.06A8.01 8.01 0 001 9c0 1.29.31 2.51.86 3.59l1.8-1.4.97-.5z" fill="#FBBC05"/>
-          <path d="M9 3.58c1.14 0 2.16.39 2.96 1.16l2.22-2.22C12.85.89 11.09.1 9 .1A8 8 0 002.06 5.3L4.66 7.3C5.27 5.48 6.98 3.58 9 3.58z" fill="#EA4335"/>
-        </svg>
-        Continue with Google
-      </button>
+    <button type="button" className={styles.socialBtn} onClick={() => startGoogleOAuth()}>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M16.51 9.18c0-.56-.05-1.1-.14-1.61H9v3.04h4.2a3.59 3.59 0 01-1.56 2.36v1.96h2.52c1.47-1.36 2.35-3.36 2.35-5.75z" fill="#4285F4"/>
+              <path d="M9 17c2.1 0 3.86-.7 5.15-1.89l-2.52-1.96c-.7.47-1.59.74-2.63.74-2.02 0-3.73-1.37-4.34-3.2H2.06v2.02A8 8 0 009 17z" fill="#34A853"/>
+              <path d="M4.66 10.69A4.8 4.8 0 014.4 9c0-.59.1-1.16.26-1.69V5.29H2.06A8.01 8.01 0 001 9c0 1.29.31 2.51.86 3.59l1.8-1.4.97-.5z" fill="#FBBC05"/>
+              <path d="M9 3.58c1.14 0 2.16.39 2.96 1.16l2.22-2.22C12.85.89 11.09.1 9 .1A8 8 0 002.06 5.3L4.66 7.3C5.27 5.48 6.98 3.58 9 3.58z" fill="#EA4335"/>
+            </svg>
+            Continue with Google
+          </button>
+        </>
+      )}
 
       <p className={styles.switchPrompt}>
         Already have an account?{" "}

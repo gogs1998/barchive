@@ -4,7 +4,13 @@ export interface Env {
   DB: D1Database;
   JWT_SECRET: string;
   ENVIRONMENT: string;
+  /** Allowed browser origin(s), comma-separated, e.g. "https://bariq.co.uk,https://www.bariq.co.uk". */
   FRONTEND_ORIGIN: string;
+  /**
+   * Optional Workers rate-limit binding for the auth endpoints (NEW-2).
+   * Unset in tests/dev, where no limit is applied.
+   */
+  AUTH_LIMITER?: { limit(options: { key: string }): Promise<{ success: boolean }> };
   /** Optional — when unset, password-reset emails are logged, not sent. */
   RESEND_API_KEY?: string;
 }

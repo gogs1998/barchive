@@ -3,6 +3,7 @@
  * Shape mirrors TheCocktailDB with BarIQ-specific extensions.
  */
 
+import { slugify } from "./slug";
 import { OPEN_COCKTAILS } from "./cocktails.open";
 import { COCKTAILDB_COCKTAILS } from "./cocktails.cocktaildb";
 
@@ -147,14 +148,7 @@ export function spiritGradientClass(category: string): string {
   return map[category] ?? "gradientDefault";
 }
 
-export function slugify(name: string): string {
-  return name
-    .normalize("NFD")           // decompose accented chars (é → e + combining accent)
-    .replace(/[\u0300-\u036f]/g, "") // strip combining diacritical marks
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
+export { slugify };
 
 /**
  * Parse a raw amount string into a numeric quantity and normalised unit.

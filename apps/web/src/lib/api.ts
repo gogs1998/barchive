@@ -289,10 +289,13 @@ export interface GetBarResponse {
   total: number;
 }
 
-// Base URL of the TS/Hono Worker (apps/api). Override via NEXT_PUBLIC_API_URL;
+// Base URL of the TS/Hono Worker (apps/api). Override via NEXT_PUBLIC_API_URL.
+// Production builds call the same origin: the Worker is routed at
+// bariq.co.uk/api/*, so cookies stay first-party and SameSite=Lax holds.
 // `wrangler dev` serves it at :8787 locally.
 const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8787";
+  process.env.NEXT_PUBLIC_API_URL ??
+  (process.env.NODE_ENV === "production" ? "" : "http://localhost:8787");
 
 /**
  * Fetch the current user's bar ingredient inventory.
