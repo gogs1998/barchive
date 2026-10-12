@@ -19,4 +19,7 @@ describe("makeable", () => {
   it("countMakeable counts only fully-makeable cocktails", () => {
     expect(countMakeable([c(["Gin"]), c(["Gin", "Campari"])], bar)).toBe(1);
   });
+  it("ignores pantry staples and garnishes", () => {
+    expect(isMakeable(c(["Gin", "Ice", "Lemon Peel"]), bar)).toBe(true);
+  });
 });

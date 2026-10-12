@@ -84,9 +84,59 @@ function titleCase(s) {
     .map((w) => (w ? w[0].toLocaleUpperCase() + w.slice(1).toLocaleLowerCase() : w))
     .join(" ");
 }
+/**
+ * TheCocktailDB names → the starter-bar vocabulary in
+ * src/lib/onboarding-ingredients.ts (the makeable matcher is exact by name).
+ * Checked before the shared IBA aliases. Brand names map to their generic
+ * spirit only where the drink doesn't depend on the brand.
+ */
+const TCDB_ALIASES = {
+  "light rum": "Light White Rum", "white rum": "Light White Rum", "rum": "Light White Rum",
+  "bacardi limon": "Light White Rum",
+  "dark rum": "Aged Rum (6-10yr)", "anejo rum": "Aged Rum (6-10yr)", "gold rum": "Aged Rum (6-10yr)",
+  "spiced rum": "Aged Rum (6-10yr)",
+  "tequila": "Blanco Tequila", "silver tequila": "Blanco Tequila", "blanco tequila": "Blanco Tequila",
+  "reposado tequila": "Reposado Tequila",
+  "bourbon": "Bourbon Whiskey", "wild turkey": "Bourbon Whiskey",
+  "rye whiskey": "Rye Whiskey 50% Abv", "rye": "Rye Whiskey 50% Abv",
+  "scotch": "Scotch Whisky", "scotch whisky": "Scotch Whisky", "blended scotch": "Scotch Whisky",
+  "brandy": "Cognac (Brandy)", "cognac": "Cognac (Brandy)",
+  "absolut vodka": "Vodka", "absolut citron": "Vodka", "absolut kurant": "Vodka",
+  "absolut peppar": "Vodka", "lemon vodka": "Vodka", "vanilla vodka": "Vodka",
+  "sweet vermouth": "Rosso/Sweet Vermouth", "vermouth": "Rosso/Sweet Vermouth",
+  "red vermouth": "Rosso/Sweet Vermouth", "dry vermouth": "Dry Vermouth",
+  "campari": "Red Bitter Liqueur",
+  "cointreau": "Triple Sec", "triple sec": "Triple Sec",
+  "blue curacao": "Orange Curaçao", "orange curacao": "Orange Curaçao", "curacao": "Orange Curaçao",
+  "grand marnier": "Grand Marnier",
+  "maraschino liqueur": "Maraschino Liqueur",
+  "green chartreuse": "Chartreuse Green", "yellow chartreuse": "Chartreuse Yellow",
+  "amaretto": "Amaretto Liqueur",
+  "kahlua": "Coffee Liqueur", "coffee liqueur": "Coffee Liqueur",
+  "apricot brandy": "Apricot Liqueur", "apricot liqueur": "Apricot Liqueur",
+  "elderflower liqueur": "Elderflower Liqueur", "st germain": "Elderflower Liqueur",
+  "creme de cassis": "Crème de Cassis",
+  "club soda": "Soda (Club Soda) Water", "soda water": "Soda (Club Soda) Water",
+  "carbonated water": "Soda (Club Soda) Water", "sparkling water": "Soda (Club Soda) Water",
+  "tonic water": "Tonic Water", "ginger beer": "Ginger Beer", "ginger ale": "Ginger Ale",
+  "coca cola": "Cola", "cola": "Cola", "pepsi cola": "Cola",
+  "cranberry juice": "Cranberry Juice", "pineapple juice": "Pineapple Juice",
+  "apple juice": "Apple Juice", "lime juice": "Lime Juice", "fresh lime juice": "Lime Juice",
+  "lemon juice": "Lemon Juice", "fresh lemon juice": "Lemon Juice", "orange juice": "Orange Juice",
+  "grapefruit juice": "Pink Grapefruit Juice",
+  "simple syrup": "Sugar Syrup (2:1)", "sugar syrup": "Sugar Syrup (2:1)",
+  "agave syrup": "Agave Syrup", "honey syrup": "Honey And Water Syrup",
+  "grenadine": "Grenadine Syrup", "orgeat syrup": "Orgeat Syrup", "almond syrup": "Orgeat Syrup",
+  "angostura bitters": "Aromatic Bitters", "bitters": "Aromatic Bitters",
+  "orange bitters": "Orange Bitters",
+  "mint": "Mint Leaves", "fresh mint": "Mint Leaves", "mint leaves": "Mint Leaves",
+  "egg white": "Egg White (Pasteurised)",
+  "heavy cream": "Whipping Cream", "cream": "Whipping Cream", "whipping cream": "Whipping Cream",
+};
+
 let mapped = 0, kept = 0;
 function barName(raw) {
-  const alias = ALIASES[nameKey(raw)];
+  const alias = TCDB_ALIASES[nameKey(raw).trim()] ?? ALIASES[nameKey(raw)];
   if (alias) { mapped++; return alias; }
   kept++;
   return titleCase(raw);
@@ -130,14 +180,19 @@ for (const d of all) {
     const ing = (d[`strIngredient${i}`] || "").trim();
     if (!ing) continue;
     const { amount, qty, unit } = parseMeasure(d[`strMeasure${i}`]);
-    ingredients.push({ name: barName(ing), amount, qty, unit });
+    // "Lime" measured as "Juice of 1" is lime juice, not a garnish.
+    const fruit = /^(lime|lemon|orange)$/i.exec(ing);
+    const name = fruit && /juice/i.test(amount) ? barName(`${fruit[1]} juice`) : barName(ing);
+    ingredients.push({ name, amount, qty, unit });
   }
   if (!ingredients.length) continue;
 
   const nonAlcoholic = /non[\s-]?alcohol/i.test(d.strAlcoholic || "");
   const category = deriveCategory(ingredients, { nonAlcoholic });
   const { vegan, glutenFree } = deriveDietary(ingredients.map((x) => x.name));
-  const cc = d.strCreativeCommonsConfirmed === "Yes";
+  // Use only CC-confirmed images, and never one TheCocktailDB sourced from Difford's.
+  const cc =
+    d.strCreativeCommonsConfirmed === "Yes" && !/diffords/i.test(d.strImageSource || "");
   const tags = [
     ...(d.strTags ? d.strTags.split(",").map((t) => t.trim().toLowerCase()).filter(Boolean) : []),
     ...(d.strIBA ? ["iba"] : []),

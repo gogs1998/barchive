@@ -20,23 +20,23 @@ the official V2 API, never scraped. Their terms require this credit wherever it 
 
 ## By category
 
-- Liqueur: 126
-- Rum: 102
+- Liqueur: 120
+- Rum: 105
+- Vodka: 100
 - Gin: 97
-- Vodka: 90
 - Mocktail: 57
-- Whiskey: 48
+- Whiskey: 50
 - Tequila: 29
 - Wine: 29
 - Brandy: 28
-- Other: 21
+- Other: 12
 - Beer: 8
 - Mezcal: 1
 
 ## Ingredient names
 
-1356 ingredient lines were mapped to the bar vocabulary used by onboarding (so "What Can I
-Make?" matches). 1190 kept TheCocktailDB's own name, title-cased. Those will not match the
+1625 ingredient lines were mapped to the bar vocabulary used by onboarding (so "What Can I
+Make?" matches). 921 kept TheCocktailDB's own name, title-cased. Those will not match the
 starter bar until more aliases are added to `lib/normalize.mjs`.
 
 ## Notes

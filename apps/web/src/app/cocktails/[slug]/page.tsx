@@ -19,6 +19,7 @@ import {
   spiritPath,
   spiritTitle,
 } from "@/lib/seo";
+import { imageCredit } from "@/lib/credits";
 import styles from "./page.module.css";
 import { BalanceMeter } from "@/components/BalanceMeter";
 import { FlavorSciencePanel } from "@/components/FlavorSciencePanel";
@@ -61,6 +62,8 @@ export default async function CocktailDetailPage({ params }: Props) {
   const balanceScores = isBalanceEligible(cocktail)
     ? calculateBalance(cocktailToBuild(cocktail))
     : null;
+
+  const photoCredit = imageCredit(cocktail);
 
   const stats = [
     { label: "ABV", value: cocktail.abv },
@@ -216,6 +219,21 @@ export default async function CocktailDetailPage({ params }: Props) {
             </FlavorSciencePanel>
           )}
 
+          {photoCredit && (
+            <p className={styles.credit}>
+              Photo: {photoCredit.author}
+              {photoCredit.licence && `, ${photoCredit.licence}`}
+              {photoCredit.sourceUrl && (
+                <>
+                  {" "}(
+                  <a href={photoCredit.sourceUrl} rel="noopener nofollow" target="_blank">
+                    source
+                  </a>
+                  )
+                </>
+              )}
+            </p>
+          )}
           {needsCocktailDbCredit(cocktail) && (
             <p className={styles.credit}>
               {COCKTAILDB_CREDIT_TEXT} (

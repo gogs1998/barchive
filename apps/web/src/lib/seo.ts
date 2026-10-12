@@ -1,19 +1,18 @@
 /**
  * SEO helpers: canonical URLs, indexing policy and schema.org JSON-LD.
  *
- * Indexing policy: recipes scraped from Difford's Guide (ids "diffords-*")
- * stay browsable but are `noindex, follow`, and are left out of the sitemap.
- * Everything else (curated + TheCocktailDB, licensed) is indexable.
+ * Indexing policy: every recipe in the library is indexable. Difford's data
+ * has been removed; isIndexable still guards against a "diffords-*" id
+ * coming back.
  */
 
 import { COCKTAILS, slugify, type Cocktail } from "./cocktails";
-import { IMPORTED_COCKTAILS } from "./cocktails.imported";
 
 export const SITE_URL = "https://bariq.co.uk";
 export const SITE_NAME = "BarIQ";
 
 /** Last time the recipe data changed. Bump when the cocktail data is regenerated. */
-export const CONTENT_UPDATED = "2026-10-11";
+export const CONTENT_UPDATED = "2026-10-12";
 
 /** Ingredient pages need this many indexable cocktails to be indexed. */
 export const INGREDIENT_INDEX_MIN = 3;
@@ -26,16 +25,14 @@ export function absoluteUrl(path: string): string {
   return `${SITE_URL}${path.startsWith("/") ? "" : "/"}${path}`;
 }
 
-/** Difford's-sourced recipes are not indexed. */
+/** Guard: a Difford's-sourced recipe ("diffords-*" id) is never indexed. */
 export function isIndexable(c: Pick<Cocktail, "id">): boolean {
   return !c.id.startsWith("diffords-");
 }
 
-const IMPORTED_IDS = new Set(IMPORTED_COCKTAILS.map((c) => c.id));
-
 /** TheCocktailDB's licence requires a credit wherever its data or images appear. */
 export function needsCocktailDbCredit(c: Pick<Cocktail, "id" | "img">): boolean {
-  return IMPORTED_IDS.has(c.id) || /thecocktaildb\.com/i.test(c.img);
+  return c.id.startsWith("cdb-") || /thecocktaildb\.com/i.test(c.img);
 }
 
 // ─── Spirit hubs ─────────────────────────────────────────────────────────────

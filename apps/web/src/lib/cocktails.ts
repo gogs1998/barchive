@@ -3,8 +3,8 @@
  * Shape mirrors TheCocktailDB with BarIQ-specific extensions.
  */
 
-import { IMPORTED_COCKTAILS } from "./cocktails.imported";
-import { DIFFORDS_COCKTAILS } from "./cocktails.diffords";
+import { OPEN_COCKTAILS } from "./cocktails.open";
+import { COCKTAILDB_COCKTAILS } from "./cocktails.cocktaildb";
 
 export interface Ingredient {
   name: string;
@@ -769,12 +769,15 @@ function mergeUnique(...sources: Cocktail[][]): Cocktail[] {
   }
   return out;
 }
+// Sources, first wins on duplicates: hand-curated; IBA specs with original
+// method text and self-hosted Commons images (cocktails.open.ts); TheCocktailDB
+// via the Premium API (cocktails.cocktaildb.ts). Difford's data was removed.
 export const COCKTAILS: Cocktail[] = mergeUnique(
   CURATED_COCKTAILS,
-  IMPORTED_COCKTAILS,
-  DIFFORDS_COCKTAILS
+  OPEN_COCKTAILS,
+  COCKTAILDB_COCKTAILS
 ).map((c) => {
-  // Reconcile dietary flags across all three sources with one rule set. The
+  // Reconcile dietary flags across all sources with one rule set. The
   // importers baked hardcoded `vegan:false`/`glutenFree:false` values that were
   // both wrong and inconsistent with the curated data; derive from ingredients
   // instead so egg/dairy/cream/honey drinks are correctly non-vegan and beers

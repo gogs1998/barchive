@@ -59,7 +59,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -131,7 +131,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -225,7 +225,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Wild Turkey",
+        "name": "Bourbon Whiskey",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -299,7 +299,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -323,7 +323,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -335,7 +335,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "1 wedge",
         "qty": null,
         "unit": null
@@ -377,7 +377,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "",
         "qty": null,
         "unit": null
@@ -405,7 +405,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Vanilla Vodka",
+        "name": "Vodka",
         "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
@@ -448,7 +448,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "",
         "qty": null,
         "unit": null
@@ -662,13 +662,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-16108",
     "name": "9 1/2 Weeks",
-    "category": "Liqueur",
+    "category": "Vodka",
     "glass": "Martini",
     "img": "",
-    "color": "#E6C7E0",
+    "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Citron",
+        "name": "Vodka",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -765,7 +765,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -907,13 +907,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
-        "name": "Añejo Rum",
+        "name": "Aged Rum (6-10yr)",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -1070,7 +1070,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -1251,7 +1251,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Orange",
+        "name": "Orange Juice",
         "amount": "Juice of 1/4",
         "qty": null,
         "unit": null
@@ -1461,13 +1461,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-14374",
     "name": "Absolut Evergreen",
-    "category": "Other",
+    "category": "Vodka",
     "glass": "Collins",
     "img": "",
-    "color": "#D9D4CA",
+    "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Citron",
+        "name": "Vodka",
         "amount": "2/3 part",
         "qty": null,
         "unit": null
@@ -1507,13 +1507,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-14372",
     "name": "Absolut limousine",
-    "category": "Other",
+    "category": "Vodka",
     "glass": "Collins",
     "img": "",
-    "color": "#D9D4CA",
+    "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Citron",
+        "name": "Vodka",
         "amount": "2/3",
         "qty": null,
         "unit": null
@@ -1555,13 +1555,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-14360",
     "name": "Absolut Sex",
-    "category": "Liqueur",
+    "category": "Vodka",
     "glass": "Rocks",
     "img": "",
-    "color": "#E6C7E0",
+    "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Kurant",
+        "name": "Vodka",
         "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
@@ -1607,7 +1607,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Vodka",
+        "name": "Vodka",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -1655,13 +1655,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-14107",
     "name": "Absolut Summertime",
-    "category": "Other",
+    "category": "Vodka",
     "glass": "Collins",
     "img": "",
-    "color": "#D9D4CA",
+    "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Citron",
+        "name": "Vodka",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -1716,7 +1716,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Vodka",
+        "name": "Vodka",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -1798,13 +1798,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-16134",
     "name": "Absolutly Screwed Up",
-    "category": "Liqueur",
+    "category": "Vodka",
     "glass": "Collins",
     "img": "",
-    "color": "#E6C7E0",
+    "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Citron",
+        "name": "Vodka",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -1851,7 +1851,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -1881,7 +1881,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "1",
         "qty": null,
         "unit": null
@@ -1922,7 +1922,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Heavy Cream",
+        "name": "Whipping Cream",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -1968,7 +1968,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Wild Turkey",
+        "name": "Bourbon Whiskey",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -2252,7 +2252,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Vermouth",
+        "name": "Rosso/Sweet Vermouth",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -2444,7 +2444,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -2473,7 +2473,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -2533,7 +2533,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1",
         "qty": null,
         "unit": null
@@ -2943,7 +2943,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Lemon Vodka",
+        "name": "Vodka",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -3627,7 +3627,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -4699,7 +4699,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -5073,7 +5073,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Vodka",
+        "name": "Vodka",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -5297,7 +5297,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
@@ -5397,7 +5397,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Absolut Vodka",
+        "name": "Vodka",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -5461,7 +5461,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "cl"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "1 dash",
         "qty": null,
         "unit": null
@@ -5502,7 +5502,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -6027,7 +6027,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.75 oz",
         "qty": 1.75,
         "unit": "oz"
@@ -6182,7 +6182,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -6200,7 +6200,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
@@ -6305,7 +6305,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -6563,7 +6563,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Gold Rum",
+        "name": "Aged Rum (6-10yr)",
         "amount": "6 cl",
         "qty": 6,
         "unit": "cl"
@@ -6622,7 +6622,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "cl"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "1 cl",
         "qty": 1,
         "unit": "cl"
@@ -6770,7 +6770,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -6860,7 +6860,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -7540,7 +7540,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "1 part",
         "qty": null,
         "unit": null
@@ -7590,7 +7590,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -7637,7 +7637,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -7679,7 +7679,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Añejo Rum",
+        "name": "Aged Rum (6-10yr)",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -7799,13 +7799,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
@@ -7893,7 +7893,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -8007,7 +8007,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
@@ -8164,7 +8164,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
@@ -8182,7 +8182,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -8216,7 +8216,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -8730,7 +8730,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "1 can",
         "qty": null,
         "unit": null
@@ -8822,7 +8822,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
@@ -8938,7 +8938,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -9065,13 +9065,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "3 drops",
         "qty": null,
         "unit": null
@@ -9298,10 +9298,10 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-17035",
     "name": "Buccaneer",
-    "category": "Other",
+    "category": "Rum",
     "glass": "Highball",
     "img": "",
-    "color": "#D9D4CA",
+    "color": "#F5E6CA",
     "ingredients": [
       {
         "name": "Corona",
@@ -9310,7 +9310,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Bacardi Limon",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -9449,7 +9449,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "10 ml",
         "qty": 10,
         "unit": "ml"
@@ -9467,7 +9467,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "Sprig",
         "qty": null,
         "unit": null
@@ -9644,13 +9644,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1",
         "qty": null,
         "unit": null
@@ -9668,7 +9668,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -9793,7 +9793,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "1 dash",
         "qty": null,
         "unit": null
@@ -9840,7 +9840,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -9916,7 +9916,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -10144,7 +10144,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
@@ -10230,7 +10230,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
@@ -10259,7 +10259,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.25 oz",
         "qty": 1.25,
         "unit": "oz"
@@ -10299,7 +10299,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -10311,7 +10311,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -10329,7 +10329,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -10602,19 +10602,19 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-17135",
     "name": "Citrus Coke",
-    "category": "Other",
+    "category": "Rum",
     "glass": "Highball",
     "img": "",
-    "color": "#D9D4CA",
+    "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Bacardi Limon",
+        "name": "Light White Rum",
         "amount": "1 part",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "2 parts",
         "qty": null,
         "unit": null
@@ -10686,7 +10686,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "3 dash",
         "qty": 3,
         "unit": "dash"
@@ -10799,7 +10799,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -11002,7 +11002,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#BFE3E0",
     "ingredients": [
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "1 dl",
         "qty": null,
         "unit": null
@@ -11056,7 +11056,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "dash"
       },
       {
-        "name": "Añejo Rum",
+        "name": "Aged Rum (6-10yr)",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -11210,7 +11210,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -11256,7 +11256,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1/2 L",
         "qty": null,
         "unit": null
@@ -11344,7 +11344,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Spiced Rum",
+        "name": "Aged Rum (6-10yr)",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -11446,7 +11446,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "Fill with",
         "qty": null,
         "unit": null
@@ -11485,19 +11485,19 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "",
         "qty": null,
         "unit": null
@@ -11528,13 +11528,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -11821,7 +11821,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "dash"
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "2 Fresh leaves",
         "qty": null,
         "unit": null
@@ -12084,7 +12084,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#BFE3E0",
     "ingredients": [
       {
-        "name": "Heavy Cream",
+        "name": "Whipping Cream",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -12197,7 +12197,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "2.5 oz",
         "qty": 2.5,
         "unit": "oz"
@@ -12252,7 +12252,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "1 dash",
         "qty": null,
         "unit": null
@@ -12305,7 +12305,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "cl"
       },
       {
-        "name": "St. Germain",
+        "name": "Elderflower Liqueur",
         "amount": "1.5 cl",
         "qty": 1.5,
         "unit": "cl"
@@ -12481,7 +12481,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1/2 cup",
         "qty": null,
         "unit": null
@@ -12740,7 +12740,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -12921,10 +12921,10 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-13070",
     "name": "Fahrenheit 5000",
-    "category": "Other",
+    "category": "Vodka",
     "glass": "Shot",
     "img": "",
-    "color": "#D9D4CA",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Firewater",
@@ -12933,7 +12933,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Absolut Peppar",
+        "name": "Vodka",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -13099,7 +13099,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -13204,7 +13204,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -13216,7 +13216,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "1 dash",
         "qty": null,
         "unit": null
@@ -13581,13 +13581,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/4",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -13686,7 +13686,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -13745,7 +13745,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -13757,7 +13757,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tbsp"
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "6",
         "qty": null,
         "unit": null
@@ -13793,7 +13793,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -14019,7 +14019,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -14203,7 +14203,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -14526,7 +14526,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -14641,7 +14641,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -14653,7 +14653,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -14750,7 +14750,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -14799,7 +14799,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -14854,7 +14854,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -14866,7 +14866,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "4",
         "qty": null,
         "unit": null
@@ -14995,7 +14995,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -15043,13 +15043,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "1 dash",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
@@ -15296,7 +15296,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Heavy Cream",
+        "name": "Whipping Cream",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -15324,7 +15324,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -15458,7 +15458,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "cl"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "1.5 cl",
         "qty": 1.5,
         "unit": "cl"
@@ -15643,7 +15643,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -15895,7 +15895,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Spiced Rum",
+        "name": "Aged Rum (6-10yr)",
         "amount": "1.5 cl",
         "qty": 1.5,
         "unit": "cl"
@@ -15987,7 +15987,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -16154,7 +16154,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -16374,7 +16374,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
@@ -16557,7 +16557,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Vermouth",
+        "name": "Rosso/Sweet Vermouth",
         "amount": "25 ml",
         "qty": 25,
         "unit": "ml"
@@ -16775,7 +16775,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -16787,7 +16787,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -16799,7 +16799,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -16933,7 +16933,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1 cup",
         "qty": null,
         "unit": null
@@ -17046,7 +17046,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "1 dash",
         "qty": null,
         "unit": null
@@ -17153,7 +17153,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -17200,7 +17200,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "10-12 oz",
         "qty": null,
         "unit": null
@@ -17317,7 +17317,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -17414,7 +17414,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -17438,7 +17438,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -17672,7 +17672,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
@@ -18363,13 +18363,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-14456",
     "name": "Kurant Tea",
-    "category": "Other",
+    "category": "Vodka",
     "glass": "Flute",
     "img": "",
-    "color": "#D9D4CA",
+    "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Kurant",
+        "name": "Vodka",
         "amount": "4 cl",
         "qty": 4,
         "unit": "cl"
@@ -18429,7 +18429,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -18441,7 +18441,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -18494,7 +18494,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "0.25 tsp",
         "qty": 0.25,
         "unit": "tsp"
@@ -18789,7 +18789,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1 wedge",
         "qty": null,
         "unit": null
@@ -18862,10 +18862,10 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-12752",
     "name": "Lemon Shot",
-    "category": "Liqueur",
+    "category": "Vodka",
     "glass": "Shot",
     "img": "",
-    "color": "#E6C7E0",
+    "color": "#E8EEF2",
     "ingredients": [
       {
         "name": "Galliano",
@@ -18874,7 +18874,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Absolut Citron",
+        "name": "Vodka",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -18980,7 +18980,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#BFE3E0",
     "ingredients": [
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1",
         "qty": null,
         "unit": null
@@ -19025,10 +19025,10 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-15086",
     "name": "Limona Corona",
-    "category": "Other",
+    "category": "Rum",
     "glass": "Highball",
     "img": "",
-    "color": "#D9D4CA",
+    "color": "#F5E6CA",
     "ingredients": [
       {
         "name": "Corona",
@@ -19037,7 +19037,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Bacardi Limon",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -19070,7 +19070,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -19195,7 +19195,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -19268,7 +19268,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -19280,7 +19280,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "1 dash",
         "qty": null,
         "unit": null
@@ -19323,7 +19323,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -19341,13 +19341,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "1 splash",
         "qty": null,
         "unit": null
@@ -19513,7 +19513,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -19621,7 +19621,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "Sprig",
         "qty": null,
         "unit": null
@@ -19967,7 +19967,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -20374,7 +20374,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Heavy Cream",
+        "name": "Whipping Cream",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -20422,7 +20422,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Heavy Cream",
+        "name": "Whipping Cream",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -20537,7 +20537,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "4 fresh",
         "qty": null,
         "unit": null
@@ -20593,7 +20593,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -20605,7 +20605,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -20617,7 +20617,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tbsp"
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -20692,13 +20692,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1",
         "qty": null,
         "unit": null
@@ -20710,7 +20710,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "2-4",
         "qty": null,
         "unit": null
@@ -20757,7 +20757,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "1/2 handful",
         "qty": null,
         "unit": null
@@ -20775,7 +20775,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "125 ml",
         "qty": 125,
         "unit": "ml"
@@ -20858,7 +20858,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -20870,7 +20870,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "1 dash",
         "qty": null,
         "unit": null
@@ -21055,7 +21055,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "Garnish with",
         "qty": null,
         "unit": null
@@ -21099,7 +21099,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Pepsi Cola",
+        "name": "Cola",
         "amount": "750 ml",
         "qty": null,
         "unit": null
@@ -21268,7 +21268,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -21346,13 +21346,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-13204",
     "name": "New York Lemonade",
-    "category": "Liqueur",
+    "category": "Vodka",
     "glass": "Martini",
     "img": "",
-    "color": "#E6C7E0",
+    "color": "#E8EEF2",
     "ingredients": [
       {
-        "name": "Absolut Citron",
+        "name": "Vodka",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -21370,7 +21370,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -21406,7 +21406,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -21842,7 +21842,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Spiced Rum",
+        "name": "Aged Rum (6-10yr)",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -22441,7 +22441,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Blended Scotch",
+        "name": "Scotch Whisky",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -22496,7 +22496,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
@@ -22635,7 +22635,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#BFD8C2",
     "ingredients": [
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "3 dash",
         "qty": 3,
         "unit": "dash"
@@ -23309,7 +23309,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "Garnish with",
         "qty": null,
         "unit": null
@@ -23385,7 +23385,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "0.75 oz",
         "qty": 0.75,
         "unit": "oz"
@@ -23397,7 +23397,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/4",
         "qty": null,
         "unit": null
@@ -23431,7 +23431,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 1/2",
         "qty": null,
         "unit": null
@@ -23443,7 +23443,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -23985,7 +23985,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "8",
         "qty": null,
         "unit": null
@@ -24122,7 +24122,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "ml"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "15 ml",
         "qty": 15,
         "unit": "ml"
@@ -24216,7 +24216,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "",
         "qty": null,
         "unit": null
@@ -24298,7 +24298,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -24316,7 +24316,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -24392,7 +24392,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
@@ -24489,7 +24489,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -24536,7 +24536,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -24554,7 +24554,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "1 dash",
         "qty": null,
         "unit": null
@@ -24700,7 +24700,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -24735,7 +24735,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -24885,7 +24885,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -25300,7 +25300,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "2 oz",
         "qty": 2,
         "unit": "oz"
@@ -25324,7 +25324,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "1",
         "qty": null,
         "unit": null
@@ -25353,13 +25353,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -25637,7 +25637,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -25655,7 +25655,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/4",
         "qty": null,
         "unit": null
@@ -25830,10 +25830,10 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-16985",
     "name": "Shot-gun",
-    "category": "Other",
+    "category": "Whiskey",
     "glass": "Shot",
     "img": "",
-    "color": "#D9D4CA",
+    "color": "#D4A56A",
     "ingredients": [
       {
         "name": "Jim Beam",
@@ -25848,7 +25848,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Wild Turkey",
+        "name": "Bourbon Whiskey",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -25931,7 +25931,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/4",
         "qty": null,
         "unit": null
@@ -25983,7 +25983,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -26103,7 +26103,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "5",
         "qty": null,
         "unit": null
@@ -26115,7 +26115,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Lime",
+        "name": "Lime Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -26133,7 +26133,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "Garnish with",
         "qty": null,
         "unit": null
@@ -26177,7 +26177,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Pepsi Cola",
+        "name": "Cola",
         "amount": "1/3 part",
         "qty": null,
         "unit": null
@@ -26869,7 +26869,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -26917,7 +26917,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#BFE3E0",
     "ingredients": [
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1",
         "qty": null,
         "unit": null
@@ -27072,7 +27072,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "28 oz",
         "qty": null,
         "unit": null
@@ -27537,7 +27537,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -27903,7 +27903,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "garnish",
         "qty": null,
         "unit": null
@@ -27941,13 +27941,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Orange Curaçao",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
       },
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "0.5 oz",
         "qty": 0.5,
         "unit": "oz"
@@ -28154,7 +28154,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Mint",
+        "name": "Mint Leaves",
         "amount": "1 Large Sprig",
         "qty": null,
         "unit": null
@@ -28238,7 +28238,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -28303,7 +28303,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -28460,7 +28460,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Club Soda",
+        "name": "Soda (Club Soda) Water",
         "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
@@ -28606,7 +28606,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "tsp"
       },
       {
-        "name": "Bitters",
+        "name": "Aromatic Bitters",
         "amount": "2 dash",
         "qty": 2,
         "unit": "dash"
@@ -28635,13 +28635,13 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
   {
     "id": "cdb-15006",
     "name": "Turkeyball",
-    "category": "Liqueur",
+    "category": "Whiskey",
     "glass": "Shot",
     "img": "",
-    "color": "#E6C7E0",
+    "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Wild Turkey",
+        "name": "Bourbon Whiskey",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -28847,7 +28847,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "3 oz",
         "qty": 3,
         "unit": "oz"
@@ -28899,7 +28899,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Carbonated Water",
+        "name": "Soda (Club Soda) Water",
         "amount": "",
         "qty": null,
         "unit": null
@@ -28970,7 +28970,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#F5E6CA",
     "ingredients": [
       {
-        "name": "Light Rum",
+        "name": "Light White Rum",
         "amount": "1 oz",
         "qty": 1,
         "unit": "oz"
@@ -28982,7 +28982,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -29491,7 +29491,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Lemon",
+        "name": "Lemon Juice",
         "amount": "Juice of 1/2",
         "qty": null,
         "unit": null
@@ -29543,7 +29543,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#D4A56A",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Scotch Whisky",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"
@@ -30153,7 +30153,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
     "color": "#E8B3C0",
     "ingredients": [
       {
-        "name": "Vermouth",
+        "name": "Rosso/Sweet Vermouth",
         "amount": "4 cl",
         "qty": 4,
         "unit": "cl"
@@ -30442,7 +30442,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": null
       },
       {
-        "name": "Coca-cola",
+        "name": "Cola",
         "amount": "slice",
         "qty": null,
         "unit": null
@@ -30495,7 +30495,7 @@ export const COCKTAILDB_COCKTAILS: Cocktail[] = [
         "unit": "oz"
       },
       {
-        "name": "Gold Rum",
+        "name": "Aged Rum (6-10yr)",
         "amount": "1.5 oz",
         "qty": 1.5,
         "unit": "oz"

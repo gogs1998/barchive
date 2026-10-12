@@ -53,7 +53,8 @@ describe("COCKTAILS dataset", () => {
     // that the pixelated.jpg placeholder is never emitted — it's blanked.
     for (const c of COCKTAILS) {
       expect(c.img).not.toContain("pixelated.jpg");
-      if (c.img) expect(c.img).toMatch(/^https?:\/\//);
+      // Remote (TheCocktailDB) or self-hosted (IBA set, public/img/cocktails).
+      if (c.img) expect(c.img).toMatch(/^(https?:\/\/|\/img\/cocktails\/)/);
     }
   });
 
