@@ -164,3 +164,47 @@ P1-1 suppresses the worst visible garbage, but the underlying model (gin's top s
 
 ## Confirmed clean (no action)
 Bundle isolation (CocktailIQ JSON stays build-time — imported only via a server component); secrets (no keys, no committed `.env`); SQL injection & IDOR (parameterized D1 / ORM, all user-scoped); SSR/prerender guards; Difford's quality-subset glasses (only ~12 exceptions at scale); HTML-entity decoding (the accent damage in P0-4 is a separate titleCase bug).
+
+---
+---
+
+# Post-fix findings (second pass @ `74afd53`, TS/Hono auth worker)
+
+The 16 items above are reported fixed. The following is **new** since then — a light second pass
+focused on the TS auth worker (`apps/api/src/`) and the guest-bar migration. The auth worker itself
+verified well: 43 backend tests pass, typecheck clean; `hono@4.12.28` JWT rejects `alg:none` /
+tampered payloads / wrong secret and enforces `exp` (tested directly); every bar/favourites query is
+scoped to the authenticated `user.id` (no IDOR); login uses a dummy-hash to defeat timing enumeration;
+`requireUser` fails closed (500) when `JWT_SECRET` is unset; D1 schema has a NOCASE-unique email index,
+cascading FKs, and indexed session tokens.
+
+## NEW-1 · Wizard-built guest bars are silently dropped on sign-in — MEDIUM (partial regression of the old P0-2)
+- **Where:** `apps/web/src/components/OnboardingWizard.tsx:26` (`toGuestItems` → `{ id: name, name, category: "Other" }`) vs `apps/web/src/lib/auth-context.tsx:210-238` (`migrateGuestBar`).
+- **What's wrong:** The migration was fixed (L5/P0-2) to resolve guest items **by ingredient slug** and to only clear `bariq_guest_bar` once every item is written or terminally skipped — so the old *whole-bar wipe* is gone. But `migrateGuestBar` assumes guest `id` is a **slug** (its comment: "Guest items are keyed by ingredient slug (AddIngredientSheet ids)"), and the **/welcome wizard still keys guest items by display name** (`id: name`, e.g. `"Lime Juice"`, `"Blanco Tequila"`). On sign-in each wizard item POSTs its name as a slug → server 404 → the 404 branch treats it as a **terminal skip** (`status === 404` does *not* set `allResolved = false`) → the guest bar is cleared with those items **silently lost and never migrated**. Items added via `AddIngredientSheet` (which uses real slugs like `lime-juice`) migrate fine; wizard items do not.
+- **Verify:** `grep -n "id: name\|id:" apps/web/src/components/OnboardingWizard.tsx` shows `toGuestItems` uses the name as id; `AddIngredientSheet.tsx:10-29` uses slugs. Trace the `status !== 404` branch in `auth-context.tsx:227-230`.
+- **Fix:** Make the wizard emit slugs — slugify names in `toGuestItems` (reuse the same `slugify`/slug vocabulary the backend `ingredients.slug` uses), or map wizard selections to their slug ids at selection time. Then confirm those slugs actually exist in D1 (needs `apps/api/tools/backfill-ingredient-slugs.mjs` to have been run). Consider surfacing skipped items to the user ("N ingredients couldn't be added") instead of dropping them silently.
+- **Note:** This is gated by DECISION-4 (three ingredient-naming vocabularies don't reconcile) — the wizard names must resolve to real ingredient slugs for migration to actually land, not just stop erroring.
+
+## NEW-2 · No rate limiting on auth endpoints + PBKDF2 cost amplification — MEDIUM
+- **Where:** `apps/api/src/routes/auth.ts` (`/login`, `/register`, `/password-reset/request`); no throttling anywhere (`index.ts` adds only CORS).
+- **What's wrong:** `/login` runs a **600k-iteration PBKDF2 on every call** — by design, against a dummy hash even for non-existent emails (the anti-enumeration fix). With no rate limiting or lockout, an attacker can flood `/login` (or `/register` with novel emails) to force unbounded expensive hashing → CPU-time exhaustion / per-request cost amplification on Workers, and unthrottled credential stuffing.
+- **Fix:** Add rate limiting on the auth routes (Cloudflare Rate Limiting rules, or a KV/Durable-Object counter keyed by IP + email) and consider per-account lockout/backoff. Cap password length (see NEW-4) so the hash input is bounded.
+
+## NEW-3 · CSRF has no defense-in-depth beyond `SameSite=Lax` — MEDIUM (latent; triggers at cross-domain deploy)
+- **Where:** `apps/api/src/auth/cookies.ts` (Lax cookies), state-changing routes in `routes/user.ts` / `routes/auth.ts`; frontend POSTs send no custom headers (`apps/web/src/lib/api.ts:295-366`).
+- **What's wrong:** Protection against cross-site POST/DELETE relies **entirely** on `SameSite=Lax`. There is no CSRF token and no Origin/Referer check on mutations, and CORS doesn't stop CSRF (it only blocks *reading* the response; a slug-in-path POST like `/api/user/favourites/:slug` needs no body). The code already documents (L4) that a cross-**registrable-domain** prod deploy (e.g. Pages at `bariq.co.uk` + Worker at `*.workers.dev`) requires `SameSite=None; Secure` — at which point **all** CSRF protection disappears. Same-registrable-domain deploy (`bariq.co.uk` + `api.bariq.co.uk`) keeps Lax working and is safe.
+- **Fix:** Prefer deploying the API on a subdomain of the site's registrable domain so `SameSite=Lax` stays effective. If cross-domain (`SameSite=None`) is unavoidable, add an Origin-header allowlist check (you already have `FRONTEND_ORIGIN`) or a CSRF token on state-changing requests.
+
+## NEW-4 · Minor auth hardening (LOW — batch these)
+- **No email format validation** (`routes/auth.ts:54,61`): register accepts any non-empty string as an email; garbage/невalid accounts possible. Add a basic format check.
+- **No max password length** (`routes/auth.ts:62`): only a min-8 check; unbounded input feeds PBKDF2 (see NEW-2). Cap at e.g. 128 chars.
+- **`verifyToken` accepts tokens without an `exp` claim** (`auth/jwt.ts:36-46`): not exploitable today (the signer always sets `exp`), but require `exp` presence for `access` tokens as defense-in-depth.
+- **Refresh tokens stored plaintext at rest** (`auth/session.ts:27-35`, `sessions.token`): opaque random UUIDs, but a DB read yields directly usable tokens for up to 30 days. Consider storing a hash of the token.
+- **Access token not revocable on logout** (`auth/middleware.ts` verifies signature + user existence only): logout revokes the refresh session but the access JWT stays valid for its ≤30-min TTL. Acceptable for stateless JWT; note it.
+- **`/health` echoes the raw DB error string** (`index.ts:38`): minor internal-detail disclosure; return a generic status.
+- **`getGoogleOAuthUrl` calls `/api/v1/auth/google`, which the worker doesn't implement** (`api.ts:247`): OAuth is deferred, so any "Sign in with Google" affordance wired to this will 404. Hide the button until the route exists, or implement the route.
+
+## Not re-verified this pass
+Data/CocktailIQ fixes (P0-1, P0-4, P0-5, P0-6, P1-*, P2-*) and the substantially-rewritten
+`cocktails.diffords.ts` / `ingredient_*.json` were **not** independently re-checked in this pass —
+the re-verification was stopped early. Treat those fixes as reported-but-unconfirmed.
